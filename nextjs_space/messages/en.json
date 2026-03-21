@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Talking Cities - Self-Guided Audio Tours",
+    "description": "Immersive audio tours that bring Polish history to life through the voices of those who lived it."
+  },
+  "nav": {
+    "tours": "Tours",
+    "stories": "Stories",
+    "about": "About",
+    "contact": "Contact",
+    "buyTour": "Buy a Tour"
+  },
+  "hero": {
+    "title": "The city is speaking.",
+    "titleHighlight": "You just have to listen.",
+    "subtitle": "Uncover the hidden stories of Polish cities, through the voices of those who built them.",
+    "exploreTours": "Explore Our Tours",
+    "freeStories": "Listen Free Stories"
+  },
+  "valueProposition": {
+    "title": "History Through Human Voices",
+    "subtitle": "We don't give you textbook dates. We give you human experiences.",
+    "immersiveAudio": "Immersive Audio",
+    "immersiveAudioDesc": "Stories narrated by the people who lived them, in 4 languages.",
+    "gpsGuided": "GPS-Guided Tours",
+    "gpsGuidedDesc": "Audio plays automatically as you walk. History unfolds at every corner.",
+    "socialImpact": "Social Impact",
+    "socialImpactDesc": "40% of net profits go directly to the elderly narrators who share their stories."
+  },
+  "howItWorks": {
+    "title": "Two Ways to Experience History",
+    "fromAnywhere": "From Anywhere",
+    "fromAnywhereDesc": "Browse our free archive of oral histories. Preserving memory, accessible to all.",
+    "exploreFreeStories": "Explore Free Stories",
+    "onTheStreets": "On the Streets",
+    "onTheStreetsDesc": "Take our GPS self-guided tours. Stories play automatically as you walk alongside the city's invisible protagonists.",
+    "viewTours": "View Tours"
+  },
+  "cities": {
+    "title": "Explore Poland's Living Memory",
+    "subtitle": "Five cities, countless stories of resilience and beauty",
+    "available": "Explore Tours",
+    "comingSoon": "Coming Soon"
+  },
+  "commitment": {
+    "title": "Your Visit Sustains Memory",
+    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 40% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
+    "statLabel": "% of net profits returned to narrators"
+  },
+  "testimonials": {
+    "title": "What Travelers Say",
+    "subtitle": "Real experiences from our visitors"
+  },
+  "tours": {
+    "pageTitle": "Self-Guided Audio Tours",
+    "pageSubtitle": "Discover Polish history through immersive GPS-guided walking tours, available in 4 languages.",
+    "availableNow": "Available Now",
+    "comingSoon": "Coming Soon",
+    "duration": "Duration",
+    "distance": "Distance",
+    "stops": "Stops",
+    "languages": "Languages",
+    "price": "Price",
+    "buyTour": "Buy Tour",
+    "viewOnVoiceMap": "View on VoiceMap",
+    "highlights": "Highlights",
+    "whatIncludes": "What's Included",
+    "audioPreview": "Audio Preview",
+    "relatedStory": "Related Free Story",
+    "howToStart": "How to Start Your Tour",
+    "step1": "Purchase your tour through VoiceMap",
+    "step2": "Download the VoiceMap app",
+    "step3": "Walk and listen as stories unfold"
+  },
+  "stories": {
+    "pageTitle": "Free Oral Histories",
+    "pageSubtitle": "A growing archive of voices that preserve Poland's living memory. Browse, listen, and connect with history — all at no cost.",
+    "readFullStory": "Read Full Story",
+    "noStories": "More Stories Coming Soon",
+    "listenIn": "Listen in",
+    "relatedTour": "Experience This Story On-Site",
+    "relatedTourDesc": "Walk the streets where this history unfolded with our GPS-guided audio tour.",
+    "exploreTheTour": "Explore the Tour"
+  },
+  "about": {
+    "pageTitle": "About Talking Cities",
+    "mission": "Our Mission",
+    "impact": "Social Impact",
+    "businessModel": "Transparent Business Model",
+    "origin": "The Origin",
+    "exploreTours": "Explore Our Tours",
+    "contactUs": "Contact Us"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Have questions, suggestions, or a story to share? We'd love to hear from you.",
+    "sendMessage": "Send Us a Message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again.",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
+    "location": "Location",
+    "locationValue": "Warsaw, Poland",
+    "witness": "Are You a Witness?",
+    "witnessDesc": "If you lived through significant historical events in Polish cities and would like to share your story, we'd be honored to hear from you."
+  },
+  "footer": {
+    "tagline": "Preserving history through the voices of those who lived it.",
+    "explore": "Explore",
+    "aboutSection": "About",
+    "ourMission": "Our Mission",
+    "getInTouch": "Get in Touch",
+    "newsletter": "Subscribe to our newsletter",
+    "newsletterPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "subscribeSuccess": "Subscribed!",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "home": "Home",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error",
+    "notFound": "Page Not Found",
+    "notFoundDesc": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "exploreTours": "Explore Tours"
+  }
+}

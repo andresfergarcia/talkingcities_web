@@ -1,0 +1,21 @@
+{
+  "_comentario": "⚙️ CONFIGURACIÓN GENERAL DEL SITIO - Edita aquí los datos globales",
+  "siteName": "Talking Cities",
+  "logoColorPath": "/images/logo-color.png",
+  "logoWhitePath": "/images/logo-white.png",
+  "siteTagline": "The city is speaking. You just have to listen.",
+  "siteDescription": "Immersive audio tours that bring Polish history to life through the voices of those who lived it.",
+  "contactEmail": "info@talkingcities.eu",
+  "socialLinks": {
+    "instagram": "https://instagram.com/talkingcities",
+    "facebook": "https://facebook.com/talkingcities",
+    "twitter": ""
+  },
+  "voicemapPublisher": "https://voicemap.me/publisher/1535-42aea859-4f47-40a5-9a3c-f441c7bbfb02",
+  "appLinks": {
+    "googlePlay": "https://play.google.com/store/apps/details?id=me.voicemap.android",
+    "appleStore": "https://apps.apple.com/us/app/voicemap-audio-tours-guides/id852027939"
+  },
+  "currency": "€",
+  "defaultLanguage": "en"
+}

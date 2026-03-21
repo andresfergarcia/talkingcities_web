@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Talking Cities - Samodzielne Audioprzewodniki",
+    "description": "Immersyjne audioprzewodniki, które ożywiają polską historię głosami tych, którzy ją przeżyli."
+  },
+  "nav": {
+    "tours": "Wycieczki",
+    "stories": "Historie",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "buyTour": "Kup Wycieczkę"
+  },
+  "hero": {
+    "title": "Miasto mówi.",
+    "titleHighlight": "Wystarczy słuchać.",
+    "subtitle": "Odkryj ukryte historie polskich miast, opowiedziane głosami tych, którzy je budowali.",
+    "exploreTours": "Odkryj Wycieczki",
+    "freeStories": "Posłuchaj Darmowych Historii"
+  },
+  "valueProposition": {
+    "title": "Historia Głosami Ludzi",
+    "subtitle": "Nie podajemy podręcznikowych dat. Dajemy ludzkie doświadczenia.",
+    "immersiveAudio": "Immersyjne Audio",
+    "immersiveAudioDesc": "Historie opowiedziane przez ludzi, którzy je przeżyli, w 4 językach.",
+    "gpsGuided": "Wycieczki z GPS",
+    "gpsGuidedDesc": "Audio odtwarza się automatycznie podczas spaceru. Historia rozwija się na każdym rogu.",
+    "socialImpact": "Wpływ Społeczny",
+    "socialImpactDesc": "40% zysków netto trafia bezpośrednio do starszych narratorów, którzy dzielą się swoimi historiami."
+  },
+  "howItWorks": {
+    "title": "Dwa Sposoby na Doświadczenie Historii",
+    "fromAnywhere": "Z Dowolnego Miejsca",
+    "fromAnywhereDesc": "Przeglądaj nasze darmowe archiwum historii mówionej. Zachowując pamięć, dostępną dla wszystkich.",
+    "exploreFreeStories": "Odkryj Darmowe Historie",
+    "onTheStreets": "Na Ulicach",
+    "onTheStreetsDesc": "Skorzystaj z naszych samodzielnych wycieczek z GPS. Historie odtwarzają się automatycznie podczas spaceru obok niewidzialnych bohaterów miasta.",
+    "viewTours": "Zobacz Wycieczki"
+  },
+  "cities": {
+    "title": "Odkryj Żywą Pamięć Polski",
+    "subtitle": "Pięć miast, niezliczone historie odporności i piękna",
+    "available": "Odkryj Wycieczki",
+    "comingSoon": "Wkrótce"
+  },
+  "commitment": {
+    "title": "Twoja Wizyta Podtrzymuje Pamięć",
+    "description": "Kupując wycieczkę, stajesz się mecenasem tego projektu. Po pokryciu kosztów operacyjnych, reinwestujemy 40% zysków netto na karty spożywcze dla starszych narratorów, którzy dzielą się swoimi historiami. Ich wspomnienia podtrzymują kulturę; twoja wizyta podtrzymuje ich.",
+    "statLabel": "% zysków netto zwracanych narratorom"
+  },
+  "testimonials": {
+    "title": "Co Mówią Podróżnicy",
+    "subtitle": "Prawdziwe doświadczenia naszych gości"
+  },
+  "tours": {
+    "pageTitle": "Samodzielne Audioprzewodniki",
+    "pageSubtitle": "Odkryj polską historię poprzez immersyjne wycieczki piesze z GPS, dostępne w 4 językach.",
+    "availableNow": "Dostępne Teraz",
+    "comingSoon": "Wkrótce",
+    "duration": "Czas trwania",
+    "distance": "Dystans",
+    "stops": "Przystanki",
+    "languages": "Języki",
+    "price": "Cena",
+    "buyTour": "Kup Wycieczkę",
+    "viewOnVoiceMap": "Zobacz na VoiceMap",
+    "highlights": "Wyróżniki",
+    "whatIncludes": "Co Zawiera",
+    "audioPreview": "Podgląd Audio",
+    "relatedStory": "Powiązana Darmowa Historia",
+    "howToStart": "Jak Rozpocząć Wycieczkę",
+    "step1": "Kup wycieczkę przez VoiceMap",
+    "step2": "Pobierz aplikację VoiceMap",
+    "step3": "Spaceruj i słuchaj rozwijających się historii"
+  },
+  "stories": {
+    "pageTitle": "Darmowe Historie Mówione",
+    "pageSubtitle": "Rosnące archiwum głosów zachowujących żywą pamięć Polski. Przeglądaj, słuchaj i łącz się z historią — wszystko za darmo.",
+    "readFullStory": "Czytaj Całą Historię",
+    "noStories": "Więcej Historii Wkrótce",
+    "listenIn": "Słuchaj w",
+    "relatedTour": "Doświadcz Tej Historii Na Miejscu",
+    "relatedTourDesc": "Spaceruj ulicami, gdzie rozgrywała się ta historia, z naszym audioprzewodnikiem GPS.",
+    "exploreTheTour": "Odkryj Wycieczkę"
+  },
+  "about": {
+    "pageTitle": "O Talking Cities",
+    "mission": "Nasza Misja",
+    "impact": "Wpływ Społeczny",
+    "businessModel": "Przejrzysty Model Biznesowy",
+    "origin": "Początki",
+    "exploreTours": "Odkryj Nasze Wycieczki",
+    "contactUs": "Skontaktuj się"
+  },
+  "contact": {
+    "pageTitle": "Kontakt",
+    "pageSubtitle": "Masz pytania, sugestie lub historię do opowiedzenia? Chętnie Cię wysłuchamy.",
+    "sendMessage": "Wyślij Nam Wiadomość",
+    "name": "Imię",
+    "email": "E-mail",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "send": "Wyślij Wiadomość",
+    "sending": "Wysyłanie...",
+    "success": "Wiadomość wysłana pomyślnie! Odpowiemy wkrótce.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "getInTouch": "Skontaktuj się",
+    "emailUs": "Napisz do nas",
+    "location": "Lokalizacja",
+    "locationValue": "Warszawa, Polska",
+    "witness": "Jesteś Świadkiem Historii?",
+    "witnessDesc": "Jeśli przeżyłeś znaczące wydarzenia historyczne w polskich miastach i chciałbyś podzielić się swoją historią, będziemy zaszczyceni mogąc Cię wysłuchać."
+  },
+  "footer": {
+    "tagline": "Zachowujemy historię głosami tych, którzy ją przeżyli.",
+    "explore": "Odkrywaj",
+    "aboutSection": "O nas",
+    "ourMission": "Nasza Misja",
+    "getInTouch": "Kontakt",
+    "newsletter": "Zapisz się do newslettera",
+    "newsletterPlaceholder": "Twój e-mail",
+    "subscribe": "Zapisz się",
+    "subscribeSuccess": "Zapisano!",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "common": {
+    "home": "Strona główna",
+    "learnMore": "Dowiedz się więcej",
+    "viewAll": "Zobacz wszystko",
+    "back": "Wróć",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "notFound": "Strona Nie Znaleziona",
+    "notFoundDesc": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "goHome": "Strona główna",
+    "exploreTours": "Odkryj Wycieczki"
+  }
+}

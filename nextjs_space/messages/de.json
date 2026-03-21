@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Talking Cities - Selbstgeführte Audio-Touren",
+    "description": "Immersive Audio-Touren, die polnische Geschichte durch die Stimmen derer zum Leben erwecken, die sie erlebt haben."
+  },
+  "nav": {
+    "tours": "Touren",
+    "stories": "Geschichten",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "buyTour": "Tour Kaufen"
+  },
+  "hero": {
+    "title": "Die Stadt spricht.",
+    "titleHighlight": "Du musst nur zuhören.",
+    "subtitle": "Entdecke die verborgenen Geschichten polnischer Städte, durch die Stimmen derer, die sie erbaut haben.",
+    "exploreTours": "Touren Entdecken",
+    "freeStories": "Kostenlose Geschichten Hören"
+  },
+  "valueProposition": {
+    "title": "Geschichte Durch Menschliche Stimmen",
+    "subtitle": "Wir geben dir keine Lehrbuchdaten. Wir geben dir menschliche Erfahrungen.",
+    "immersiveAudio": "Immersives Audio",
+    "immersiveAudioDesc": "Geschichten erzählt von den Menschen, die sie erlebt haben, in 4 Sprachen.",
+    "gpsGuided": "GPS-geführte Touren",
+    "gpsGuidedDesc": "Audio spielt automatisch beim Gehen. Geschichte entfaltet sich an jeder Ecke.",
+    "socialImpact": "Soziale Wirkung",
+    "socialImpactDesc": "40% der Nettogewinne gehen direkt an die älteren Erzähler, die ihre Geschichten teilen."
+  },
+  "howItWorks": {
+    "title": "Zwei Wege, Geschichte zu Erleben",
+    "fromAnywhere": "Von Überall",
+    "fromAnywhereDesc": "Durchstöbere unser kostenloses Archiv mündlicher Überlieferungen. Erinnerungen bewahren, für alle zugänglich.",
+    "exploreFreeStories": "Kostenlose Geschichten Entdecken",
+    "onTheStreets": "Auf den Straßen",
+    "onTheStreetsDesc": "Nimm an unseren selbstgeführten GPS-Touren teil. Geschichten spielen automatisch, während du neben den unsichtbaren Protagonisten der Stadt gehst.",
+    "viewTours": "Touren Ansehen"
+  },
+  "cities": {
+    "title": "Entdecke Polens Lebendige Erinnerung",
+    "subtitle": "Fünf Städte, unzählige Geschichten von Widerstandskraft und Schönheit",
+    "available": "Touren Entdecken",
+    "comingSoon": "Demnächst"
+  },
+  "commitment": {
+    "title": "Dein Besuch Erhält die Erinnerung",
+    "description": "Mit dem Kauf einer Tour wirst du zum Förderer dieses Projekts. Nach Deckung der Betriebskosten reinvestieren wir 40% der Nettogewinne in Lebensmittelkarten für die älteren Erzähler, die ihre Geschichten teilen. Ihre Erinnerungen erhalten die Kultur; dein Besuch erhält sie.",
+    "statLabel": "% der Nettogewinne an Erzähler zurückgegeben"
+  },
+  "testimonials": {
+    "title": "Was Reisende Sagen",
+    "subtitle": "Echte Erfahrungen unserer Besucher"
+  },
+  "tours": {
+    "pageTitle": "Selbstgeführte Audio-Touren",
+    "pageSubtitle": "Entdecke polnische Geschichte durch immersive GPS-geführte Wandertouren, verfügbar in 4 Sprachen.",
+    "availableNow": "Jetzt Verfügbar",
+    "comingSoon": "Demnächst",
+    "duration": "Dauer",
+    "distance": "Entfernung",
+    "stops": "Stopps",
+    "languages": "Sprachen",
+    "price": "Preis",
+    "buyTour": "Tour Kaufen",
+    "viewOnVoiceMap": "Auf VoiceMap Ansehen",
+    "highlights": "Highlights",
+    "whatIncludes": "Was Enthalten Ist",
+    "audioPreview": "Audio-Vorschau",
+    "relatedStory": "Verwandte Kostenlose Geschichte",
+    "howToStart": "So Startest Du Deine Tour",
+    "step1": "Kaufe deine Tour über VoiceMap",
+    "step2": "Lade die VoiceMap-App herunter",
+    "step3": "Gehe und höre zu, wie sich Geschichten entfalten"
+  },
+  "stories": {
+    "pageTitle": "Kostenlose Mündliche Überlieferungen",
+    "pageSubtitle": "Ein wachsendes Archiv von Stimmen, die Polens lebendige Erinnerung bewahren. Durchstöbere, höre zu und verbinde dich mit Geschichte — alles kostenlos.",
+    "readFullStory": "Ganze Geschichte Lesen",
+    "noStories": "Weitere Geschichten Demnächst",
+    "listenIn": "Anhören auf",
+    "relatedTour": "Erlebe Diese Geschichte Vor Ort",
+    "relatedTourDesc": "Gehe durch die Straßen, wo diese Geschichte sich entfaltete, mit unserer GPS-geführten Audio-Tour.",
+    "exploreTheTour": "Tour Entdecken"
+  },
+  "about": {
+    "pageTitle": "Über Talking Cities",
+    "mission": "Unsere Mission",
+    "impact": "Soziale Wirkung",
+    "businessModel": "Transparentes Geschäftsmodell",
+    "origin": "Der Ursprung",
+    "exploreTours": "Unsere Touren Entdecken",
+    "contactUs": "Kontaktiere Uns"
+  },
+  "contact": {
+    "pageTitle": "Kontaktiere Uns",
+    "pageSubtitle": "Hast du Fragen, Vorschläge oder eine Geschichte zu teilen? Wir würden gerne von dir hören.",
+    "sendMessage": "Sende Uns Eine Nachricht",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht Senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet! Wir melden uns bald.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "getInTouch": "Kontakt Aufnehmen",
+    "emailUs": "Schreib Uns",
+    "location": "Standort",
+    "locationValue": "Warschau, Polen",
+    "witness": "Bist Du Ein Zeitzeuge?",
+    "witnessDesc": "Wenn du bedeutende historische Ereignisse in polnischen Städten erlebt hast und deine Geschichte teilen möchtest, wäre es uns eine Ehre, von dir zu hören."
+  },
+  "footer": {
+    "tagline": "Geschichte bewahren durch die Stimmen derer, die sie erlebt haben.",
+    "explore": "Entdecken",
+    "aboutSection": "Über uns",
+    "ourMission": "Unsere Mission",
+    "getInTouch": "Kontakt",
+    "newsletter": "Newsletter abonnieren",
+    "newsletterPlaceholder": "Deine E-Mail",
+    "subscribe": "Abonnieren",
+    "subscribeSuccess": "Abonniert!",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "home": "Startseite",
+    "learnMore": "Mehr Erfahren",
+    "viewAll": "Alle Ansehen",
+    "back": "Zurück",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "notFound": "Seite Nicht Gefunden",
+    "notFoundDesc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "goHome": "Zur Startseite",
+    "exploreTours": "Touren Entdecken"
+  }
+}

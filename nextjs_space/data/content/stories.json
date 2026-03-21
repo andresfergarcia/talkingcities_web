@@ -1,0 +1,260 @@
+{
+  "_comentario": "📖 ARTÍCULOS/HISTORIAS - Contenido gratuito del archivo oral",
+  "pageTitle": "Stories of Resilience",
+  "pageSubtitle": "Free oral histories from Polish cities — preserving memory, accessible to all",
+  "stories": [
+    {
+      "slug": "warsaw-voices-of-resistance",
+      "city": "Warsaw",
+      "citySlug": "warsaw",
+      "type": "Voices of Resistance",
+      "title": "The Political Axis and the Paradox of Power",
+      "introduction": "Warsaw occupied a paradoxical and central position in the dialectics of the communist period (1945–1989). Rebuilt from the ashes of 1944, the capital emerged simultaneously as the administrative center of totalitarian power and the epicenter of resistance against that very power.",
+      "image": "/images/cities/warsaw_castle_square.jpg",
+      "sections": [
+        {
+          "title": "The Genesis of Social Self-Defense: KOR",
+          "content": "Resistance in the capital underwent a crucial paradigm shift in 1976. Following the violent pacification of workers' protests in Radom and Ursus, a group of Warsaw intellectuals—notably Jacek Kuroń, Jan Józef Lipski, and Adam Michnik—founded the Workers' Defense Committee (KOR). Breaking with the tradition of secret conspiracies, KOR adopted a strategy of 'openness,' publishing the names, addresses, and telephone numbers of its members to challenge the State's legitimacy and create a precedent of civic transparency.",
+          "image": "/images/resistance/warsaw_uprising_1944.png"
+        },
+        {
+          "title": "The Nervous Heart of Solidarność",
+          "content": "This infrastructure laid the ethical and organizational foundations for the birth of the Solidarność (Solidarity) trade union in 1980. Although symbolically founded at the Gdańsk Shipyard, Warsaw functioned as Solidarity's operational and logistical brain.",
+          "image": "/images/resistance/solidarity_gdansk.jpg"
+        },
+        {
+          "title": "The Battle for the Word: NOWA and the Second Circuit",
+          "content": "Warsaw was the epicenter of the drugi obieg (second circuit) of clandestine publications. The scale of publishing production transformed reading and editing into acts of political resistance. The publisher NOWA alone produced over a million copies of books and journals between 1977 and 1989.",
+          "image": "/images/cities/warsaw_royal_castle_modern.jpg"
+        },
+        {
+          "title": "Education as Resistance: The Flying University",
+          "content": "Faced with historical falsification in official institutions, the opposition reactivated the tradition of the Flying University, formalized in 1978 as the Society for Educational Courses (TKN), with teachers like Leszek Kołakowski and Bronisław Geremek. Despite harassment by 'goon squads' organized by the SB to destroy furniture and beat attendees, these spaces consolidated as bastions of intellectual freedom.",
+          "image": "/images/cities/warsaw_royal_castle_historic.jpg"
+        },
+        {
+          "title": "Innovation and Culture: Radio Solidarność",
+          "content": "During martial law (1981–1983), Zbigniew Romaszewski's team created Radio Solidarność. Using clandestine FM transmitters, they broadcast bulletins that the population acknowledged by blinking their house lights. Warsaw housed the heart of the repressive apparatus: the Ministry of Interior (MSW) and the Służba Bezpieczeństwa (SB). From there, national surveillance was coordinated, maintaining detailed files on millions of citizens.",
+          "image": "/images/resistance/ak_soldiers_parasol.jpg"
+        }
+      ],
+      "conclusion": "It was in Warsaw that a fundamental strategic alliance crystallized, bridging historical divides: the union between the leftist intelligentsia and the Catholic Church to confront totalitarianism. In this capital of paradoxes, every street corner holds the memory of a struggle that changed the course of European history.",
+      "audioFiles": {
+        "english": "/audio/warsaw/en.mp3",
+        "polish": "/audio/warsaw/pl.mp3",
+        "spanish": "/audio/warsaw/es.mp3",
+        "german": "/audio/warsaw/de.mp3"
+      },
+      "relatedTourSlug": "warsaw-voices-of-resistance"
+    },
+    {
+      "slug": "krakow-voices-of-resistance",
+      "city": "Krakow",
+      "citySlug": "krakow",
+      "type": "Voices of Resistance",
+      "title": "The Fortress of the Spirit against the Regime",
+      "introduction": "While Warsaw was rebuilding itself to be the administrative center of communist Poland, Kraków chose a different path. In this city, resistance was not fought only in offices, but in the defense of its identity. Kraków acted as the spiritual lung of the nation between 1945 and 1989, leaving a visible legacy in its streets that speaks to us, not of pain, but of an unbreakable will to be free.",
+      "image": "/images/architecture/krakow_main_square.jpg",
+      "sections": [
+        {
+          "title": "Nowa Huta: The Cross that Challenged Concrete",
+          "content": "The most imposing testimony of this era is found in Nowa Huta. Built by the regime as an ideal satellite city and a working-class counterweight to 'bourgeois and intellectual' Kraków, it was designed to be a city without religion. The turning point occurred in 1960, at the intersection where neighbors defended a simple wooden cross against the bulldozers that intended to build an ideological school. That defense culminated years later in the consecration of the 'Arka Pana' (Lord's Ark) church. Its architecture, clad in river pebbles and shaped like an ark, breaks with the gray monotony of Soviet blocks.",
+          "image": "/images/architecture/arka_pana_church.jpg"
+        },
+        {
+          "title": "Szewska Street and the Student Echo",
+          "content": "The Old Town of Kraków hides stories of an abrupt awakening. In May 1977, the death of student Stanisław Pyjas, linked to the secret police (SB), forever transformed the university atmosphere. Far from silencing the youth, this event lit the fuse of public organization. In response, the Student Solidarity Committee (SKS) was born in Kraków, the first independent organization of its kind in the Eastern Bloc.",
+          "image": "/images/architecture/nowa_huta_aerial.jpg"
+        },
+        {
+          "title": "Wiślna and Kanonicza: Trenches of Ink and Art",
+          "content": "Kraków's resistance was also intellectual and aesthetic. In the offices of Wiślna Street, the weekly Tygodnik Powszechny remained a beacon of free thought, being the only independent Catholic publication allowed between Berlin and Vladivostok. In parallel, the theater of Tadeusz Kantor and his group Cricot 2 challenged socialist realism through art. Works like The Dead Class did not need political pamphlets; their mere existence and creative freedom were an act of dissent.",
+          "image": "/images/architecture/corpus_christi_krakow.jpg"
+        }
+      ],
+      "conclusion": "Touring Kraków with the eyes of recent history is discovering a city that never allowed itself to be redefined. Its buildings and monuments are not just stones; they are the evidence of a society that, faced with the imposition of a 'new man,' decided to remain itself.",
+      "audioFiles": {
+        "english": "/audio/krakow/en.mp3",
+        "polish": "/audio/krakow/pl.mp3",
+        "spanish": "/audio/krakow/es.mp3",
+        "german": "/audio/krakow/de.mp3"
+      },
+      "relatedTourSlug": "krakow-voices-of-resistance"
+    },
+    {
+      "slug": "wroclaw-voices-of-resistance",
+      "city": "Wroclaw",
+      "citySlug": "wroclaw",
+      "type": "Voices of Resistance",
+      "title": "The Smile That Disarmed the System",
+      "introduction": "If Warsaw negotiated in offices and Kraków prayed in cathedrals, Wrocław chose a path no one saw coming: subversive laughter and radical struggle. In this western city — a 'no man's land' repopulated almost entirely after the war — resistance did not carry the weight of ancient tradition.",
+      "image": "/images/architecture/wroclaw_market_square.jpg",
+      "sections": [
+        {
+          "title": "The Dwarf Revolution on Świdnicka Street",
+          "content": "Walking down Świdnicka Street today is, quite literally, stumbling upon history. Small bronze statues of gnomes (krasnale) watch us from the corners. In the greyness of the 1980s, the Orange Alternative (Pomarańczowa Alternatywa) was born here. Led by 'Major' Waldemar Fydrych, this movement decided that the only way to fight an absurd dictatorship was with even greater absurdity. When the police scrubbed out an anti-government slogan, Fydrych and his crew would paint a dwarf over the patch of fresh paint. The police were paralyzed: how do you arrest a dwarf for smiling?",
+          "image": "/images/other/orange_alternative_gnome.jpg"
+        },
+        {
+          "title": "The Other Side: Fighting Solidarity",
+          "content": "Beneath that layer of humor, Wrocław had a core of steel. While the rest of Poland sought compromise and dialogue, the most intransigent faction took root here: Fighting Solidarity (Solidarność Walcząca). Under the leadership of Kornel Morawiecki, this organization rejected the idea of sitting at the table with the communists. For them, there was no possible 'socialism with a human face'; the goal was total independence.",
+          "image": "/images/other/orange_alternative_graffiti.jpg"
+        },
+        {
+          "title": "The Church's Secret Role",
+          "content": "The figure of Cardinal Henryk Gulbinowicz is legendary in the city. Days before Martial Law was declared in 1981 and the State froze the union's accounts, local Solidarity leaders withdrew 80 million zlotys and took them to the Archbishop's palace. Gulbinowicz hid the cash, and that 'treasure' funded the underground resistance and provided aid to the families of the persecuted during the regime's darkest years.",
+          "image": "/images/resistance/solidarity_gdansk.jpg"
+        }
+      ],
+      "conclusion": "Wrocław teaches us that identity is not inherited, it is built. In a city where everyone was 'new' after 1945, a community was forged, united by the rejection of lies. Today, its bronze gnomes are not toys; they are monuments to human wit.",
+      "audioFiles": {
+        "english": "/audio/wroclaw/en.mp3",
+        "polish": "/audio/wroclaw/pl.mp3",
+        "spanish": "/audio/wroclaw/es.mp3",
+        "german": "/audio/wroclaw/de.mp3"
+      },
+      "relatedTourSlug": "wroclaw-voices-of-resistance"
+    },
+    {
+      "slug": "poznan-voices-of-resistance",
+      "city": "Poznan",
+      "citySlug": "poznan",
+      "type": "Voices of Resistance",
+      "title": "The Silenced Scream That Awakened a Nation",
+      "introduction": "On the map of Polish dissent, Warsaw was the political brain and Kraków the spiritual heart. But Poznań was the nervous system that, after receiving the first electric shock, learned to resist with a unique combination of working-class anger, artistic subversion, and spiritual depth.",
+      "image": "/images/cities/poznan_stary_rynek.jpg",
+      "sections": [
+        {
+          "title": "The Monument to the Victims of June 1956",
+          "content": "Walking today before the Monument to the Victims of June 1956—two immense steel crosses bound together by a rope—is to face the first real crack in the Iron Curtain. The regime's response destroyed the myth that communism represented the working class: they sent 400 tanks and 10,000 soldiers against the workers. Among the at least 58 fatal victims fell Romek Strzalkowski, a 13-year-old boy whose name today marks a street in the city.",
+          "image": "/images/resistance/poznan_monument_1956.jpg"
+        },
+        {
+          "title": "Art as Subversion: The Theatre of the Eighth Day",
+          "content": "In this ecosystem of apparent order, art played a crucial subversive role. The Theatre of the Eighth Day (Teatr Ósmego Dnia) emerged from the student counterculture to become the aesthetic nightmare of the censors. Their work was not mere entertainment, but an act of public accusation. The surveillance upon them was so obsessive that, paradoxically, it became artistic material.",
+          "image": "/images/cities/poznan_old_market_1.jpg"
+        },
+        {
+          "title": "The Church as Intellectual Fortress",
+          "content": "If the factories provided the strength and the theater the voice, the Church provided the intellect. In Poznań, the Dominican monastery functioned as a static 'Flying University,' with the central figure of Father Honoriusz Kowalczyk. Father Honoriusz paid the highest price: his death in 1983, following a mysterious car accident, was interpreted by the city as a political assassination. However, his legacy endured.",
+          "image": "/images/resistance/poznan_monument_1956.jpg"
+        }
+      ],
+      "conclusion": "Poznań teaches us a vital lesson about urban memory. Its monuments do not celebrate military victories, but the dignity of standing firm. Walking its streets today, the city speaks to us of a resistance that combined sweat, art, and prayer into an unbreakable force.",
+      "audioFiles": {
+        "english": "/audio/poznan/en.mp3",
+        "polish": "/audio/poznan/pl.mp3",
+        "spanish": "/audio/poznan/es.mp3",
+        "german": "/audio/poznan/de.mp3"
+      },
+      "relatedTourSlug": "poznan-voices-of-resistance"
+    },
+    {
+      "slug": "zielona-gora-voices-of-resistance",
+      "city": "Zielona Góra",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "Resistance in No Man's Land",
+      "introduction": "Zielona Góra was neither Warsaw nor Kraków. In these 'Recovered Territories,' resistance against communism took on a particular nuance, marked by the struggle of a society that first had to learn how to be a community before it could challenge the State.",
+      "image": "/images/cities/zielona_gora_center.jpg",
+      "sections": [
+        {
+          "title": "A Society Under Construction",
+          "content": "The initial challenge for the resistance was not just political, but sociological. The Zielona Góra of 1945–1975 was an 'atomized' society, dominated by a transplanted rural population without local roots or collective identity. Before physical resistance came symbolic resistance: the 'thaw' of October 1956 brought a frantic attempt to reclaim the city's identity.",
+          "image": "/images/architecture/zielona_gora_church.jpg"
+        },
+        {
+          "title": "1960: The Bastion of Faith",
+          "content": "The uprising of May 30, 1960, in defense of the Catholic House was not a spontaneous outbreak, but the culmination of a war of attrition. Archives reveal that the authorities attempted to neutralize the Church through administrative harassment and propaganda campaigns before resorting to force.",
+          "image": "/images/architecture/zielona_gora_cathedral.jpg"
+        },
+        {
+          "title": "The Underground Press Network",
+          "content": "Editorial resistance in Zielona Góra was more sophisticated than the simple distribution of pamphlets suggests. Between 1981 and 1989, the region sustained an underground press network with hubs in Świebodzin, Nowa Sól, and Sulechów. Bulletins like the Zielenogórski Serwis Informacyjny functioned as official organs in the shadows.",
+          "image": "/images/cities/zielona_gora_center.jpg"
+        },
+        {
+          "title": "Repression: 'Loyalty' as a Weapon",
+          "content": "The declaration of Martial Law on December 13, 1981, activated Operation 'Jodła' (Fir). The State Security (SB) had a pre-compiled list of 43 targets in Zielona Góra. 38 activists were interned, first in a segregated section of the local Detention Center and then dispersed to prisons in Głogów and Ostrów Wielkopolski to break their bonds.",
+          "image": "/images/cities/zielona_gora_center.jpg"
+        }
+      ],
+      "conclusion": "Zielona Góra's story of resistance is unique — a tale of a community that had to build itself from scratch before it could stand against oppression. The battle for consciences, the underground press, and the defense of faith all paint a picture of extraordinary determination in the most challenging of circumstances.",
+      "audioFiles": {
+        "english": "/audio/zielona-gora/en.mp3",
+        "polish": "/audio/zielona-gora/pl.mp3",
+        "spanish": "/audio/zielona-gora/es.mp3",
+        "german": "/audio/zielona-gora/de.mp3"
+      },
+      "relatedTourSlug": "zielona-gora-voices-of-resistance"
+    },
+    {
+      "slug": "zielona-gora-church-of-our-lady",
+      "city": "Zielona Góra",
+      "citySlug": "zielona-gora",
+      "type": "Buildings With Heart",
+      "title": "The Double Life of the Church of Our Lady of Częstochowa",
+      "introduction": "If you stroll through the Old Town of Zielona Góra, it is impossible to miss. Along with the Town Hall and the Co-Cathedral, its tower defines the city's skyline. But the Church of Our Lady of Częstochowa is far more than meets the eye.",
+      "image": "/images/architecture/zielona_gora_church.jpg",
+      "sections": [
+        {
+          "title": "A Church Built from Walls",
+          "content": "Let's travel back to 1747. Silesia has just changed hands: from Catholic Austria to the Protestant Prussia of Frederick II the Great. The Lutherans of Zielona Góra built a half-timbered structure (Fachwerk)—today the largest of its kind in the entire Lubusz region—and filled it with bricks. Many of those bricks came from the city's ancient defensive walls. What once served to separate and defend was used to build a place of spiritual gathering.",
+          "image": "/images/architecture/zielona_gora_church.jpg"
+        },
+        {
+          "title": "The Theater of the Word",
+          "content": "Surrounding you are impressive two-story wooden galleries. This design is not accidental; it is 18th-century social engineering. Originally, this building was an Evangelical church designed as an auditorium where nothing would distract the faithful from the spoken word. In its heyday, this space could seat nearly 2,000 people.",
+          "image": "/images/architecture/zielona_gora_church.jpg"
+        },
+        {
+          "title": "The Secret Under the Pulpit: Christ's Garden",
+          "content": "Walk towards the pulpit and look closely at its base. It is not just any column. It is a palm tree trunk carved in wood. What is an exotic palm tree doing in the middle of cold Silesia? It is the only visible trace of the church's original name: Zum Garten Christ ('The Garden of Christ'). For the old Lutheran Pietists, the entire church was conceived as a botanical metaphor of Paradise.",
+          "image": "/images/architecture/zielona_gora_church.jpg"
+        }
+      ],
+      "conclusion": "Because it is an honest building. It doesn't hide its scars or its changes. It is a place where an organ with a 1752 Baroque case coexists with a 20th-century Romantic sound; where the Protestant structure supports Catholic iconography. If you are lucky and someone is playing the organ, go inside and sit down. The acoustics of the wood are warm and enveloping.",
+      "audioFiles": {
+        "english": "",
+        "polish": "",
+        "spanish": "",
+        "german": ""
+      },
+      "relatedTourSlug": "zielona-gora-buildings-with-heart"
+    },
+    {
+      "slug": "zielona-gora-st-hedwigs",
+      "city": "Zielona Góra",
+      "citySlug": "zielona-gora",
+      "type": "Buildings With Heart",
+      "title": "St. Hedwig's: The Building That Refused to Die",
+      "introduction": "If you walk through downtown Zielona Góra, you are bound to end up standing in front of St. Hedwig's Co-Cathedral (Konkatedra św. Jadwigi). The truth is that this building is not a dignified elder that has aged in peace. It is a survivor—a bruised witness that has withstood structural collapses, fires, and religious identity crises.",
+      "image": "/images/architecture/zielona_gora_cathedral.jpg",
+      "sections": [
+        {
+          "title": "The Scar of 1776: When the Sky Fell",
+          "content": "The first thing you must do is look at the tower on the north side. Its clean, orderly Neoclassical style clashes violently with the rough Gothic masonry of the rest of the church. It is the memory of a disaster. On July 14, 1776, the original Gothic tower collapsed. Tons of stone crashed down onto the nave, crushing the vault and destroying centuries of history. After three devastating fires (in 1582, 1651, and 1683) and a massive collapse, is it still the same church?",
+          "image": "/images/architecture/zielona_gora_cathedral.jpg"
+        },
+        {
+          "title": "An Unexpected Tenant: The Protestant Interlude",
+          "content": "Enter the main nave. It smells of incense, and you see Catholic iconography everywhere. But for over a century, from 1525 to 1654, these walls heard sermons in German and followed the Lutheran liturgy. Zielona Góra (then Grünberg) was a Protestant stronghold. It didn't become Catholic again through spiritual conversion, but through Habsburg politics.",
+          "image": "/images/architecture/zielona_gora_cathedral.jpg"
+        },
+        {
+          "title": "Secrets in Plain Sight",
+          "content": "Before you leave, look for two details most people miss. The Industrial Organ: Look up at the choir. The organ casing is from 1912, built by the legendary firm Schlag & Söhne. It isn't just an instrument; it is proof of the industrial power of pre-war Silesia. The Ogrójcowa Chapel: On the south side, this small space has lived a thousand lives—a religion classroom, a refuge for the Greek-Catholic minority, and today it holds relics of John Paul II.",
+          "image": "/images/architecture/zielona_gora_cathedral.jpg"
+        }
+      ],
+      "conclusion": "The title 'Co-Cathedral' sounds imposing and ancient, but it is an administrative invention from 1992. Before that, for 700 years, it was simply the town parish. When you visit St. Hedwig's, don't just look at a religious building. Look at a map of scars. Look at a place that refused to disappear, reinventing itself with every fire, every war, and every border shift.",
+      "audioFiles": {
+        "english": "",
+        "polish": "",
+        "spanish": "",
+        "german": ""
+      },
+      "relatedTourSlug": "zielona-gora-buildings-with-heart"
+    }
+  ]
+}

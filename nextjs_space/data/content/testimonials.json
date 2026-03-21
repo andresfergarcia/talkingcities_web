@@ -1,0 +1,47 @@
+{
+  "_comentario": "⭐ TESTIMONIOS - Añade o edita opiniones de clientes aquí",
+  "testimonials": [
+    {
+      "quote": "Walking through Krakow with these stories in my ears was like traveling back in time. I could feel the resistance in every corner. Absolutely moving.",
+      "author": "Sarah M.",
+      "location": "London, UK",
+      "rating": 5,
+      "tour": "Krakow Voices of Resistance"
+    },
+    {
+      "quote": "The best way to understand a city. The gnome story in Wroclaw had me laughing and crying at the same time. These are stories that textbooks never tell.",
+      "author": "Thomas K.",
+      "location": "Berlin, Germany",
+      "rating": 5,
+      "tour": "Wroclaw Voices of Resistance"
+    },
+    {
+      "quote": "I loved that 40% of profits go back to the elderly narrators. You're not just buying a tour, you're supporting a beautiful cause.",
+      "author": "María G.",
+      "location": "Madrid, Spain",
+      "rating": 5,
+      "tour": "Krakow Voices of Resistance"
+    },
+    {
+      "quote": "As a history teacher, I recommend these tours to all my students visiting Poland. The personal stories make the Cold War era come alive.",
+      "author": "Prof. Anna W.",
+      "location": "Warsaw, Poland",
+      "rating": 5,
+      "tour": "Wroclaw Voices of Resistance"
+    },
+    {
+      "quote": "Four languages available! My family could all enjoy the tour together - each in their own language. Brilliant concept.",
+      "author": "Jürgen H.",
+      "location": "Munich, Germany",
+      "rating": 5,
+      "tour": "Krakow Voices of Resistance"
+    },
+    {
+      "quote": "The audio quality is superb and the GPS technology works perfectly. I forgot I was on a tour - it felt like the city itself was whispering its secrets to me.",
+      "author": "Claire D.",
+      "location": "Paris, France",
+      "rating": 5,
+      "tour": "Wroclaw Voices of Resistance"
+    }
+  ]
+}

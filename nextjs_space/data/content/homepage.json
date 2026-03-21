@@ -1,0 +1,58 @@
+{
+  "_comentario": "🏠 PÁGINA DE INICIO - Edita textos, imágenes y secciones del home",
+  "hero": {
+    "title": "The city is speaking.",
+    "titleHighlight": "You just have to listen.",
+    "subtitle": "Uncover the hidden stories of Polish cities, through the voices of those who built them.",
+    "backgroundImage": "/images/cities/warsaw_castle_square.jpg",
+    "cta": {
+      "primary": { "text": "Explore Our Tours", "href": "/tours" },
+      "secondary": { "text": "Listen Free Stories", "href": "/stories" }
+    }
+  },
+  "valueProposition": {
+    "title": "History Through Human Voices",
+    "subtitle": "We don't give you textbook dates. We give you human experiences.",
+    "features": [
+      {
+        "icon": "Headphones",
+        "title": "Immersive Audio",
+        "description": "Stories narrated by the people who lived them, in 4 languages."
+      },
+      {
+        "icon": "MapPin",
+        "title": "GPS-Guided Tours",
+        "description": "Audio plays automatically as you walk. History unfolds at every corner."
+      },
+      {
+        "icon": "Heart",
+        "title": "Social Impact",
+        "description": "40% of net profits go directly to the elderly narrators who share their stories."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Two Ways to Experience History",
+    "fromHome": {
+      "title": "From Anywhere",
+      "description": "Browse our free archive of oral histories. Preserving memory, accessible to all.",
+      "icon": "Globe",
+      "cta": { "text": "Explore Free Stories", "href": "/stories" }
+    },
+    "onTheStreets": {
+      "title": "On the Streets",
+      "description": "Take our GPS self-guided tours. Stories play automatically as you walk alongside the city's invisible protagonists.",
+      "icon": "Navigation",
+      "cta": { "text": "View Tours", "href": "/tours" }
+    }
+  },
+  "featuredCities": {
+    "title": "Explore Poland's Living Memory",
+    "subtitle": "Five cities, countless stories of resilience and beauty"
+  },
+  "commitment": {
+    "title": "Your Visit Sustains Memory",
+    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 40% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
+    "stat": { "value": 40, "label": "% of net profits returned to narrators" }
+  }
+}

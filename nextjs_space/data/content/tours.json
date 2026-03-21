@@ -1,0 +1,483 @@
+{
+  "_comentario": "🎧 TOURS - Edita aquí la información de cada tour",
+  "pageTitle": "Self-Guided Audio Tours",
+  "pageSubtitle": "Walk through history with GPS-guided audio tours powered by VoiceMap",
+  "tours": [
+    {
+      "slug": "warsaw-voices-of-resistance",
+      "city": "Warsaw",
+      "citySlug": "warsaw",
+      "title": "Voices of Resistance: Warsaw",
+      "subtitle": "The Political Axis and the Paradox of Power",
+      "type": "Voices of Resistance",
+      "description": "Discover how Warsaw served as both the administrative heart of the communist regime and the epicenter of resistance. From KOR to Solidarity, from the Flying University to Radio Solidarność.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "2 hours",
+      "distance": "4 km",
+      "stops": 10,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/warsaw_castle_square.jpg",
+      "highlights": [
+        "KOR birthplace",
+        "Solidarity headquarters",
+        "Flying University locations",
+        "Radio Solidarność sites"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "warsaw-voices-of-resistance"
+    },
+    {
+      "slug": "warsaw-buildings-with-heart",
+      "city": "Warsaw",
+      "citySlug": "warsaw",
+      "title": "Buildings With Heart: Warsaw",
+      "subtitle": "Architecture That Rose from Ashes",
+      "type": "Buildings With Heart",
+      "description": "Explore Warsaw's architectural rebirth. From the meticulously reconstructed Old Town to the imposing Palace of Culture, discover how buildings tell the story of a city that refused to die.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 8,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/warsaw_royal_castle_modern.jpg",
+      "highlights": [
+        "Royal Castle reconstruction",
+        "Old Town UNESCO site",
+        "Palace of Culture",
+        "Communist-era architecture"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "krakow-voices-of-resistance",
+      "city": "Krakow",
+      "citySlug": "krakow",
+      "title": "Voices of Resistance: Krakow",
+      "subtitle": "The Fortress of the Spirit against the Regime",
+      "type": "Voices of Resistance",
+      "description": "Discover how Krakow acted as the spiritual lung of Poland between 1945 and 1989. From the cross that challenged concrete in Nowa Huta to the student movements and intellectual resistance.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3.5 km",
+      "stops": 8,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/krakow_main_square.jpg",
+      "highlights": [
+        "Nowa Huta & Arka Pana Church",
+        "Jagiellonian University student resistance",
+        "Tygodnik Powszechny offices",
+        "Cricot 2 Theater legacy"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "krakow-voices-of-resistance"
+    },
+    {
+      "slug": "krakow-buildings-with-heart",
+      "city": "Krakow",
+      "citySlug": "krakow",
+      "title": "Buildings With Heart: Krakow",
+      "subtitle": "Architecture and Unbroken Spirit",
+      "type": "Buildings With Heart",
+      "description": "Look up and admire Krakow's architectural strength. From centuries-old churches that served as spiritual refuge to structures symbolizing resilience.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "2.5 km",
+      "stops": 6,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/corpus_christi_krakow.jpg",
+      "highlights": [
+        "Corpus Christi Church",
+        "Historic Main Square",
+        "Medieval university buildings",
+        "Art Nouveau gems"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "wroclaw-voices-of-resistance",
+      "city": "Wroclaw",
+      "citySlug": "wroclaw",
+      "title": "Voices of Resistance: Wroclaw",
+      "subtitle": "The Smile That Disarmed the System",
+      "type": "Voices of Resistance",
+      "description": "Explore how Wrocław chose subversive laughter and radical struggle to resist the regime. From the Orange Alternative's gnome revolution to Fighting Solidarity's underground networks.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/wroclaw_market_square.jpg",
+      "highlights": [
+        "Orange Alternative dwarf revolution",
+        "Fighting Solidarity hideouts",
+        "Cardinal Gulbinowicz's secret role",
+        "Świdnicka Street history"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "wroclaw-voices-of-resistance"
+    },
+    {
+      "slug": "wroclaw-buildings-with-heart",
+      "city": "Wroclaw",
+      "citySlug": "wroclaw",
+      "title": "Buildings With Heart: Wroclaw",
+      "subtitle": "Where Water Shapes History",
+      "type": "Buildings With Heart",
+      "description": "Discover Wrocław's remarkable architecture across its islands and bridges. From Gothic churches to the stunning Centennial Hall, every building whispers stories of transformation.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/wroclaw_centennial_hall.jpg",
+      "highlights": [
+        "Centennial Hall",
+        "Cathedral Island",
+        "Market Square architecture",
+        "Gothic bridges"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "poznan-voices-of-resistance",
+      "city": "Poznan",
+      "citySlug": "poznan",
+      "title": "Voices of Resistance: Poznan",
+      "subtitle": "The Silenced Scream That Awakened a Nation",
+      "type": "Voices of Resistance",
+      "description": "Discover the city where the first major anti-communist uprising erupted in 1956. Poznań's workers dared to challenge the regime before anyone else.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/poznan_stary_rynek.jpg",
+      "highlights": [
+        "1956 Uprising memorial",
+        "Monument to the Victims of June 1956",
+        "Theatre of the Eighth Day",
+        "Dominican monastery"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "poznan-voices-of-resistance"
+    },
+    {
+      "slug": "poznan-buildings-with-heart",
+      "city": "Poznan",
+      "citySlug": "poznan",
+      "title": "Buildings With Heart: Poznan",
+      "subtitle": "Where Trade Meets Resistance",
+      "type": "Buildings With Heart",
+      "description": "Explore Poznań's architectural heritage from its medieval origins to its role in modern Polish identity. The buildings of Stary Rynek tell centuries of stories.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "2.5 km",
+      "stops": 6,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/poznan_old_market_1.jpg",
+      "highlights": [
+        "Stary Rynek Town Hall",
+        "Imperial Castle",
+        "Cathedral Island",
+        "Historic merchant houses"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "katowice-voices-of-resistance",
+      "city": "Katowice",
+      "citySlug": "katowice",
+      "title": "Voices of Resistance: Katowice",
+      "subtitle": "The Industrial Heart of Dissent",
+      "type": "Voices of Resistance",
+      "description": "Walk through the industrial landscapes of Upper Silesia where coal miners and steelworkers formed the backbone of resistance against the communist regime.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/katowice_nikiszowiec.jpg",
+      "highlights": [
+        "Nikiszowiec workers' district",
+        "Silesian Insurgents Monument",
+        "Industrial heritage sites",
+        "Underground resistance networks"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "katowice-buildings-with-heart",
+      "city": "Katowice",
+      "citySlug": "katowice",
+      "title": "Buildings With Heart: Katowice",
+      "subtitle": "From Coal to Culture",
+      "type": "Buildings With Heart",
+      "description": "Discover how Katowice transformed its industrial heritage into cultural landmarks. From the iconic Spodek to the modernist Nikiszowiec, architecture tells the story of Silesian identity.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "3 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/katowice_nikiszowiec.jpg",
+      "highlights": [
+        "Spodek arena",
+        "Nikiszowiec district",
+        "Silesian Museum",
+        "Modernist architecture"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "gdansk-voices-of-resistance",
+      "city": "Gdańsk",
+      "citySlug": "gdansk",
+      "title": "Voices of Resistance: Gdańsk",
+      "subtitle": "Where Solidarity Was Born",
+      "type": "Voices of Resistance",
+      "description": "Walk the streets where the Solidarity movement began. From the Gdańsk Shipyard gates to the European Solidarity Centre, experience the birth of freedom.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "2 hours",
+      "distance": "4 km",
+      "stops": 9,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/gdansk_waterfront.jpg",
+      "highlights": [
+        "Gdańsk Shipyard gates",
+        "European Solidarity Centre",
+        "Monument to Fallen Shipyard Workers",
+        "Lech Wałęsa's legacy"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "gdansk-buildings-with-heart",
+      "city": "Gdańsk",
+      "citySlug": "gdansk",
+      "title": "Buildings With Heart: Gdańsk",
+      "subtitle": "The Hanseatic Spirit Lives On",
+      "type": "Buildings With Heart",
+      "description": "Explore Gdańsk's stunning Hanseatic architecture, from the medieval Long Market to the meticulously rebuilt Old Town. Every façade tells a story of trade, war, and rebirth.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "2.5 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/gdansk_old_town_hall.jpg",
+      "highlights": [
+        "St. Mary's Church",
+        "Long Market",
+        "Green Gate",
+        "Artus Court"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": ""
+    },
+    {
+      "slug": "zielona-gora-voices-of-resistance",
+      "city": "Zielona Góra",
+      "citySlug": "zielona-gora",
+      "title": "Voices of Resistance: Zielona Góra",
+      "subtitle": "Resistance in No Man's Land",
+      "type": "Voices of Resistance",
+      "description": "Explore how resistance in the Recovered Territories took a unique form, marked by the struggle of a society that first had to learn how to be a community before it could challenge the State.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "2.5 km",
+      "stops": 7,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/cities/zielona_gora_center.jpg",
+      "highlights": [
+        "Catholic House uprising of 1960",
+        "Underground press network",
+        "Solidarity movement in Lubusz",
+        "Flying University tradition"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "zielona-gora-voices-of-resistance"
+    },
+    {
+      "slug": "zielona-gora-buildings-with-heart",
+      "city": "Zielona Góra",
+      "citySlug": "zielona-gora",
+      "title": "Buildings With Heart: Zielona Góra",
+      "subtitle": "Where Bricks Remember",
+      "type": "Buildings With Heart",
+      "description": "Discover Zielona Góra's architectural treasures, from the half-timbered Church of Our Lady of Częstochowa to the scarred but surviving St. Hedwig's Co-Cathedral.",
+      "price": 9.99,
+      "currency": "€",
+      "duration": "1.5 hours",
+      "distance": "2 km",
+      "stops": 6,
+      "languages": [
+        "English",
+        "Polish"
+      ],
+      "image": "/images/architecture/zielona_gora_church.jpg",
+      "highlights": [
+        "Church of Our Lady of Częstochowa",
+        "St. Hedwig's Co-Cathedral",
+        "Town Hall",
+        "Historic Old Town"
+      ],
+      "includes": [
+        "GPS-guided audio narration",
+        "Stories in 2 languages",
+        "Offline access via VoiceMap",
+        "Map with all stops"
+      ],
+      "voicemapUrl": "",
+      "status": "coming-soon",
+      "articleSlug": "zielona-gora-buildings-with-heart"
+    }
+  ]
+}

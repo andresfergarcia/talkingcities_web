@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Talking Cities - Tours de Audio Autoguiados",
+    "description": "Tours de audio inmersivos que dan vida a la historia polaca a través de las voces de quienes la vivieron."
+  },
+  "nav": {
+    "tours": "Tours",
+    "stories": "Historias",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "buyTour": "Comprar Tour"
+  },
+  "hero": {
+    "title": "La ciudad está hablando.",
+    "titleHighlight": "Solo tienes que escuchar.",
+    "subtitle": "Descubre las historias ocultas de las ciudades polacas, a través de las voces de quienes las construyeron.",
+    "exploreTours": "Explorar Tours",
+    "freeStories": "Escuchar Historias Gratis"
+  },
+  "valueProposition": {
+    "title": "Historia a Través de Voces Humanas",
+    "subtitle": "No te damos fechas de libro. Te damos experiencias humanas.",
+    "immersiveAudio": "Audio Inmersivo",
+    "immersiveAudioDesc": "Historias narradas por quienes las vivieron, en 4 idiomas.",
+    "gpsGuided": "Tours con GPS",
+    "gpsGuidedDesc": "El audio se reproduce automáticamente mientras caminas. La historia se despliega en cada esquina.",
+    "socialImpact": "Impacto Social",
+    "socialImpactDesc": "El 40% de las ganancias netas va directamente a los narradores ancianos que comparten sus historias."
+  },
+  "howItWorks": {
+    "title": "Dos Formas de Experimentar la Historia",
+    "fromAnywhere": "Desde Cualquier Lugar",
+    "fromAnywhereDesc": "Explora nuestro archivo gratuito de historias orales. Preservando la memoria, accesible para todos.",
+    "exploreFreeStories": "Explorar Historias Gratis",
+    "onTheStreets": "En las Calles",
+    "onTheStreetsDesc": "Toma nuestros tours autoguiados con GPS. Las historias se reproducen automáticamente mientras caminas junto a los protagonistas invisibles de la ciudad.",
+    "viewTours": "Ver Tours"
+  },
+  "cities": {
+    "title": "Explora la Memoria Viva de Polonia",
+    "subtitle": "Cinco ciudades, incontables historias de resiliencia y belleza",
+    "available": "Explorar Tours",
+    "comingSoon": "Próximamente"
+  },
+  "commitment": {
+    "title": "Tu Visita Sostiene la Memoria",
+    "description": "Al comprar un tour, te conviertes en mecenas de este proyecto. Después de cubrir los costos operativos, reinvertimos el 40% de las ganancias netas para financiar tarjetas de supermercado para los narradores ancianos que comparten sus historias. Sus memorias sostienen la cultura; tu visita los sostiene a ellos.",
+    "statLabel": "% de ganancias netas devueltas a narradores"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen los Viajeros",
+    "subtitle": "Experiencias reales de nuestros visitantes"
+  },
+  "tours": {
+    "pageTitle": "Tours de Audio Autoguiados",
+    "pageSubtitle": "Descubre la historia polaca a través de tours inmersivos guiados por GPS, disponibles en 4 idiomas.",
+    "availableNow": "Disponibles Ahora",
+    "comingSoon": "Próximamente",
+    "duration": "Duración",
+    "distance": "Distancia",
+    "stops": "Paradas",
+    "languages": "Idiomas",
+    "price": "Precio",
+    "buyTour": "Comprar Tour",
+    "viewOnVoiceMap": "Ver en VoiceMap",
+    "highlights": "Aspectos Destacados",
+    "whatIncludes": "Qué Incluye",
+    "audioPreview": "Vista Previa de Audio",
+    "relatedStory": "Historia Gratuita Relacionada",
+    "howToStart": "Cómo Comenzar Tu Tour",
+    "step1": "Compra tu tour a través de VoiceMap",
+    "step2": "Descarga la aplicación VoiceMap",
+    "step3": "Camina y escucha mientras las historias se despliegan"
+  },
+  "stories": {
+    "pageTitle": "Historias Orales Gratuitas",
+    "pageSubtitle": "Un archivo creciente de voces que preservan la memoria viva de Polonia. Explora, escucha y conéctate con la historia — todo sin costo.",
+    "readFullStory": "Leer Historia Completa",
+    "noStories": "Más Historias Próximamente",
+    "listenIn": "Escuchar en",
+    "relatedTour": "Experimenta Esta Historia En El Lugar",
+    "relatedTourDesc": "Camina por las calles donde se desarrolló esta historia con nuestro tour de audio guiado por GPS.",
+    "exploreTheTour": "Explorar el Tour"
+  },
+  "about": {
+    "pageTitle": "Sobre Talking Cities",
+    "mission": "Nuestra Misión",
+    "impact": "Impacto Social",
+    "businessModel": "Modelo de Negocio Transparente",
+    "origin": "El Origen",
+    "exploreTours": "Explorar Nuestros Tours",
+    "contactUs": "Contáctanos"
+  },
+  "contact": {
+    "pageTitle": "Contáctanos",
+    "pageSubtitle": "¿Tienes preguntas, sugerencias o una historia que compartir? Nos encantaría saber de ti.",
+    "sendMessage": "Envíanos un Mensaje",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado exitosamente! Te responderemos pronto.",
+    "error": "Algo salió mal. Por favor intenta de nuevo.",
+    "getInTouch": "Ponte en Contacto",
+    "emailUs": "Escríbenos",
+    "location": "Ubicación",
+    "locationValue": "Varsovia, Polonia",
+    "witness": "¿Eres un Testigo?",
+    "witnessDesc": "Si viviste eventos históricos significativos en ciudades polacas y te gustaría compartir tu historia, sería un honor escucharte."
+  },
+  "footer": {
+    "tagline": "Preservando la historia a través de las voces de quienes la vivieron.",
+    "explore": "Explorar",
+    "aboutSection": "Nosotros",
+    "ourMission": "Nuestra Misión",
+    "getInTouch": "Contacto",
+    "newsletter": "Suscríbete a nuestro boletín",
+    "newsletterPlaceholder": "Tu correo",
+    "subscribe": "Suscribirse",
+    "subscribeSuccess": "¡Suscrito!",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "home": "Inicio",
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todo",
+    "back": "Volver",
+    "loading": "Cargando...",
+    "error": "Error",
+    "notFound": "Página No Encontrada",
+    "notFoundDesc": "La página que buscas no existe o ha sido movida.",
+    "goHome": "Ir al Inicio",
+    "exploreTours": "Explorar Tours"
+  }
+}
