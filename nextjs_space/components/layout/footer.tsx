@@ -2,7 +2,8 @@
 
 import { Link } from "@/lib/i18n-link";
 import { useTranslations } from "@/lib/i18n-context";
-import { Headphones, MapPin, BookOpen, Mail, Heart } from "lucide-react";
+import Image from "next/image";
+import { MapPin, BookOpen, Mail, Heart } from "lucide-react";
 import NewsletterForm from "../forms/newsletter-form";
 
 interface FooterProps {
@@ -34,12 +35,16 @@ export default function Footer({ contactEmail = "info@talkingcities.eu", locale 
       {/* Footer Links */}
       <div className="max-w-content mx-auto px-4 sm:px-6 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Headphones className="w-6 h-6 text-gold" />
-              <span className="font-heading text-xl font-bold">Talking Cities</span>
-            </div>
+          
+          {/* Brand - ESTRUCTURA LIMPIA PARA CENTRADO */}
+          <div className="flex flex-col items-right sm:items-start text-center sm:text-left">
+            <Image
+              src="/images/logo-white.png"
+              alt="Talking Cities Logo"
+              width={100} // Aumentado para que se vea mejor
+              height={60}
+              className="h-auto w-auto max-w-[100px] mb-4" 
+            />
             <p className="text-white/60 text-sm leading-relaxed">
               {t("tagline")}
             </p>
