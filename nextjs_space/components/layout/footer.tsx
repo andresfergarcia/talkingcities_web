@@ -37,7 +37,7 @@ export default function Footer({ contactEmail = "info@talkingcities.eu", locale 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           
           {/* Brand - ESTRUCTURA LIMPIA PARA CENTRADO */}
-          <div className="flex flex-col items-right sm:items-start text-center sm:text-left">
+          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <Image
               src="/images/logo-white.png"
               alt="Talking Cities Logo"

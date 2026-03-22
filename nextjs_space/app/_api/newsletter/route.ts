@@ -9,7 +9,7 @@ export async function POST(request: Request) {
     }
 
     // USA TU CLAVE AQUÍ DIRECTAMENTE OTRA VEZ
-    const API_KEY = process.env.BREVO_API_KEY;
+    const API_KEY = process.env.BREVO_API_KEY as string;
 
     const response = await fetch('https://api.brevo.com/v3/contacts', {
       method: 'POST',
