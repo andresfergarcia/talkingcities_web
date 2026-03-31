@@ -145,29 +145,38 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               </motion.div>
             )}
 
-            {/* Testimonials */}
-            {(safeTestimonials?.length ?? 0) > 0 && (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-              >
-                <h2 className="font-heading text-2xl font-bold text-text mb-4">Traveler Reviews</h2>
-                <div className="space-y-4">
-                  {safeTestimonials?.slice?.(0, 3)?.map?.((t, i) => (
-                    <div key={i} className="bg-white rounded-xl shadow-sm p-5 border border-gray-100">
-                      <div className="flex gap-0.5 mb-2">
-                        {[1, 2, 3, 4, 5].map((s) => (
-                          <Star key={s} className={`w-4 h-4 ${s <= (t?.rating ?? 0) ? 'fill-gold text-gold' : 'text-gray-300'}`} />
-                        ))}
-                      </div>
-                      <p className="text-text-light italic mb-2">&ldquo;{t?.quote ?? ''}&rdquo;</p>
-                      <p className="text-sm font-medium text-text">{t?.author ?? ''} — {t?.location ?? ''}</p>
-                    </div>
-                  )) ?? []}
+            {/* Journalist's Note (Dinámica según el tipo de tour) */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              className="bg-white border-l-4 border-primary rounded-r-xl shadow-sm p-6 sm:p-8 relative overflow-hidden"
+            >
+              {/* Marca de agua decorativa */}
+              <div className="absolute right-0 top-0 opacity-5 pointer-events-none">
+                <BookOpen className="w-32 h-32 -mt-4 -mr-4 text-primary" />
+              </div>
+              
+              <h2 className="font-heading text-2xl font-bold text-text mb-4 flex items-center gap-2">
+                ✍️ Journalist&apos;s Note
+              </h2>
+              <div className="space-y-4">
+                <p className="text-text-light italic text-lg leading-relaxed">
+                  {safeTour?.type?.includes('Voices') 
+                    ? "To build this tour, we handed the microphone to those who lived behind the Iron Curtain. By walking these streets with their testimonies, you don't just listen to history; you become a patron. Your purchase directly funds the elders who share their memory with us today."
+                    : "As a journalist, I've always believed that every wall has a story. This tour isn't a simple list of architectural facts; it's the result of deep archival research to bring you the raw pulse of the foundations that built this city."}
+                </p>
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
+                  <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
+                    <span className="text-sm font-bold text-gray-500">A</span>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-text">Andrés</p>
+                    <p className="text-xs text-text-light uppercase tracking-wider font-semibold">Founder & Journalist</p>
+                  </div>
                 </div>
-              </motion.div>
-            )}
+              </div>
+            </motion.div>
           </div>
 
           {/* Sidebar */}
