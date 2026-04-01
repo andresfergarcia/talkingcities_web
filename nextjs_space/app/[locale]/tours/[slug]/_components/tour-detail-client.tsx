@@ -21,9 +21,11 @@ interface TourDetailClientProps {
     german: string;
   };
   journalistNoteText: Record<string, string>;
+  toursText: Record<string, string>; // 1. Añadimos el nuevo paquete al contrato
 }
 
-export default function TourDetailClient({ tour, storySlug, testimonials, audioFiles, journalistNoteText }: TourDetailClientProps) {
+// 2. Extraemos toursText en la puerta de entrada
+export default function TourDetailClient({ tour, storySlug, testimonials, audioFiles, journalistNoteText, toursText }: TourDetailClientProps) {
   const safeTour = tour ?? ({} as Tour);
   const safeTestimonials = testimonials ?? [];
   const isAvailable = safeTour?.status === 'available';
