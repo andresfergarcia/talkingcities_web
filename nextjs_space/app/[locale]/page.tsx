@@ -22,12 +22,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const testimonials = getTestimonials();
   const stories = getStories();
 
-  // Get latest 3 stories
   const latestStories = stories?.slice?.(0, 3) ?? [];
 
   return (
     <>
-      {/* Hero */}
       <Hero
         title={t('hero.title')}
         titleHighlight={t('hero.titleHighlight')}
@@ -38,17 +36,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         locale={locale}
       />
 
-      {/* Value Proposition */}
       <ValueProposition locale={locale} />
 
-      {/* Available Tours - Coming Soon */}
       <section className="py-20 bg-bg">
         <div className="max-w-content mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
               {t('tours.availableNow')}
             </h2>
-            <p className="text-accent font-semibold text-xl mb-2">Coming Soon</p>
+            <p className="text-accent font-semibold text-xl mb-2">{t('tours.comingSoon')}</p>
             <p className="text-text-light text-lg max-w-2xl mx-auto">
               {t('tours.pageSubtitle')}
             </p>
@@ -69,18 +65,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* How It Works */}
       <HowItWorks locale={locale} />
 
-      {/* Explore Poland's Living Memory - 7 Cities */}
       <section className="py-20 bg-white">
         <div className="max-w-content mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
-              Explore Poland&apos;s Living Memory
+              {t('cities.title')}
             </h2>
             <p className="text-text-light text-lg max-w-2xl mx-auto">
-              Seven cities, countless stories of resilience and preservation of national identity.
+              {t('cities.subtitle')}
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -91,16 +85,15 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      {/* Latest Stories */}
       {(latestStories?.length ?? 0) > 0 && (
         <section className="py-20 bg-bg">
           <div className="max-w-content mx-auto px-4 sm:px-6">
             <div className="text-center mb-12">
               <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
-                Latest Stories
+                {t('stories.pageTitle')}
               </h2>
               <p className="text-text-light text-lg max-w-2xl mx-auto">
-                Free oral histories from Polish cities — preserving memory, accessible to all.
+                {t('stories.pageSubtitle')}
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -134,7 +127,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                         {story?.introduction ?? ''}
                       </p>
                       <span className="inline-flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-                        Read Full Story <ArrowRight className="w-4 h-4" />
+                        {t('stories.readFullStory')} <ArrowRight className="w-4 h-4" />
                       </span>
                     </div>
                   </div>
@@ -146,20 +139,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 href="/stories"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg"
               >
-                <BookOpen className="w-4 h-4" /> All Stories <ArrowRight className="w-4 h-4" />
+                <BookOpen className="w-4 h-4" /> {t('common.viewAll')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
         </section>
       )}
 
-      {/* Testimonials */}
       <Testimonials testimonials={testimonials ?? []} locale={locale} />
 
-      {/* Commitment */}
       <Commitment locale={locale} />
 
-      {/* Final CTA */}
       <section className="py-20 bg-bg-alt">
         <div className="max-w-content mx-auto px-4 sm:px-6 text-center">
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-4">
