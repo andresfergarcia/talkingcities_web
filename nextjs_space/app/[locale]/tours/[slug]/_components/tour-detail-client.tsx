@@ -20,9 +20,10 @@ interface TourDetailClientProps {
     spanish: string;
     german: string;
   };
+  journalistNoteText: Record<string, string>;
 }
 
-export default function TourDetailClient({ tour, storySlug, testimonials, audioFiles }: TourDetailClientProps) {
+export default function TourDetailClient({ tour, storySlug, testimonials, audioFiles, journalistNoteText }: TourDetailClientProps) {
   const safeTour = tour ?? ({} as Tour);
   const safeTestimonials = testimonials ?? [];
   const isAvailable = safeTour?.status === 'available';
