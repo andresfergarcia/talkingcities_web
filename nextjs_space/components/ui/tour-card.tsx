@@ -4,19 +4,25 @@ import Image from "next/image";
 import { Link } from "@/lib/i18n-link";
 import { Clock, MapPin, Headphones, Star, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { useTranslations } from "@/lib/i18n-context";
 import type { Tour } from "@/lib/types";
 
 interface TourCardProps {
   tour: Tour;
   index?: number;
   locale?: string;
+  // 1. Añadimos el contrato para recibir los textos ya traducidos
+  dict?: Record<string, string>; 
 }
 
-export default function TourCard({ tour, index = 0, locale }: TourCardProps) {
-  const t = useTranslations("tours");
+export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCardProps) {
   const safeTour = tour ?? ({} as Tour);
   const isAvailable = safeTour?.status === "available";
+
+  // Red de seguridad: si no llega el diccionario, usamos inglés por defecto
+  const tAvailableNow = dict.availableNow || "Available Now";
+  const tComingSoon = dict.comingSoon || "Coming Soon";
+  const tStops = dict.stops || "stops";
+  const tBuyTour = dict.buyTour || "Buy Tour";
 
   return (
     <motion.div
@@ -45,7 +51,7 @@ export default function TourCard({ tour, index = 0, locale }: TourCardProps) {
                     : "bg-gray-800/70 text-white"
                 }`}
               >
-                {isAvailable ? t("availableNow") : t("comingSoon")}
+                {isAvailable ? tAvailableNow : tComingSoon}
               </span>
             </div>
             {/* Price */}
@@ -82,7 +88,7 @@ export default function TourCard({ tour, index = 0, locale }: TourCardProps) {
                 <MapPin className="w-3.5 h-3.5" /> {safeTour?.distance ?? ''}
               </span>
               <span className="flex items-center gap-1">
-                <Headphones className="w-3.5 h-3.5" /> {safeTour?.stops ?? 0} {t("stops")}
+                <Headphones className="w-3.5 h-3.5" /> {safeTour?.stops ?? 0} {tStops}
               </span>
             </div>
 
@@ -106,7 +112,7 @@ export default function TourCard({ tour, index = 0, locale }: TourCardProps) {
                 ))}
               </div>
               <span className="text-sm font-medium text-primary flex items-center gap-1 group-hover:gap-2 transition-all">
-                {isAvailable ? t("buyTour") : t("comingSoon")}
+                {isAvailable ? tBuyTour : tComingSoon}
                 <ArrowRight className="w-4 h-4" />
               </span>
             </div>

@@ -72,7 +72,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               animate={{ opacity: 1, y: 0 }}
               className="bg-white rounded-xl shadow-md p-6 sm:p-8"
             >
-              <h2 className="font-heading text-2xl font-bold text-text mb-4">About This Tour</h2>
+              <h2 className="font-heading text-2xl font-bold text-text mb-4">{toursText.aboutThisTour || 'About This Tour'}</h2>
               <p className="text-text-light leading-relaxed text-lg">
                 {safeTour?.description ?? ''}
               </p>
@@ -85,7 +85,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               transition={{ delay: 0.1 }}
               className="bg-white rounded-xl shadow-md p-6 sm:p-8"
             >
-              <h2 className="font-heading text-2xl font-bold text-text mb-4">Tour Highlights</h2>
+              <h2 className="font-heading text-2xl font-bold text-text mb-4">{toursText.highlights || 'Tour Highlights'}</h2>
               <ul className="space-y-3">
                 {safeTour?.highlights?.map?.((h, i) => (
                   <li key={i} className="flex items-start gap-3">
@@ -103,14 +103,25 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               transition={{ delay: 0.2 }}
               className="bg-white rounded-xl shadow-md p-6 sm:p-8"
             >
-              <h2 className="font-heading text-2xl font-bold text-text mb-4">What&apos;s Included</h2>
+              <h2 className="font-heading text-2xl font-bold text-text mb-4">{toursText.whatIncludes || "What's Included"}</h2>
               <ul className="space-y-3">
-                {safeTour?.includes?.map?.((inc, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-text-light">{inc ?? ''}</span>
-                  </li>
-                )) ?? []}
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  {/* Dinamizamos el número de paradas desde la DB, pero el texto desde el diccionario */}
+                  <span className="text-text-light">{safeTour?.stops ?? 0} {toursText.stops || 'stops'}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="text-text-light">{toursText.lifetimeAccess || 'Lifetime access to this tour'}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="text-text-light">{toursText.offlineAccess || 'Offline access to audio, maps and geodata'}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                  <span className="text-text-light">{toursText.inAppMap || 'In-app map with your location'}</span>
+                </li>
               </ul>
             </motion.div>
 
@@ -148,34 +159,33 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               </motion.div>
             )}
 
-            {/* Journalist's Note (Dinámica según el tipo de tour) */}
+            {/* Journalist's Note */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
               className="bg-white border-l-4 border-primary rounded-r-xl shadow-sm p-6 sm:p-8 relative overflow-hidden"
             >
-              {/* Marca de agua decorativa */}
               <div className="absolute right-0 top-0 opacity-5 pointer-events-none">
                 <BookOpen className="w-32 h-32 -mt-4 -mr-4 text-primary" />
               </div>
               
               <h2 className="font-heading text-2xl font-bold text-text mb-4 flex items-center gap-2">
-                ✍️ Journalist&apos;s Note
+                {journalistNoteText.title || "✍️ Journalist's Note"}
               </h2>
               <div className="space-y-4">
                 <p className="text-text-light italic text-lg leading-relaxed">
                   {safeTour?.type?.includes('Voices') 
-                    ? "To build this tour, we handed the microphone to those who lived behind the Iron Curtain. By walking these streets with their testimonies, you don't just listen to history; you become a patron. Your purchase directly funds the elders who share their memory with us today."
-                    : "As a journalist, I've always believed that every wall has a story. This tour isn't a simple list of architectural facts; it's the result of deep archival research to bring you the raw pulse of the foundations that built this city."}
+                    ? journalistNoteText.voicesText || "To build this tour, we handed the microphone to those who lived behind the Iron Curtain. By walking these streets with their testimonies, you don't just listen to history; you become a patron. Your purchase directly funds the elders who share their memory with us today."
+                    : journalistNoteText.buildingsText || "As a journalist, I've always believed that every wall has a story. This tour isn't a simple list of architectural facts; it's the result of deep archival research to bring you the raw pulse of the foundations that built this city."}
                 </p>
                 <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
                   <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                    <span className="text-sm font-bold text-gray-500">A</span>
+                    <span className="text-sm font-bold text-gray-500">{(journalistNoteText.authorName || 'Andrés').charAt(0)}</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-text">Andrés</p>
-                    <p className="text-xs text-text-light uppercase tracking-wider font-semibold">Founder & Journalist</p>
+                    <p className="font-semibold text-text">{journalistNoteText.authorName || 'Andrés'}</p>
+                    <p className="text-xs text-text-light uppercase tracking-wider font-semibold">{journalistNoteText.authorTitle || 'Founder & Journalist'}</p>
                   </div>
                 </div>
               </div>
@@ -203,7 +213,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                       onClick={() => window.open(safeTour?.voicemapUrl ?? '', '_blank', 'noopener,noreferrer')}
                       className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-lg text-lg transition-all shadow-md hover:shadow-lg"
                     >
-                      <ShoppingCart className="w-5 h-5" /> Buy Tour
+                      <ShoppingCart className="w-5 h-5" /> {toursText.buyTour || 'Buy Tour'}
                     </button>
                     <p className="text-center text-xs text-text-light mt-3">Opens in VoiceMap</p>
                   </>
@@ -220,22 +230,22 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-sm">
                     <Clock className="w-4 h-4 text-primary" />
-                    <span className="text-text-light">Duration:</span>
+                    <span className="text-text-light">{toursText.duration || 'Duration'}:</span>
                     <span className="font-medium text-text ml-auto">{safeTour?.duration ?? ''}</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <MapPin className="w-4 h-4 text-primary" />
-                    <span className="text-text-light">Distance:</span>
+                    <span className="text-text-light">{toursText.distance || 'Distance'}:</span>
                     <span className="font-medium text-text ml-auto">{safeTour?.distance ?? ''}</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <Headphones className="w-4 h-4 text-primary" />
-                    <span className="text-text-light">Stops:</span>
+                    <span className="text-text-light">{toursText.stops || 'Stops'}:</span>
                     <span className="font-medium text-text ml-auto">{safeTour?.stops ?? 0}</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <Globe className="w-4 h-4 text-primary" />
-                    <span className="text-text-light">Languages:</span>
+                    <span className="text-text-light">{toursText.languages || 'Languages'}:</span>
                     <span className="font-medium text-text ml-auto">
                       {safeTour?.languages?.join?.(", ") ?? ''}
                     </span>
@@ -251,7 +261,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                 >
                   <ExternalLink className="w-5 h-5 text-primary" />
                   <div>
-                    <p className="font-semibold text-text text-sm">View on VoiceMap</p>
+                    <p className="font-semibold text-text text-sm">{toursText.viewOnVoiceMap || 'View on VoiceMap'}</p>
                     <p className="text-text-light text-xs">Our tours are powered by VoiceMap GPS technology</p>
                   </div>
                 </button>

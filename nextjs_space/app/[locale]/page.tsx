@@ -51,7 +51,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {tours?.slice?.(0, 6)?.map?.((tour, i) => (
-              <TourCard key={tour?.slug ?? i} tour={tour} index={i} locale={locale} />
+              <TourCard 
+                key={tour?.slug ?? i} 
+                tour={tour} 
+                index={i} 
+                locale={locale} 
+                dict={(messages.tours || {}) as Record<string, string>}
+              />
             )) ?? []}
           </div>
           <div className="text-center mt-10">

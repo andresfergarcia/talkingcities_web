@@ -65,6 +65,9 @@
     "viewOnVoiceMap": "Zobacz na VoiceMap",
     "highlights": "Wyróżniki",
     "whatIncludes": "Co Zawiera",
+    "lifetimeAccess": "Dożywotni dostęp do tej trasy",
+    "offlineAccess": "Dostęp offline do audio, map i danych GPS",
+    "inAppMap": "Mapa w aplikacji z Twoją lokalizacją",
     "audioPreview": "Podgląd Audio",
     "relatedStory": "Powiązana Darmowa Historia",
     "howToStart": "Jak Rozpocząć Wycieczkę",
@@ -132,6 +135,13 @@
     "notFound": "Strona Nie Znaleziona",
     "notFoundDesc": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
     "goHome": "Strona główna",
-    "exploreTours": "Odkryj Wycieczki"
+    "exploreTours": "Odkryj Wycieczki",
+    "journalistNote": {
+    "title": "✍️ Notatka Dziennikarza",
+    "voicesText": "Aby stworzyć tę trasę, oddaliśmy mikrofon tym, którzy żyli za Żelazną Kurtyną. Spacerując tymi ulicami i słuchając ich świadectw, nie tylko poznajesz historię – stajesz się jej patronem. Twój zakup bezpośrednio wspiera seniorów, którzy dziś dzielą się z nami swoimi wspomnieniami.",
+    "buildingsText": "Jako dziennikarz zawsze wierzyłem, że każdy mur ma swoją historię. Ta trasa to nie jest zwykła lista faktów architektonicznych; to wynik głębokich badań archiwalnych, mających na celu przybliżenie surowego pulsu fundamentów, na których zbudowano to miasto.",
+    "authorName": "Andrés",
+    "authorTitle": "Założyciel i Dziennikarz"
+  }
   }
 }

@@ -65,6 +65,9 @@
     "viewOnVoiceMap": "Ver en VoiceMap",
     "highlights": "Aspectos Destacados",
     "whatIncludes": "Qué Incluye",
+    "lifetimeAccess": "Acceso de por vida a este recorrido",
+    "offlineAccess": "Acceso sin conexión a audio, mapas y datos GPS",
+    "inAppMap": "Mapa integrado en la app con tu ubicación",
     "audioPreview": "Vista Previa de Audio",
     "relatedStory": "Historia Gratuita Relacionada",
     "howToStart": "Cómo Comenzar Tu Tour",
@@ -132,6 +135,13 @@
     "notFound": "Página No Encontrada",
     "notFoundDesc": "La página que buscas no existe o ha sido movida.",
     "goHome": "Ir al Inicio",
-    "exploreTours": "Explorar Tours"
+    "exploreTours": "Explorar Tours",
+    "journalistNote": {
+    "title": "✍️ Nota del Periodista",
+    "voicesText": "Para construir este recorrido, le entregamos el micrófono a quienes vivieron detrás del Telón de Acero. Al caminar estas calles con sus testimonios, no solo escuchas la historia; te conviertes en mecenas. Tu compra financia directamente a los ancianos que comparten su memoria hoy con nosotros.",
+    "buildingsText": "Como periodista, siempre he creído que cada muro tiene una historia. Este recorrido no es una simple lista de datos arquitectónicos; es el resultado de una profunda investigación en archivos para traerte el pulso crudo de los cimientos que levantaron esta ciudad.",
+    "authorName": "Andrés",
+    "authorTitle": "Fundador y Periodista"
+  }
   }
 }
