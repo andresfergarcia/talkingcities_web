@@ -56,6 +56,7 @@
     "pageSubtitle": "Descubre la historia polaca a través de tours inmersivos guiados por GPS, disponibles en 2 idiomas.",
     "availableNow": "Disponibles",
     "comingSoon": "Próximamente",
+    "allToursDeveloping": "Todos los tours están actualmente en desarrollo. Disponibles en polaco e inglés.",
     "duration": "Duración",
     "distance": "Distancia",
     "stops": "Paradas",
@@ -69,11 +70,27 @@
     "offlineAccess": "Acceso sin conexión a audio, mapas y datos GPS",
     "inAppMap": "Mapa integrado en la app con tu ubicación",
     "audioPreview": "Vista Previa de Audio",
+    "audioPreviewHeader": "Escuchar una Vista Previa",
+    "audioPreviewDesc": "Vista Previa de Audio - Historia Completa",
+    "freeStory": "Cote Especial: Relato Gratuito",
+    "freeStoryDesc": "Lee la historia oral completa de esta ciudad — totalmente gratis.",
+    "readStory": "Leer el Relato",
+    "perPerson": "por persona",
+    "opensInVoiceMap": "Se abre en VoiceMap",
+    "poweredBy": "Nuestros tours utilizan la tecnología GPS de VoiceMap",
+    "comingSoonDesc": "Este tour está actualmente en desarrollo.",
     "relatedStory": "Historia Gratuita Relacionada",
     "howToStart": "Cómo Comenzar Tu Tour",
-    "step1": "Compra tu tour a través de VoiceMap",
-    "step2": "Descarga la aplicación VoiceMap",
-    "step3": "Camina y escucha mientras las historias se despliegan"
+    "step1Title": "Descarga VoiceMap",
+    "step1Desc": "Obtén la aplicación gratuita desde Apple Store o Google Play.",
+    "step2Title": "Busca Nuestros Tours",
+    "step2Desc": "Busca \"Talking Cities\" en la aplicación.",
+    "step3Title": "Compra y Descarga",
+    "step3Desc": "Compra el tour y descárgalo para usarlo sin conexión.",
+    "step4Title": "Camina y Escucha",
+    "step4Desc": "Ve al punto de inicio. El audio se reproduce automáticamente por GPS.",
+    "downloadApp": "Descarga la Aplicación VoiceMap",
+    "downloadAppDesc": "Nuestros tours funcionan en VoiceMap, la plataforma líder de tours de audio guiados por GPS. Descarga la aplicación gratuita para comenzar."
   },
   "stories": {
     "pageTitle": "Historias Orales Gratuitas",
@@ -150,13 +167,13 @@
     "notFound": "Página No Encontrada",
     "notFoundDesc": "La página que buscas no existe o ha sido movida.",
     "goHome": "Ir al Inicio",
-    "exploreTours": "Explorar Tours",
-    "journalistNote": {
-      "title": "✍️ Nota del Periodista",
-      "voicesText": "Para construir este recorrido, le entregamos el micrófono a quienes vivieron detrás del Telón de Acero. Al caminar estas calles con sus testimonios, no solo escuchas la historia; te conviertes en mecenas. Tu compra financia directamente a los ancianos que comparten su memoria hoy con nosotros.",
-      "buildingsText": "Como periodista, siempre he creído que cada muro tiene una historia. Este recorrido no es una simple lista de datos arquitectónicos; es el resultado de una profunda investigación en archivos para traerte el pulso crudo de los cimientos que levantaron esta ciudad.",
-      "authorName": "Andrés",
-      "authorTitle": "Fundador y Periodista"
-    }
+    "exploreTours": "Explorar Tours"
+  },
+  "journalistNote": {
+    "title": "✍️ Nota del Periodista",
+    "voicesText": "Para construir este recorrido, le entregamos el micrófono a quienes vivieron detrás del Telón de Acero. Al caminar estas calles con sus testimonios, no solo escuchas la historia; te conviertes en mecenas. Tu compra financia directamente a los ancianos que comparten su memoria hoy con nosotros.",
+    "buildingsText": "Como periodista, siempre he creído que cada muro tiene una historia. Este recorrido no es una simple lista de datos arquitectónicos; es el resultado de una profunda investigación en archivos para traerte el pulso crudo de los cimientos que levantaron esta ciudad.",
+    "authorName": "Andrés",
+    "authorTitle": "Fundador y Periodista"
   }
 }

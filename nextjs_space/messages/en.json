@@ -66,6 +66,15 @@
     "highlights": "Highlights",
     "whatIncludes": "What's Included",
     "audioPreview": "Audio Preview",
+    "audioPreviewHeader": "Listen to a Preview",
+    "audioPreviewDesc": "Audio Preview - Full Article",
+    "freeStory": "Free Story Available",
+    "freeStoryDesc": "Read the complete oral history article for this city — completely free.",
+    "readStory": "Read the Story",
+    "perPerson": "per person",
+    "opensInVoiceMap": "Opens in VoiceMap",
+    "poweredBy": "Our tours are powered by VoiceMap GPS technology",
+    "comingSoonDesc": "This tour is currently in development.",
     "relatedStory": "Related Free Story",
     "howToStart": "How to Start Your Tour",
     "step1": "Purchase your tour through VoiceMap",
@@ -147,13 +156,13 @@
     "notFound": "Page Not Found",
     "notFoundDesc": "The page you're looking for doesn't exist or has been moved.",
     "goHome": "Go Home",
-    "exploreTours": "Explore Tours",
-    "journalistNote": {
-      "title": "✍️ Journalist's Note",
-      "voicesText": "To build this tour, we handed the microphone to those who lived behind the Iron Curtain. By walking these streets with their testimonies, you don't just listen to history; you become a patron. Your purchase directly funds the elders who share their memory with us today.",
-      "buildingsText": "As a journalist, I've always believed that every wall has a story. This tour isn't a simple list of architectural facts; it's the result of deep archival research to bring you the raw pulse of the foundations that built this city.",
-      "authorName": "Andrés",
-      "authorTitle": "Founder & Journalist"
-    }
+    "exploreTours": "Explore Tours"
+  },
+  "journalistNote": {
+    "title": "✍️ Journalist's Note",
+    "voicesText": "To build this tour, we handed the microphone to those who lived behind the Iron Curtain. By walking these streets with their testimonies, you don't just listen to history; you become a patron. Your purchase directly funds the elders who share their memory with us today.",
+    "buildingsText": "As a journalist, I've always believed that every wall has a story. This tour isn't a simple list of architectural facts; it's the result of deep archival research to bring you the raw pulse of the foundations that built this city.",
+    "authorName": "Andrés",
+    "authorTitle": "Founder & Journalist"
   }
 }

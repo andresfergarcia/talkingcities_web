@@ -1,20 +1,36 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/lib/i18n-link";
 import { motion } from "framer-motion";
 import { Headphones, ShoppingCart, ArrowRight } from "lucide-react";
 import AudioPlayer from "@/components/ui/audio-player";
 import type { Story, Tour } from "@/lib/types";
+import { useTranslations } from "@/lib/i18n-context";
 
 interface StoryDetailClientProps {
   story: Story;
   relatedTour: Tour | null;
+  locale: string;
 }
 
-export default function StoryDetailClient({ story, relatedTour }: StoryDetailClientProps) {
+export default function StoryDetailClient({ story, relatedTour, locale }: StoryDetailClientProps) {
   const safeStory = story ?? ({} as Story);
+  const tStories = useTranslations("stories");
+  const tCommon = useTranslations("common");
+  
   const hasAudio = Object.values(safeStory?.audioFiles ?? {}).some((url) => !!url);
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return obj[`${key}_${locale}`] || obj[key] || '';
+  };
+
+  // Helper for sections which might be localized
+  const getSections = (): any[] => {
+    const sections = (safeStory as any)[`sections_${locale}`] || safeStory.sections || [];
+    return Array.isArray(sections) ? sections : [];
+  };
 
   return (
     <article>
@@ -23,7 +39,7 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
         <div className="relative aspect-[21/9] max-h-[400px] bg-gray-200">
           <Image
             src={safeStory?.image ?? '/images/architecture/krakow_main_square.jpg'}
-            alt={safeStory?.title ?? 'Story'}
+            alt={l(safeStory, 'title')}
             fill
             className="object-cover"
             priority
@@ -33,10 +49,10 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
           <div className="absolute bottom-0 left-0 right-0">
             <div className="max-w-content mx-auto px-4 sm:px-6 pb-8">
               <span className="px-3 py-1 bg-primary text-white text-xs font-semibold rounded-full">
-                {safeStory?.type ?? ''} • {safeStory?.city ?? ''}
+                {safeStory?.type ?? ''} • {l(safeStory, 'city')}
               </span>
               <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-3">
-                {safeStory?.title ?? ''}
+                {l(safeStory, 'title')}
               </h1>
             </div>
           </div>
@@ -52,7 +68,7 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
             animate={{ opacity: 1, y: 0 }}
             className="mb-10"
           >
-            <AudioPlayer audioFiles={safeStory?.audioFiles ?? {}} title="Listen to this story" />
+            <AudioPlayer audioFiles={safeStory?.audioFiles ?? {}} title={tStories('listenIn') || "Listen to this story"} />
           </motion.div>
         )}
 
@@ -64,12 +80,12 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
           className="mb-12"
         >
           <p className="text-lg text-text leading-relaxed font-heading italic text-text-light">
-            {safeStory?.introduction ?? ''}
+            {l(safeStory, 'introduction')}
           </p>
         </motion.div>
 
         {/* Sections */}
-        {safeStory?.sections?.map?.((section, i) => (
+        {getSections().map((section: any, i: number) => (
           <motion.section
             key={i}
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +98,7 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
               <div className="relative aspect-[16/9] bg-gray-200 rounded-xl overflow-hidden mb-6">
                 <Image
                   src={section.image}
-                  alt={section?.title ?? 'Section image'}
+                  alt={l(section, 'title') || 'Section image'}
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 800px"
@@ -90,16 +106,16 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
               </div>
             )}
             <h2 className="font-heading text-2xl font-bold text-text mb-4">
-              {section?.title ?? ''}
+              {l(section, 'title')}
             </h2>
             <p className="text-text-light leading-relaxed text-base">
-              {section?.content ?? ''}
+              {l(section, 'content')}
             </p>
           </motion.section>
-        )) ?? []}
+        ))}
 
         {/* Conclusion */}
-        {safeStory?.conclusion && (
+        {l(safeStory, 'conclusion') && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -107,7 +123,7 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
             className="mb-12 p-6 bg-bg-alt rounded-xl border-l-4 border-primary"
           >
             <p className="text-text leading-relaxed font-heading italic">
-              {safeStory.conclusion}
+              {l(safeStory, 'conclusion')}
             </p>
           </motion.div>
         )}
@@ -122,11 +138,10 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
           >
             <Headphones className="w-10 h-10 text-gold mx-auto mb-4" />
             <h3 className="font-heading text-2xl font-bold mb-2">
-              Want to Walk Through These Places?
+              {tStories('relatedTour') || "Want to Walk Through These Places?"}
             </h3>
             <p className="text-white/70 mb-6 max-w-lg mx-auto">
-              Experience this story with our GPS-guided audio tour in {relatedTour?.city ?? ''}.
-              Stories play automatically as you walk.
+              {tStories('relatedTourDesc') || `Experience this story with our GPS-guided audio tour in ${l(relatedTour, 'city')}. Stories play automatically as you walk.`}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -134,13 +149,13 @@ export default function StoryDetailClient({ story, relatedTour }: StoryDetailCli
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white font-semibold rounded-lg transition-all"
               >
                 <ShoppingCart className="w-4 h-4" />
-                View Tour — {relatedTour?.currency ?? '€'}{relatedTour?.price?.toFixed?.(2) ?? '0.00'}
+                {tCommon('buyTour') || 'Buy Tour'} — {relatedTour?.currency ?? '€'}{relatedTour?.price?.toFixed?.(2) ?? '0.00'}
               </Link>
               <Link
                 href="/tours"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white font-semibold rounded-lg transition-all border border-white/30"
               >
-                See All Tours <ArrowRight className="w-4 h-4" />
+                {tCommon('exploreTours')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </motion.div>

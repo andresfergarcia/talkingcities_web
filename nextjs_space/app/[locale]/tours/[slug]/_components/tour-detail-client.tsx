@@ -150,8 +150,10 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                <h2 className="font-heading text-2xl font-bold text-text mb-4">Listen to a Preview</h2>
-                <AudioPlayer audioFiles={audioFiles} title="Audio Preview - Full Article" />
+                <h2 className="font-heading text-2xl font-bold text-text mb-4">
+                  {toursText.audioPreviewHeader || 'Listen to a Preview'}
+                </h2>
+                <AudioPlayer audioFiles={audioFiles} title={toursText.audioPreviewDesc || "Audio Preview - Full Article"} />
               </motion.div>
             )}
 
@@ -165,14 +167,18 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
               >
                 <div className="flex items-center gap-3 mb-3">
                   <BookOpen className="w-6 h-6 text-primary" />
-                  <h3 className="font-heading text-xl font-bold text-text">Free Story Available</h3>
+                  <h3 className="font-heading text-xl font-bold text-text">
+                    {toursText.freeStory || 'Free Story Available'}
+                  </h3>
                 </div>
-                <p className="text-text-light mb-4">Read the complete oral history article for this city — completely free.</p>
+                <p className="text-text-light mb-4">
+                  {toursText.freeStoryDesc || 'Read the complete oral history article for this city — completely free.'}
+                </p>
                 <Link
                   href={`/stories/${storySlug}`}
                   className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-colors"
                 >
-                  Read the Story <ArrowRight className="w-4 h-4" />
+                  {toursText.readStory || 'Read the Story'} <ArrowRight className="w-4 h-4" />
                 </Link>
               </motion.div>
             )}
@@ -225,7 +231,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                       <span className="text-4xl font-bold text-primary font-heading">
                         {safeTour?.currency ?? '€'}{safeTour?.price?.toFixed?.(2) ?? '0.00'}
                       </span>
-                      <p className="text-text-light text-sm mt-1">per person</p>
+                      <p className="text-text-light text-sm mt-1">{toursText.perPerson || 'per person'}</p>
                     </div>
                     <button
                       onClick={() => window.open(safeTour?.voicemapUrl ?? '', '_blank', 'noopener,noreferrer')}
@@ -233,12 +239,12 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                     >
                       <ShoppingCart className="w-5 h-5" /> {toursText.buyTour || 'Buy Tour'}
                     </button>
-                    <p className="text-center text-xs text-text-light mt-3">Opens in VoiceMap</p>
+                    <p className="text-center text-xs text-text-light mt-3">{toursText.opensInVoiceMap || 'Opens in VoiceMap'}</p>
                   </>
                 ) : (
                   <div className="text-center">
-                    <span className="text-2xl font-bold text-text-light">Coming Soon</span>
-                    <p className="text-text-light text-sm mt-2">This tour is currently in development.</p>
+                    <span className="text-2xl font-bold text-text-light">{toursText.comingSoon || 'Coming Soon'}</span>
+                    <p className="text-text-light text-sm mt-2">{toursText.comingSoonDesc || 'This tour is currently in development.'}</p>
                   </div>
                 )}
 
@@ -280,7 +286,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                   <ExternalLink className="w-5 h-5 text-primary" />
                   <div>
                     <p className="font-semibold text-text text-sm">{toursText.viewOnVoiceMap || 'View on VoiceMap'}</p>
-                    <p className="text-text-light text-xs">Our tours are powered by VoiceMap GPS technology</p>
+                    <p className="text-text-light text-xs">{toursText.poweredBy || 'Our tours are powered by VoiceMap GPS technology'}</p>
                   </div>
                 </button>
               )}

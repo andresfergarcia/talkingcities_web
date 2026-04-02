@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/layout/breadcrumbs';
 import { Headphones, Smartphone, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import type { Metadata } from 'next';
+import { loadMessages, createTranslator } from '@/lib/i18n';
 
 export const metadata: Metadata = {
   title: 'Audio Tours',
@@ -12,9 +13,25 @@ export const metadata: Metadata = {
 
 export default async function ToursPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const messages = await loadMessages(locale);
+  const t = createTranslator(messages);
+  
   const tours = getTours();
   const settings = getSiteSettings();
   const allTours = tours ?? [];
+
+  const cityNamesDict = (messages.cityNames as Record<string, string>) || {};
+
+  const getCityName = (city: string) => {
+    if (!city) return '';
+    const key = city.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return cityNamesDict[key] || city;
+  };
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return obj[`${key}_${locale}`] || obj[key] || '';
+  };
 
   // Group tours by city
   const toursByCity: Record<string, typeof allTours> = {};
@@ -29,13 +46,13 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
       {/* Header */}
       <section className="bg-primary-dark text-white py-16">
         <div className="max-w-content mx-auto px-4 sm:px-6">
-          <Breadcrumbs items={[{ label: 'Tours' }]} />
+          <Breadcrumbs items={[{ label: t('nav.tours') || 'Tours' }]} />
           <div className="flex items-center gap-3 mb-4">
             <Headphones className="w-8 h-8 text-gold" />
-            <h1 className="font-heading text-3xl sm:text-4xl font-bold">Self-Guided Audio Tours</h1>
+            <h1 className="font-heading text-3xl sm:text-4xl font-bold">{t('tours.pageTitle')}</h1>
           </div>
           <p className="text-white/70 text-lg max-w-2xl">
-            Walk through history with GPS-guided audio tours powered by VoiceMap. Stories play automatically as you move through the city.
+            {t('tours.pageSubtitle')}
           </p>
         </div>
       </section>
@@ -43,8 +60,8 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
       {/* Coming Soon Banner */}
       <section className="py-8 bg-accent/10 border-b border-accent/20">
         <div className="max-w-content mx-auto px-4 sm:px-6 text-center">
-          <p className="text-accent font-bold text-2xl mb-1">Coming Soon</p>
-          <p className="text-text-light">All tours are currently in development. Available in Polish and English.</p>
+          <p className="text-accent font-bold text-2xl mb-1">{t('tours.comingSoon')}</p>
+          <p className="text-text-light">{t('tours.allToursDeveloping') || 'All tours are currently in development. Available in Polish and English.'}</p>
         </div>
       </section>
 
@@ -53,11 +70,17 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
         <section key={city} className={`py-16 ${idx % 2 === 0 ? 'bg-bg' : 'bg-white'}`}>
           <div className="max-w-content mx-auto px-4 sm:px-6">
             <h2 className="font-heading text-2xl sm:text-3xl font-bold text-text mb-8">
-              {city}
+              {getCityName(city)}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {cityTours.map((tour, i) => (
-                <TourCard key={tour?.slug ?? i} tour={tour} index={i} locale={locale} />
+                <TourCard 
+                  key={tour?.slug ?? i} 
+                  tour={tour} 
+                  index={i} 
+                  locale={locale} 
+                  dict={(messages.tours || {}) as Record<string, string>}
+                />
               ))}
             </div>
           </div>
@@ -68,14 +91,14 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
       <section className="py-16 bg-bg-alt">
         <div className="max-w-content mx-auto px-4 sm:px-6">
           <h2 className="font-heading text-2xl sm:text-3xl font-bold text-text mb-8 text-center">
-            How to Start Your Tour
+            {t('tours.howToStart')}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: '1', title: 'Download VoiceMap', desc: 'Get the free app from Apple Store or Google Play.' },
-              { step: '2', title: 'Find Our Tours', desc: 'Search for "Talking Cities" in the app.' },
-              { step: '3', title: 'Purchase & Download', desc: 'Buy the tour and download for offline use.' },
-              { step: '4', title: 'Walk & Listen', desc: 'Go to the start point. Audio plays automatically via GPS.' },
+              { step: '1', title: t('tours.step1Title') || 'Download VoiceMap', desc: t('tours.step1Desc') || 'Get the free app from Apple Store or Google Play.' },
+              { step: '2', title: t('tours.step2Title') || 'Find Our Tours', desc: t('tours.step2Desc') || 'Search for "Talking Cities" in the app.' },
+              { step: '3', title: t('tours.step3Title') || 'Purchase & Download', desc: t('tours.step3Desc') || 'Buy the tour and download for offline use.' },
+              { step: '4', title: t('tours.step4Title') || 'Walk & Listen', desc: t('tours.step4Desc') || 'Go to the start point. Audio plays automatically via GPS.' },
             ].map((item) => (
               <div key={item.step} className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition-shadow">
                 <div className="w-12 h-12 rounded-full bg-primary text-white font-bold text-xl flex items-center justify-center mx-auto mb-4">
@@ -94,10 +117,10 @@ export default async function ToursPage({ params }: { params: Promise<{ locale: 
         <div className="max-w-content mx-auto px-4 sm:px-6 text-center">
           <Smartphone className="w-12 h-12 text-gold mx-auto mb-4" />
           <h2 className="font-heading text-2xl sm:text-3xl font-bold mb-3">
-            Download the VoiceMap App
+            {t('tours.downloadApp') || 'Download the VoiceMap App'}
           </h2>
           <p className="text-white/70 text-lg max-w-xl mx-auto mb-8">
-            Our tours run on VoiceMap, the leading GPS-guided audio tour platform. Download the free app to get started.
+            {t('tours.downloadAppDesc') || 'Our tours run on VoiceMap, the leading GPS-guided audio tour platform. Download the free app to get started.'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -56,6 +56,7 @@
     "pageSubtitle": "Odkryj polską historię poprzez immersyjne wycieczki piesze z GPS, dostępne w 2 językach.",
     "availableNow": "Dostępne",
     "comingSoon": "Wkrótce",
+    "allToursDeveloping": "Wszystkie wycieczki są obecnie w przygotowaniu. Dostępne w języku polskim i angielskim.",
     "duration": "Czas trwania",
     "distance": "Dystans",
     "stops": "Przystanki",
@@ -68,12 +69,28 @@
     "lifetimeAccess": "Dożywotni dostęp do tej trasy",
     "offlineAccess": "Dostęp offline do audio, map i danych GPS",
     "inAppMap": "Mapa w aplikacji z Twoją lokalizacją",
-    "audioPreview": "Podgląd Audio",
+    "audioPreview": "Przegląd Audio",
+    "audioPreviewHeader": "Posłuchaj Zapowiedzi",
+    "audioPreviewDesc": "Przegląd Audio - Pełna Historia",
+    "freeStory": "Darmowa Opowieść Dostępna",
+    "freeStoryDesc": "Przeczytaj pełną wersję historii mówionej tego miasta — całkowicie za darmo.",
+    "readStory": "Przeczytaj Opowieść",
+    "perPerson": "za osobę",
+    "opensInVoiceMap": "Otwiera się w VoiceMap",
+    "poweredBy": "Nasze wycieczki korzystają z technologii GPS VoiceMap",
+    "comingSoonDesc": "Ta wycieczka jest obecnie w przygotowaniu.",
     "relatedStory": "Powiązana Darmowa Historia",
     "howToStart": "Jak Rozpocząć Wycieczkę",
-    "step1": "Kup wycieczkę przez VoiceMap",
-    "step2": "Pobierz aplikację VoiceMap",
-    "step3": "Spaceruj i słuchaj rozwijających się historii"
+    "step1Title": "Pobierz VoiceMap",
+    "step1Desc": "Pobierz darmową aplikację z Apple Store lub Google Play.",
+    "step2Title": "Znajdź Nasze Wycieczki",
+    "step2Desc": "Wyszukaj \"Talking Cities\" w aplikacji.",
+    "step3Title": "Kup i Pobierz",
+    "step3Desc": "Kup wycieczkę i pobierz ją do użytku offline.",
+    "step4Title": "Spaceruj i Słuchaj",
+    "step4Desc": "Udaj się do punktu startowego. Audio odtwarza się automatycznie przez GPS.",
+    "downloadApp": "Pobierz Aplikację VoiceMap",
+    "downloadAppDesc": "Nasze wycieczki działają w aplikacji VoiceMap, wiodącej platformie audioprzewodników GPS. Pobierz darmową aplikację, aby zacząć."
   },
   "stories": {
     "pageTitle": "Darmowe Historie Mówione",
@@ -150,13 +167,13 @@
     "notFound": "Strona Nie Znaleziona",
     "notFoundDesc": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
     "goHome": "Strona główna",
-    "exploreTours": "Odkryj Wycieczki",
-    "journalistNote": {
-      "title": "✍️ Notatka Dziennikarza",
-      "voicesText": "Aby stworzyć tę trasę, oddaliśmy mikrofon tym, którzy żyli za Żelazną Kurtyną. Spacerując tymi ulicami i słuchając ich świadectw, nie tylko poznajesz historię – stajesz się jej patronem. Twój zakup bezpośrednio wspiera seniorów, którzy dziś dzielą się z nami swoimi wspomnieniami.",
-      "buildingsText": "Jako dziennikarz zawsze wierzyłem, że każdy mur ma swoją historię. Ta trasa to nie jest zwykła lista faktów architektonicznych; to wynik głębokich badań archiwalnych, mających na celu przybliżenie surowego pulsu fundamentów, na których zbudowano to miasto.",
-      "authorName": "Andrés",
-      "authorTitle": "Założyciel i Dziennikarz"
-    }
+    "exploreTours": "Odkryj Wycieczki"
+  },
+  "journalistNote": {
+    "title": "✍️ Notka Dziennikarska",
+    "voicesText": "Tworząc tę trasę, oddaliśmy mikrofon tym, którzy żyli za Żelazną Kurtyną.Spacerując tymi ulicami z ich świadectwami, nie tylko słuchasz historii; stajesz się mecenasem. Twój zakup bezpośrednio wspiera seniorów, którzy dzielą się z nami swoją pamięcią.",
+    "buildingsText": "Jako dziennikarz zawsze wierzyłem, że każda ściana ma swoją historię. Ta trasa to nie tylko lista faktów architektonicznych; to wynik głębokich badań archiwalnych, mających na celu przybliżenie surowego tętna fundamentów tego miasta.",
+    "authorName": "Andrés",
+    "authorTitle": "Założyciel i Dziennikarz"
   }
 }

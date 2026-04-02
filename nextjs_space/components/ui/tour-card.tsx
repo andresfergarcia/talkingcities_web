@@ -62,7 +62,7 @@ export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCar
                 className={`px-3 py-1 rounded-full text-xs font-semibold ${
                   isAvailable
                     ? "bg-primary text-white"
-                    : "bg-gray-800/70 text-white"
+                    : "bg-red-600 text-white"
                 }`}
               >
                 {isAvailable ? tAvailableNow : tComingSoon}

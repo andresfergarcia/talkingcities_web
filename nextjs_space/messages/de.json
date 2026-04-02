@@ -56,6 +56,7 @@
     "pageSubtitle": "Entdecke polnische Geschichte durch immersive GPS-geführte Wandertouren, verfügbar in 2 Sprachen.",
     "availableNow": "Verfügbar",
     "comingSoon": "Demnächst",
+    "allToursDeveloping": "Alle Touren befinden sich derzeit in der Entwicklung. Verfügbar in Polnisch und Englisch.",
     "duration": "Dauer",
     "distance": "Entfernung",
     "stops": "Stopps",
@@ -69,11 +70,27 @@
     "offlineAccess": "Offline-Zugriff auf Audio, Karten und GPS-Daten",
     "inAppMap": "In-App-Karte mit Ihrem Standort",
     "audioPreview": "Audio-Vorschau",
-    "relatedStory": "Verwandte Kostenlose Geschichte",
+    "audioPreviewHeader": "Hörprobe anhören",
+    "audioPreviewDesc": "Audio-Vorschau - Vollständige Geschichte",
+    "freeStory": "Kostenlose Geschichte verfügbar",
+    "freeStoryDesc": "Lesen Sie den vollständigen mündlichen Geschichtsbericht dieser Stadt — völlig kostenlos.",
+    "readStory": "Geschichte lesen",
+    "perPerson": "pro Person",
+    "opensInVoiceMap": "Öffnet in VoiceMap",
+    "poweredBy": "Unsere Touren werden durch die VoiceMap GPS-Technologie unterstützt",
+    "comingSoonDesc": "Diese Tour befindet sich derzeit in der Entwicklung.",
+    "relatedStory": "Zugehörige kostenlose Geschichte",
     "howToStart": "So Startest Du Deine Tour",
-    "step1": "Kaufe deine Tour über VoiceMap",
-    "step2": "Lade die VoiceMap-App herunter",
-    "step3": "Gehe und höre zu, wie sich Geschichten entfalten"
+    "step1Title": "VoiceMap Herunterladen",
+    "step1Desc": "Hole dir die kostenlose App im Apple Store oder Google Play Store.",
+    "step2Title": "Finde Unsere Touren",
+    "step2Desc": "Suche in der App nach \"Talking Cities\".",
+    "step3Title": "Kaufen & Herunterladen",
+    "step3Desc": "Kaufe die Tour und lade sie zur Offline-Nutzung herunter.",
+    "step4Title": "Gehen & Zuhören",
+    "step4Desc": "Gehe zum Startpunkt. Audio wird automatisch per GPS abgespielt.",
+    "downloadApp": "Lade die VoiceMap App herunter",
+    "downloadAppDesc": "Unsere Touren laufen auf VoiceMap, der führenden Plattform für GPS-geführte Audiotouren. Lade die kostenlose App herunter, um zu starten."
   },
   "stories": {
     "pageTitle": "Kostenlose Mündliche Überlieferungen",
@@ -150,13 +167,13 @@
     "notFound": "Seite Nicht Gefunden",
     "notFoundDesc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
     "goHome": "Zur Startseite",
-    "exploreTours": "Touren Entdecken",
-    "journalistNote": {
-      "title": "✍️ Anmerkung des Journalisten",
-      "voicesText": "Um diese Tour zu gestalten, haben wir denen das Mikrofon übergeben, die hinter dem Eisernen Vorhang lebten. Wenn Sie mit ihren Zeugnissen durch diese Straßen gehen, hören Sie nicht nur Geschichte; Sie werden zu einem Förderer. Ihr Kauf unterstützt direkt die Senioren, die heute ihre Erinnerungen mit uns teilen.",
-      "buildingsText": "Als Journalist habe ich immer daran geglaubt, dass jede Mauer eine Geschichte hat. Diese Tour ist keine einfache Liste architektonischer Fakten; sie ist das Ergebnis tiefgehender Archivrecherchen, um Ihnen den wahren Puls der Fundamente näherzubringen, die diese Stadt erbaut haben.",
-      "authorName": "Andrés",
-      "authorTitle": "Gründer & Journalist"
-    }
+    "exploreTours": "Touren Entdecken"
+  },
+  "journalistNote": {
+    "title": "✍️ Journalistische Anmerkung",
+    "voicesText": "Um diese Tour zu erstellen, haben wir denjenigen das Mikrofon übergeben, die hinter dem Eisernen Vorhang gelebt haben. Wenn Sie diese Straßen mit ihren Zeugnissen begehen, hören Sie nicht nur Geschichte – Sie werden zum Förderer. Ihr Kauf unterstützt direkt die Senioren, die heute ihre Erinnerungen mit uns teilen.",
+    "buildingsText": "Als Journalist habe ich immer geglaubt, dass jede Wand eine Geschichte hat. Diese Tour ist nicht nur eine Liste architektonischer Fakten; sie ist das Ergebnis tiefer Archivrecherchen, um Ihnen den rohen Puls der Fundamente näherzubringen, die diese Stadt erbaut haben.",
+    "authorName": "Andrés",
+    "authorTitle": "Gründer & Journalist"
   }
 }
