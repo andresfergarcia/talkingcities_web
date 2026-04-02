@@ -77,9 +77,16 @@
     "comingSoonDesc": "This tour is currently in development.",
     "relatedStory": "Related Free Story",
     "howToStart": "How to Start Your Tour",
-    "step1": "Purchase your tour through VoiceMap",
-    "step2": "Download the VoiceMap app",
-    "step3": "Walk and listen as stories unfold"
+    "step1Title": "Download VoiceMap",
+    "step1Desc": "Get the free app from Apple Store or Google Play.",
+    "step2Title": "Find Our Tours",
+    "step2Desc": "Search for \"Talking Cities\" in the app.",
+    "step3Title": "Purchase & Download",
+    "step3Desc": "Buy the tour and download for offline use.",
+    "step4Title": "Walk & Listen",
+    "step4Desc": "Go to the start point. Audio plays automatically via GPS.",
+    "downloadApp": "Download the VoiceMap App",
+    "downloadAppDesc": "Our tours run on VoiceMap, the leading GPS-guided audio tour platform. Download the free app to get started."
   },
   "stories": {
     "pageTitle": "Free Oral Histories",
