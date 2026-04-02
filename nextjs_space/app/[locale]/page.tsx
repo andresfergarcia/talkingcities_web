@@ -61,8 +61,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <section className="py-20 bg-bg">
         <div className="max-w-content mx-auto px-4 sm:px-6">
           <div className="text-center mb-12">
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-red-600 mb-3">
-              {t('tours.comingSoon')}
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
+              {t('tours.availableNow')} <span className="text-red-600">{t('tours.comingSoon')}</span>
             </h2>
             <p className="text-text-light text-lg max-w-2xl mx-auto">
               {t('tours.pageSubtitle')}
