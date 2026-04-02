@@ -125,6 +125,21 @@
     "subscribeSuccess": "Abonniert!",
     "rights": "Alle Rechte vorbehalten."
   },
+  "cityNames": {
+    "warsaw": "Warschau",
+    "krakow": "Krakau",
+    "wroclaw": "Breslau",
+    "poznan": "Posen",
+    "zielonagora": "Grünberg",
+    "katowice": "Katowice",
+    "gdask": "Gdańsk",
+    "gdansk": "Gdańsk",
+    "zielonagra": "Zielona Góra"
+  },
+  "storyTypes": {
+    "voicesofresistance": "Stimmen des Widerstands",
+    "buildingswithheart": "Gebäude mit Herz"
+  },
   "common": {
     "home": "Startseite",
     "learnMore": "Mehr Erfahren",
@@ -137,11 +152,11 @@
     "goHome": "Zur Startseite",
     "exploreTours": "Touren Entdecken",
     "journalistNote": {
-    "title": "✍️ Anmerkung des Journalisten",
-    "voicesText": "Um diese Tour zu gestalten, haben wir denen das Mikrofon übergeben, die hinter dem Eisernen Vorhang lebten. Wenn Sie mit ihren Zeugnissen durch diese Straßen gehen, hören Sie nicht nur Geschichte; Sie werden zu einem Förderer. Ihr Kauf unterstützt direkt die Senioren, die heute ihre Erinnerungen mit uns teilen.",
-    "buildingsText": "Als Journalist habe ich immer daran geglaubt, dass jede Mauer eine Geschichte hat. Diese Tour ist keine einfache Liste architektonischer Fakten; sie ist das Ergebnis tiefgehender Archivrecherchen, um Ihnen den wahren Puls der Fundamente näherzubringen, die diese Stadt erbaut haben.",
-    "authorName": "Andrés",
-    "authorTitle": "Gründer & Journalist"
-  }
+      "title": "✍️ Anmerkung des Journalisten",
+      "voicesText": "Um diese Tour zu gestalten, haben wir denen das Mikrofon übergeben, die hinter dem Eisernen Vorhang lebten. Wenn Sie mit ihren Zeugnissen durch diese Straßen gehen, hören Sie nicht nur Geschichte; Sie werden zu einem Förderer. Ihr Kauf unterstützt direkt die Senioren, die heute ihre Erinnerungen mit uns teilen.",
+      "buildingsText": "Als Journalist habe ich immer daran geglaubt, dass jede Mauer eine Geschichte hat. Diese Tour ist keine einfache Liste architektonischer Fakten; sie ist das Ergebnis tiefgehender Archivrecherchen, um Ihnen den wahren Puls der Fundamente näherzubringen, die diese Stadt erbaut haben.",
+      "authorName": "Andrés",
+      "authorTitle": "Gründer & Journalist"
+    }
   }
 }

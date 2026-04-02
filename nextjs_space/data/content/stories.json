@@ -9,7 +9,13 @@
       "citySlug": "warsaw",
       "type": "Voices of Resistance",
       "title": "The Political Axis and the Paradox of Power",
+      "title_es": "El Eje Político y la Paradoja del Poder",
+      "title_pl": "Oś Polityczna i Paradoks Władzy",
+      "title_de": "Die politische Achse und das Paradoxon der Macht",
       "introduction": "Warsaw occupied a paradoxical and central position in the dialectics of the communist period (1945–1989). Rebuilt from the ashes of 1944, the capital emerged simultaneously as the administrative center of totalitarian power and the epicenter of resistance against that very power.",
+      "introduction_es": "Varsovia ocupó una posición paradójica. Reconstruida desde sus cenizas emergió simultáneamente como centro dictatorial y corazón de la resistencia.",
+      "introduction_pl": "Warszawa zajmowała paradoksalną i centralną pozycję...",
+      "introduction_de": "Warschau besetzte eine paradoxe...",
       "image": "/images/cities/warsaw_castle_square.jpg",
       "sections": [
         {
@@ -53,7 +59,13 @@
       "citySlug": "krakow",
       "type": "Voices of Resistance",
       "title": "The Fortress of the Spirit against the Regime",
+      "title_es": "La Fortaleza del Espíritu Polaco",
+      "title_pl": "Twierdza Ducha Przeciwko Reżimowi",
+      "title_de": "Die Festung des Geistes...",
       "introduction": "While Warsaw was rebuilding itself to be the administrative center of communist Poland, Kraków chose a different path. In this city, resistance was not fought only in offices, but in the defense of its identity. Kraków acted as the spiritual lung of the nation between 1945 and 1989, leaving a visible legacy in its streets that speaks to us, not of pain, but of an unbreakable will to be free.",
+      "introduction_es": "Cracovia se erigió como la fortaleza cultural indestructible del medievo.",
+      "introduction_pl": "Na straży murów polskiego dziedzictwa.",
+      "introduction_de": "Cracovia Festung...",
       "image": "/images/architecture/krakow_main_square.jpg",
       "sections": [
         {
@@ -87,7 +99,13 @@
       "citySlug": "wroclaw",
       "type": "Voices of Resistance",
       "title": "The Smile That Disarmed the System",
+      "title_es": "La Sonrisa que Desarmó el Sistema",
+      "title_pl": "Uśmiech Obalający System",
+      "title_de": "Das Lächeln...",
       "introduction": "If Warsaw negotiated in offices and Kraków prayed in cathedrals, Wrocław chose a path no one saw coming: subversive laughter and radical struggle. In this western city — a 'no man's land' repopulated almost entirely after the war — resistance did not carry the weight of ancient tradition.",
+      "introduction_es": "A través de la comedia, Wroclaw se abrió las puertas al Oeste combatiendo todo mal.",
+      "introduction_pl": "Uśmiech... ",
+      "introduction_de": "Lächeln...",
       "image": "/images/architecture/wroclaw_market_square.jpg",
       "sections": [
         {

@@ -4,15 +4,48 @@ import { Link } from '@/lib/i18n-link';
 import Image from 'next/image';
 import { BookOpen, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
+import { loadMessages, createTranslator } from '@/lib/i18n';
 
-export const metadata: Metadata = {
-  title: 'Stories of Resilience',
-  description: 'Free oral histories from Polish cities. Preserving memory, accessible to all.',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const messages = await loadMessages(locale);
+  const t = createTranslator(messages);
+  
+  return {
+    title: t('stories.pageTitle'),
+    description: t('stories.pageSubtitle'),
+  };
+}
 
 export default async function StoriesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const messages = await loadMessages(locale);
+  const t = createTranslator(messages);
   const stories = getStories();
+
+  const cityNamesDict = (messages.cityNames as Record<string, string>) || {};
+  const storyTypesDict = (messages.storyTypes as Record<string, string>) || {};
+
+  const getCityName = (city: string) => {
+    if (!city) return '';
+    const key = city.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return cityNamesDict[key] || city;
+  };
+
+  const getStoryType = (type: string) => {
+    if (!type) return '';
+    const key = type.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return storyTypesDict[key] || type;
+  };
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return obj[`${key}_${locale}`] || obj[key] || '';
+  };
 
   // Group stories by city
   const storiesByCity: Record<string, typeof stories> = {};
@@ -36,13 +69,13 @@ export default async function StoriesPage({ params }: { params: Promise<{ locale
       {/* Header */}
       <section className="bg-primary-dark text-white py-16">
         <div className="max-w-content mx-auto px-4 sm:px-6">
-          <Breadcrumbs items={[{ label: 'Stories' }]} />
+          <Breadcrumbs items={[{ label: t('nav.stories') }]} />
           <div className="flex items-center gap-3 mb-4">
             <BookOpen className="w-8 h-8 text-gold" />
-            <h1 className="font-heading text-3xl sm:text-4xl font-bold">Stories of Resilience</h1>
+            <h1 className="font-heading text-3xl sm:text-4xl font-bold">{t('stories.pageTitle')}</h1>
           </div>
           <p className="text-white/70 text-lg max-w-2xl">
-            Free oral histories from Polish cities &mdash; preserving memory, accessible to all.
+            {t('stories.pageSubtitle')}
           </p>
         </div>
       </section>
@@ -54,7 +87,7 @@ export default async function StoriesPage({ params }: { params: Promise<{ locale
           <section key={city} className={`py-16 ${idx % 2 === 0 ? 'bg-bg' : 'bg-white'}`}>
             <div className="max-w-content mx-auto px-4 sm:px-6">
               <h2 className="font-heading text-2xl sm:text-3xl font-bold text-text mb-8 border-b-2 border-primary/20 pb-3">
-                {city}
+                {getCityName(city)}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {cityStories.map((story, i) => (
@@ -63,34 +96,34 @@ export default async function StoriesPage({ params }: { params: Promise<{ locale
                       <div className="relative aspect-[16/9] bg-gray-200">
                         <Image
                           src={story?.image ?? '/images/architecture/krakow_main_square.jpg'}
-                          alt={story?.title ?? 'Story'}
+                          alt={l(story, 'title') || 'Story'}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-500"
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         <div className="absolute top-3 left-3">
                           <span className="px-3 py-1 bg-primary text-white text-xs font-semibold rounded-full">
-                            {story?.type ?? ''}
+                            {getStoryType(story?.type ?? '')}
                           </span>
                         </div>
                         {/* Audio badge */}
                         {story?.audioFiles && Object.values(story.audioFiles).some(v => v) && (
                           <div className="absolute bottom-3 right-3">
                             <span className="px-3 py-1 bg-accent text-white text-xs font-semibold rounded-full flex items-center gap-1">
-                              🎧 Audio Available
+                              🎧 Audio
                             </span>
                           </div>
                         )}
                       </div>
                       <div className="p-6">
                         <h3 className="font-heading text-xl font-bold text-text mb-2 group-hover:text-primary transition-colors">
-                          {story?.title ?? ''}
+                          {l(story, 'title')}
                         </h3>
                         <p className="text-text-light text-sm line-clamp-3 mb-4">
-                          {story?.introduction ?? ''}
+                          {l(story, 'introduction')}
                         </p>
                         <span className="inline-flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-                          Read Full Story <ArrowRight className="w-4 h-4" />
+                          {t('stories.readFullStory')} <ArrowRight className="w-4 h-4" />
                         </span>
                       </div>
                     </div>
@@ -106,8 +139,7 @@ export default async function StoriesPage({ params }: { params: Promise<{ locale
         <section className="py-16 bg-bg">
           <div className="max-w-content mx-auto px-4 sm:px-6 text-center">
             <BookOpen className="w-12 h-12 text-text-light mx-auto mb-4" />
-            <h3 className="font-heading text-xl font-bold text-text mb-2">More Stories Coming Soon</h3>
-            <p className="text-text-light">We are currently working on new oral histories.</p>
+            <h3 className="font-heading text-xl font-bold text-text mb-2">{t('stories.noStories')}</h3>
           </div>
         </section>
       )}

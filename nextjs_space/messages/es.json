@@ -125,6 +125,21 @@
     "subscribeSuccess": "¡Suscrito!",
     "rights": "Todos los derechos reservados."
   },
+  "cityNames": {
+    "warsaw": "Varsovia",
+    "krakow": "Cracovia",
+    "wroclaw": "Breslavia",
+    "poznan": "Poznan",
+    "zielonagora": "Zielona Góra",
+    "katowice": "Katowice",
+    "gdask": "Gdańsk",
+    "gdansk": "Gdańsk",
+    "zielonagra": "Zielona Góra"
+  },
+  "storyTypes": {
+    "voicesofresistance": "Voces de la Resistencia",
+    "buildingswithheart": "Edificios con Corazón"
+  },
   "common": {
     "home": "Inicio",
     "learnMore": "Saber Más",
@@ -137,11 +152,11 @@
     "goHome": "Ir al Inicio",
     "exploreTours": "Explorar Tours",
     "journalistNote": {
-    "title": "✍️ Nota del Periodista",
-    "voicesText": "Para construir este recorrido, le entregamos el micrófono a quienes vivieron detrás del Telón de Acero. Al caminar estas calles con sus testimonios, no solo escuchas la historia; te conviertes en mecenas. Tu compra financia directamente a los ancianos que comparten su memoria hoy con nosotros.",
-    "buildingsText": "Como periodista, siempre he creído que cada muro tiene una historia. Este recorrido no es una simple lista de datos arquitectónicos; es el resultado de una profunda investigación en archivos para traerte el pulso crudo de los cimientos que levantaron esta ciudad.",
-    "authorName": "Andrés",
-    "authorTitle": "Fundador y Periodista"
-  }
+      "title": "✍️ Nota del Periodista",
+      "voicesText": "Para construir este recorrido, le entregamos el micrófono a quienes vivieron detrás del Telón de Acero. Al caminar estas calles con sus testimonios, no solo escuchas la historia; te conviertes en mecenas. Tu compra financia directamente a los ancianos que comparten su memoria hoy con nosotros.",
+      "buildingsText": "Como periodista, siempre he creído que cada muro tiene una historia. Este recorrido no es una simple lista de datos arquitectónicos; es el resultado de una profunda investigación en archivos para traerte el pulso crudo de los cimientos que levantaron esta ciudad.",
+      "authorName": "Andrés",
+      "authorTitle": "Fundador y Periodista"
+    }
   }
 }

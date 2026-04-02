@@ -2,33 +2,87 @@
   "_comentario": "ℹ️ PÁGINA ABOUT - Edita la información sobre el proyecto",
   "hero": {
     "title": "Preserving the Voices that Built the City",
+    "title_es": "Preservando las voces que construyeron la ciudad",
+    "title_pl": "Zachowaj głosy, które budowały miasto",
+    "title_de": "Die Stimmen bewahren, die die Stadt erbaut haben",
     "subtitle": "We hand the microphone to our senior citizens, ensuring their memories are never lost.",
+    "subtitle_es": "Entregamos el micrófono a nuestros mayores, asegurando que sus memorias nunca se pierdan.",
+    "subtitle_pl": "Oddajemy mikrofon osobom starszym, aby ich wspomnienia nigdy nie zaginęły.",
+    "subtitle_de": "Wir übergeben unseren Senioren das Mikrofon und stellen sicher, dass ihre Erinnerungen nie verloren gehen.",
     "image": "/images/resistance/solidarity_gdansk.jpg"
   },
   "mission": {
     "title": "Our Mission",
+    "title_es": "Nuestra Misión",
+    "title_pl": "Nasza Misja",
+    "title_de": "Unsere Mission",
     "content": "At Talking Cities, we believe a city is more than just bricks and streets — it is built from the stories of the people who live there. Our mission is simple yet urgent: to hand the microphone to our senior citizens. We give a voice to the narrators who lived history firsthand, ensuring their memories are never lost.",
-    "content2": "Through our immersive audio tours, we transform personal tales of resilience, resistance, and daily life into unique self-guided journeys. We want the world to discover not only how these cities maintained their identity behind the Iron Curtain but also how the human spirit prevails in difficult times."
+    "content_es": "En Talking Cities creemos que una ciudad es más que ladrillos y calles — está construida por las historias de las personas que la habitan. Nuestra misión es simple pero urgente: entregar el micrófono a nuestros ciudadanos mayores. Damos voz a narradores que vivieron la historia de primera mano para que sus memorias no se pierdan jamás.",
+    "content_pl": "W Talking Cities wierzymy, że miasto to coś więcej niż tylko cegły i ulice — jest zbudowane z historii ludzi, którzy w nim żyją. Nasza misja jest prosta, ale pilna: oddać mikrofon naszym seniorom. Dajemy głos narratorom, którzy przeżyli historię na własnej skórze, dbając o to, by ich wspomnienia nigdy nie zaginęły.",
+    "content_de": "Bei Talking Cities glauben wir, dass eine Stadt aus mehr als nur Ziegeln und Straßen besteht – sie wird aus den Geschichten der Menschen erbaut, die dort leben. Unsere Mission ist einfach, aber dringend: unseren Senioren das Mikrofon zu übergeben. Wir geben den Erzählern, die Geschichte hautnah miterlebt haben, eine Stimme und sorgen dafür, dass ihre Erinnerungen niemals verloren gehen.",
+    "content2": "Through our immersive audio tours, we transform personal tales of resilience, resistance, and daily life into unique self-guided journeys. We want the world to discover not only how these cities maintained their identity behind the Iron Curtain but also how the human spirit prevails in difficult times.",
+    "content2_es": "A través de nuestras inmersivas rutas en audio, transformamos crónicas personales de resistencia y vida diaria en trayectos únicos. Queremos que el mundo descubra no solo cómo estas ciudades mantuvieron su identidad bajo el Telón de Acero, sino cómo prevalece el espíritu humano en los tiempos más oscuros.",
+    "content2_pl": "Poprzez nasze immersyjne wycieczki audio, przekształcamy osobiste opowieści o odporności, oporze i codziennym życiu w wyjątkowe, samodzielne podróże. Chcemy, aby świat odkrył nie tylko to, jak te miasta zachowały swoją tożsamość za Żelazną Kurtyną, ale także to, jak ludzki duch triumfuje w trudnych czasach.",
+    "content2_de": "Durch unsere immersiven Audio-Touren verwandeln wir persönliche Geschichten von Resilienz, Widerstand und Alltagsleben in einzigartige, selbstgeführte Reisen. Wir möchten, dass die Welt nicht nur entdeckt, wie diese Städte ihre Identität hinter dem Eisernen Vorhang bewahrten, sondern auch, wie der menschliche Geist in schwierigen Zeiten triumphiert."
   },
   "impact": {
     "title": "A Circle of Solidarity",
+    "title_es": "Un Círculo de Solidaridad",
+    "title_pl": "Krąg Solidarności",
+    "title_de": "Ein Kreis der Solidarität",
     "subtitle": "Memory is Priceless",
+    "subtitle_es": "La memoria no tiene precio",
+    "subtitle_pl": "Pamięć jest bezcenna",
+    "subtitle_de": "Erinnerung ist unbezahlbar",
     "content": "This project is also a tool to combat loneliness. By involving the elderly in content creation, we offer them recognition, a sense of purpose, and a vital connection with new generations.",
-    "callToWitness": "We are looking for witnesses. Do you know someone who helped keep the culture alive? Perhaps they took visible risks — printing underground newspapers or teaching history in secret. Or perhaps they were silent heroes who protected their families from the shadows. From political activists to anonymous citizens, we want to honor every contribution to freedom."
+    "content_es": "Este proyecto es también una herramienta para combatir la soledad. Involucrando a los mayores en la creación de contenido, les ofrecemos reconocimiento, propósito y una conexión vital con las nuevas generaciones.",
+    "content_pl": "Projekt ten jest również narzędziem do walki z samotnością. Włączając osoby starsze w tworzenie treści, oferujemy im uznanie, poczucie celu i istotną więź z nowymi pokoleniami.",
+    "content_de": "Dieses Projekt ist auch ein Werkzeug zur Bekämpfung der Einsamkeit. Indem wir ältere Menschen in die Inhaltserstellung einbeziehen, bieten wir ihnen Anerkennung, einen Sinn im Leben und eine wichtige Verbindung zu den neuen Generationen.",
+    "callToWitness": "We are looking for witnesses. Do you know someone who helped keep the culture alive? Perhaps they took visible risks — printing underground newspapers or teaching history in secret. Or perhaps they were silent heroes who protected their families from the shadows. From political activists to anonymous citizens, we want to honor every contribution to freedom.",
+    "callToWitness_es": "Buscamos testigos. ¿Conoces a alguien que ayudó a mantener la cultura viva? Quizás asumieron riesgos abismales como imprimir periódicos censurados, impartir clases de historia en secreto, o simplemente fueron héroes silenciosos que protegieron a sus familias desde las sombras. Queremos honrar cada contribución a la libertad.",
+    "callToWitness_pl": "Szukamy świadków. Czy znasz kogoś, kto pomagał w utrzymaniu kultury przy życiu? Być może podejmowali widoczne ryzyko — drukując prasę podziemną lub potajemnie ucząc historii. A może byli cichymi bohaterami, którzy chronili swoje rodziny z ukrycia. Chcemy uhonorować każdy wkład w wolność.",
+    "callToWitness_de": "Wir suchen nach Zeitzeugen. Kennen Sie jemanden, der geholfen hat, die Kultur am Leben zu erhalten? Vielleicht sind sie sichtbare Risiken eingegangen — durch den Druck von Untergrundzeitungen oder das heimliche Lehren von Geschichte. Oder vielleicht waren sie stille Helden, die ihre Familien aus dem Schatten heraus schützten. Wir möchten jeden Beitrag zur Freiheit ehren."
   },
   "businessModel": {
     "title": "Your Visit Sustains Memory",
+    "title_es": "Tu Visita Sostiene la Memoria",
+    "title_pl": "Twoja wizyta podtrzymuje pamięć",
+    "title_de": "Dein Besuch erhält die Erinnerung",
     "subtitle": "A Transparent Model",
+    "subtitle_es": "Un Modelo Transparente",
+    "subtitle_pl": "Przejrzysty Model",
+    "subtitle_de": "Ein transparentes Modell",
     "philosophy": "We believe culture should be a right, not a luxury.",
+    "philosophy_es": "Creemos fielmente que la cultura debería ser un derecho, no un lujo.",
+    "philosophy_pl": "Wierzymy, że kultura powinna być prawem, a nie luksusem.",
+    "philosophy_de": "Wir glauben, dass Kultur ein Recht und kein Luxus sein sollte.",
     "freeAccess": {
       "title": "Universal Access (Free)",
-      "description": "Our archive of oral histories is completely free. Anyone, anywhere in the world, can listen to and learn from our elders right here on this site."
+      "title_es": "Acceso Universal (Gratis)",
+      "title_pl": "Powszechny Dostęp (Za darmo)",
+      "title_de": "Universeller Zugang (Kostenlos)",
+      "description": "Our archive of oral histories is completely free. Anyone, anywhere in the world, can listen to and learn from our elders right here on this site.",
+      "description_es": "Nuestro archivo de historias orales es completamente gratis. Cualquiera, en cualquier parte del mundo, puede escuchar y aprender de nuestros mayores.",
+      "description_pl": "Nasze archiwum historii mówionej jest całkowicie darmowe. Każdy, w dowolnym miejscu na świecie, może słuchać i uczyć się od naszych seniorów na tej właśnie stronie.",
+      "description_de": "Unser Archiv mündlicher Überlieferungen ist völlig kostenlos. Jeder, überall auf der Welt, kann genau hier auf dieser Website zuhören und von unseren Ältesten lernen."
     },
     "premiumAccess": {
       "title": "Premium Experience (GPS Tours)",
-      "description": "To fund this effort, we offer paid self-guided tours for walking the city. By purchasing a tour, you don't just get an immersive experience; you become a patron of the project."
+      "title_es": "Experiencia Premium (Tours GPS)",
+      "title_pl": "Doświadczenie Premium (Wycieczki GPS)",
+      "title_de": "Premium-Erlebnis (GPS-Touren)",
+      "description": "To fund this effort, we offer paid self-guided tours for walking the city. By purchasing a tour, you don't just get an immersive experience; you become a patron of the project.",
+      "description_es": "Para respaldar este esfuerzo titánico, ofrecemos rutas autoguiadas de pago. Al embarcarte en un recorrido, no solo abrazas una aventura inmersiva; te conviertes en mecenas del proyecto.",
+      "description_pl": "Aby sfinansować ten wysiłek, oferujemy płatne, samodzielne wycieczki po mieście. Kupując wycieczkę, zyskujesz nie tylko wciągające doświadczenie; stajesz się mecenasem projektu.",
+      "description_de": "Um diese Bemühungen zu finanzieren, bieten wir kostenpflichtige selbstgeführte Touren zur Erkundung der Stadt an. Wenn Sie eine Tour kaufen, erhalten Sie nicht nur ein immersives Erlebnis; Sie werden zum Förderer des Projekts."
     },
-    "socialCommitment": "After covering operating costs, we reinvest 40% of our net profits to fund grocery cards for the elderly narrators, distributed through trusted local partners. The value generated by their stories returns directly, and tangibly, to them."
+    "socialCommitment": "After covering operating costs, we reinvest 40% of our net profits to fund grocery cards for the elderly narrators, distributed through trusted local partners. The value generated by their stories returns directly, and tangibly, to them.",
+    "socialCommitment_es": "Después de cubrir los costos operativos, la fundación reinvierte de manera garantizada el 40% del dinero recolectado en tarjetas de víveres para los ciudadanos mayores que protagonizan los relatos. El beneficio se les devuelve tangiblemente a ellos.",
+    "socialCommitment_pl": "Po pokryciu kosztów operacyjnych reinwestujemy 40% naszych zysków netto w finansowanie kart spożywczych dla starszych narratorów, dystrybuowanych za pośrednictwem zaufanych lokalnych partnerów.",
+    "socialCommitment_de": "Nach Deckung der Betriebskosten reinvestieren wir 40% unserer Nettogewinne in die Finanzierung von Lebensmittelkarten für die älteren Erzähler, die über vertrauenswürdige lokale Partner verteilt werden."
   },
-  "origin": "Talking Cities was born in Zielona Góra, using technology to honor the past. We are making history: one city at a time."
+  "origin": "Talking Cities was born in Zielona Góra, using technology to honor the past. We are making history: one city at a time.",
+  "origin_es": "Talking Cities nació en Zielona Góra y abrazó la tecnología para honrar el pasado. Estamos forjando historia, una ciudad a la vez.",
+  "origin_pl": "Projekt Talking Cities narodził się w Zielonej Górze, wykorzystując technologię do uhonorowania przeszłości. Tworzymy historię: miasto po mieście.",
+  "origin_de": "Talking Cities wurde in Zielona Góra geboren und nutzt Technologie, um die Vergangenheit zu ehren. Wir schreiben Geschichte: eine Stadt nach der anderen."
 }

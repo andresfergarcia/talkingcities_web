@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import AudioPlayer from "@/components/ui/audio-player";
 import type { Tour, Testimonial } from "@/lib/types";
+import { useLocale, useTranslations } from "@/lib/i18n-context";
 
 interface TourDetailClientProps {
   tour: Tour;
@@ -27,9 +28,26 @@ interface TourDetailClientProps {
 // 2. Extraemos toursText en la puerta de entrada
 export default function TourDetailClient({ tour, storySlug, testimonials, audioFiles, journalistNoteText, toursText }: TourDetailClientProps) {
   const safeTour = tour ?? ({} as Tour);
-  const safeTestimonials = testimonials ?? [];
   const isAvailable = safeTour?.status === 'available';
   const hasAudio = Object.values(audioFiles ?? {}).some((url) => !!url);
+  const locale = useLocale();
+  const tTypes = useTranslations("storyTypes");
+
+  const getType = (type: string) => {
+    if (!type) return '';
+    const key = type.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const val = tTypes(key);
+    return val ? val : type;
+  };
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return obj[`${key}_${locale}`] || obj[key] || '';
+  };
+
+  const getHighlights = (obj: any) => {
+    return obj?.[`highlights_${locale}`] || obj?.highlights || [];
+  };
 
   return (
     <div>
@@ -46,15 +64,15 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0">
-            <div className="max-w-content mx-auto px-4 sm:px-6 pb-8">
-              <span className="px-3 py-1 bg-gold/90 text-primary-dark text-xs font-semibold rounded-full">
-                {safeTour?.type ?? ''}
+            <div className="relative z-10 w-full h-full flex flex-col justify-end p-6 sm:p-12">
+              <span className="px-3 py-1 bg-primary/20 text-primary font-semibold text-sm rounded-full inline-block mb-4 max-w-fit">
+                {getType(safeTour?.type ?? '')}
               </span>
               <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-3">
-                {safeTour?.title ?? ''}
+                {l(safeTour, 'title')}
               </h1>
               <p className="text-white/80 text-lg mt-2 font-heading italic">
-                {safeTour?.subtitle ?? ''}
+                {l(safeTour, 'subtitle')}
               </p>
             </div>
           </div>
@@ -74,7 +92,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
             >
               <h2 className="font-heading text-2xl font-bold text-text mb-4">{toursText.aboutThisTour || 'About This Tour'}</h2>
               <p className="text-text-light leading-relaxed text-lg">
-                {safeTour?.description ?? ''}
+                {l(safeTour, 'description')}
               </p>
             </motion.div>
 
@@ -87,7 +105,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
             >
               <h2 className="font-heading text-2xl font-bold text-text mb-4">{toursText.highlights || 'Tour Highlights'}</h2>
               <ul className="space-y-3">
-                {safeTour?.highlights?.map?.((h, i) => (
+                {getHighlights(safeTour)?.map?.((h: string, i: number) => (
                   <li key={i} className="flex items-start gap-3">
                     <Star className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                     <span className="text-text-light">{h ?? ''}</span>
@@ -231,7 +249,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                   <div className="flex items-center gap-3 text-sm">
                     <Clock className="w-4 h-4 text-primary" />
                     <span className="text-text-light">{toursText.duration || 'Duration'}:</span>
-                    <span className="font-medium text-text ml-auto">{safeTour?.duration ?? ''}</span>
+                    <span className="font-medium text-text ml-auto">{l(safeTour, 'duration')}</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm">
                     <MapPin className="w-4 h-4 text-primary" />
@@ -247,7 +265,7 @@ export default function TourDetailClient({ tour, storySlug, testimonials, audioF
                     <Globe className="w-4 h-4 text-primary" />
                     <span className="text-text-light">{toursText.languages || 'Languages'}:</span>
                     <span className="font-medium text-text ml-auto">
-                      {safeTour?.languages?.join?.(", ") ?? ''}
+                      {(l(safeTour, 'languages') ?? []).join(', ')}
                     </span>
                   </div>
                 </div>

@@ -15,8 +15,25 @@ interface CityCardProps {
 
 export default function CityCard({ city, index = 0, locale }: CityCardProps) {
   const t = useTranslations("cities");
+  const tCityNames = useTranslations("cityNames");
   const safeCity = city ?? ({} as City);
   const href = safeCity?.available ? `/tours?city=${safeCity?.slug ?? ''}` : '#';
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return locale ? (obj[`${key}_${locale}`] || obj[key] || '') : (obj[key] || '');
+  };
+
+  const getCityName = (cityName: string) => {
+    if (!cityName) return '';
+    const key = cityName.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const val = tCityNames(key);
+    // next-intl returns 'namespace.key' when missing
+    if (!val || val.includes('cityNames.')) {
+      return cityName;
+    }
+    return val;
+  };
 
   return (
     <motion.div
@@ -40,13 +57,13 @@ export default function CityCard({ city, index = 0, locale }: CityCardProps) {
           {/* Content */}
           <div className="absolute bottom-0 left-0 right-0 p-5">
             <p className="text-gold text-xs font-semibold uppercase tracking-wider mb-1">
-              {safeCity?.tagline ?? ''}
+              {l(safeCity, 'tagline')}
             </p>
             <h3 className="font-heading text-2xl font-bold text-white mb-1">
-              {safeCity?.name ?? ''}
+              {getCityName(safeCity?.name ?? '')}
             </h3>
             <p className="text-white/70 text-sm mb-3 line-clamp-2">
-              {safeCity?.description ?? ''}
+              {l(safeCity, 'description')}
             </p>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-gold group-hover:gap-2 transition-all">
               {safeCity?.available ? t("available") : t("comingSoon")}

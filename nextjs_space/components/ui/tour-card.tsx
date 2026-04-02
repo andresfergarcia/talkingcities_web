@@ -5,6 +5,7 @@ import { Link } from "@/lib/i18n-link";
 import { Clock, MapPin, Headphones, Star, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import type { Tour } from "@/lib/types";
+import { useTranslations } from "@/lib/i18n-context";
 
 interface TourCardProps {
   tour: Tour;
@@ -17,6 +18,19 @@ interface TourCardProps {
 export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCardProps) {
   const safeTour = tour ?? ({} as Tour);
   const isAvailable = safeTour?.status === "available";
+  const tTypes = useTranslations("storyTypes");
+
+  const getType = (type: string) => {
+    if (!type) return '';
+    const key = type.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const val = tTypes(key);
+    return val ? val : type;
+  };
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return locale ? (obj[`${key}_${locale}`] || obj[key] || '') : (obj[key] || '');
+  };
 
   // Red de seguridad: si no llega el diccionario, usamos inglés por defecto
   const tAvailableNow = dict.availableNow || "Available Now";
@@ -65,7 +79,7 @@ export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCar
             {/* Type Badge */}
             <div className="absolute bottom-3 left-3">
               <span className="px-3 py-1 bg-black/50 backdrop-blur-sm text-white text-xs rounded-full">
-                {safeTour?.type ?? ''}
+                {getType(safeTour?.type ?? '')}
               </span>
             </div>
           </div>
@@ -73,16 +87,16 @@ export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCar
           {/* Content */}
           <div className="p-5">
             <h3 className="font-heading text-lg font-bold text-text mb-1 group-hover:text-primary transition-colors">
-              {safeTour?.title ?? ''}
+              {l(safeTour, 'title')}
             </h3>
             <p className="text-text-light text-sm mb-3 line-clamp-2">
-              {safeTour?.description ?? ''}
+              {l(safeTour, 'description')}
             </p>
 
             {/* Meta */}
             <div className="flex items-center gap-4 text-xs text-text-light mb-4">
               <span className="flex items-center gap-1">
-                <Clock className="w-3.5 h-3.5" /> {safeTour?.duration ?? ''}
+                <Clock className="w-3.5 h-3.5" /> {l(safeTour, 'duration')}
               </span>
               <span className="flex items-center gap-1">
                 <MapPin className="w-3.5 h-3.5" /> {safeTour?.distance ?? ''}
@@ -94,7 +108,7 @@ export default function TourCard({ tour, index = 0, locale, dict = {} }: TourCar
 
             {/* Languages */}
             <div className="flex items-center gap-1.5 mb-4">
-              {safeTour?.languages?.map?.((lang) => (
+              {(l(safeTour, 'languages') || [])?.map?.((lang: string) => (
                 <span
                   key={lang}
                   className="px-2 py-0.5 bg-bg-alt text-text-light text-[10px] font-medium rounded"

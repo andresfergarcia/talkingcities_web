@@ -1,5 +1,8 @@
-import Link from "next/link";
+"use client";
+
+import { Link } from "@/lib/i18n-link";
 import { ChevronRight, Home } from "lucide-react";
+import { useTranslations } from "@/lib/i18n-context";
 
 interface BreadcrumbItem {
   label: string;
@@ -11,6 +14,7 @@ interface BreadcrumbsProps {
 }
 
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
+  const t = useTranslations("common");
   const safeItems = items ?? [];
   return (
     <nav aria-label="Breadcrumb" className="py-4">
@@ -21,7 +25,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
             className="hover:text-primary transition-colors flex items-center gap-1"
           >
             <Home className="w-3.5 h-3.5" />
-            <span className="sr-only">Home</span>
+            <span className="sr-only">{t("home")}</span>
           </Link>
         </li>
         {safeItems?.map?.((item, index) => (

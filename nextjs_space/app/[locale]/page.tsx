@@ -22,6 +22,26 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const testimonials = getTestimonials();
   const stories = getStories();
 
+  const cityNamesDict = (messages.cityNames as Record<string, string>) || {};
+  const storyTypesDict = (messages.storyTypes as Record<string, string>) || {};
+
+  const getCityName = (city: string) => {
+    if (!city) return '';
+    const key = city.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return cityNamesDict[key] || city;
+  };
+
+  const getStoryType = (type: string) => {
+    if (!type) return '';
+    const key = type.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return storyTypesDict[key] || type;
+  };
+
+  const l = (obj: any, key: string) => {
+    if (!obj) return '';
+    return obj[`${key}_${locale}`] || obj[key] || '';
+  };
+
   const latestStories = stories?.slice?.(0, 3) ?? [];
 
   return (
@@ -116,21 +136,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                       />
                       <div className="absolute top-3 left-3">
                         <span className="px-3 py-1 bg-primary text-white text-xs font-semibold rounded-full">
-                          {story?.type ?? ''}
+                          {getStoryType(story?.type ?? '')}
                         </span>
                       </div>
                       <div className="absolute top-3 right-3">
                         <span className="px-3 py-1 bg-black/50 backdrop-blur-sm text-white text-xs rounded-full">
-                          {story?.city ?? ''}
+                          {getCityName(story?.city ?? '')}
                         </span>
                       </div>
                     </div>
                     <div className="p-5">
                       <h3 className="font-heading text-lg font-bold text-text mb-2 group-hover:text-primary transition-colors line-clamp-2">
-                        {story?.title ?? ''}
+                        {l(story, 'title')}
                       </h3>
                       <p className="text-text-light text-sm line-clamp-2 mb-3">
-                        {story?.introduction ?? ''}
+                        {l(story, 'introduction')}
                       </p>
                       <span className="inline-flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
                         {t('stories.readFullStory')} <ArrowRight className="w-4 h-4" />

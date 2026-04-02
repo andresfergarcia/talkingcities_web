@@ -1,25 +1,43 @@
 {
   "_comentario": "🎧 TOURS - Edita aquí la información de cada tour",
   "pageTitle": "Self-Guided Audio Tours",
+  "pageTitle_es": "Tours de Audio Autoguiados",
+  "pageTitle_pl": "Samodzielne Wycieczki Audio",
+  "pageTitle_de": "Selbstgeführte Audiotouren",
   "pageSubtitle": "Walk through history with GPS-guided audio tours powered by VoiceMap",
+  "pageSubtitle_es": "Camina a través de la historia con tours de audio guiados por GPS impulsados por VoiceMap",
+  "pageSubtitle_pl": "Przejdź przez historię dzięki wycieczkom audio prowadzonym przez GPS i zasilanym przez VoiceMap",
+  "pageSubtitle_de": "Gehen Sie durch die Geschichte mit GPS-geführten Audiotouren von VoiceMap",
   "tours": [
     {
       "slug": "warsaw-voices-of-resistance",
       "city": "Warsaw",
       "citySlug": "warsaw",
       "title": "Voices of Resistance: Warsaw",
+      "title_es": "Voces de la Resistencia: Varsovia",
+      "title_pl": "Głosy Oporu: Warszawa",
+      "title_de": "Stimmen des Widerstands: Warschau",
       "subtitle": "The Political Axis and the Paradox of Power",
       "type": "Voices of Resistance",
       "description": "Discover how Warsaw served as both the administrative heart of the communist regime and the epicenter of resistance. From KOR to Solidarity, from the Flying University to Radio Solidarność.",
+      "description_es": "Descubre cómo Varsovia funcionó tanto como el corazón administrativo del régimen comunista como el epicentro de la resistencia. Desde el KOR hasta Solidaridad.",
+      "description_pl": "Odkryj, jak Warszawa służyła zarówno jako administracyjne serce reżimu komunistycznego, jak i epicentrum oporu. Od KOR po Solidarność.",
+      "description_de": "Entdecken Sie, wie Warschau sowohl als administratives Herz des kommunistischen Regimes als auch als Epizentrum des Widerstands fungierte. Von KOR bis Solidarność.",
       "price": 9.99,
       "currency": "€",
       "duration": "2 hours",
+      "duration_es": "2 horas",
+      "duration_pl": "2 godziny",
+      "duration_de": "2 Stunden",
       "distance": "4 km",
       "stops": 10,
       "languages": [
         "English",
         "Polish"
       ],
+      "languages_es": ["Inglés", "Polaco"],
+      "languages_pl": ["Angielski", "Polski"],
+      "languages_de": ["Englisch", "Polnisch"],
       "image": "/images/cities/warsaw_castle_square.jpg",
       "highlights": [
         "KOR birthplace",
@@ -42,17 +60,25 @@
       "city": "Warsaw",
       "citySlug": "warsaw",
       "title": "Buildings With Heart: Warsaw",
+      "title_es": "Edificios con Corazón: Varsovia",
       "subtitle": "Architecture That Rose from Ashes",
+      "subtitle_es": "La Arquitectura que Resurgió de las Cenizas",
       "type": "Buildings With Heart",
       "description": "Explore Warsaw's architectural rebirth. From the meticulously reconstructed Old Town to the imposing Palace of Culture, discover how buildings tell the story of a city that refused to die.",
+      "description_es": "Explora el renacer arquitectónico de Varsovia. Desde su casco antiguo...",
       "price": 9.99,
       "currency": "€",
       "duration": "1.5 hours",
+      "duration_es": "1.5 horas",
       "distance": "3 km",
       "stops": 8,
       "languages": [
         "English",
         "Polish"
+      ],
+      "languages_es": [
+        "Inglés",
+        "Polaco"
       ],
       "image": "/images/cities/warsaw_royal_castle_modern.jpg",
       "highlights": [
@@ -76,18 +102,30 @@
       "city": "Krakow",
       "citySlug": "krakow",
       "title": "Voices of Resistance: Krakow",
+      "title_es": "Voces de la Resistencia: Cracovia",
+      "title_pl": "Głosy Oporu: Kraków",
+      "title_de": "Stimmen des Widerstands: Krakau",
       "subtitle": "The Fortress of the Spirit against the Regime",
       "type": "Voices of Resistance",
       "description": "Discover how Krakow acted as the spiritual lung of Poland between 1945 and 1989. From the cross that challenged concrete in Nowa Huta to the student movements and intellectual resistance.",
+      "description_es": "Descubre cómo Cracovia actuó como el pulmón espiritual de Polonia entre 1945 y 1989. Desde la cruz que desafió al hormigón en Nowa Huta hasta los movimientos estudiantiles.",
+      "description_pl": "Odkryj, jak Kraków działał jako duchowe płuco Polski w latach 1945-1989. Od krzyża, który rzucił wyzwanie betonowi w Nowej Hucie, po ruchy studenckie.",
+      "description_de": "Entdecken Sie, wie Krakau zwischen 1945 und 1989 als geistige Lunge Polens fungierte. Vom Kreuz, das dem Beton in Nowa Huta trotzte, bis zu den Studentenbewegungen.",
       "price": 9.99,
       "currency": "€",
       "duration": "1.5 hours",
+      "duration_es": "1.5 horas",
+      "duration_pl": "1.5 godziny",
+      "duration_de": "1.5 Stunden",
       "distance": "3.5 km",
       "stops": 8,
       "languages": [
         "English",
         "Polish"
       ],
+      "languages_es": ["Inglés", "Polaco"],
+      "languages_pl": ["Angielski", "Polski"],
+      "languages_de": ["Englisch", "Polnisch"],
       "image": "/images/architecture/krakow_main_square.jpg",
       "highlights": [
         "Nowa Huta & Arka Pana Church",
@@ -110,17 +148,25 @@
       "city": "Krakow",
       "citySlug": "krakow",
       "title": "Buildings With Heart: Krakow",
+      "title_es": "Edificios con Corazón: Cracovia",
       "subtitle": "Architecture and Unbroken Spirit",
+      "subtitle_es": "Arquitectura y Espíritu Inquebrantable",
       "type": "Buildings With Heart",
       "description": "Look up and admire Krakow's architectural strength. From centuries-old churches that served as spiritual refuge to structures symbolizing resilience.",
+      "description_es": "Levanta la vista y admira la fuerza de Cracovia. Iglesias centenarias...",
       "price": 9.99,
       "currency": "€",
       "duration": "1.5 hours",
+      "duration_es": "1.5 horas",
       "distance": "2.5 km",
       "stops": 6,
       "languages": [
         "English",
         "Polish"
+      ],
+      "languages_es": [
+        "Inglés",
+        "Polaco"
       ],
       "image": "/images/architecture/corpus_christi_krakow.jpg",
       "highlights": [
@@ -144,17 +190,25 @@
       "city": "Wroclaw",
       "citySlug": "wroclaw",
       "title": "Voices of Resistance: Wroclaw",
+      "title_es": "Voces de la Resistencia: Wrocław",
       "subtitle": "The Smile That Disarmed the System",
+      "subtitle_es": "La Sonrisa que Desarmó el Sistema",
       "type": "Voices of Resistance",
       "description": "Explore how Wrocław chose subversive laughter and radical struggle to resist the regime. From the Orange Alternative's gnome revolution to Fighting Solidarity's underground networks.",
+      "description_es": "Explora cómo Wrocław optó por las sonrisas y las huelgas radicales...",
       "price": 9.99,
       "currency": "€",
       "duration": "1.5 hours",
+      "duration_es": "1.5 horas",
       "distance": "3 km",
       "stops": 7,
       "languages": [
         "English",
         "Polish"
+      ],
+      "languages_es": [
+        "Inglés",
+        "Polaco"
       ],
       "image": "/images/architecture/wroclaw_market_square.jpg",
       "highlights": [
@@ -178,17 +232,25 @@
       "city": "Wroclaw",
       "citySlug": "wroclaw",
       "title": "Buildings With Heart: Wroclaw",
+      "title_es": "Edificios con Corazón: Wrocław",
       "subtitle": "Where Water Shapes History",
+      "subtitle_es": "Donde el Agua da forma a la Historia",
       "type": "Buildings With Heart",
       "description": "Discover Wrocław's remarkable architecture across its islands and bridges. From Gothic churches to the stunning Centennial Hall, every building whispers stories of transformation.",
+      "description_es": "Descubre la increíble arquitectura que cruza puentes e islas...",
       "price": 9.99,
       "currency": "€",
       "duration": "1.5 hours",
+      "duration_es": "1.5 horas",
       "distance": "3 km",
       "stops": 7,
       "languages": [
         "English",
         "Polish"
+      ],
+      "languages_es": [
+        "Inglés",
+        "Polaco"
       ],
       "image": "/images/architecture/wroclaw_centennial_hall.jpg",
       "highlights": [

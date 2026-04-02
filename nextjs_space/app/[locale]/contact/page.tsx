@@ -3,13 +3,27 @@ import Breadcrumbs from '@/components/layout/breadcrumbs';
 import ContactForm from '@/components/forms/contact-form';
 import { Mail, MapPin, Headphones } from 'lucide-react';
 import type { Metadata } from 'next';
+import { loadMessages, createTranslator } from '@/lib/i18n';
 
-export const metadata: Metadata = {
-  title: 'Contact',
-  description: 'Get in touch with Talking Cities. We would love to hear from you.',
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const messages = await loadMessages(locale);
+  const t = createTranslator(messages);
+  
+  return {
+    title: t('contact.pageTitle'),
+    description: t('contact.pageSubtitle'),
+  };
+}
 
-export default function ContactPage() {
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const messages = await loadMessages(locale);
+  const t = createTranslator(messages);
   const settings = getSiteSettings();
 
   return (
@@ -17,13 +31,13 @@ export default function ContactPage() {
       {/* Header */}
       <section className="bg-primary-dark text-white py-16">
         <div className="max-w-content mx-auto px-4 sm:px-6">
-          <Breadcrumbs items={[{ label: 'Contact' }]} />
+          <Breadcrumbs items={[{ label: t('nav.contact') }]} />
           <div className="flex items-center gap-3 mb-4">
             <Mail className="w-8 h-8 text-gold" />
-            <h1 className="font-heading text-3xl sm:text-4xl font-bold">Get in Touch</h1>
+            <h1 className="font-heading text-3xl sm:text-4xl font-bold">{t('contact.getInTouch')}</h1>
           </div>
           <p className="text-white/70 text-lg max-w-2xl">
-            Have questions, want to share a story, or know a witness? We would love to hear from you.
+            {t('contact.pageSubtitle')}
           </p>
         </div>
       </section>
@@ -34,7 +48,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Form */}
             <div className="lg:col-span-2">
-              <h2 className="font-heading text-2xl font-bold text-text mb-6">Send Us a Message</h2>
+              <h2 className="font-heading text-2xl font-bold text-text mb-6">{t('contact.sendMessage')}</h2>
               <ContactForm />
             </div>
 
@@ -42,7 +56,7 @@ export default function ContactPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-xl shadow-md p-6">
                 <Mail className="w-6 h-6 text-primary mb-3" />
-                <h3 className="font-semibold text-text mb-2">Email</h3>
+                <h3 className="font-semibold text-text mb-2">{t('contact.emailUs')}</h3>
                 <a
                   href={`mailto:${settings?.contactEmail ?? ''}`}
                   className="text-primary hover:text-primary-dark transition-colors text-sm"
@@ -53,15 +67,15 @@ export default function ContactPage() {
 
               <div className="bg-white rounded-xl shadow-md p-6">
                 <MapPin className="w-6 h-6 text-primary mb-3" />
-                <h3 className="font-semibold text-text mb-2">Based in</h3>
-                <p className="text-text-light text-sm">Zielona Góra, Poland</p>
+                <h3 className="font-semibold text-text mb-2">{t('contact.location')}</h3>
+                <p className="text-text-light text-sm">{t('contact.locationValue')}</p>
               </div>
 
               <div className="bg-white rounded-xl shadow-md p-6">
                 <Headphones className="w-6 h-6 text-primary mb-3" />
-                <h3 className="font-semibold text-text mb-2">Know a Witness?</h3>
+                <h3 className="font-semibold text-text mb-2">{t('contact.witness')}</h3>
                 <p className="text-text-light text-sm">
-                  We are looking for elderly citizens who helped preserve Polish culture during communism. Share their story with us.
+                  {t('contact.witnessDesc')}
                 </p>
               </div>
             </div>
