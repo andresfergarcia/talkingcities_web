@@ -21,7 +21,7 @@
     "title": "Historia a Través de Voces Humanas",
     "subtitle": "No te damos fechas de libro. Te damos experiencias humanas.",
     "immersiveAudio": "Audio Inmersivo",
-    "immersiveAudioDesc": "Historias narradas por quienes las vivieron, en 4 idiomas.",
+    "immersiveAudioDesc": "Historias narradas por quienes las vivieron, en 2 idiomas.",
     "gpsGuided": "Tours con GPS",
     "gpsGuidedDesc": "El audio se reproduce automáticamente mientras caminas. La historia se despliega en cada esquina.",
     "socialImpact": "Impacto Social",
@@ -53,7 +53,7 @@
   },
   "tours": {
     "pageTitle": "Tours de Audio Autoguiados",
-    "pageSubtitle": "Descubre la historia polaca a través de tours inmersivos guiados por GPS, disponibles en 4 idiomas.",
+    "pageSubtitle": "Descubre la historia polaca a través de tours inmersivos guiados por GPS, disponibles en 2 idiomas.",
     "availableNow": "Disponibles Ahora",
     "comingSoon": "Próximamente",
     "duration": "Duración",

@@ -21,7 +21,7 @@
     "title": "Geschichte Durch Menschliche Stimmen",
     "subtitle": "Wir geben dir keine Lehrbuchdaten. Wir geben dir menschliche Erfahrungen.",
     "immersiveAudio": "Immersives Audio",
-    "immersiveAudioDesc": "Geschichten erzählt von den Menschen, die sie erlebt haben, in 4 Sprachen.",
+    "immersiveAudioDesc": "Geschichten erzählt von den Menschen, die sie erlebt haben, in 2 Sprachen.",
     "gpsGuided": "GPS-geführte Touren",
     "gpsGuidedDesc": "Audio spielt automatisch beim Gehen. Geschichte entfaltet sich an jeder Ecke.",
     "socialImpact": "Soziale Wirkung",
@@ -53,7 +53,7 @@
   },
   "tours": {
     "pageTitle": "Selbstgeführte Audio-Touren",
-    "pageSubtitle": "Entdecke polnische Geschichte durch immersive GPS-geführte Wandertouren, verfügbar in 4 Sprachen.",
+    "pageSubtitle": "Entdecke polnische Geschichte durch immersive GPS-geführte Wandertouren, verfügbar in 2 Sprachen.",
     "availableNow": "Jetzt Verfügbar",
     "comingSoon": "Demnächst",
     "duration": "Dauer",

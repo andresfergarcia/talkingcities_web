@@ -21,7 +21,7 @@
     "title": "History Through Human Voices",
     "subtitle": "We don't give you textbook dates. We give you human experiences.",
     "immersiveAudio": "Immersive Audio",
-    "immersiveAudioDesc": "Stories narrated by the people who lived them, in 4 languages.",
+    "immersiveAudioDesc": "Stories narrated by the people who lived them, in 2 languages.",
     "gpsGuided": "GPS-Guided Tours",
     "gpsGuidedDesc": "Audio plays automatically as you walk. History unfolds at every corner.",
     "socialImpact": "Social Impact",
@@ -53,7 +53,7 @@
   },
   "tours": {
     "pageTitle": "Self-Guided Audio Tours",
-    "pageSubtitle": "Discover Polish history through immersive GPS-guided walking tours, available in 4 languages.",
+    "pageSubtitle": "Discover Polish history through immersive GPS-guided walking tours, available in 2 languages.",
     "availableNow": "Available Now",
     "comingSoon": "Coming Soon",
     "duration": "Duration",
