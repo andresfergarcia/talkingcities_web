@@ -22,7 +22,7 @@ export async function POST(request: Request) {
       );
     }
 
-    await prisma.contactSubmission.create({
+    const submission = await prisma.contactSubmission.create({
       data: {
         name: String(name ?? ''),
         email: String(email ?? ''),
@@ -31,7 +31,12 @@ export async function POST(request: Request) {
       },
     });
 
-    return NextResponse.json({ message: 'Message sent successfully!' });
+    // Send email notification (don't block the response)
+    import('@/lib/mail').then(({ sendContactEmail }) => {
+      sendContactEmail({ name, email, subject, message });
+    }).catch(err => console.error('Error importing mail lib:', err));
+
+    return NextResponse.json({ message: 'Message sent successfully!', id: submission.id });
   } catch (error: unknown) {
     console.error('Contact form error:', error);
     return NextResponse.json(
