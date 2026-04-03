@@ -152,9 +152,22 @@ Cambia `available` a `true` cuando haya tours disponibles para esa ciudad.
 5. Las imágenes deben ser `.jpg`, `.png` o `.webp`
 6. Los slugs solo pueden contener letras minúsculas, números y guiones `-`
 
-## 🌍 Idiomas
+## 🌍 Idiomas (i18n)
 
-El contenido del sitio está actualmente en inglés. Los audios están disponibles en 4 idiomas (EN, PL, ES, DE) mediante el reproductor de audio integrado.
+El sitio utiliza `next-intl` para un sistema multiidioma completo:
+1. **Textos de Interfaz**: Se editan en `messages/[es|en|pl|de].json`.
+2. **Contenido de Datos**: Los archivos en `data/content/` soportan sufijos para traducciones directas:
+   - `campo`: Inglés (o base)
+   - `campo_es`: Español
+   - `campo_pl`: Polaco
+   - `campo_de`: Alemán
+
+Ejemplo en `stories.json`:
+```json
+"title": "The Political Axis",
+"title_es": "El Eje Político",
+"title_pl": "Oś polityczna"
+```
 
 ## 📧 Formularios
 

@@ -60,6 +60,9 @@ Ya está creado. Asegúrate de que incluya:
 - `.env`
 - `.deploy/`
 
+### 2.5 i18n y Middleware
+Asegúrate de que la carpeta `messages/` esté en la raíz del proyecto al subir a GitHub. Sin estos archivos JSON, el sistema multiidioma `next-intl` no podrá cargar los textos y el sitio dará error en las rutas con prefijo de idioma (`/es`, `/en`, etc.).
+
 ## Paso 3: Subir a GitHub
 
 ```bash

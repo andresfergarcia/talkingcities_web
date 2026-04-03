@@ -16,19 +16,22 @@
 1. **Sube tu logo** a `/public/images/logo.png` (o .svg)
 2. El logo debe ser de aproximadamente 150x40 píxeles para el header
 
-Actualmente el logo es un ícono de auriculares + texto. Para cambiarlo a tu imagen personalizada, necesitas editar el archivo:
-
 **Archivo:** `components/layout/header.tsx`
 
-Busca la sección del Logo (líneas 39-52) y reemplázala por:
+El logo ha sido optimizado para ser más grande y legible. Para cambiar la imagen:
+1. Sube tu logo a `/public/images/logo.png`.
+2. El componente ya está configurado para manejar una altura de `h-14` (56px) o superior para una apariencia premium.
 
 ```tsx
 {/* Logo */}
-<Link href="/" className="flex items-center gap-2 group">
-  <img 
+<Link href="/" className="flex items-center gap-2 group transition-transform hover:scale-105">
+  <Image 
     src="/images/logo.png" 
     alt="Talking Cities" 
-    className="h-10 w-auto"
+    width={200} // Ajustado para mejor proporción
+    height={60}
+    className="h-14 w-auto object-contain"
+    priority
   />
 </Link>
 ```
@@ -105,26 +108,24 @@ public/images/
 ## 3. Sistema multiidioma
 
 ### Estado actual
-Actualmente el sitio tiene:
-- ✅ Audio en 4 idiomas (EN, PL, ES, DE) mediante el reproductor
-- ⚠️ Interfaz solo en inglés
+- ✅ **Sistema multiidioma COMPLETO**: Implementado con `next-intl`.
+- ✅ **Soporte para 4 idiomas**: Español (ES), Inglés (EN), Polaco (PL) y Alemán (DE).
+- ✅ **Contenido enriquecido**: Historias completas integradas para 5 ciudades principales.
 
-### Para implementar multiidioma completo (ES, PL, EN, DE)
+### Cómo editar traducciones de la interfaz
+Los textos fijos (botones, menú, títulos de secciones) se encuentran en:
+- `messages/es.json` (Español)
+- `messages/en.json` (Inglés)
+- `messages/pl.json` (Polaco)
+- `messages/de.json` (Alemán)
 
-Necesitas que yo implemente el sistema de internacionalización (`next-intl`). Esto incluirá:
-
-1. **Selector de idioma** en el header
-2. **URLs con prefijo de idioma**: `/es/`, `/pl/`, `/en/`, `/de/`
-3. **Archivos de traducción** editables:
-   ```
-   messages/
-   ├── en.json    → Textos en inglés
-   ├── es.json    → Textos en español
-   ├── pl.json    → Textos en polaco
-   └── de.json    → Textos en alemán
-   ```
-
-**¿Quieres que implemente el sistema multiidioma completo?** Solo dime y lo hago.
+### Cómo añadir/editar Historias (Historias de Resiliencia)
+Las historias se gestionan en `data/content/stories.json`. Cada campo de texto soporta sufijos para los idiomas:
+- `title`: Título en inglés (base)
+- `title_es`: Título en español
+- `title_pl`: Título en polaco
+- `title_de`: Título en alemán
+*(Lo mismo aplica para `introduction`, `sections[].content`, etc.)*
 
 ---
 
@@ -235,6 +236,8 @@ Busca los arrays de enlaces y modifícalos igual que el menú.
 | Hero principal | `hero.title`, `hero.subtitle`, `hero.backgroundImage` |
 | Propuesta de valor | `valueProposition.title`, `valueProposition.features[]` |
 | Cómo funciona | `howItWorks.title`, `howItWorks.fromHome`, `howItWorks.onTheStreets` |
+| Nuevos Relatos | Se edita en `messages/[id].json` (`cities.title` y `cities.subtitle`) |
+| Historias Gratuitas | Se definen en `data/content/stories.json` |
 | Compromiso social | `commitment.title`, `commitment.description`, `commitment.stat` |
 
 ### Editar página About
