@@ -71,14 +71,14 @@ export default function Header({ locale }: HeaderProps) {
     }
 
     return (
-      <div className="relative h-12 w-[180px] sm:h-16 sm:w-[240px]">
+      <div className="relative h-14 w-[190px] sm:h-20 sm:w-[280px]">
         <Image
           src="/images/logo-color.png"
           alt="Talking Cities"
           fill
           className={`object-contain object-left transition-opacity duration-300 ${shouldShowSolid ? 'opacity-100' : 'opacity-0'}`}
           onError={() => setLogoError(true)}
-          sizes="240px"
+          sizes="280px"
           priority
         />
         <Image
@@ -87,7 +87,7 @@ export default function Header({ locale }: HeaderProps) {
           fill
           className={`object-contain object-left transition-opacity duration-300 ${shouldShowSolid ? 'opacity-0' : 'opacity-100'}`}
           onError={() => setLogoError(true)}
-          sizes="240px"
+          sizes="280px"
           priority
         />
       </div>
@@ -98,12 +98,12 @@ export default function Header({ locale }: HeaderProps) {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         shouldShowSolid
-          ? "bg-white/95 backdrop-blur-md shadow-md py-1"
+          ? "bg-white shadow-md py-1"
           : "bg-transparent py-2"
       }`}
     >
       <div className="max-w-content mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16 sm:h-20">
+        <div className="flex items-center justify-between h-20 sm:h-24">
           <Link href="/" className="flex items-center gap-2 group">
             {renderLogo()}
           </Link>
