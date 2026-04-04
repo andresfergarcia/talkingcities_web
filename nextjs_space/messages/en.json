@@ -151,11 +151,13 @@
     "katowice": "Katowice",
     "gdask": "Gdańsk",
     "gdansk": "Gdańsk",
-    "zielonagra": "Zielona Góra"
+    "zielonagra": "Zielona Góra",
+    "poland": "Poland"
   },
   "storyTypes": {
     "voicesofresistance": "Voices of Resistance",
-    "buildingswithheart": "Buildings With Heart"
+    "buildingswithheart": "Buildings With Heart",
+    "repopulationofpoland": "Repopulation of Poland"
   },
   "common": {
     "home": "Home",

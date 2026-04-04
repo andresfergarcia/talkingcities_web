@@ -7,8 +7,96 @@
   "pageSubtitle": "Free oral histories from Polish cities — preserving memory, accessible to all",
   "pageSubtitle_es": "Historias orales gratuitas de ciudades polacas — preservando la memoria, accesible para todos",
   "pageSubtitle_pl": "Darmowe historie mówione polskich miast — zachowując pamięć, dostępne dla wszystkich",
-  "pageSubtitle_de": "Kostenlose mündliche Überlieferungen aus polnischen Städten — Erinnerung bewahren, für alle zugänglich",
+  "pageSubtitle_de": "Kostenlose mündliche Überlieferungen aus polnischen Städten — Erinnerung bewahren, für alle zugänglich.",
   "stories": [
+    {
+      "slug": "roots-in-foreign-land",
+      "city": "Poland",
+      "city_es": "Polonia",
+      "city_pl": "Polska",
+      "city_de": "Polen",
+      "citySlug": "poland",
+      "type": "Repopulation of Poland",
+      "title": "Roots in Foreign Land",
+      "title_es": "Raíces en Tierra Ajena",
+      "title_pl": "Korzenie na obcej ziemi",
+      "title_de": "Wurzeln in fremder Erde",
+      "introduction": "In the complex tapestry of global urban history, few phenomena are as radical as the redesign of Polish borders after World War II. It was not simply a cartographic adjustment; it was a massive social engineering operation that displaced millions of people and forced entire cities to change their language, religion, and soul. What occurred between 1944 and 1960 in the so-called 'Recovered Territories' is a fundamental case study for understanding how urban identity is constructed—and imposed—against the trauma of uprooting.",
+      "introduction_es": "En el complejo tapiz de la historia urbana global, pocos fenómenos resultan tan radicales como el rediseño de las fronteras polacas tras la Segunda Guerra Mundial. No se trató simplemente de un ajuste cartográfico; fue una operación de ingeniería social masiva que desplazó a millones de seres humanos y obligó a ciudades enteras a cambiar de lengua, religión y alma. Lo que ocurrió entre 1944 y 1960 en los llamados 'Territorios Recuperados' es un estudio de caso fundamental para comprender cómo se construye —y se impone— la identidad urbana frente al trauma del desarraigo.",
+      "introduction_pl": "W złożonym gobelinie globalnej historii urbanistycznej niewiele zjawisk jest tak radykalnych, jak zmiana granic Polski po II wojnie światowej. Nie była to tylko korekta kartograficzna; to była masowa operacja inżynierii społecznej, która przesiedliła miliony ludzi i zmusiła całe miasta do zmiany języka, religii i duszy. To, co wydarzyło się w latach 1944–1960 na tzw. 'Ziemiach Odzyskanych', jest fundamentalnym studium przypadku pozwalającym zrozumieć, jak tożsamość miejska jest budowana — i narzucana — w obliczu traumy wykorzenienia.",
+      "introduction_de": "In der komplexen Textur der globalen Stadtgeschichte sind nur wenige Phänomene so radikal wie die Neugestaltung der polnischen Grenzen nach dem Zweiten Weltkrieg. Es war nicht nur eine kartografische Anpassung; es war eine massive soziale Ingenieursoperation, die Millionen von Menschen vertrieb und ganze Städte zwang, ihre Sprache, Religion und Seele zu ändern. Was zwischen 1944 und 1960 in den sogenannten 'Wiedergewonnenen Gebieten' geschah, ist eine grundlegende Fallstudie zum Verständnis dafür, wie städtische Identität angesichts des Traumas der Entwurzelung konstruiert — und aufgezwungen — wird.",
+      "image": "/images/repopulation/exodus.jpg",
+      "sections": [
+        {
+          "title": "Baja Silesia: Rebuilding from Ashes",
+          "title_es": "Baja Silesia: Reconstruir desde las Cenizas",
+          "title_pl": "Dolny Śląsk: Odbudowa z popiołów",
+          "title_de": "Niederschlesien: Wiederaufbau aus der Asche",
+          "image": "/images/repopulation/reconstruction.jpg",
+          "content": "With its capital, Wrocław (formerly Breslau), this region went from being a Prussian bastion to a refuge for those expelled from Lviv. The city, 70% devastated, became the laboratory for a new Polish intelligentsia who had to inhabit buildings whose former owners had just departed for the west.",
+          "content_es": "Con su capital, Wrocław (antigua Breslau), esta región pasó de ser un bastión prusiano a un refugio para los expulsados de Lviv. La ciudad, devastada en un 70%, se convirtió en el laboratorio de una nueva intelectualidad polaca que tuvo que habitar edificios cuyos antiguos dueños acababan de marchar hacia el oeste.",
+          "content_pl": "Z stolicą we Wrocławiu (dawnym Breslau), region ten przeszedł drogę od pruskiego bastionu do schronienia dla wypędzonych ze Lwowa. Miasto, zniszczone w 70%, stało się laboratorium nowej polskiej inteligencji, która musiała zamieszkać w budynkach, których dawni właściciele właśnie odeszli na zachód.",
+          "content_de": "Mit ihrer Hauptstadt Wrocław (ehemals Breslau) wandelte sich diese Region von einer preußischen Bastion zu einem Zufluchtsort für die aus Lemberg Vertriebenen. Die zu 70 % zerstörte Stadt wurde zum Laboratorium einer neuen polnischen Intelligenz, die Gebäude bewohnen musste, deren ehemalige Besitzer gerade nach Westen aufgebrochen waren."
+        },
+        {
+          "title": "Western Pomerania: Permanent Provisionality",
+          "title_es": "Pomerania Occidental: Provisionalidad Permanente",
+          "title_pl": "Pomorze Zachodnie: Stała tymczasowość",
+          "title_de": "Westpommern: Permanente Provisorik",
+          "image": "/images/repopulation/interior.jpg",
+          "content": "Port cities like Szczecin (Stettin) experienced years of administrative uncertainty. As strategic points in the Baltic, their repopulation was slow, marked by the fear that the border was not final, creating an urban landscape of 'permanent provisionality' for nearly a decade.",
+          "content_es": "Ciudades portuarias como Szczecin (Stettin) vivieron años de incertidumbre administrativa. Al ser puntos estratégicos en el Báltico, su repoblación fue lenta, marcada por el miedo a que la frontera no fuera definitiva, lo que generó un paisaje urbano de 'provisionalidad permanente' durante casi una década.",
+          "content_pl": "Miasta portowe, takie jak Szczecin (Stettin), doświadczyły lat niepewności administracyjnej. Jako punkty strategiczne na Bałtyku, ich zaludnianie przebiegało powoli, naznaczone strachem, że granica nie jest ostateczna, co przez niemal dekadę tworzyło miejski krajobraz 'stałej tymczasowości'.",
+          "content_de": "Hafenstädte wie Szczecin (Stettin) erlebten Jahre administrativer Unsicherheit. Als strategische Punkte an der Ostsee verlief ihre Neubesiedlung langsam, geprägt von der Angst, die Grenze könne nicht endgültig sein, was fast ein Jahrzehnt lang eine Stadtlandschaft der 'permanenten Provisorik' schuf."
+        },
+        {
+          "title": "Warmia and Masuria: The Test of Polishness",
+          "title_es": "Warmia y Masuria: La Prueba de Polonidad",
+          "title_pl": "Warmia i Mazury: Próba polskości",
+          "title_de": "Ermland und Masuren: Die Prüfung des Polentums",
+          "image": "/images/repopulation/market.jpg",
+          "content": "In the northeast, former East Prussia presented a different challenge: a landscape of lakes and castles where the indigenous population (the Masurians) was subjected to rigorous 'tests of Polishness' to avoid expulsion, creating an identity tension that persisted for generations.",
+          "content_es": "En el noreste, la antigua Prusia Oriental presentó un desafío distinto: un paisaje de lagos y castillos donde la población autóctona (los masurianos) fue sometida a rigurosas 'pruebas de polonidad' para evitar su expulsión, creando una tensión identitaria que persistió durante generaciones.",
+          "content_pl": "Na północnym wschodzie dawne Prusy Wschodnie stanowiły inne wyzwanie: krajobraz jezior i zamków, gdzie ludność rodzima (Mazurzy) była poddawana rygorystycznym 'weryfikacjom polskości', aby uniknąć wysiedlenia, co tworzyło napięcie tożsamościowe trwające przez pokolenia.",
+          "content_de": "Im Nordosten stellte das ehemalige Ostpreußen eine andere Herausforderung dar: eine Landschaft aus Seen und Schlössern, in der die einheimische Bevölkerung (die Masuren) strengen 'Prüfungen des Polentums' unterzogen wurde, um eine Vertreibung zu vermeiden, was eine über Generationen anhaltende Identitätsspannung schuf."
+        },
+        {
+          "title": "Operation Vistula and the International Mosaics",
+          "title_es": "Operación Vístula y los Mosaicos Internacionales",
+          "title_pl": "Akcja Wisła i międzynarodowe mozaiki",
+          "title_de": "Aktion Weichsel und die internationalen Mosaike",
+          "image": "/images/repopulation/train.jpg",
+          "content": "The repopulation was not monolithic. It was a forced convergence of groups with opposing worldviews. To this complex balance was added Operation Vistula, which dispersed Ukrainian and Lemko communities across these lands. Unexpectedly, between 1950 and 1954, thousands of Greek refugees fleeing the Civil War were also welcomed, settling in 37 localities and injecting a Mediterranean vibrance into the region.",
+          "content_es": "La repoblación no fue un movimiento monolítico. Fue una convergencia forzada de grupos con cosmovisiones opuestas. A este complejo equilibrio se sumó la Operación Vístula, que dispersó por estas tierras a comunidades de ucranianos y lemkos. Inesperadamente, entre 1950 y 1954, miles de refugiados griegos que huían de la Guerra Civil también fueron acogidos, asentándose en 37 localidades e inyectando una vibración mediterránea en la región.",
+          "content_pl": "Repopulacja nie była ruchem monolitycznym. Była to wymuszona zbieżność grup o przeciwstawnych światopoglądach. Do tej złożonej równowagi dołączyła Akcja Wisła, która rozproszyła społeczności ukraińskie i łemkowskie na tych ziemiach. Nieoczekiwanie, w latach 1950–1954, przyjęto również tysiące greckich uchodźców uciekających przed wojną domową, którzy osiedlili się w 37 miejscowościach, wnosząc do regionu śródziemnomorską energię.",
+          "content_de": "Die Neubesiedlung war keine monolithische Bewegung. Es war eine erzwungene Konvergenz von Gruppen mit gegensätzlichen Weltanschauungen. Zu diesem komplexen Gleichgewicht kam die Aktion Weichsel hinzu, die ukrainische und lemkische Gemeinschaften über diese Länder verteilte. Unerwarteterweise wurden zwischen 1950 und 1954 auch Tausende griechische Flüchtlinge aufgenommen, die vor dem Bürgerkrieg flohen. Sie ließen sich in 37 Orten nieder und brachten mediterrane Lebendigkeit in die Region."
+        },
+        {
+          "title": "The Forge of a Generational Identity",
+          "title_es": "La Forja de una Identidad Generacional",
+          "title_pl": "Kuźnia tożsamości pokoleniowej",
+          "title_de": "Die Schmiede einer Generationenidentität",
+          "content": "The identity of these cities was not born in 1945 with the signing of a treaty, but in the decades that followed. For the children and grandchildren of the pioneers, the streets of Zielona Góra, Wrocław, or Szczecin were no longer 'recovered territories' or spoils of war: they were, simply, home. The German past ceased to be a taboo and became an archaeological layer of their own history.",
+          "content_es": "La identidad de estas ciudades no nació in 1945 con la firma de un tratado, sino en las décadas posteriores. Para los hijos y nietos de aquellos pioneros, las calles de Zielona Góra, Wrocław o Szczecin ya no eran 'territorios recuperados' ni botines de guerra: eran, simplemente, su casa. El pasado alemán dejó de ser un tabú para convertirse en una capa arqueológica de su propia historia.",
+          "content_pl": "Tożsamość tych miast nie narodziła się w 1945 roku wraz z podpisaniem traktatu, ale w kolejnych dekadach. Dla dzieci i wnuków pionierów ulice Zielonej Góry, Wrocławia czy Szczecina nie były już 'ziemiami odzyskanymi' ani łupem wojennym: były po prostu domem. Niemiecka przeszłość przestała być tabu i stała się archeologiczną warstwą ich własnej historii.",
+          "content_de": "Die Identität dieser Städte wurde nicht 1945 mit der Unterzeichnung eines Vertrages geboren, sondern in den folgenden Jahrzehnten. Für die Kinder und Enkel der Pioniere waren die Straßen von Zielona Góra, Wrocław oder Szczecin keine 'wiedergewonnenen Gebiete' oder Kriegsbeute mehr: Sie waren schlichtweg ihr Zuhause. Die deutsche Vergangenheit hörła auf, ein Tabu zu sein, und wurde zu einer archäologischen Schicht ihrer eigenen Geschichte."
+        },
+        {
+          "title": "Critical Perspective: Challenging the Official Narrative",
+          "title_es": "Perspectiva Crítica: Desafiando el Relato Oficial",
+          "title_pl": "Perspektywa krytyczna: Wyzwanie dla oficjalnej narracji",
+          "title_de": "Kritische Perspektive: Herausforderung für das offizielle Narrativ",
+          "content": "It is imperative to question the narrative of 'Recovery'. While historically justified as a return to the Piast lands, the reality was a territorial compensation for the loss of the Kresy. Behind the heroic relato lies the trauma of ethnic cleansing (the German expulsion) and the uprooting of Poles from the east who did not want to leave their homes. Today, the challenge is to embrace this duality without fear.",
+          "content_es": "Es imperativo cuestionar la narrativa de la 'Recuperación'. Aunque históricamente se justificó como un retorno a las tierras de la dinastía Piast, la realidad fue una compensación territorial por la pérdida de los Kresy. Tras el relato heroico se oculta el trauma de la limpieza étnica (la expulsión alemana) y el desarraigo de los polacos del este que no querían abandonar sus hogares. Hoy, el reto es abrazar esa dualidad sin miedo.",
+          "content_pl": "Należy zakwestionować narrację o 'Odzyskaniu'. Choć historycznie uzasadniana jako powrót na ziemie Piastów, rzeczywistość była rekompensatą terytorialną za utratę Kresów. Za heroiczną narracją kryje się trauma czystek etnicznych (wypędzenia Niemców) i wykorzenienia Polaków ze wschodu, którzy nie chcieli opuszczać swoich domów. Dziś wyzwaniem jest przyjęcie tej dualności bez lęku.",
+          "content_de": "Es ist zwingend erforderlich, das Narrativ der 'Wiedergewinnung' zu hinterfragen. Während es historisch als Rückkehr in das Stammland der Piasten gerechtfertigt wurde, war die Realität eine territoriale Entschädigung für den Verlust der Ostgebiete. Hinter der heroischen Erzählung verbirgt sich das Trauma ethnischer Säuberungen (der deutschen Vertreibung) und die Entwurzelung der Polen aus dem Osten, die ihre Heimat nicht verlassen wollten. Heute besteht die Herausforderung darin, diese Dualität ohne Angst anzunehmen."
+        }
+      ],
+      "conclusion": "The current Polish identity in these territories is, paradoxically, one of the most dynamic in the country, precisely because it was born from the need to synthesize multiple origins into a single urban destination.",
+      "conclusion_es": "La identidad polaca actual en estos territorios es, paradójicamente, una de las más dinámicas del país, precisamente porque nació de la necesidad de sintetizar múltiples orígenes en un solo destino urbano.",
+      "conclusion_pl": "Współczesna polska tożsamość na tych terytoriach jest paradoksalnie jedną z najbardziej dynamicznych w kraju właśnie dlatego, że narodziła się z potrzeby syntezy wielu korzeni w jedno miejskie przeznaczenie.",
+      "conclusion_de": "Die heutige polnische Identität in diesen Gebieten ist paradoxerweise eine der dynamischsten des Landes, gerade weil sie aus der Notwendigkeit entstand, vielfältige Ursprünge in einer einzigen städtischen Bestimmung zu verschmelzen."
+    },
     {
       "slug": "warsaw-voices-of-resistance",
       "city": "Warsaw",

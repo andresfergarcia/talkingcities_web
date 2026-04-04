@@ -147,15 +147,17 @@
     "krakow": "Krakau",
     "wroclaw": "Breslau",
     "poznan": "Posen",
-    "zielonagora": "Grünberg",
-    "katowice": "Katowice",
-    "gdask": "Gdańsk",
-    "gdansk": "Gdańsk",
-    "zielonagra": "Zielona Góra"
+    "zielonagora": "Zielona Góra",
+    "katowice": "Kattowitz",
+    "gdask": "Danzig",
+    "gdansk": "Danzig",
+    "zielonagra": "Zielona Góra",
+    "poland": "Polen"
   },
   "storyTypes": {
     "voicesofresistance": "Stimmen des Widerstands",
-    "buildingswithheart": "Gebäude mit Herz"
+    "buildingswithheart": "Gebäude mit Herz",
+    "repopulationofpoland": "Repopulierung Polens"
   },
   "common": {
     "home": "Startseite",

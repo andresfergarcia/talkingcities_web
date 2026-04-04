@@ -151,11 +151,13 @@
     "katowice": "Katowice",
     "gdask": "Gdańsk",
     "gdansk": "Gdańsk",
-    "zielonagra": "Zielona Góra"
+    "zielonagra": "Zielona Góra",
+    "poland": "Polska"
   },
   "storyTypes": {
     "voicesofresistance": "Głosy Oporu",
-    "buildingswithheart": "Budynki z Sercem"
+    "buildingswithheart": "Budynki z Sercem",
+    "repopulationofpoland": "Repopulacja Polski"
   },
   "common": {
     "home": "Strona główna",
