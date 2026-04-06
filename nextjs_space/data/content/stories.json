@@ -95,7 +95,99 @@
       "conclusion": "The current Polish identity in these territories is, paradoxically, one of the most dynamic in the country, precisely because it was born from the need to synthesize multiple origins into a single urban destination.",
       "conclusion_es": "La identidad polaca actual en estos territorios es, paradójicamente, una de las más dinámicas del país, precisamente porque nació de la necesidad de sintetizar múltiples orígenes en un solo destino urbano.",
       "conclusion_pl": "Współczesna polska tożsamość na tych terytoriach jest paradoksalnie jedną z najbardziej dynamicznych w kraju właśnie dlatego, że narodziła się z potrzeby syntezy wielu korzeni w jedno miejskie przeznaczenie.",
-      "conclusion_de": "Die heutige polnische Identität in diesen Gebieten ist paradoxerweise eine der dynamischsten des Landes, gerade weil sie aus der Notwendigkeit entstand, vielfältige Ursprünge in einer einzigen städtischen Bestimmung zu verschmelzen."
+      "conclusion_de": "Die heutige polnische Identität in diesen Gebieten ist paradoxerweise eine der dynamischsten des Landes, gerade weil sie aus der Notwendigkeit entstand, vielfältige Ursprünge in einer einzigen städtischen Bestimmung zu verschmelzen.",
+      "audioFiles": {
+        "english": "/audio/poland/en.mp3",
+        "polish": "/audio/poland/pl.mp3",
+        "spanish": "/audio/poland/es.mp3",
+        "german": "/audio/poland/de.mp3"
+      },
+      "relatedTourSlug": ""
+    },
+    {
+      "slug": "from-cattle-car-to-nation",
+      "city": "Poland",
+      "city_es": "Polonia",
+      "city_pl": "Polska",
+      "city_de": "Polen",
+      "citySlug": "poland",
+      "type": "Repopulation of Poland",
+      "title": "From Cattle Car to Nation",
+      "title_es": "Del vagón de ganado a la construcción de una nación",
+      "title_pl": "Z wagonu bydła do budowy narodu",
+      "title_de": "Vom Viehwagon zur Nation",
+      "introduction": "Al finalizar la Segunda Guerra Mundial, Europa no solo estaba en ruinas, sino que estaba siendo redibujada. Tras las conferencias de Yalta y Potsdam, las potencias vencedoras decidieron desplazar las fronteras de la Unión Soviética hacia el oeste, lo que provocó uno de los movimientos forzados de población más grandes de la historia moderna. Se estima que entre 1.5 y 2 millones de polacos fueron \"repatriados\" desde los antiguos territorios orientales de Polonia (Kresy) hacia los nuevos \"Territorios Recuperados\" que antes pertenecían a Alemania.",
+      "introduction_es": "Al finalizar la Segunda Guerra Mundial, Europa no solo estaba en ruinas, sino que estaba siendo redibujada. Tras las conferencias de Yalta y Potsdam, las potencias vencedoras decidieron desplazar las fronteras de la Unión Soviética hacia el oeste, lo que provocó uno de los movimientos forzados de población más grandes de la historia moderna. Se estima que entre 1.5 y 2 millones de polacos fueron \"repatriados\" desde los antiguos territorios orientales de Polonia (Kresy) hacia los nuevos \"Territorios Recuperados\" que antes pertenecían a Alemania.",
+      "introduction_pl": "Po zakończeniu II wojny światowej Europa nie była tylko w ruinie, lecz także była rysowana na nowo. Po konferencjach w Jałcie i Poczdamie zwycięskie mocarstwa postanowiły przesunąć granice Związku Radzieckiego na zachód, co wywołało jeden z największych przymusowych ruchów ludności we współczesnej historii. Szacuje się, że od 1,5 do 2 milionów Polaków zostało \"repatriowanych\" z dawnych wschodnich terytoriów Polski (Kresy) do nowych \"Ziem Odzyskanych\", które wcześniej należały do Niemiec.",
+      "introduction_de": "Am Ende des Zweiten Weltkriegs war Europa nicht nur in Trümmern, sondern wurde neu gezeichnet. Nach den Konferenzen von Jalta und Potsdam beschlossen die Siegermächte, die Grenzen der Sowjetunion nach Westen zu verschieben, was eine der größten erzwungenen Bevölkerungsbewegungen der modernen Geschichte auslöste. Schätzungen zufolge wurden zwischen 1,5 und 2 Millionen Polen aus den ehemaligen östlichen Gebieten Polens (den Kresy) in die neuen \"Wiedergewonnenen Gebiete\" umgesiedelt, die zuvor zu Deutschland gehört hatten.",
+      "image": "/images/stories/poland/from-cattle-car/hero.png",
+      "sections": [
+        {
+          "title": "Desde los Kresy a los Territorios Recuperados",
+          "title_es": "Desde los Kresy a los Territorios Recuperados",
+          "title_pl": "Z Kresów do Ziem Odzyskanych",
+          "title_de": "Von den Kresy zu den Wiedergewonnenen Gebieten",
+          "content": "Este éxodo masivo alteró para siempre la demografía de Europa Central, movilizando a familias enteras desde regiones bajo control soviético. Ucrania aportó el mayor contingente hacia el centro de Polonia; Bielorrusia aportó miles de familias desplazadas de zonas rurales y urbanas; y Lituania es el punto de origen de nuestra historia, donde la presión política y el cambio de soberanía obligaron a los residentes de origen polaco a elegir entre la sovietización o el destierro hacia una Polonia que nunca habían visto.",
+          "content_es": "Este éxodo masivo alteró para siempre la demografía de Europa Central, movilizando a familias enteras desde regiones bajo control soviético. Ucrania aportó el mayor contingente hacia el centro de Polonia; Bielorrusia aportó miles de familias desplazadas de zonas rurales y urbanas; y Lituania es el punto de origen de nuestra historia, donde la presión política y el cambio de soberanía obligaron a los residentes de origen polaco a elegir entre la sovietización o el destierro hacia una Polonia que nunca habían visto.",
+          "content_pl": "Ten masowy exodus na zawsze zmienił demografię Europy Środkowej, przesuwając całe rodziny z regionów pod kontrolą sowiecką. Ukraina wysłała największy oddział w kierunku centralnej Polski; Białoruś dostarczyła tysiące rodzin przesiedlonych ze wsi i miast; a Litwa jest punktem wyjścia naszej historii, gdzie presja polityczna i zmiana suwerenności zmusiły polskojęzycznych mieszkańców do wyboru między sowietyzacją a wygnaniem do Polski, której nigdy wcześniej nie widzieli.",
+          "content_de": "Dieser massive Exodus veränderte für immer die Demographie Mittelosteuropas und mobilisierte ganze Familien aus sowjetisch kontrollierten Regionen. Die Ukraine stellte den größten Verband in Richtung Zentralpolen; Belarus schickte Tausende von Familien, die aus ländlichen und städtischen Gebieten vertrieben wurden; und Litauen ist der Ausgangspunkt unserer Geschichte, wo politischer Druck und ein Souveränitätswechsel die polnischstämmigen Bewohner zwangen, zwischen Sowjetisierung und der Verbannung in ein Polen zu wählen, das sie nie gesehen hatten."
+        },
+        {
+          "title": "El idilio en la aldea",
+          "title_es": "El idilio en la aldea",
+          "title_pl": "Sielanka w wiosce",
+          "title_de": "Das Idyll im Dorf",
+          "image": "/images/stories/poland/from-cattle-car/vilna-aldea.png",
+          "content": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
+          "content_es": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
+          "content_pl": "Bronisława zaczyna swoją opowieść od wspomnień o spokoju Mistrz Krynki, małej wioski w rejonie Wileńszczyzny, która dziś należy do Litwy. Wówczas życie wyznaczał rytm ziemi i praca na folwarku pani Kantarowej, gdzie jej ojciec odgrywał kluczową rolę. Wspomnienia z dzieciństwa są przesiąknięte wiejską wolnością, która wydawała się wieczna, otoczoną lasami i polami uprawnymi.",
+          "content_de": "Bronisława beginnt ihre Erzählung mit der Erinnerung an den Frieden in Mistrz Krynka, einem kleinen Dorf in der Region Vilnius, das heute zu Litauen gehört. Damals war das Leben vom Rhythmus des Landes und der Arbeit auf dem Gut von Frau Kantarowa geprägt, wo ihr Vater eine entscheidende Rolle spielte. Die Erinnerungen an ihre Kindheit sind erfüllt von einer ländlichen Freiheit, die ewig zu sein schien, umgeben von Wäldern und Anbauflächen."
+        },
+        {
+          "title": "La traición y la maldad",
+          "title_es": "La traición y la maldad",
+          "title_pl": "Zdrada i zło",
+          "title_de": "Verrat und Böses",
+          "image": "/images/stories/poland/from-cattle-car/traicion-maldad.png",
+          "content": "La guerra no solo llegó con soldados, sino con la ruptura de la confianza vecinal. El testimonio más desgarrador de Bronisława es la denuncia: alguien en quien confiaban reveló a los ocupantes alemanes que la familia Tomkiewicz ocultaba a judíos en su propiedad. Este acto de traición transformó su hogar, un lugar de refugio y bondad, en un objetivo de la persecución nazi.",
+          "content_es": "La guerra no solo llegó con soldados, sino con la ruptura de la confianza vecinal. El testimonio más desgarrador de Bronisława es la denuncia: alguien en quien confiaban reveló a los ocupantes alemanes que la familia Tomkiewicz ocultaba a judíos en su propiedad. Este acto de traición transformó su hogar, un lugar de refugio y bondad, en un objetivo de la persecución nazi.",
+          "content_pl": "Wojna przyszła nie tylko z żołnierzami, lecz także ze złamaniem sąsiedzkiego zaufania. Najbardziej druzgocące świadectwo Bronisławy to doniesienie: ktoś, komu ufali, ujawnił niemieckim okupantom, że rodzina Tomkiewicz ukrywała na swojej posesji Żydów. Ten akt zdrady przemienił ich dom, miejsce schronienia i dobroci, w cel nazistowskich prześladowań.",
+          "content_de": "Der Krieg kam nicht nur mit Soldaten, sondern mit dem Bruch des nachbarschaftlichen Vertrauens. Die erschütterndste Aussage von Bronisława ist die Denunziation: Jemand, dem sie vertrauten, verriet den deutschen Besatzern, dass die Familie Tomkiewicz Juden auf ihrem Grundstück versteckte. Dieser Akt des Verrats verwandelte ihr Zuhause, einen Ort der Zuflucht und Güte, in ein Ziel der nationalsozialistischen Verfolgung."
+        },
+        {
+          "title": "El invierno en los vagones",
+          "title_es": "El invierno en los vagones",
+          "title_pl": "Zima w wagonach",
+          "title_de": "Der Winter in den Waggons",
+          "image": "/images/stories/poland/from-cattle-car/vagon-ganado.png",
+          "content": "La partida de Lituania en febrero de 1946 fue un ritual de duelo y esperanza. Antes de cerrar la puerta por última vez, su madre colocó pan y sal sobre la mesa y encendió una vela para rezar en familia. El traslado hacia los llamados \"Territorios Recuperados\" se realizó en vagones destinados originalmente al ganado. Bronisława recuerda el hacinamiento extremo y el frío, con temperaturas que descendían hasta los 30 grados bajo cero, y la humedad de las respiraciones que convertía las paredes en escarcha.",
+          "content_es": "La partida de Lituania en febrero de 1946 fue un ritual de duelo y esperanza. Antes de cerrar la puerta por última vez, su madre colocó pan y sal sobre la mesa y encendió una vela para rezar en familia. El traslado hacia los llamados \"Territorios Recuperados\" se realizó en vagones destinados originalmente al ganado. Bronisława recuerda el hacinamiento extremo y el frío, con temperaturas que descendían hasta los 30 grados bajo cero, y la humedad de las respiraciones que convertía las paredes en escarcha.",
+          "content_pl": "Wyjazd z Litwy w lutym 1946 roku był rytuałem żałoby i nadziei. Zanim po raz ostatni zamknęli drzwi, jej matka położyła na stole chleb i sól oraz zapaliła świecę, aby się modlić jako rodzina. Przewóz do tak zwanych \"Ziem Odzyskanych\" odbywał się w wagonach pierwotnie przeznaczonych dla bydła. Bronisława pamięta skrajne przeludnienie i mróz, gdy temperatury spadały do minus 30 stopni, a wilgoć oddechów zamieniała ściany w szron.",
+          "content_de": "Die Abreise aus Litauen im Februar 1946 war ein Ritual aus Trauer und Hoffnung. Bevor sie zum letzten Mal die Tür schlossen, legte ihre Mutter Brot und Salz auf den Tisch und zündete eine Kerze an, um als Familie zu beten. Der Transport in die sogenannten \"Wiedergewonnenen Gebiete\" erfolgte in Waggons, die ursprünglich für Vieh bestimmt waren. Bronisława erinnert sich an die extreme Überfüllung und die Kälte, als die Temperaturen bis auf minus 30 Grad sanken und die Feuchtigkeit der Atemluft die Wände in Frost verwandelte."
+        },
+        {
+          "title": "Repoblar y florecer",
+          "title_es": "Repoblar y florecer",
+          "title_pl": "Zasiedlić i rozkwitnąć",
+          "title_de": "Wiederbesiedeln und erblühen",
+          "image": "/images/stories/poland/from-cattle-car/zielona-gora.png",
+          "content": "La llegada a la región de Lubusz en marzo de 1946 fue un choque cultural. Bronisława describe su asombro al ver aldeas alemanas abandonadas con casas de ladrillo rojo, grandes ventanas y calles pavimentadas. Viajar con una vaca les dio un activo vital: leche y sustento en los primeros meses. Finalmente, encontró el amor, se casó en 1960 y sus cuatro hijos son el testimonio vivo de que la vida puede florecer en un suelo nuevo.",
+          "content_es": "La llegada a la región de Lubusz en marzo de 1946 fue un choque cultural. Bronisława describe su asombro al ver aldeas alemanas abandonadas con casas de ladrillo rojo, grandes ventanas y calles pavimentadas. Viajar con una vaca les dio un activo vital: leche y sustento en los primeros meses. Finalmente, encontró el amor, se casó en 1960 y sus cuatro hijos son el testimonio vivo de que la vida puede florecer en un suelo nuevo.",
+          "content_pl": "Przybycie do regionu lubuskiego w marcu 1946 roku było szokiem kulturowym. Bronisława opisuje swoje zdumienie, gdy zobaczyła opuszczone niemieckie wsie z czerwonymi domami z cegły, dużymi oknami i brukowanymi ulicami. Podróż z krową dała im cenny zasób: mleko i utrzymanie w pierwszych miesiącach. W końcu znalazła miłość, wyszła za mąż w 1960 roku, a jej czworo dzieci są żywym świadectwem, że życie może rozkwitnąć na nowej ziemi.",
+          "content_de": "Die Ankunft in der Region Lebus im März 1946 war ein Kulturschock. Bronisława beschreibt ihr Erstaunen über verlassene deutsche Dörfer mit roten Backsteinhäusern, großen Fenstern und gepflasterten Straßen. Die Reise mit einer Kuh gab ihnen eine lebenswichtige Ressource: Milch und Lebensunterhalt in den ersten Monaten. Schließlich fand sie die Liebe, heiratete 1960, und ihre vier Kinder sind der lebende Beweis dafür, dass das Leben auf einem neuen Boden erblühen kann."
+        }
+      ],
+      "conclusion": "La crónica se cierra con la consolidación de su vida en Zielona Góra. En esta ciudad, que ella vio transformarse de un asentamiento de posguerra a una vibrante comunidad polaca, Bronisława encontró el amor y formó su propia familia. Su matrimonio en 1960 y sus cuatro hijos son el testimonio vivo de que, a pesar del desarraigo, la vida siempre encuentra la forma de florecer en un suelo nuevo.",
+      "conclusion_es": "La crónica se cierra con la consolidación de su vida en Zielona Góra. En esta ciudad, que ella vio transformarse de un asentamiento de posguerra a una vibrante comunidad polaca, Bronisława encontró el amor y formó su propia familia. Su matrimonio en 1960 y sus cuatro hijos son el testimonio vivo de que, a pesar del desarraigo, la vida siempre encuentra la forma de florecer en un suelo nuevo.",
+      "conclusion_pl": "Kronika zamyka się konsolidacją jej życia w Zielonej Górze. W tym mieście, które widziała, jak przemienia się z powojennego osiedla w tętniącą życiem polską społeczność, Bronisława znalazła miłość i założyła własną rodzinę. Jej ślub w 1960 roku i czworo dzieci są żywym świadectwem, że pomimo wykorzenienia życie zawsze znajduje sposób, by rozkwitnąć na nowej ziemi.",
+      "conclusion_de": "Die Chronik endet mit der Festigung ihres Lebens in Zielona Góra. In dieser Stadt, die sie sah, wie sie sich von einer Nachkriegsansiedlung zu einer lebendigen polnischen Gemeinschaft wandelte, fand Bronisława die Liebe und gründete ihre eigene Familie. Ihre Hochzeit 1960 und ihre vier Kinder sind der lebende Beweis dafür, dass das Leben trotz der Entwurzelung immer einen Weg findet, auf neuem Boden zu erblühen.",
+      "audioFiles": {
+        "english": "/audio/poland_2/en.mp3",
+        "polish": "/audio/poland_2/pl.mp3",
+        "spanish": "/audio/poland_2/es.mp3",
+        "german": "/audio/poland_2/de.mp3"
+      },
+      "relatedTourSlug": ""
     },
     {
       "slug": "warsaw-voices-of-resistance",
