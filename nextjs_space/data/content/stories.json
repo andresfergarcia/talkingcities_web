@@ -138,6 +138,7 @@
           "title_pl": "Sielanka w wiosce",
           "title_de": "Das Idyll im Dorf",
           "image": "/images/stories/poland/from-cattle-car/vilna-aldea.png",
+          "video": "https://www.youtube.com/embed/0OFwj6YP3zQ",
           "content": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
           "content_es": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
           "content_pl": "Bronisława zaczyna swoją opowieść od wspomnień o spokoju Mistrz Krynki, małej wioski w rejonie Wileńszczyzny, która dziś należy do Litwy. Wówczas życie wyznaczał rytm ziemi i praca na folwarku pani Kantarowej, gdzie jej ojciec odgrywał kluczową rolę. Wspomnienia z dzieciństwa są przesiąknięte wiejską wolnością, która wydawała się wieczna, otoczoną lasami i polami uprawnymi.",
@@ -182,10 +183,10 @@
       "conclusion_pl": "Kronika zamyka się konsolidacją jej życia w Zielonej Górze. W tym mieście, które widziała, jak przemienia się z powojennego osiedla w tętniącą życiem polską społeczność, Bronisława znalazła miłość i założyła własną rodzinę. Jej ślub w 1960 roku i czworo dzieci są żywym świadectwem, że pomimo wykorzenienia życie zawsze znajduje sposób, by rozkwitnąć na nowej ziemi.",
       "conclusion_de": "Die Chronik endet mit der Festigung ihres Lebens in Zielona Góra. In dieser Stadt, die sie sah, wie sie sich von einer Nachkriegsansiedlung zu einer lebendigen polnischen Gemeinschaft wandelte, fand Bronisława die Liebe und gründete ihre eigene Familie. Ihre Hochzeit 1960 und ihre vier Kinder sind der lebende Beweis dafür, dass das Leben trotz der Entwurzelung immer einen Weg findet, auf neuem Boden zu erblühen.",
       "audioFiles": {
-        "english": "/audio/poland_2/en.mp3",
-        "polish": "/audio/poland_2/pl.mp3",
-        "spanish": "/audio/poland_2/es.mp3",
-        "german": "/audio/poland_2/de.mp3"
+        "english": "/audio/poland_3/en.mp3",
+        "polish": "/audio/poland_3/pl.mp3",
+        "spanish": "/audio/poland_3/es.mp3",
+        "german": "/audio/poland_3/de.mp3"
       },
       "relatedTourSlug": ""
     },

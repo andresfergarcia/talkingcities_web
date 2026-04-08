@@ -105,6 +105,20 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
                 />
               </div>
             )}
+            {section?.video && (
+              <div className="mb-6 overflow-hidden rounded-xl border border-border bg-black">
+                <div className="relative aspect-[16/9] w-full">
+                  <iframe
+                    src={section.video}
+                    title={l(section, 'title') || 'Story video'}
+                    className="absolute inset-0 w-full h-full"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            )}
             <h2 className="font-heading text-2xl font-bold text-text mb-4">
               {l(section, 'title')}
             </h2>
