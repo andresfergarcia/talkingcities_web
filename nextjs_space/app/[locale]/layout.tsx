@@ -20,7 +20,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const settings = getSiteSettings();
   const baseUrl = process.env.NEXTAUTH_URL || 'https://talkingcities.eu';
-  
+
   // Import messages for the current locale
   const messages = await loadMessages(locale);
   const metadata = messages.metadata as Record<string, string> || {};
@@ -64,7 +64,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  
+
   // Validate that the incoming locale is valid
   if (!locales.includes(locale as Locale)) {
     notFound();
@@ -90,7 +90,7 @@ export default async function LocaleLayout({
         <I18nProvider locale={locale} messages={messages}>
           <Header locale={locale} />
           <main>{children}</main>
-          <Footer 
+          <Footer
             contactEmail={settings?.contactEmail ?? 'info@talkingcities.eu'}
             locale={locale}
           />
@@ -99,3 +99,4 @@ export default async function LocaleLayout({
     </html>
   );
 }
+

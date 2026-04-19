@@ -112,10 +112,10 @@
       "city_de": "Polen",
       "citySlug": "poland",
       "type": "Repopulation of Poland",
-      "title": "From Cattle Car to Nation",
-      "title_es": "Del vagón de ganado a la construcción de una nación",
-      "title_pl": "Z wagonu bydła do budowy narodu",
-      "title_de": "Vom Viehwagon zur Nation",
+      "title": "From animal cars to nation-building",
+      "title_es": "De vagones para animales a la construcción de una nación",
+      "title_pl": "Od wagonów dla zwierząt do budowy narodu",
+      "title_de": "Von Viehwaggons zum Aufbau einer Nation",
       "introduction": "Al finalizar la Segunda Guerra Mundial, Europa no solo estaba en ruinas, sino que estaba siendo redibujada. Tras las conferencias de Yalta y Potsdam, las potencias vencedoras decidieron desplazar las fronteras de la Unión Soviética hacia el oeste, lo que provocó uno de los movimientos forzados de población más grandes de la historia moderna. Se estima que entre 1.5 y 2 millones de polacos fueron \"repatriados\" desde los antiguos territorios orientales de Polonia (Kresy) hacia los nuevos \"Territorios Recuperados\" que antes pertenecían a Alemania.",
       "introduction_es": "Al finalizar la Segunda Guerra Mundial, Europa no solo estaba en ruinas, sino que estaba siendo redibujada. Tras las conferencias de Yalta y Potsdam, las potencias vencedoras decidieron desplazar las fronteras de la Unión Soviética hacia el oeste, lo que provocó uno de los movimientos forzados de población más grandes de la historia moderna. Se estima que entre 1.5 y 2 millones de polacos fueron \"repatriados\" desde los antiguos territorios orientales de Polonia (Kresy) hacia los nuevos \"Territorios Recuperados\" que antes pertenecían a Alemania.",
       "introduction_pl": "Po zakończeniu II wojny światowej Europa nie była tylko w ruinie, lecz także była rysowana na nowo. Po konferencjach w Jałcie i Poczdamie zwycięskie mocarstwa postanowiły przesunąć granice Związku Radzieckiego na zachód, co wywołało jeden z największych przymusowych ruchów ludności we współczesnej historii. Szacuje się, że od 1,5 do 2 milionów Polaków zostało \"repatriowanych\" z dawnych wschodnich terytoriów Polski (Kresy) do nowych \"Ziem Odzyskanych\", które wcześniej należały do Niemiec.",
@@ -183,10 +183,10 @@
       "conclusion_pl": "Kronika zamyka się konsolidacją jej życia w Zielonej Górze. W tym mieście, które widziała, jak przemienia się z powojennego osiedla w tętniącą życiem polską społeczność, Bronisława znalazła miłość i założyła własną rodzinę. Jej ślub w 1960 roku i czworo dzieci są żywym świadectwem, że pomimo wykorzenienia życie zawsze znajduje sposób, by rozkwitnąć na nowej ziemi.",
       "conclusion_de": "Die Chronik endet mit der Festigung ihres Lebens in Zielona Góra. In dieser Stadt, die sie sah, wie sie sich von einer Nachkriegsansiedlung zu einer lebendigen polnischen Gemeinschaft wandelte, fand Bronisława die Liebe und gründete ihre eigene Familie. Ihre Hochzeit 1960 und ihre vier Kinder sind der lebende Beweis dafür, dass das Leben trotz der Entwurzelung immer einen Weg findet, auf neuem Boden zu erblühen.",
       "audioFiles": {
-        "english": "/audio/poland_3/en.mp3",
-        "polish": "/audio/poland_3/pl.mp3",
-        "spanish": "/audio/poland_3/es.mp3",
-        "german": "/audio/poland_3/de.mp3"
+        "english": "/audio/poland_2/en.mp3",
+        "polish": "/audio/poland_2/pl.mp3",
+        "spanish": "/audio/poland_2/es.mp3",
+        "german": "/audio/poland_2/de.mp3"
       },
       "relatedTourSlug": ""
     },
