@@ -45,7 +45,7 @@ export default function Commitment({ locale }: CommitmentProps) {
           >
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-10 text-center">
               <div className="text-6xl sm:text-7xl font-bold text-gold mb-2">
-                <Counter value={40} suffix="%" />
+                <Counter value={10} suffix="%" />
               </div>
               <p className="text-white/70 text-sm max-w-xs">
                 {t("statLabel")}

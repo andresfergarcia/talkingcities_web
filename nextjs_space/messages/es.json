@@ -25,7 +25,7 @@
     "gpsGuided": "Tours con GPS",
     "gpsGuidedDesc": "El audio se reproduce automáticamente mientras caminas. La historia se despliega en cada esquina.",
     "socialImpact": "Impacto Social",
-    "socialImpactDesc": "El 40% de las ganancias netas va directamente a los narradores ancianos que comparten sus historias."
+    "socialImpactDesc": "El 10% de las ganancias netas va directamente a los narradores ancianos que comparten sus historias."
   },
   "howItWorks": {
     "title": "Dos Formas de Experimentar la Historia",
@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Tu Visita Sostiene la Memoria",
-    "description": "Al comprar un tour, te conviertes en mecenas de este proyecto. Después de cubrir los costos operativos, reinvertimos el 40% de las ganancias netas para financiar tarjetas de supermercado para los narradores ancianos que comparten sus historias. Sus memorias sostienen la cultura; tu visita los sostiene a ellos.",
+    "description": "Al comprar un tour, te conviertes en mecenas de este proyecto. Después de cubrir los costos operativos, reinvertimos el 10% de las ganancias netas para financiar tarjetas de supermercado para los narradores ancianos que comparten sus historias. Sus memorias sostienen la cultura; tu visita los sostiene a ellos.",
     "statLabel": "% de ganancias netas devueltas a narradores"
   },
   "testimonials": {

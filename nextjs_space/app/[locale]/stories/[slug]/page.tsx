@@ -22,7 +22,7 @@ export default async function StoryDetailPage({ params }: { params: Promise<{ sl
   const { slug, locale } = await params;
   const messages = await loadMessages(locale);
   const t = createTranslator(messages);
-  
+
   const story = getStoryBySlug(slug);
   if (!story) return notFound();
 

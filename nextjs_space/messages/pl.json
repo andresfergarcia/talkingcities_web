@@ -25,7 +25,7 @@
     "gpsGuided": "Wycieczki z GPS",
     "gpsGuidedDesc": "Audio odtwarza się automatycznie podczas spaceru. Historia rozwija się na każdym rogu.",
     "socialImpact": "Wpływ Społeczny",
-    "socialImpactDesc": "40% zysków netto trafia bezpośrednio do starszych narratorów, którzy dzielą się swoimi historiami."
+    "socialImpactDesc": "10% zysków netto trafia bezpośrednio do starszych narratorów, którzy dzielą się swoimi historiami."
   },
   "howItWorks": {
     "title": "Dwa Sposoby na Doświadczenie Historii",
@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Twoja Wizyta Podtrzymuje Pamięć",
-    "description": "Kupując wycieczkę, stajesz się mecenasem tego projektu. Po pokryciu kosztów operacyjnych, reinwestujemy 40% zysków netto na karty spożywcze dla starszych narratorów, którzy dzielą się swoimi historiami. Ich wspomnienia podtrzymują kulturę; twoja wizyta podtrzymuje ich.",
+    "description": "Kupując wycieczkę, stajesz się mecenasem tego projektu. Po pokryciu kosztów operacyjnych, reinwestujemy 10% zysków netto na karty spożywcze dla starszych narratorów, którzy dzielą się swoimi historiami. Ich wspomnienia podtrzymują kulturę; twoja wizyta podtrzymuje ich.",
     "statLabel": "% zysków netto zwracanych narratorom"
   },
   "testimonials": {

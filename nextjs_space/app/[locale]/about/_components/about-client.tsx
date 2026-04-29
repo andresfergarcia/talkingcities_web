@@ -116,7 +116,7 @@ export default function AboutClient({ about }: AboutClientProps) {
           <div className="bg-primary-dark text-white rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
             <div className="text-center">
               <div className="font-heading text-5xl font-bold text-gold">
-                <Counter value={40} suffix="%" />
+                <Counter value={10} suffix="%" />
               </div>
             </div>
             <p className="text-white/80 leading-relaxed flex-1">

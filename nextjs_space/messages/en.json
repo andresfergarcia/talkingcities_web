@@ -25,7 +25,7 @@
     "gpsGuided": "GPS-Guided Tours",
     "gpsGuidedDesc": "Audio plays automatically as you walk. History unfolds at every corner.",
     "socialImpact": "Social Impact",
-    "socialImpactDesc": "40% of net profits go directly to the elderly narrators who share their stories."
+    "socialImpactDesc": "10% of net profits go directly to the elderly narrators who share their stories."
   },
   "howItWorks": {
     "title": "Two Ways to Experience History",
@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Your Visit Sustains Memory",
-    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 40% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
+    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 10% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
     "statLabel": "% of net profits returned to narrators"
   },
   "testimonials": {

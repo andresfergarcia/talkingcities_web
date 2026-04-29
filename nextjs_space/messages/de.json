@@ -25,7 +25,7 @@
     "gpsGuided": "GPS-geführte Touren",
     "gpsGuidedDesc": "Audio spielt automatisch beim Gehen. Geschichte entfaltet sich an jeder Ecke.",
     "socialImpact": "Soziale Wirkung",
-    "socialImpactDesc": "40% der Nettogewinne gehen direkt an die älteren Erzähler, die ihre Geschichten teilen."
+    "socialImpactDesc": "10% der Nettogewinne gehen direkt an die älteren Erzähler, die ihre Geschichten teilen."
   },
   "howItWorks": {
     "title": "Zwei Wege, Geschichte zu Erleben",
@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Dein Besuch Erhält die Erinnerung",
-    "description": "Mit dem Kauf einer Tour wirst du zum Förderer dieses Projekts. Nach Deckung der Betriebskosten reinvestieren wir 40% der Nettogewinne in Lebensmittelkarten für die älteren Erzähler, die ihre Geschichten teilen. Ihre Erinnerungen erhalten die Kultur; dein Besuch erhält sie.",
+    "description": "Mit dem Kauf einer Tour wirst du zum Förderer dieses Projekts. Nach Deckung der Betriebskosten reinvestieren wir 10% der Nettogewinne in Lebensmittelkarten für die älteren Erzähler, die ihre Geschichten teilen. Ihre Erinnerungen erhalten die Kultur; dein Besuch erhält sie.",
     "statLabel": "% der Nettogewinne an Erzähler zurückgegeben"
   },
   "testimonials": {
