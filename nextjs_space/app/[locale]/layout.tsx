@@ -45,9 +45,25 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: locale,
+      siteName: settings?.siteName ?? 'Talking Cities',
       title: settings?.siteName ?? 'Talking Cities',
       description: metadata?.description || (settings?.siteDescription ?? ''),
-      images: ['/og-image.png'],
+      url: `${baseUrl}/${locale}`,
+      images: [
+        {
+          url: `${baseUrl}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: settings?.siteName ?? 'Talking Cities',
+          type: 'image/png',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: settings?.siteName ?? 'Talking Cities',
+      description: metadata?.description || (settings?.siteDescription ?? ''),
+      images: [`${baseUrl}/og-image.png`],
     },
     icons: {
       icon: '/favicon.png',
