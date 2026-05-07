@@ -6,6 +6,7 @@
 3. [Sistema multiidioma](#3-sistema-multiidioma)
 4. [Subir a Hostinger](#4-subir-a-hostinger)
 5. [Editar menú y otras secciones](#5-editar-menú-y-otras-secciones)
+6. [Cómo crear un nuevo Relato (Artículo)](#6-cómo-crear-un-nuevo-relato-artículo)
 
 ---
 
@@ -271,6 +272,73 @@ Busca los arrays de enlaces y modifícalos igual que el menú.
 
 ---
 
+## 6. Cómo crear un nuevo Relato (Artículo)
+
+Esta sección es fundamental para el archivo oral de **Talking Cities**. Los artículos se gestionan desde `data/content/stories.json`.
+
+### Paso 1: Preparar Multimedia
+- **Fotos:** Guárdalas en `public/images/stories/[nombre-del-relato]/`
+- **Audio:** Guarda los MP3 en `public/audio/[nombre-del-relato]/`
+- **Video:** Ten a mano el enlace de YouTube en formato `/embed/`.
+
+### Paso 2: Estructura del Artículo (Relato)
+Copia este bloque en `stories.json` y rellena tus textos:
+
+```json
+{
+  "slug": "nombre-de-la-url",
+  "title_es": "Título en Español",
+  "introduction_es": "Párrafo introductorio.",
+  "image": "/images/stories/portada.jpg",
+  "sections": [
+    {
+      "title_es": "Subtítulo de bloque",
+      "video": "https://www.youtube.com/embed/CÓDIGO",
+      "content_es": "Texto del bloque..."
+    }
+  ],
+  "audioFiles": {
+    "spanish": "/audio/relato/es.mp3",
+    "english": "/audio/relato/en.mp3"
+  },
+  "conclusion_es": "Cierre del artículo."
+}
+```
+
+### Paso 3: Gestión de Tarjetas (Sección "Nuevos Relatos")
+Las tarjetas que aparecen en la Home bajo el título "Nuevos Relatos" se controlan desde `data/content/cities.json`.
+
+- **Para cambiar de "Próximamente" a "Explorar":** Cambia `"available": false` por `"available": true`.
+- **Para cambiar la imagen de la tarjeta:** Edita el campo `"image"`.
+- **Para cambiar el texto descriptivo:** Edita `"description_es"`.
+
+*Ejemplo de tarjeta de ciudad:*
+```json
+{
+  "slug": "warsaw",
+  "name": "Warsaw",
+  "tagline_es": "Un Fénix de Hormigón",
+  "description_es": "Capital de Polonia, reconstruida desde las cenizas...",
+  "image": "/images/cities/warsaw_modern.jpg",
+  "available": true
+}
+```
+
+### Paso 4: Traducciones con IA
+No necesitas traducir manualmente. Escribe tu artículo en español y dime: 
+> *"Tradúceme este artículo al Polaco, Inglés y Alemán para stories.json"*
+
+
+Yo te devolveré el código listo con todos los campos (`_es`, `_en`, `_pl`, `_de`) completados.
+
+### Paso 4: Publicar
+Usa estos comandos en la terminal:
+1. `git add .`
+2. `git commit -m "Nuevo artículo: [Título]"`
+3. `git push origin master`
+
+---
+
 ## 📞 ¿Necesitas ayuda?
 
 Si tienes dudas sobre algún punto específico o quieres que implemente:
@@ -279,3 +347,4 @@ Si tienes dudas sobre algún punto específico o quieres que implemente:
 - Nuevas funcionalidades
 
 ¡Solo dime y lo hago!
+
