@@ -324,9 +324,23 @@ Las tarjetas que aparecen en la Home bajo el título "Nuevos Relatos" se control
 }
 ```
 
-### Paso 4: Traducciones con IA
+### Paso 4: El Reproductor de Audio (Automático)
+No necesitas "crear" el reproductor de audio. Este aparece **automáticamente** si rellenas el campo `audioFiles`.
+
+1. **Ruta del archivo:** Asegúrate de que el MP3 esté en `public/audio/...`
+2. **Configuración:** En el JSON, usa este formato:
+```json
+"audioFiles": {
+  "spanish": "/audio/nombre-carpeta/es.mp3",
+  "english": "/audio/nombre-carpeta/en.mp3"
+}
+```
+*Si un idioma no tiene audio, simplemente no pongas esa línea.*
+
+### Paso 5: Traducciones con IA
 No necesitas traducir manualmente. Escribe tu artículo en español y dime: 
 > *"Tradúceme este artículo al Polaco, Inglés y Alemán para stories.json"*
+
 
 
 Yo te devolveré el código listo con todos los campos (`_es`, `_en`, `_pl`, `_de`) completados.
