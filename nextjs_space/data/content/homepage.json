@@ -27,7 +27,7 @@
       {
         "icon": "Heart",
         "title": "Social Impact",
-        "description": "40% of net profits go directly to the elderly narrators who share their stories."
+        "description": "10% of net profits go directly to the elderly narrators who share their stories."
       }
     ]
   },
@@ -52,7 +52,7 @@
   },
   "commitment": {
     "title": "Your Visit Sustains Memory",
-    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 40% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
-    "stat": { "value": 40, "label": "% of net profits returned to narrators" }
+    "description": "By purchasing a tour, you become a patron of this project. After covering operating costs, we reinvest 10% of net profits to fund grocery cards for the elderly narrators who share their stories. Their memories sustain culture; your visit sustains them.",
+    "stat": { "value": 10, "label": "% of net profits returned to narrators" }
   }
 }
