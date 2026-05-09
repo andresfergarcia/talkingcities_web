@@ -120,6 +120,13 @@ export interface StorySection {
   title: string;
   content: string;
   image: string;
+  video?: string;
+  videos?: {
+    es: string;
+    en: string;
+    pl: string;
+    de: string;
+  };
 }
 
 export interface Story {
@@ -143,10 +150,10 @@ export interface Story {
 
 export interface AboutContent {
   hero: {
-    title: string;
+      title: string;
     subtitle: string;
     image: string;
-  };
+    };
   mission: {
     title: string;
     content: string;
@@ -174,3 +181,4 @@ export interface AboutContent {
   };
   origin: string;
 }
+

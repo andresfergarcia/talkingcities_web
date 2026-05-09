@@ -32,6 +32,12 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
     return Array.isArray(sections) ? sections : [];
   };
 
+  // Get localized video URL
+  const getVideoUrl = (section: any): string | null => {
+    if (!section?.videos) return section?.video || null;
+    return section.videos[locale] || section.videos['en'] || null;
+  };
+
   return (
     <article>
       {/* Hero */}
@@ -85,7 +91,9 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
         </motion.div>
 
         {/* Sections */}
-        {getSections().map((section: any, i: number) => (
+        {getSections().map((section: any, i: number) => {
+          const videoUrl = getVideoUrl(section);
+          return (
           <motion.section
             key={i}
             initial={{ opacity: 0, y: 20 }}
@@ -105,11 +113,11 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
                 />
               </div>
             )}
-            {section?.video && (
+            {videoUrl && (
               <div className="mb-6 overflow-hidden rounded-xl border border-border bg-black">
                 <div className="relative aspect-[16/9] w-full">
                   <iframe
-                    src={section.video}
+                    src={videoUrl}
                     title={l(section, 'title') || 'Story video'}
                     className="absolute inset-0 w-full h-full"
                     loading="lazy"
@@ -126,7 +134,8 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
               {l(section, 'content')}
             </p>
           </motion.section>
-        ))}
+          );
+        })}
 
         {/* Conclusion */}
         {l(safeStory, 'conclusion') && (

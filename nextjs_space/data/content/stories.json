@@ -138,11 +138,16 @@
           "title_pl": "Sielanka w wiosce",
           "title_de": "Das Idyll im Dorf",
           "image": "/images/stories/poland/from-cattle-car/vilna-aldea.png",
-          "video": "https://www.youtube.com/embed/0OFwj6YP3zQ",
           "content": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
           "content_es": "Bronisława comienza su relato evocando la paz de Mistrz Krynka, una pequeña aldea en la región de Vilna que hoy pertenece a Lituania. En aquel entonces, la vida estaba marcada por el ritmo de la tierra y el trabajo en la finca de la señora Kantarowa, donde su padre desempeñaba un rol fundamental. Los recuerdos de su infancia están impregnados de una libertad rural que parecía eterna, rodeada de bosques y campos de cultivo.",
           "content_pl": "Bronisława zaczyna swoją opowieść od wspomnień o spokoju Mistrz Krynki, małej wioski w rejonie Wileńszczyzny, która dziś należy do Litwy. Wówczas życie wyznaczał rytm ziemi i praca na folwarku pani Kantarowej, gdzie jej ojciec odgrywał kluczową rolę. Wspomnienia z dzieciństwa są przesiąknięte wiejską wolnością, która wydawała się wieczna, otoczoną lasami i polami uprawnymi.",
-          "content_de": "Bronisława beginnt ihre Erzählung mit der Erinnerung an den Frieden in Mistrz Krynka, einem kleinen Dorf in der Region Vilnius, das heute zu Litauen gehört. Damals war das Leben vom Rhythmus des Landes und der Arbeit auf dem Gut von Frau Kantarowa geprägt, wo ihr Vater eine entscheidende Rolle spielte. Die Erinnerungen an ihre Kindheit sind erfüllt von einer ländlichen Freiheit, die ewig zu sein schien, umgeben von Wäldern und Anbauflächen."
+          "content_de": "Bronisława beginnt ihre Erzählung mit der Erinnerung an den Frieden in Mistrz Krynka, einem kleinen Dorf in der Region Vilnius, das heute zu Litauen gehört. Damals war das Leben vom Rhythmus des Landes und der Arbeit auf dem Gut von Frau Kantarowa geprägt, wo ihr Vater eine entscheidende Rolle spielte. Die Erinnerungen an ihre Kindheit sind erfüllt von einer ländlichen Freiheit, die ewig zu sein schien, umgeben von Wäldern und Anbauflächen.",
+          "videos": {
+            "es": "https://www.youtube.com/embed/2jg0y7deS5A",
+            "en": "https://www.youtube.com/embed/UnQJ-_UtCE0",
+            "pl": "https://www.youtube.com/embed/Xrqs_onmITA",
+            "de": "https://www.youtube.com/embed/CskILaEfRs0"
+          }
         },
         {
           "title": "La traición y la maldad",
