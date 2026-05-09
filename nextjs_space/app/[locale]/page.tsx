@@ -103,7 +103,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-            {cities?.map?.((city, i) => (
+            {cities?.filter(c => c?.available)?.map?.((city, i) => (
               <CityCard key={city?.slug ?? i} city={city} index={i} locale={locale} />
             )) ?? []}
           </div>

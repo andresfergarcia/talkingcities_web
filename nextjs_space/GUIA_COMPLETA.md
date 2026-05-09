@@ -349,22 +349,27 @@ Copia este bloque en `stories.json` y rellena tus textos:
 }
 ```
 
-### Paso 3: Gestión de Tarjetas (Sección "Nuevos Relatos")
+### Paso 3: Gestión de Tarjetas (Sección "Nuevos Relatos" en la Home)
 Las tarjetas que aparecen en la Home bajo el título "Nuevos Relatos" se controlan desde `data/content/cities.json`.
 
-- **Para cambiar de "Próximamente" a "Explorar":** Cambia `"available": false` por `"available": true`.
-- **Para cambiar la imagen de la tarjeta:** Edita el campo `"image"`.
-- **Para cambiar el texto descriptivo:** Edita `"description_es"`.
+**Puntos importantes:**
+- **Mostrar/Ocultar tarjeta:** Solo las tarjetas con `"available": true` se mostrarán en la página de inicio. Las que tengan `false` quedarán ocultas automáticamente.
+- **Vincular a un relato:** Por defecto, una tarjeta lleva a los Tours. Para enlazarla a un artículo, usa el campo `"link"`.
+- **Etiquetas personalizadas:** Puedes cambiar el texto de las esquinas (que por defecto dice "Próximamente" o "Disponible") usando `"topLabel"` y `"bottomLabel"` (con sus respectivos sufijos de idioma como `_es`).
+- **Imagen y textos:** Edita `"image"`, `"name"`, `"tagline"` y `"description"` para cambiar el contenido visual.
 
-*Ejemplo de tarjeta de ciudad:*
+*Ejemplo de tarjeta de Nuevo Relato (Entrevista):*
 ```json
 {
-  "slug": "warsaw",
-  "name": "Warsaw",
-  "tagline_es": "Un Fénix de Hormigón",
-  "description_es": "Capital de Polonia, reconstruida desde las cenizas...",
-  "image": "/images/cities/warsaw_modern.jpg",
-  "available": true
+  "slug": "from-cattle-car-to-nation",
+  "name": "Bronisława Raszkiewicz",
+  "tagline_es": "Relato de Colona en Territorios Recuperados",
+  "description_es": "La partida de los Kresy en febrero de 1946 fue un ritual de duelo y esperanza.",
+  "image": "/images/stories/bronisława.jpeg",
+  "available": true,
+  "link": "/stories/from-cattle-car-to-nation",
+  "topLabel_es": "Entrevista",
+  "bottomLabel_es": "Revive la Historia"
 }
 ```
 

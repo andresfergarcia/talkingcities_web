@@ -17,7 +17,7 @@ export default function CityCard({ city, index = 0, locale }: CityCardProps) {
   const t = useTranslations("cities");
   const tCityNames = useTranslations("cityNames");
   const safeCity = city ?? ({} as City);
-  const href = safeCity?.available ? `/tours?city=${safeCity?.slug ?? ''}` : '#';
+  const href = safeCity?.link ? safeCity.link : (safeCity?.available ? `/tours?city=${safeCity?.slug ?? ''}` : '#');
 
   const l = (obj: any, key: string) => {
     if (!obj) return '';
@@ -66,15 +66,15 @@ export default function CityCard({ city, index = 0, locale }: CityCardProps) {
               {l(safeCity, 'description')}
             </p>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-gold group-hover:gap-2 transition-all">
-              {safeCity?.available ? t("available") : t("comingSoon")}
+              {l(safeCity, 'bottomLabel') || (safeCity?.available ? t("available") : t("comingSoon"))}
               <ArrowRight className="w-4 h-4" />
             </span>
           </div>
 
           {/* Status */}
-          {!safeCity?.available && (
+          {(l(safeCity, 'topLabel') || !safeCity?.available) && (
             <div className="absolute top-3 right-3 bg-black/50 backdrop-blur-sm px-3 py-1 rounded-full">
-              <span className="text-white/80 text-xs font-medium">{t("comingSoon")}</span>
+              <span className="text-white/80 text-xs font-medium">{l(safeCity, 'topLabel') || t("comingSoon")}</span>
             </div>
           )}
         </div>

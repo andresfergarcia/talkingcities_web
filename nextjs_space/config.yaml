@@ -1,0 +1,12 @@
+name: Local Config
+version: 0.0.1
+schema: v1
+models:
+  - title: DeepSeek Chat
+    provider: deepseek
+    model: deepseek-chat
+    apiKey: sk-268c5339e30a4648a20fa27cdac06e21
+  - title: DeepSeek Coder
+    provider: deepseek
+    model: deepseek-coder
+    apiKey: sk-268c5339e30a4648a20fa27cdac06e21
