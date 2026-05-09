@@ -60,7 +60,7 @@ export default function CityCard({ city, index = 0, locale }: CityCardProps) {
               {l(safeCity, 'tagline')}
             </p>
             <h3 className="font-heading text-2xl font-bold text-white mb-1">
-              {getCityName(safeCity?.name ?? '')}
+              {l(safeCity, 'name') || getCityName(safeCity?.name ?? '')}
             </h3>
             <p className="text-white/70 text-sm mb-3 line-clamp-2">
               {l(safeCity, 'description')}
