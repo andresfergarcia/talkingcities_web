@@ -76,7 +76,7 @@
       "description_pl": "Historyczne miasto handlowe, w którym w 1956 roku pierwsze tak duże powstanie antykomunistyczne wstrząsnęło systemem.",
       "description_de": "Historische Handelsstadt, in der 1956 der erste große antikommunistische Aufstand das System erschütterte.",
       "image": "/images/cities/poznan_old_market_1.jpg",
-      "available": false
+      "available": true
     },
     {
       "slug": "katowice",
@@ -118,7 +118,7 @@
       "description_pl": "Miejsce narodzin Talking Cities. Na Ziemiach Odzyskanych opór przybrał unikalny charakter ukształtowany przez tożsamość.",
       "description_de": "Geburtsort von Talking Cities. In diesen wiedergewonnenen Gebieten nahm der Widerstand einen einzigartigen, durch Identität geprägten Charakter an.",
       "image": "/images/cities/zielona_gora_center.jpg",
-      "available": false
+      "available": true
     }
   ]
 }
