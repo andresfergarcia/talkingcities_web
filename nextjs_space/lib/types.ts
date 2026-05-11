@@ -102,10 +102,28 @@ export interface Tour {
 export interface City {
   slug: string;
   name: string;
+  name_es?: string;
+  name_pl?: string;
+  name_de?: string;
   tagline: string;
+  tagline_es?: string;
+  tagline_pl?: string;
+  tagline_de?: string;
   description: string;
+  description_es?: string;
+  description_pl?: string;
+  description_de?: string;
   image: string;
   available: boolean;
+  link?: string;
+  topLabel?: string;
+  topLabel_es?: string;
+  topLabel_pl?: string;
+  topLabel_de?: string;
+  bottomLabel?: string;
+  bottomLabel_es?: string;
+  bottomLabel_pl?: string;
+  bottomLabel_de?: string;
 }
 
 export interface Testimonial {
