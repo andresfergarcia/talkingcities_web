@@ -10,6 +10,48 @@
   "pageSubtitle_de": "Kostenlose mündliche Überlieferungen aus polnischen Städten — Erinnerung bewahren, für alle zugänglich.",
   "stories": [
     {
+      "slug": "stefan-mikula-resilience",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "Stefan Mikuła, the boy who witnessed history and defied the regime",
+      "title_es": "Stefan Mikuła, el niño que presenció la historia y desafió al régimen",
+      "title_pl": "Stefan Mikuła, chłopiec, który był świadkiem historii i rzucił wyzwanie reżimowi",
+      "title_de": "Stefan Mikuła, der Junge, der Geschichte miterlebte und dem Regime trotzt",
+      "introduction": "Born in 1946 in a Zielona Góra in the midst of post-war reconstruction, Stefan Mikuła was a direct witness to the great transformation of the Recovered Territories. His childhood was marked by the arrival of settlers from the Eastern Borderlands, by the reconstruction of a city that had been German and was becoming Polish, and by the silent tension between the authorities and the Church. But it was on May 30, 1960, during the grand celebration of the 1000th anniversary of the Baptism of Poland, that Stefan—still a child—was caught up in events that would define him forever: the so-called Events of the Catholic House in Zielona Góra, a clash between the faithful and the militia that marked a before and after in the history of the city.",
+      "introduction_es": "Nacido en 1946 en una Zielona Góra en plena reconstrucción de posguerra, Stefan Mikuła fue testigo directo de la gran transformación de los Territorios Recuperados. Su infancia estuvo marcada por la llegada de colonos de los Kresy, por la reconstrucción de una ciudad que había sido alemana y se volvía polaca, y por la tensión silenciosa entre las autoridades y la Iglesia. Pero fue el 30 de mayo de 1960, durante la gran celebración del Milenio del Bautismo de Polonia, cuando Stefan —aún niño— se vio envuelto en los acontecimientos que lo marcarían para siempre: los llamados Sucesos de la Casa Católica en Zielona Góra, un choque entre los fieles y la milicia que marcó un antes y un después en la historia de la ciudad.",
+      "introduction_pl": "Urodzony w 1946 roku w odbudowującej się powojennej Zielonej Górze, Stefan Mikuła był bezpośrednim świadkiem wielkiej transformacji Ziem Odzyskanych. Jego dzieciństwo naznaczone było przybyciem osadników z Kresów Wschodnich, odbudową miasta, które było niemieckie i stawało się polskie, oraz cichym napięciem między władzami a Kościołem. Jednak to 30 maja 1960 roku, podczas wielkiej uroczystości Millennium Chrztu Polski, Stefan — jeszcze dziecko — został wciągnięty w wydarzenia, które naznaczyły go na zawsze: tak zwane Wydarzenia w Domu Katolickim w Zielonej Górze, starcie między wiernymi a milicją, które stanowiło przełom w historii miasta.",
+      "introduction_de": "Geboren 1946 im sich nach dem Krieg im Wiederaufbau befindlichen Zielona Góra, war Stefan Mikuła ein direkter Zeuge der großen Transformation der Wiedergewonnenen Gebiete. Seine Kindheit war geprägt von der Ankunft der Siedler aus den Ostgebieten, dem Wiederaufbau einer Stadt, die deutsch gewesen war und polnisch wurde, und der stillen Spannung zwischen den Behörden und der Kirche. Aber es war der 30. Mai 1960, während der großen Feierlichkeiten zum 1000. Jahrestag der Taufe Polens, als Stefan — noch ein Kind — in die Ereignisse verwickelt wurde, die ihn für immer prägen sollten: die sogenannten Ereignisse im Katholischen Haus in Zielona Góra, ein Zusammenstoß zwischen Gläubigen und Miliz, der einen Wendepunkt in der Geschichte der Stadt markierte.",
+      "image": "/images/stories/Stefan_Mikuła_articulo.JPG",
+      "sections": [
+        {
+          "title": "Testimony",
+          "title_es": "Testimonio",
+          "title_pl": "Świadectwo",
+          "title_de": "Zeugnis",
+          "content": "Despite the reprisals at school, the incessant surveillance during his adulthood, and the constant threat of the security services, Stefan Mikuła never stopped attending his church or manifesting his faith. His is a story of daily courage, of small acts of resistance that, added together, built a life of dignity under a regime that sought to crush the human spirit. His testimony reminds us that resistance is not only fought in the streets with banners, but also in the privacy of a home, in a whispered prayer, in the decision not to be afraid.",
+          "content_es": "A pesar de las represalias en la escuela, la incesante vigilancia durante su etapa adulta y la amenaza constante de los servicios de seguridad, Stefan Mikuła nunca dejó de acudir a su iglesia ni de manifestar su fe. La suya es una historia de valentía cotidiana, de pequeños actos de resistencia que, sumados, construyeron una vida de dignidad bajo un régimen que buscaba aplastar el espíritu humano. Su testimonio nos recuerda que la resistencia no solo se libra en las calles con pancartas, sino también en la intimidad de un hogar, en una oración susurrada, en la decisión de no tener miedo.",
+          "content_pl": "Pomimo represji w szkole, nieustannej inwigilacji w dorosłym życiu i ciągłego zagrożenia ze strony służb bezpieczeństwa, Stefan Mikuła nigdy nie przestał chodzić do kościoła ani manifestować swojej wiary. Jego historia to opowieść o codziennej odwadze, o małych aktach oporu, które razem zbudowały życie w godności pod rządami reżimu, który starał się zmiażdżyć ludzkiego ducha. Jego świadectwo przypomina nam, że opór to nie tylko walka na ulicach z transparentami, ale także intymność domu, szeptana modlitwa, decyzja, by się nie bać.",
+          "content_de": "Trotz der Repressalien in der Schule, der ständigen Überwachung im Erwachsenenalter und der ständigen Bedrohung durch die Sicherheitsdienste hörte Stefan Mikuła nie auf, seine Kirche zu besuchen oder seinen Glauben zu bekunden. Seine Geschichte ist eine Geschichte alltäglichen Mutes, kleiner Widerstandsakte, die zusammengenommen ein Leben in Würde unter einem Regime aufbauten, das den menschlichen Geist zu zermalmen suchte. Sein Zeugnis erinnert uns daran, dass Widerstand nicht nur auf den Straßen mit Transparenten ausgefochten wird, sondern auch in der Intimität eines Zuhauses, in einem geflüsterten Gebet, in der Entscheidung, keine Angst zu haben.",
+          "videos": {
+            "es": "https://www.youtube.com/embed/9gbDyQZw_mQ",
+            "en": "https://www.youtube.com/embed/GZPTXFOTUe0",
+            "pl": "https://www.youtube.com/embed/6CCkXsgrdyA",
+            "de": "https://www.youtube.com/embed/aXXV7_jkHDY"
+          }
+        }
+      ],
+      "conclusion": "Below, we invite you to listen to his full testimony. In this interview, Stefan Mikuła recounts in first person the events of May 30, 1960, what it meant to grow up in a Poland that sought to silence any dissident voice, and how he faced the repressive apparatus of the State with his head held high. An invaluable document of oral history that we have the duty to preserve and share.",
+      "conclusion_es": "A continuación, te invitamos a escuchar su testimonio íntegro. En esta entrevista, Stefan Mikuła relata en primera persona los sucesos del 30 de mayo de 1960, qué significó crecer en una Polonia que buscaba silenciar cualquier voz disidente, y cómo enfrentó con la frente en alto el aparato represivo del Estado. Un documento invaluable de historia oral que tenemos el deber de preservar y compartir.",
+      "conclusion_pl": "Poniżej zapraszamy do wysłuchania jego pełnego świadectwa. W tym wywiadzie Stefan Mikuła opowiada z pierwszej ręki o wydarzeniach z 30 maja 1960 roku, o tym, co znaczyło dorastać w Polsce, która starała się uciszyć każdy dysydencki głos, i jak stawił czoła represyjnemu aparatowi państwa z podniesioną głową. Bezcenny dokument historii mówionej, który mamy obowiązek zachować i dzielić się nim.",
+      "conclusion_de": "Im Folgenden laden wir Sie ein, sich sein vollständiges Zeugnis anzuhören. In diesem Interview erzählt Stefan Mikuła aus erster Hand von den Ereignissen des 30. Mai 1960, was es bedeutete, in einem Polen aufzuwachsen, das jede abweichende Stimme zum Schweigen bringen wollte, und wie er dem repressiven Staatsapparat mit erhobenem Haupt entgegentrat. Ein unschätzbares Dokument der mündlichen Geschichte, das wir zu bewahren und zu teilen verpflichtet sind.",
+      "audioFiles": {},
+      "relatedTourSlug": ""
+    },
+    {
       "slug": "roots-in-foreign-land",
       "city": "Poland",
       "city_es": "Polonia",

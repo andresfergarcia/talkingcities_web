@@ -2,6 +2,29 @@
   "_comentario": "🏙️ CIUDADES - Edita la información de cada ciudad",
   "cities": [
     {
+      "slug": "stefan-mikula",
+      "name": "Stefan Mikuła",
+      "tagline": "Interview with Stefan Mikuła",
+      "tagline_es": "Entrevista a Stefan Mikuła",
+      "tagline_pl": "Wywiad ze Stefanem Mikułą",
+      "tagline_de": "Interview mit Stefan Mikuła",
+      "description": "The boy who defied the regime. That morning, he suddenly found himself on the front line of the events at the Catholic House.",
+      "description_es": "El niño que desafió al régimen. Aquella mañana, se encontró de golpe en la primera línea de los Sucesos de la Casa Católica en Zielona Góra.",
+      "description_pl": "Chłopiec, który rzucił wyzwanie reżimowi. Tego ranka nagle znalazł się na pierwszej linii wydarzeń w Domu Katolickim.",
+      "description_de": "Der Junge, der dem Regime trotzt. An jenem Morgen fand er sich plötzlich an der vordersten Front der Ereignisse im Katholischen Haus wieder.",
+      "image": "/images/stories/Stefan_Mikuła_tarjeta.JPG",
+      "available": true,
+      "link": "/stories/stefan-mikula-resilience",
+      "topLabel": "Interview",
+      "topLabel_es": "Entrevista",
+      "topLabel_pl": "Wywiad",
+      "topLabel_de": "Interview",
+      "bottomLabel": "Relive the History",
+      "bottomLabel_es": "Revive la Historia",
+      "bottomLabel_pl": "Ożyw Historię",
+      "bottomLabel_de": "Erlebe die Geschichte neu"
+    },
+    {
       "slug": "from-cattle-car-to-nation",
       "name": "Bronisława Raszkiewicz",
       "tagline": "A Settler's Tale in the Recovered Territories",
@@ -76,7 +99,7 @@
       "description_pl": "Historyczne miasto handlowe, w którym w 1956 roku pierwsze tak duże powstanie antykomunistyczne wstrząsnęło systemem.",
       "description_de": "Historische Handelsstadt, in der 1956 der erste große antikommunistische Aufstand das System erschütterte.",
       "image": "/images/cities/poznan_old_market_1.jpg",
-      "available": true
+      "available": false
     },
     {
       "slug": "katowice",
@@ -118,7 +141,7 @@
       "description_pl": "Miejsce narodzin Talking Cities. Na Ziemiach Odzyskanych opór przybrał unikalny charakter ukształtowany przez tożsamość.",
       "description_de": "Geburtsort von Talking Cities. In diesen wiedergewonnenen Gebieten nahm der Widerstand einen einzigartigen, durch Identität geprägten Charakter an.",
       "image": "/images/cities/zielona_gora_center.jpg",
-      "available": true
+      "available": false
     }
   ]
 }
