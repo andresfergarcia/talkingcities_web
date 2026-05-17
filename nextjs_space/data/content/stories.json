@@ -10,90 +10,6 @@
   "pageSubtitle_de": "Kostenlose mündliche Überlieferungen aus polnischen Städten — Erinnerung bewahren, für alle zugänglich.",
   "stories": [
     {
-      "slug": "stefan-mikula-resilience",
-      "city": "Zielona Góra",
-      "city_es": "Zielona Góra",
-      "city_pl": "Zielona Góra",
-      "city_de": "Grünberg",
-      "citySlug": "zielona-gora",
-      "type": "Voices of Resistance",
-      "title": "Stefan Mikuła, the boy who witnessed history and defied the regime",
-      "title_es": "Stefan Mikuła, el niño que presenció la historia y desafió al régimen",
-      "title_pl": "Stefan Mikuła, chłopiec, który był świadkiem historii i rzucił wyzwanie reżimowi",
-      "title_de": "Stefan Mikuła, der Junge, der Geschichte miterlebte und dem Regime trotzt",
-      "introduction": "Born in 1946 in a Zielona Góra in the midst of post-war reconstruction, Stefan Mikuła was a direct witness to the great transformation of the Recovered Territories. His childhood was marked by the arrival of settlers from the Eastern Borderlands, by the reconstruction of a city that had been German and was becoming Polish, and by the silent tension between the authorities and the Church. But it was on May 30, 1960, during the grand celebration of the 1000th anniversary of the Baptism of Poland, that Stefan—still a child—was caught up in events that would define him forever: the so-called Events of the Catholic House in Zielona Góra, a clash between the faithful and the militia that marked a before and after in the history of the city.",
-      "introduction_es": "Nacido en 1946 en una Zielona Góra en plena reconstrucción de posguerra, Stefan Mikuła fue testigo directo de la gran transformación de los Territorios Recuperados. Su infancia estuvo marcada por la llegada de colonos de los Kresy, por la reconstrucción de una ciudad que había sido alemana y se volvía polaca, y por la tensión silenciosa entre las autoridades y la Iglesia. Pero fue el 30 de mayo de 1960, durante la gran celebración del Milenio del Bautismo de Polonia, cuando Stefan —aún niño— se vio envuelto en los acontecimientos que lo marcarían para siempre: los llamados Sucesos de la Casa Católica en Zielona Góra, un choque entre los fieles y la milicia que marcó un antes y un después en la historia de la ciudad.",
-      "introduction_pl": "Urodzony w 1946 roku w odbudowującej się powojennej Zielonej Górze, Stefan Mikuła był bezpośrednim świadkiem wielkiej transformacji Ziem Odzyskanych. Jego dzieciństwo naznaczone było przybyciem osadników z Kresów Wschodnich, odbudową miasta, które było niemieckie i stawało się polskie, oraz cichym napięciem między władzami a Kościołem. Jednak to 30 maja 1960 roku, podczas wielkiej uroczystości Millennium Chrztu Polski, Stefan — jeszcze dziecko — został wciągnięty w wydarzenia, które naznaczyły go na zawsze: tak zwane Wydarzenia w Domu Katolickim w Zielonej Górze, starcie między wiernymi a milicją, które stanowiło przełom w historii miasta.",
-      "introduction_de": "Geboren 1946 im sich nach dem Krieg im Wiederaufbau befindlichen Zielona Góra, war Stefan Mikuła ein direkter Zeuge der großen Transformation der Wiedergewonnenen Gebiete. Seine Kindheit war geprägt von der Ankunft der Siedler aus den Ostgebieten, dem Wiederaufbau einer Stadt, die deutsch gewesen war und polnisch wurde, und der stillen Spannung zwischen den Behörden und der Kirche. Aber es war der 30. Mai 1960, während der großen Feierlichkeiten zum 1000. Jahrestag der Taufe Polens, als Stefan — noch ein Kind — in die Ereignisse verwickelt wurde, die ihn für immer prägen sollten: die sogenannten Ereignisse im Katholischen Haus in Zielona Góra, ein Zusammenstoß zwischen Gläubigen und Miliz, der einen Wendepunkt in der Geschichte der Stadt markierte.",
-      "image": "/images/stories/Stefan_Mikuła_articulo.JPG",
-      "sections": [
-        {
-          "title": "Testimony",
-          "title_es": "Testimonio",
-          "title_pl": "Świadectwo",
-          "title_de": "Zeugnis",
-          "content": "Despite the reprisals at school, the incessant surveillance during his adulthood, and the constant threat of the security services, Stefan Mikuła never stopped attending his church or manifesting his faith. His is a story of daily courage, of small acts of resistance that, added together, built a life of dignity under a regime that sought to crush the human spirit. His testimony reminds us that resistance is not only fought in the streets with banners, but also in the privacy of a home, in a whispered prayer, in the decision not to be afraid.",
-          "content_es": "A pesar de las represalias en la escuela, la incesante vigilancia durante su etapa adulta y la amenaza constante de los servicios de seguridad, Stefan Mikuła nunca dejó de acudir a su iglesia ni de manifestar su fe. La suya es una historia de valentía cotidiana, de pequeños actos de resistencia que, sumados, construyeron una vida de dignidad bajo un régimen que buscaba aplastar el espíritu humano. Su testimonio nos recuerda que la resistencia no solo se libra en las calles con pancartas, sino también en la intimidad de un hogar, en una oración susurrada, en la decisión de no tener miedo.",
-          "content_pl": "Pomimo represji w szkole, nieustannej inwigilacji w dorosłym życiu i ciągłego zagrożenia ze strony służb bezpieczeństwa, Stefan Mikuła nigdy nie przestał chodzić do kościoła ani manifestować swojej wiary. Jego historia to opowieść o codziennej odwadze, o małych aktach oporu, które razem zbudowały życie w godności pod rządami reżimu, który starał się zmiażdżyć ludzkiego ducha. Jego świadectwo przypomina nam, że opór to nie tylko walka na ulicach z transparentami, ale także intymność domu, szeptana modlitwa, decyzja, by się nie bać.",
-          "content_de": "Trotz der Repressalien in der Schule, der ständigen Überwachung im Erwachsenenalter und der ständigen Bedrohung durch die Sicherheitsdienste hörte Stefan Mikuła nie auf, seine Kirche zu besuchen oder seinen Glauben zu bekunden. Seine Geschichte ist eine Geschichte alltäglichen Mutes, kleiner Widerstandsakte, die zusammengenommen ein Leben in Würde unter einem Regime aufbauten, das den menschlichen Geist zu zermalmen suchte. Sein Zeugnis erinnert uns daran, dass Widerstand nicht nur auf den Straßen mit Transparenten ausgefochten wird, sondern auch in der Intimität eines Zuhauses, in einem geflüsterten Gebet, in der Entscheidung, keine Angst zu haben.",
-          "videos": {
-            "es": "https://www.youtube.com/embed/9gbDyQZw_mQ",
-            "en": "https://www.youtube.com/embed/GZPTXFOTUe0",
-            "pl": "https://www.youtube.com/embed/6CCkXsgrdyA",
-            "de": "https://www.youtube.com/embed/aXXV7_jkHDY"
-          }
-        }
-      ],
-      "conclusion": "Below, we invite you to listen to his full testimony. In this interview, Stefan Mikuła recounts in first person the events of May 30, 1960, what it meant to grow up in a Poland that sought to silence any dissident voice, and how he faced the repressive apparatus of the State with his head held high. An invaluable document of oral history that we have the duty to preserve and share.",
-      "conclusion_es": "A continuación, te invitamos a escuchar su testimonio íntegro. En esta entrevista, Stefan Mikuła relata en primera persona los sucesos del 30 de mayo de 1960, qué significó crecer en una Polonia que buscaba silenciar cualquier voz disidente, y cómo enfrentó con la frente en alto el aparato represivo del Estado. Un documento invaluable de historia oral que tenemos el deber de preservar y compartir.",
-      "conclusion_pl": "Poniżej zapraszamy do wysłuchania jego pełnego świadectwa. W tym wywiadzie Stefan Mikuła opowiada z pierwszej ręki o wydarzeniach z 30 maja 1960 roku, o tym, co znaczyło dorastać w Polsce, która starała się uciszyć każdy dysydencki głos, i jak stawił czoła represyjnemu aparatowi państwa z podniesioną głową. Bezcenny dokument historii mówionej, który mamy obowiązek zachować i dzielić się nim.",
-      "conclusion_de": "Im Folgenden laden wir Sie ein, sich sein vollständiges Zeugnis anzuhören. In diesem Interview erzählt Stefan Mikuła aus erster Hand von den Ereignissen des 30. Mai 1960, was es bedeutete, in einem Polen aufzuwachsen, das jede abweichende Stimme zum Schweigen bringen wollte, und wie er dem repressiven Staatsapparat mit erhobenem Haupt entgegentrat. Ein unschätzbares Dokument der mündlichen Geschichte, das wir zu bewahren und zu teilen verpflichtet sind.",
-      "audioFiles": {},
-      "relatedTourSlug": ""
-    },
-    {
-      "slug": "terror-disguised-in-civilian-clothes",
-      "city": "Zielona Góra",
-      "city_es": "Zielona Góra",
-      "city_pl": "Zielona Góra",
-      "city_de": "Grünberg",
-      "citySlug": "zielona-gora",
-      "type": "Voices of Resistance",
-      "title": "Terror Disguised in Civilian Clothes",
-      "title_es": "El terror disfrazado de civil",
-      "title_pl": "Terror w cywilnym przebraniu",
-      "title_de": "Der Terror in Zivil",
-      "introduction": "An intimate testimony from May 30, 1960. For Bronisława Raszkiewicz, state violence was not an abstraction, but a painful echo of her own past. Having survived the trauma of uprooting in 1946, when she crossed the country in cattle cars into the unknown, she believed she had found a definitive refuge to build her life. However, on Sunday, May 30, 1960, upon stepping off the bus on Kasprowicza Street in Zielona Góra, she came face to face with a new nightmare: thousands of citizens defending the Catholic House from the siege of the communist regime. This building, protected by Father Kazimierz Michalski, was the social and spiritual pillar of the community—a vital space that the authorities were determined to confiscate to silence faith and put an end to citizens' gatherings outside the Party's control.",
-      "introduction_es": "Un testimonio íntimo del 30 de mayo de 1960. Para Bronisława Raszkiewicz, la violencia del estado no era una abstracción, sino un eco doloroso de su propio pasado. Habiendo sobrevivido al trauma del desarraigo en 1946, cuando cruzó el país en vagones de animales hacia lo desconocido, creyó haber encontrado un refugio definitivo para construir su vida. Sin embargo, el domingo 30 de mayo de 1960, al bajar del autobús en la calle Kasprowicza en Zielona Góra, se topó de frente con una nueva pesadilla: miles de ciudadanos defendiendo la Casa Católica del asedio del régimen comunista. Este edificio, protegido por el padre Kazimierz Michalski, era el pilar social y espiritual de la comunidad, un espacio vital que las autoridades estaban decididas a confiscar para silenciar la fe y ponerle fin a reuniones de la ciudadanía, sin control del Partido.",
-      "introduction_pl": "Osobiste świadectwo z 30 maja 1960 roku. Dla Bronisławy Raszkiewicz przemoc ze strony państwa nie była abstrakcją, lecz bolesnym echem jej własnej przeszłości. Przetrwawszy traumę wykorzenienia w 1946 roku, kiedy to przemierzyła kraj w bydlęcych wagonach w nieznane, wierzyła, że znalazła ostateczne schronienie, by zbudować swoje nowe życie. Jednak w niedzielę, 30 maja 1960 roku, wysiadając z autobusu przy ulicy Kasprowicza w Zielonej Górze, stanęła twarzą w twarz z nowym koszmarem: tysiącami obywateli broniących Domu Katolickiego przed oblężeniem komunistycznego reżimu. Budynek ten, chroniony przez księdza Kazimierza Michalskiego, był społecznym i duchowym filarem wspólnoty – życiową przestrzenią, którą władze były zdeterminowane skonfiskować, by uciszyć wiarę i położyć kres zgromadzeniom obywateli wymykającym się spod kontroli Partii.",
-      "introduction_de": "Ein intimer Zeitzeugenbericht vom 30. Mai 1960. Für Bronisława Raszkiewicz war staatliche Gewalt keine Abstraktion, sondern ein schmerzhaftes Echo ihrer eigenen Vergangenheit. Nachdem sie 1946 das Trauma der Entwurzelung überlebt hatte, als sie in Viehwaggons ins Ungewisse quer durchs Land fuhr, glaubte sie, eine endgültige Zuflucht gefunden zu haben, um sich ihr Leben aufzubauen. Doch als sie am Sonntag, dem 30. Mai 1960, in der Kasprowicza-Straße in Zielona Góra aus dem Bus stieg, sah sie sich direkt mit einem neuen Albtraum konfrontiert: Tausende von Bürgern, die das Katholische Haus vor der Belagerung durch das kommunistische Regime verteidigten. Dieses von Pater Kazimierz Michalski geschützte Gebäude war die soziale und spirituelle Säule der Gemeinde – ein lebenswichtiger Raum, den die Behörden entschlossen konfiszieren wollten, um den Glauben zum Schweigen zu bringen und den Bürgerversammlungen ohne Kontrolle der Partei ein Ende zu setzen.",
-      "image": "/images/stories/terror.png",
-      "sections": [
-        {
-          "title": "Witnessing the events",
-          "title_es": "Testigo de los eventos",
-          "title_pl": "Świadek wydarzeń",
-          "title_de": "Zeuge der Ereignisse",
-          "content": "As an eyewitness to the Zielona Góra Events, Bronisława witnessed the excessive brutality of the ZOMO units, brought in from all over the region to crush the peaceful resistance. Amidst the chaos, suffocated by tear gas and surrounded by torn-up cobblestones and burning cars, the image that broke her the most was the internal betrayal: militiamen disguised in civilian clothes indiscriminately beating women, men, and children. For a woman who had rebuilt her life from the ashes of war, witnessing that scene on the streets of her city was the definitive proof that terror had not been left behind, but was now walking disguised through the streets of her new home.",
-          "content_es": "Como testigo ocular de los Sucesos de Zielona Góra, Bronisława presenció la brutalidad desmedida de las unidades ZOMO, traídas de toda la región para aplastar la resistencia pacífica. En medio del caos, asfixiada por los gases lacrimógenos y rodeada de adoquines arrancados y coches en llamas, la imagen que más la fracturó fue la traición interna: milicianos disfrazados de civil apaleando indiscriminadamente a mujeres, hombres y niños. Para una mujer que había reconstruido su vida desde las cenizas de la guerra, presenciar ese escenario en las calles de su ciudad, fue la prueba definitiva de que el terror no se había quedado atrás, sino que ahora caminaba disfrazado por las calles de su nuevo hogar.",
-          "content_pl": "Jako naoczny świadek Wydarzeń Zielonogórskich, Bronisława obserwowała nieuzasadnioną brutalność oddziałów ZOMO, sprowadzonych z całego regionu do stłumienia pokojowego oporu. Pośród chaosu, dławiąc się gazem łzawiącym, w otoczeniu wyrwanych z bruku kamieni i płonących samochodów, obrazem, który najbardziej ją złamał, była wewnętrzna zdrada: milicjanci przebrani po cywilnemu, na oślep bijący kobiety, mężczyzn i dzieci. Dla kobiety, która odbudowała swoje życie z popiołów wojny, bycie świadkiem tej sceny na ulicach swojego miasta było ostatecznym dowodem na to, że terror wcale nie pozostał w przeszłości, lecz teraz krążył w przebraniu po ulicach jej nowego domu.",
-          "content_de": "Als Zeitzeugin der Ereignisse von Zielona Góra erlebte Bronisława die maßlose Brutalität der ZOMO-Einheiten, die aus der gesamten Region zusammengezogen wurden, um den friedlichen Widerstand niederzuschlagen. Inmitten des Chaos, erstickt von Tränengas und umgeben von herausgerissenen Pflastersteinen und brennenden Autos, war das Bild, das sie am meisten erschütterte, der innere Verrat: als Zivilisten verkleidete Milizionäre, die wahllos auf Frauen, Männer und Kinder einschlugen. Für eine Frau, die ihr Leben aus der Asche des Krieges wieder aufgebaut hatte, war der Anblick dieser Szene auf den Straßen ihrer Stadt der endgültige Beweis dafür, dass der Terror nicht zurückgelassen worden war, sondern nun verkleidet durch die Straßen ihrer neuen Heimat ging.",
-          "videos": {
-            "en": "https://www.youtube.com/embed/yE8svahy96E",
-            "de": "https://www.youtube.com/embed/_spS_H6RcP0",
-            "pl": "https://www.youtube.com/embed/yywEbQ_mINg",
-            "es": "https://www.youtube.com/embed/PqW1u4YZ_UU?start=18"
-          }
-        }
-      ],
-      "conclusion": "",
-      "conclusion_es": "",
-      "conclusion_pl": "",
-      "conclusion_de": "",
-      "audioFiles": {},
-      "relatedTourSlug": ""
-    },
-    {
       "slug": "roots-in-foreign-land",
       "city": "Poland",
       "city_es": "Polonia",
@@ -283,6 +199,329 @@
         "spanish": "/audio/poland_2/es.mp3",
         "german": "/audio/poland_2/de.mp3"
       },
+      "relatedTourSlug": ""
+    },    {
+      "slug": "zielona-gora-voices-of-resistance",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "Resistance in No Man's Land: Zielona Góra (1945–1989)",
+      "title_es": "Resistencia en Tierra de Nadie: Zielona Góra (1945–1989)",
+      "title_pl": "Opór na Ziemi Niczyjej: Zielona Góra (1945–1989)",
+      "title_de": "Widerstand im Niemandsland: Zielona Góra (1945–1989)",
+      "introduction": "Zielona Góra was neither Warsaw nor Kraków. In these “Recovered Territories,” resistance against communism took on a particular nuance, marked by the struggle of a society that first had to learn how to be a society. Through declassified documents and local chronicles, we reconstruct how this city—initially atomized and lacking traditional elites—forged its own rebellious identity in the face of totalitarianism.",
+      "introduction_es": "Zielona Góra no fue ni Varsovia ni Cracovia. En estos 'Territorios Recuperados', la resistencia tomó un matiz particular, marcado por la lucha de una sociedad que primero tuvo que aprender a ser una comunidad. Reconstruimos cómo esta ciudad —inicialmente atomizada y carente de élites tradicionales— forjó su propia identidad rebelde frente al totalitarismo.",
+      "introduction_pl": "Zielona Góra nie była ani Warszawą, ani Krakowem. Na Ziemiach Odzyskanych opór przeciwko komunizmowi nabrał szczególnego wymiaru, naznaczonego walką społeczeństwa, które najpierw musiało nauczyć się być wspólnotą. Odtwarzamy, jak to miasto — początkowo zatomizowane i pozbawione tradycyjnych elit — wykuło własną buntowniczą tożsamość w obliczu totalitaryzmu.",
+      "introduction_de": "Zielona Góra war weder Warschau noch Krakau. In diesen „wiedergewonnenen Gebieten“ nahm der Widerstand gegen den Kommunismus eine besondere Nuance an, geprägt vom Kampf einer Gesellschaft, die erst lernen musste, eine Gemeinschaft zu sein. Wir rekonstruieren, wie diese Stadt — anfänglich atomisiert und ohne traditionelle Eliten — ihre eigene rebellische Identität angesichts des Totalitarismus schmiedete.",
+      "image": "/images/stories/zielona_gora_statue.jpg",
+      "sections": [
+        {
+          "title": "A Society Under Construction: The Generational Clash",
+          "title_es": "Una Sociedad en Construcción: El Choque Generacional",
+          "title_pl": "Społeczeństwo w budowie: Zderzenie pokoleń",
+          "title_de": "Eine Gesellschaft im Aufbau: Der Generationenkonflikt",
+          "image": "/images/cities/zielona_gora_center.jpg",
+          "content": "The initial challenge was sociological. Zielona Góra (1945–1975) was an “atomized” society. However, the emergence of the “post-war generation” marked a turning point. Better educated and with institutional aspirations, this new generation began to urbanize the local mentality. The friction between this new civic consciousness and the “political correctness” imposed by the system created the breeding ground for dissent. The transformation into a “politically subjective community” was slow and painful, but inevitable.",
+          "content_es": "El desafío inicial fue sociológico. Zielona Góra (1945-1975) era una sociedad ‘atomizada’. Sin embargo, la aparición de la ‘generación de posguerra’ marcó un punto de inflexión. Mejor educada y con aspiraciones institucionales, esta nueva generación comenzó a urbanizar la mentalidad local. La fricción entre esta nueva conciencia cívica y la ‘corrección política’ impuesta por el sistema creó el caldo de cultivo para la disidencia.",
+          "content_pl": "Początkowe wyzwanie miało charakter socjologiczny. Zielona Góra (1945–1975) była społeczeństwem „zatomizowanym”. Przełomem stało się pojawienie „pokolenia powojennego”. Lepiej wykształcone i mające aspiracje instytucjonalne, pokolenie to zaczęło urbanizować lokalną mentalność. Tarcie między nową świadomością obywatelską a narzuconą „poprawnością polityczną” stworzyło grunt dla sprzeciwu.",
+          "content_de": "Die anfängliche Herausforderung war soziologischer Natur. Zielona Góra (1945–1975) war eine „atomisierte“ Gesellschaft. Die „Nachkriegsgeneration“ markierte jedoch einen Wendepunkt. Besser ausgebildet und mit institutionellen Ambitionen, begann diese neue Generation, die lokale Mentalität zu urbanisieren. Die Reibung zwischen diesem neuen bürgerlichen Bewusstsein und der vom System auferlegten „politischen Korrektheit“ schuf den Nährboden für Dissens."
+        },
+        {
+          "title": "1956: The Symbolic Recovery of Space",
+          "title_es": "1956: La Recuperación Simbólica del Espacio",
+          "title_pl": "1956: Symboliczne odzyskanie przestrzeni",
+          "title_de": "1956: Die symbolische Rückgewinnung des Raumes",
+          "image": "/images/stories/zielona_gora_1956.png",
+          "content": "The ‘thaw’ of October 1956 brought an attempt to reclaim the city’s identity. A notable example was the removal of Stalin’s name from the map. The editors of the ‘Gazeta’ launched a public call to rename Stalin Avenue. In just two days, the avenue was renamed Aleja Niepodległości (Independence Avenue). This administrative act was one of the first collective victories of society to impose its own historical narrative over Soviet propaganda.",
+          "content_es": "El ‘deshielo’ de octubre de 1956 trajo un intento de reclamar la identidad de la ciudad. Un ejemplo notable fue la eliminación del nombre de Stalin. Los editores de ‘Gazeta’ lanzaron un llamado público para renombrar la Avenida Stalin. En solo dos días, pasó a ser Aleja Niepodległości (Avenida de la Independencia). Este acto administrativo fue una de las primeras victorias colectivas para imponer una narrativa propia sobre la propaganda soviética.",
+          "content_pl": "Odwilż października 1956 r. przyniosła próbę odzyskania tożsamości miasta. Przykładem było usunięcie imienia Stalina z mapy. Redaktorzy „Gazety” ogłosili publiczne wezwanie do zmiany nazwy Alei Stalina. W ciągu zaledwie dwóch dni zmieniono ją na Aleję Niepodległości. Ten akt administracyjny był jednym z pierwszych zbiorowych zwycięstw w narzucaniu własnej narracji historycznej ponad radziecką propagandę.",
+          "content_de": "Das „Tauwetter“ vom Oktober 1956 brachte einen Versuch, die Identität der Stadt zurückzufordern. Ein bemerkenswertes Beispiel war die Entfernung von Stalins Namen. In nur zwei Tagen wurde die Stalinallee in Aleja Niepodległości (Unabhängigkeitsallee) umbenannt. Dieser Verwaltungsakt war einer der ersten kollektiven Siege, um eine eigene historische Erzählung gegen die sowjetische Propaganda durchzusetzen."
+        },
+        {
+          "title": "1960: The Bastion of Faith and Blackmail Tactics",
+          "title_es": "1960: El Bastión de la Fe y las Tácticas de Chantaje",
+          "title_pl": "1960: Bastion wiary i taktyka szantażu",
+          "title_de": "1960: Die Bastion des Glaubens und Erpressungstaktiken",
+          "image": "/images/stories/zielona_gora_town_hall_user.jpg",
+          "content": "The uprising of May 30, 1960, in defense of the Catholic House was the culmination of a war of attrition. Authorities attempted to neutralize the parish priest, Kazimierz Michalski, with blackmail: they promised the Church would recover the building if he reduced his “rebellious activity.” Michalski, a Dachau veteran, did not yield. The regime’s response was surgical: in addition to arrests, a “civil death” was applied through job dismissals and blacklists that forced entire families to leave the city.",
+          "content_es": "El levantamiento del 30 de mayo de 1960 en defensa de la Casa Católica fue la culminación de una guerra de desgaste. Las autoridades intentaron neutralizar al párroco Kazimierz Michalski con chantajes: prometieron que la Iglesia recuperaría el edificio si reducía su ‘actividad rebelde’. Michalski, veterano de Dachau, no cedió. La respuesta del régimen incluyó detenciones y ‘muerte civil’ mediante despidos laborales que forzaron al exilio a familias enteras.",
+          "content_pl": "Powstanie 30 maja 1960 r. w obronie Domu Katolickiego było kulminacją wojny na wyczerpanie. Władze próbowały zneutralizować proboszcza Kazimierza Michalskiego szantażem, obiecując zwrot budynku w zamian za ograniczenie „działalności buntowniczej”. Michalski, więzień Dachau, nie uległ. Reżim odpowiedział aresztowaniami i „śmiercią cywilną” — zwolnieniami z pracy, które zmusiły całe rodziny do opuszczenia miasta.",
+          "content_de": "Der Aufstand am 30. Mai 1960 zur Verteidigung des Katholischen Hauses war der Höhepunkt eines Zermürbungskrieges. Die Behörden versuchten, Pater Kazimierz Michalski mit Erpressung zu neutralisieren. Michalski, ein Dachau-Veteran, gab nicht nach. Die Reaktion des Regimes umfasste Verhaftungen und den „zivilen Tod“ durch Entlassungen, die ganze Familien zwangen, die Stadt zu verlassen."
+        },
+        {
+          "title": "The “Bibuła” and the Regional Information Network",
+          "title_es": "La “Bibuła” y la Red de Información Regional",
+          "title_pl": "„Bibuła” i regionalna sieć informacyjna",
+          "title_de": "Die „Bibuła“ und das regionale Informationsnetzwerk",
+          "content": "Editorial resistance was sophisticated. Between 1981 and 1989, the region sustained an underground press network (“drugi obieg”) that spanned more than 19 titles. The network extended to satellite towns: Świebodzin (Podziemie, 1982), Nowa Sól (Solidarność Lubuska, 1983–1984), and Sulechów (RMS). These shadows bulletins countered the Party’s information monopoly and maintained the cohesion of Solidarity structures during their illegality.",
+          "content_es": "La resistencia editorial fue sofisticada. Entre 1981 y 1989, la región mantuvo una red de prensa clandestina (‘drugi obieg’) de más de 19 títulos, extendiéndose a Świebodzin, Nowa Sól y Sulechów. Estos boletines en las sombras contrarrestaron el monopolio informativo del Partido y mantuvieron la cohesión de las estructuras de Solidaridad durante su ilegalidad.",
+          "content_pl": "Opór wydawniczy był zaawansowany. W latach 1981–1989 region utrzymywał sieć prasy podziemnej („drugi obieg”) obejmującą ponad 19 tytułów, m.in. w Świebodzinie, Nowej Soli i Sulechowie. Biuletyny te przełamywały monopol informacyjny Partii i utrzymywały spójność struktur Solidarności w okresie ich nielegalnego działania.",
+          "content_de": "Der editorische Widerstand war anspruchsvoll. Zwischen 1981 und 1989 unterhielt die Region ein Netzwerk von Untergrundpresse („drugi obieg“) mit über 19 Titeln, das bis nach Świebodzin, Nowa Sól und Sulechów reichte. Diese Schattenbulletins brachen das Informationsmonopol der Partei und hielten die Strukturen der Solidarność während ihrer Illegalität zusammen."
+        },
+        {
+          "title": "The Battle for Consciences: The Parallel Classroom",
+          "title_es": "La Batalla por las Conciencias: El Aula Paralela",
+          "title_pl": "Bitwa o sumienia: Równoległa klasa",
+          "title_de": "Der Kampf um die Gewissen: Das parallele Klassenzimmer",
+          "content": "The struggle in the 1980s became existential and moral. The Church and Catholic intellectuals created educational spaces to debate what the regime silenced. The figure of Father Bronisław Kotwica was key in transforming the mentality of the era. Clandestine conferences taught uncensored history and addressed “moral dilemmas” of life under communism, fostering a neighborly solidarity that the system attempted to erode.",
+          "content_es": "En los años 80, la lucha se volvió existencial. La Iglesia e intelectuales crearon espacios educativos para debatir lo que el régimen silenciaba. El Padre Bronisław Kotwica fue clave en esta transformación. Las conferencias clandestinas enseñaban historia sin censura y abordaban los dilemas morales de la vida bajo el comunismo, fomentando una solidaridad vecinal que el sistema intentaba erosionar.",
+          "content_pl": "Walka w latach 80. stała się egzystencjalna i moralna. Kościół i intelektualiści katoliccy tworzyli przestrzenie edukacyjne do debaty nad tym, co reżim przemilczał. Postać księdza Bronisława Kotwicy była kluczowa dla przemiany mentalności. Podziemne konferencje uczyły nieocenzurowanej historii i poruszały „dylematy moralne” życia w komunizmie.",
+          "content_de": "Der Kampf in den 1980er Jahren wurde existenziell und moralisch. Die Kirche und katholische Intellektuelle schufen Bildungsräume, um über das Schweigen des Regimes zu debattieren. Pater Bronisław Kotwica war eine Schlüsselfigur bei der mentalen Transformation. Geheime Konferenzen lehrten unzensierte Geschichte und behandelten die moralischen Dilemmata des Lebens im Kommunismus."
+        },
+        {
+          "title": "Repression: “Loyalty” as a Weapon",
+          "title_es": "Represión: La “Lealtad” como Arma",
+          "title_pl": "Represje: „Lojalność” jako broń",
+          "title_de": "Repression: „Loyalität“ als Waffe",
+          "content": "Martial Law (Dec 13, 1981) activated Operation “Jodła” (Fir). The SB had a pre-compiled list of 43 targets. Repression included physical punishment (internment in Głogów and Ostrów Wielkopolski) and psychological pressure through “loyalty declarations” (lojalki) to break morale. Some activists avoided internment by signing, while others, like Czesław Stasiak, chose total clandestinity until 1982.",
+          "content_es": "La Ley Marcial (13 de dic. 1981) activó la Operación ‘Jodła’. La represión tuvo dos caras: el castigo físico (internamiento en Głogów y Ostrów Wielkopolski) y la presión psicológica mediante ‘declaraciones de lealtad’ (lojalki) para quebrar la moral. Otros, como Czesław Stasiak, eligieron la clandestinidad total para evadir la captura.",
+          "content_pl": "Stan wojenny uruchomił operację „Jodła”. Represje miały dwie twarze: karę fizyczną (internowanie w Głogowie i Ostrowie Wielkopolskim) oraz presję psychologiczną poprzez „lojalki”. Niektórzy uniknęli internowania podpisując je, podczas gdy inni, jak Czesław Stasiak, wybrali całkowite podziemie, ukrywając się do marca 1982 r.",
+          "content_de": "Das Kriegsrecht aktivierte die Operation „Jodła“. Die Repression hatte zwei Gesichter: physische Bestrafung (Internierung in Głogów und Ostrów Wielkopolski) und psychischen Druck durch „Loyalitätserklärungen“ (Lojalki), um die Moral zu brechen. Andere, wie Czesław Stasiak, wählten die totale Illegalität, um der Festnahme zu entgehen."
+        },
+        {
+          "title": "Internal Disputes: The Birth of the Structure",
+          "title_es": "Disputas Internas: El Nacimiento de la Estructura",
+          "title_pl": "Spory wewnętrzne: Narodziny struktury",
+          "title_de": "Interne Streitigkeiten: Die Entstehung der Struktur",
+          "content": "The formation of organized resistance was not devoid of internal conflict. Current historical documents debate the details regarding the formation of the Inter-Enterprise Founding Committee (MKZ) in Zielona Góra in the summer of 1980. Disputes among workers and advisors demonstrate that solidarity was a process of constant negotiation, not a monolithic block from the start.",
+          "content_es": "La formación de la resistencia organizada no estuvo exenta de conflictos internos. Los documentos debaten los detalles de la formación del Comité Fundador Interempresarial (MKZ) en el verano de 1980. Las disputas entre trabajadores y asesores demuestran que la solidaridad fue un proceso de negociación constante, no un bloque monolítico desde el principio.",
+          "content_pl": "Tworzenie zorganizowanego oporu nie było wolne od konfliktów wewnętrznych. Dokumenty historyczne debatują nad szczegółami powstania Międzyzakładowego Komitetu Założycielskiego (MKZ) latem 1980 r. Spory między robotnikami a doradcami dowodzą, że solidarność była procesem ciągłych negocjacji, a nie monolitem.",
+          "content_de": "Die Bildung des organisierten Widerstands war nicht frei von internen Konflikten. Historische Dokumente debattieren über die Bildung des MKZ im Sommer 1980. Streitigkeiten zwischen Arbeitern und Beratern beweisen, dass Solidarität ein Prozess ständiger Verhandlungen war und kein monolithischer Block von Anfang an."
+        }
+      ],
+      "conclusion": "Zielona Góra teaches us that even in a land without ancient traditions, the need for freedom creates its own roots. Between the silence of the pioneers and the scream of their children, a rebellious city was born.",
+      "conclusion_es": "Zielona Góra nos enseña que incluso en una tierra sin tradiciones antiguas, la necesidad de libertad crea sus propias raíces. Entre el silencio de los pioneros y el grito de sus hijos, nació una ciudad rebelde.",
+      "conclusion_pl": "Zielona Góra uczy nas, że nawet na ziemi pozbawionej dawnych tradycji, potrzeba wolności zapuszcza własne korzenie. Między milczeniem pionierów a krzykiem ich dzieci narodziło się buntownicze miasto.",
+      "conclusion_de": "Zielona Góra lehrt uns, dass selbst in einem Land ohne alte Traditionen das Bedürfnis nach Freiheit seine eigenen Wurzeln schlägt. Zwischen dem Schweigen der Pioniere und dem Schrei ihrer Kinder wurde eine rebellische Stadt geboren.",
+      "audioFiles": {
+        "english": "/audio/zielona-gora/en.mp3",
+        "polish": "/audio/zielona-gora/pl.mp3",
+        "spanish": "/audio/zielona-gora/es.mp3",
+        "german": "/audio/zielona-gora/de.mp3"
+      },
+      "relatedTourSlug": "zielona-gora-voices-of-resistance"
+    },
+    {
+      "slug": "czestochowa-hidden-garden",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Buildings with Heart",
+      "title": "The Hidden Garden Behind the Bricks: The Double Life of the Church of Our Lady of Częstochowa",
+      "title_es": "El Jardín Oculto tras los Ladrillos: La Doble Vida de la Iglesia de Nuestra Señora de Częstochowa",
+      "title_pl": "Ukryty Ogród za Cegłami: Podwójne Życie Kościoła Matki Bożej Częstochowskiej",
+      "title_de": "Der verborgene Garten hinter den Ziegeln: Das Doppelleben der Kirche der Muttergottes von Tschenstochau",
+      "introduction": "If you stroll through the Old Town of Zielona Góra, it is impossible to miss. Along with the Town Hall and the Co-Cathedral, its tower defines the city's skyline. But the Church of Our Lady of Częstochowa is much more than just a pretty postcard; it is a survivor with a fascinating identity crisis. At first glance, it looks like just another Catholic church in devout Poland. But if you get close to its walls and touch the structure, you will notice something strange: it isn't made of solid stone. It is a giant of wood and brick that hides a Prussian secret in its heart.",
+      "introduction_es": "Si paseas por el casco antiguo de Zielona Góra, es imposible no verla. Junto con el Ayuntamiento y la Concatedral, su torre define el horizonte de la ciudad. Pero la Iglesia de Nuestra Señora de Częstochowa es mucho más que una postal bonita; es una superviviente con una crisis de identidad fascinante. A primera vista, parece un templo católico más en la Polonia devota. Pero si te acercas a sus muros y tocas su estructura, notarás algo extraño: no es de piedra maciza. Es un gigante de madera y ladrillo que esconde un secreto prusiano en su corazón.",
+      "introduction_pl": "Spacerując po Starym Mieście w Zielonej Górze, nie sposób go przeoczyć. Wraz z Ratuszem i Konkatedrą, jego wieża definiuje panoramę miasta. Jednak Kościół Matki Bożej Częstochowskiej to znacznie więcej niż ładny widok na pocztówkę; to ocalały świadek historii z fascynującym kryzysem tożsamości. Na pierwszy rzut oka wygląda jak kolejna katolicka świątynia. Ale jeśli podejdziesz do jego murów i dotkniesz struktury, zauważysz coś dziwnego: nie jest to lity kamień. To gigant z drewna i cegły, który w swoim sercu skrywa pruski sekret.",
+      "introduction_de": "Wenn Sie durch die Altstadt von Zielona Góra spazieren, ist sie kaum zu übersehen. Zusammen mit dem Rathaus und der Konkathedrale prägt ihr Turm die Skyline der Stadt. Aber die Kirche der Muttergottes von Tschenstochau ist viel mehr als nur ein hübsches Postkartenmotiv; sie ist eine Überlebende mit einer faszinierenden Identitätskrise. Auf den ersten Blick wirkt sie wie ein weiteres katholisches Gotteshaus im frommen Polen. Aber wenn man sich ihren Mauern nähert und ihre Struktur berührt, bemerkt man etwas Seltsames: Sie besteht nicht aus massivem Stein. Sie ist ein Riese aus Holz und Ziegeln, der ein preußisches Geheimnis in seinem Herzen verbirgt.",
+      "image": "/images/stories/Czestachowa.jpg",
+      "sections": [
+        {
+          "title": "A Church Built from Walls",
+          "title_es": "Una iglesia hecha de murallas",
+          "title_pl": "Kościół zbudowany z murów",
+          "title_de": "Eine Kirche aus Stadtmauern",
+          "image": "/images/stories/Czestachowa1.png",
+          "content": "Let's travel back to 1747. Silesia has just changed hands: from Catholic Austria to the Protestant Prussia of Frederick II the Great. The Lutherans of Zielona Góra, who for years were forbidden from building temples inside the city, finally get the green light. But there was haste and a need for pragmatism. The solution? To build a half-timbered structure (Fachwerk)—today the largest of its kind in the entire Lubusz region—and fill it with bricks. Here lies the poetic irony: many of those bricks came from the city's ancient defensive walls, which were being demolished in the 18th century. What once served to separate and defend was used to build a place of gathering.",
+          "content_es": "Viajemos a 1747. Silesia acaba de cambiar de manos: de la Austria católica a la Prusia protestante de Federico II el Grande. Los luteranos de Zielona Góra, que durante años tuvieron prohibido construir templos dentro de la ciudad, reciben por fin luz verde. Pero había prisa y necesidad de pragmatismo. ¿La solución? Construir una estructura de entramado de madera (Fachwerk) —hoy la más grande de su tipo en toda la región de Lubusz— y rellenarla con ladrillos. Aquí viene la ironía poética: muchos de esos ladrillos provenían de las antiguas murallas defensivas de la ciudad, demolidas en el siglo XVIII. Lo que antes servía para separar y defender, se utilizó para construir un lugar de reunión.",
+          "content_pl": "Przenieśmy się do roku 1747. Śląsk właśnie zmienił właściciela: z katolickiej Austrii przeszedł w ręce protestanckich Prus Fryderyka II Wielkiego. Luteranie z Zielonej Góry (wówczas Grünberg), którym przez lata zabraniano budowania świątyń w obrębie miasta, w końcu otrzymują zielone światło. Liczył się jednak czas i pragmatyzm. Rozwiązanie? Budowa konstrukcji szachulcowej (tzw. mur pruski) — dziś jest to największy tego typu obiekt w całym województwie lubuskim — i wypełnienie jej cegłami. Tutaj pojawia się poetycka ironia: wiele z tych cegieł pochodziło z dawnych murów obronnych miasta, rozbieranych w XVIII wieku. To, co kiedyś służyło do oddzielania i obrony, zostało użyte do zbudowania miejsca spotkań.",
+          "content_de": "Reisen wir zurück ins Jahr 1747. Schlesien hat gerade den Besitzer gewechselt: vom katholischen Österreich zum protestantischen Preußen unter Friedrich II. dem Großen. Die Lutheraner von Zielona Góra (damals Grünberg), denen es jahrelang verboten war, Gotteshäuser innerhalb der Stadtmauern zu errichten, bekommen endlich grünes Licht. Aber es herrschte Eile und die Notwendigkeit zum Pragmatismus. Die Lösung? Eine Fachwerkstruktur zu bauen – heute die größte ihrer Art in der gesamten Woiwodschaft Lebus – und sie mit Ziegeln auszufüllen. Hier liegt die poetische Ironie: Viele dieser Ziegel stammten von den alten Verteidigungsmauern der Stadt, die im 18. Jahrhundert abgerissen wurden. Was einst dazu diente, zu trennen und zu verteidigen, wurde genutzt, um einen Ort der Begegnung zu errichten."
+        },
+        {
+          "title": "The Theater of the Word",
+          "title_es": "El teatro de la palabra",
+          "title_pl": "Teatr słowa",
+          "title_de": "Das Theater des Wortes",
+          "content": "Crossing the threshold, forget for a moment what you know about traditional Catholic churches. Don't look at the altar just yet; look up. Surrounding you are impressive two-story wooden galleries. This design is not accidental; it is 18th-century social engineering. Originally, this building was an Evangelical church designed as an auditorium. The priority was not to see the Eucharist, but to hear the sermon. In its heyday, this space could seat nearly 2,000 people. Imagine the creaking of the wood and the murmur of the local clothiers' guilds, leaning over the balconies as if they were in an opera house, focused entirely on the spoken word.",
+          "content_es": "Al cruzar el umbral, olvida por un momento lo que sabes de las iglesias católicas tradicionales. No mires hacia el altar todavía; mira hacia arriba. Lo que te rodea son impresionantes galerías de madera de dos pisos. El diseño no es casualidad, es ingeniería social del siglo XVIII. Originalmente, este edificio era una iglesia evangélica diseñada como un auditorio. La prioridad no era ver la eucaristía, sino escuchar el sermón. En su apogeo, este espacio podía albergar a casi 2.000 personas. Imagina el crujir de la madera y el murmullo de los gremios de pañeros locales, asomados a los balcones como si estuvieran en un teatro de la ópera, centrados en la palabra hablada.",
+          "content_pl": "Przekraczając próg, zapomnij na chwilę o tym, co wiesz o tradycyjnych kościołach katolickich. Nie patrz jeszcze na ołtarz; spójrz w górę. Otaczają Cię imponujące, dwukondygnacyjne drewniane empory (galerie). Ten projekt nie jest przypadkowy, to XVIII-wieczna inżynieria społeczna. Pierwotnie budynek ten był kościołem ewangelickim zaprojektowanym jak audytorium. Priorytetem nie było widzenie Eucharystii, ale słyszenie kazania. W czasach świetności przestrzeń ta mogła pomieścić prawie 2000 osób. Wyobraź sobie skrzypienie drewna i szmer lokalnych cechów sukienniczych, wychylających się z balkonów jak w operze, skupionych całkowicie na głoszonym słowie.",
+          "content_de": "Wenn Sie die Schwelle überschreiten, vergessen Sie für einen Moment, was Sie über traditionelle katholische Kirchen wissen. Schauen Sie noch nicht zum Altar; schauen Sie nach oben. Sie sind umgeben von beeindruckenden, zweistöckigen Holzemporen. Dieses Design ist kein Zufall, es ist soziale Ingenieurskunst des 18. Jahrhunderts. Ursprünglich war dieses Gebäude eine evangelische Kirche, die als Auditorium konzipiert wurde. Die Priorität lag nicht darauf, die Eucharistie zu sehen, sondern die Predigt zu hören. In seiner Blütezeit bot dieser Raum Platz für fast 2.000 Menschen. Stellen Sie sich das Knarren des Holzes und das Murmeln der lokalen Tuchmachergilden vor, die sich über die Balkone lehnten, als wären sie in einem Opernhaus, ganz auf das gesprochene Wort konzentriert."
+        },
+        {
+          "title": "The Secret Under the Pulpit: \"Christ's Garden\"",
+          "title_es": "El secreto bajo el púlpito: \"El Jardín de Cristo\"",
+          "title_pl": "Sekret pod amboną: \"Ogród Chrystusa\"",
+          "title_de": "Das Geheimnis unter der Kanzel: \"Der Garten Christi\"",
+          "image": "/images/stories/Czestachowa2.jpg",
+          "content": "Here is where we challenge you to be a keen observer. Walk towards the pulpit (the elevated platform for preaching) and look closely at its base. It is not just any column. It is a palm tree trunk carved in wood. What is an exotic palm tree doing in the middle of cold Silesia? It is the only visible trace of the church's original name: Zum Garten Christ (\"The Garden of Christ\"). For the old Lutheran Pietists, faith was an inner garden that had to be cultivated, and the righteous would \"flourish like the palm tree.\" Although today the Baroque high altar and Catholic iconography dominate the view, that little palm tree is still there, supporting the pulpit, reminding us of the building's theological origin.",
+          "content_es": "Aquí es donde te retamos a ser un observador agudo. Camina hacia el púlpito (la plataforma elevada para predicar) y fíjate en su base. No es una columna cualquiera. Es un tronco de palmera tallado en madera. ¿Qué hace una palmera exótica en medio de la fría Silesia? Es la única huella visible del nombre original de la iglesia: Zum Garten Christ (\"El Jardín de Cristo\"). Para los antiguos pietistas luteranos, la fe era un jardín interior que debía cultivarse, y el justo \"florecería como la palmera\". Aunque hoy el altar mayor barroco y la iconografía católica dominen la vista, esa pequeña palmera sigue ahí, sosteniendo el púlpito, recordándonos el origen teológico del edificio.",
+          "content_pl": "W tym miejscu rzucamy Ci wyzwanie na spostrzegawczość. Podejdź do ambony i przyjrzyj się jej podstawie. To nie jest zwykła kolumna. To pień palmy wyrzeźbiony w drewnie. Co egzotyczna palma robi w środku chłodnego Śląska? To jedyny widoczny ślad pierwotnej nazwy kościoła: Zum Garten Christ (\"Ogród Chrystusa\"). Dla dawnych pietystów luterańskich wiara była wewnętrznym ogrodem, który należało pielęgnować, a sprawiedliwy miał \"zakwitnąć jak palma\". Choć dziś widok dominuje barokowy ołtarz główny i katolicka ikonografia, ta mała palma wciąż tam jest, podtrzymując ambonę i przypominając o teologicznym rodowodzie budynku.",
+          "content_de": "Hier fordern wir Sie auf, ein scharfer Beobachter zu sein. Gehen Sie zur Kanzel (dem erhöhten Podest für die Predigt) und achten Sie auf deren Basis. Es ist nicht einfach irgendeine Säule. Es ist ein aus Holz geschnitzter Palmenstamm. Was macht eine exotische Palme mitten im kalten Schlesien? Sie ist die einzige sichtbare Spur des ursprünglichen Namens der Kirche: Zum Garten Christ (\"Der Garten Christi\"). Für die alten lutherischen Pietisten war der Glaube ein innerer Garten, der gepflegt werden musste, und der Gerechte würde \"grünen wie ein Palmbaum.\" Obwohl heute der barocke Hochaltar und die katholische Ikonographie den Anblick dominieren, ist diese kleine Palme immer noch da, stützt die Kanzel und erinnert uns an den theologischen Ursprung des Gebäudes."
+        },
+        {
+          "title": "From Prussia to Poland",
+          "title_es": "De Prusia a Polonia",
+          "title_pl": "Od Prus do Polski",
+          "title_de": "Von Preußen nach Polen",
+          "content": "History rewrote the building. In 1828, the classicist tower was added to assert its presence in the city. After World War II, with the shifting of borders, the temple passed into Catholic hands and adopted the name of the patroness of Poland: Our Lady of Częstochowa. For decades it functioned almost incognito, as a branch of the neighboring parish, until it reclaimed its place as an independent parish in 1987. Renovations in the 1980s saved it from ruin caused by dampness, allowing us to enjoy this historical hybrid today.",
+          "content_es": "La historia reescribió el edificio. En 1828 se añadió la torre clasicista para afirmar su presencia en la ciudad. Tras la Segunda Guerra Mundial, con el cambio de fronteras, el templo pasó a manos católicas y adoptó el nombre de la patrona de Polonia: Nuestra Señora de Częstochowa. Durante décadas funcionó casi de incógnito, como filial de la parroquia vecina, hasta que en 1987 reclamó su lugar como parroquia independiente. Las restauraciones de los años 80 la salvaron de la ruina por humedad, permitiéndonos disfrutar hoy de este híbrido histórico.",
+          "content_pl": "Historia napisała ten budynek na nowo. W 1828 roku dobudowano klasycystyczną wieżę, by zaznaczyć obecność kościoła w mieście. Po II wojnie światowej, wraz ze zmianą granic, świątynia przeszła w ręce katolików i przyjęła imię patronki Polski: Matki Bożej Częstochowskiej. Przez dziesięciolecia kościół funkcjonował niemal incognito, jako filia sąsiedniej parafii św. Jadwigi, aż w 1987 roku odzyskał swoje miejsce jako samodzielna parafia. Renowacje z lat 80. uratowały go przed zniszczeniem przez wilgoć, pozwalając nam dziś cieszyć się tą historyczną hybrydą.",
+          "content_de": "Die Geschichte hat das Gebäude neu geschrieben. Im Jahr 1828 wurde der klassizistische Turm hinzugefügt, um seine Präsenz in der Stadt zu behaupten. Nach dem Zweiten Weltkrieg und der Verschiebung der Grenzen ging das Gotteshaus in katholische Hände über und nahm den Namen der Schutzpatronin Polens an: Muttergottes von Tschenstochau. Jahrzehntelang funktionierte sie fast inkognito, als Filiale der benachbarten Pfarrei Sankt Hedwig, bis sie 1987 ihren Platz als eigenständige Pfarrei zurückeroberte. Restaurierungen in den 1980er Jahren retteten sie vor dem Verfall durch Feuchtigkeit und ermöglichen es uns heute, diesen historischen Hybriden zu genießen."
+        },
+        {
+          "title": "Why Visit?",
+          "title_es": "¿Por qué visitarla?",
+          "title_pl": "Dlaczego warto go odwiedzić?",
+          "title_de": "Warum sollte man sie besuchen?",
+          "content": "Because it is an honest building. It doesn't hide its scars or its changes. It is a place where an organ with a 1752 Baroque case coexists with a 20th-century Romantic sound; where the Protestant structure hosts Catholic liturgy; and where, if you pay attention, you can still feel the atmosphere of the old \"Garden of Christ\".\n\n• 📍 Where to find it: Right in the heart of Zielona Góra, just a few steps from the Town Hall.\n• 💡 Talking Cities Tip: If you are lucky and someone is playing the organ, go inside and sit down. The acoustics of the wood are warm and enveloping, very different from the cold stone of Gothic cathedrals.",
+          "content_es": "Porque es un edificio honesto. No oculta sus cicatrices ni sus cambios. Es un lugar donde conviven el órgano con caja barroca de 1752 y sonido romántico del siglo XX; donde la estructura protestante acoge la liturgia católica; y donde, si prestas atención, aún puedes sentir la atmósfera del antiguo \"Jardín de Cristo\".\n\n• 📍 Dónde encontrarla: Justo en el corazón de Zielona Góra, a pocos pasos del Ayuntamiento.\n• 💡 Consejo Talking Cities: Si tienes suerte y hay alguien tocando el órgano, entra y siéntate. La acústica de la madera es cálida y envolvente, muy distinta a la piedra fría de las catedrales góticas.",
+          "content_pl": "Ponieważ jest to \"uczciwy\" budynek. Nie ukrywa swoich blizn ani zmian. To miejsce, gdzie organy z barokowym prospektem z 1752 roku współistnieją z romantycznym brzmieniem z XX wieku; gdzie protestancka struktura gości liturgię katolicką; i gdzie, jeśli będziesz uważny, wciąż możesz wyczuć atmosferę dawnego \"Ogrodu Chrystusa\".\n\n• 📍 Gdzie go znaleźć: W samym sercu Zielonej Góry, zaledwie kilka kroków od Ratusza.\n• 💡 Wskazówka Talking Cities: Jeśli masz szczęście i ktoś gra na organach, wejdź do środka i usiądź. Akustyka drewna jest ciepła i otulająca, zupełnie inna niż w zimnych, kamiennych katedrach.",
+          "content_de": "Weil es ein ehrliches Gebäude ist. Es verbirgt weder seine Narben noch seine Veränderungen. Es ist ein Ort, an dem eine Orgel mit einem Barockgehäuse aus dem Jahr 1752 und dem romantischen Klang des 20. Jahrhunderts koexistiert; an dem die protestantische Struktur die katholische Liturgie beherbergt; und an dem Sie, wenn Sie aufmerksam sind, immer noch die Atmosphäre des alten \"Gartens Christi\" spüren können.\n\n• 📍 Wo sie zu finden ist: Direkt im Herzen von Zielona Góra, nur wenige Schritte vom Rathaus entfernt.\n• 💡 Talking Cities-Tipp: Wenn Sie Glück haben und jemand Orgel spielt, gehen Sie hinein und setzen Sie sich. Die Akustik des Holzes ist warm und einhüllend, ganz anders als der kalte Stein gotischer Kathedralen."
+        }
+      ],
+      "conclusion": "",
+      "conclusion_es": "",
+      "conclusion_pl": "",
+      "conclusion_de": "",
+      "audioFiles": {},
+      "relatedTourSlug": ""
+    },
+    {
+      "slug": "forgotten-may-catholic-house",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "The Forgotten May: When Zielona Góra vanished in tear gas.",
+      "title_es": "El Mayo Olvidado: Cuando Zielona Góra desapareció en gas lacrimógeno.",
+      "title_pl": "Zapomniany Maj: Gdy Zielona Góra utonęła w gazie łzawiącym.",
+      "title_de": "Der vergessene Mai: Als Zielona Góra in Tränengas versank.",
+      "introduction": "By: Talking Cities Editorial Staff.\n\nOften, the history of Polish resistance against communism is narrated as a chronological leap. It jumps from the machine guns turned against workers and students in the streets of Poznań in June 1956 straight to the shipyard strikes in Gdańsk in 1970. However, within that fourteen-year vacuum lies a deep and frequently ignored rift. The defense of the Catholic House (Dom Katolicki) was an event that took place on May 30, 1960, in Zielona Góra—a city located in western Poland, about five hours from Warsaw. At the time, it had a population of just over 54,000 inhabitants. This historic moment was not a workers' strike for bread, but something more complex: a fierce defense of civil autonomy against a State attempting to claim total control over social life.",
+      "introduction_es": "Por: Redacción Talking Cities.\n\nA menudo, la historia de la resistencia polaca contra el comunismo se narra como un salto cronológico, pues de las ametralladoras contra obreros y estudiantes, en las calles de Poznań en junio de 1956, salta a las huelgas de los astilleros de Gdańsk en 1970. Sin embargo, en ese vacío de catorce años existe una grieta profunda y frecuentemente ignorada. La defensa de la Casa Católica, un evento ocurrió el 30 de mayo de 1960 en Zielona Góra, una ciudad ubicada al oeste de Polonia, a unas cinco horas de Varsovia. Contaba en aquel momento con poco más de 54.000 habitantes. Este momento histórico no fue una huelga obrera por pan, sino algo más complejo, una defensa feroz de la autonomía civil frente a un Estado que intentaba reclamar el control total sobre la vida social.",
+      "introduction_pl": "Autor: Redakcja Talking Cities.\n\nHistoria polskiego oporu przeciwko komunizmowi jest często opowiadana jako chronologiczny skok. Od karabinów maszynowych skierowanych przeciwko robotnikom i studentom na ulicach Poznania w czerwcu 1956 roku, przechodzi się od razu do strajków w stoczniach Gdańska w 1970 roku. Jednak w tej czternastoletniej próżni istnieje głęboka i często ignorowana rysa. Obrona Domu Katolickiego to wydarzenie, które miało miejsce 30 maja 1960 roku w Zielonej Górze – mieście położonym w zachodniej Polsce, oddalonym o około pięć godzin drogi od Warszawy. Liczyło ono wówczas nieco ponad 54 tysiące mieszkańców. Ten historyczny moment nie był robotniczym strajkiem o chleb, lecz czymś znacznie bardziej złożonym: zaciekłą obroną obywatelskiej autonomii przed państwem, które próbowało narzucić całkowitą kontrolę nad życiem społecznym.",
+      "introduction_de": "Von: Redaktion Talking Cities.\n\nOft wird die Geschichte des polnischen Widerstands gegen den Kommunismus als chronologischer Sprung erzählt. Von den Maschinengewehren, die im Juni 1956 in den Straßen von Poznań gegen Arbeiter und Studenten gerichtet wurden, springt die Erzählung direkt zu den Werftstreiks in Gdańsk im Jahr 1970. Doch in diesem Vakuum von vierzehn Jahren liegt ein tiefer und häufig ignorierter Riss. Die Verteidigung des Katholischen Hauses (Dom Katolicki) war ein Ereignis, das sich am 30. Mai 1960 in Zielona Góra abspielte – einer Stadt im Westen Polens, etwa fünf Stunden von Warschau entfernt. Sie zählte damals etwas mehr als 54.000 Einwohner. Dieser historische Moment war kein Arbeiterstreik für Brot, sondern etwas weitaus Komplexeres: eine erbitterte Verteidigung der zivilen Autonomie gegenüber einem Staat, der versuchte, die totale Kontrolle über das gesellschaftliche Leben zu erlangen.",
+      "image": "/images/stories/Casa_Catolica1.JPG",
+      "sections": [
+        {
+          "title": "The Context",
+          "title_es": "El Contexto",
+          "title_pl": "Kontekst",
+          "title_de": "Der Kontext",
+          "image": "/images/stories/Casa_Catolica2.JPG",
+          "content": "To understand this moment, it must be placed in its real context. Zielona Góra was not an isolated event, but rather the climax of an \"iron spring\" that had already seen outbreaks in Kraśnik and Nowa Huta just weeks earlier. The government of Władysław Gomułka, First Secretary of the Polish United Workers' Party (PZPR), had come to power in 1956 promising an era of peace. However, documents from the Institute of National Remembrance (IPN) reveal that this \"Polish way to socialism\" was, in reality, an authoritarian retreat disguised as reform. The Catholic House was not merely a brick building that the State wanted to nationalize under administrative excuses; it was a social center of gravity. With its theater halls and meeting spaces, it represented the last lung of a city that refused to be suffocated by official ideology. Its defense was, in essence, the first major battle for the right to the city and community property in post-war Poland.",
+          "content_es": "Para entender este momento, hay que situarlo en su contexto real: Zielona Góra no fue un evento aislado, sino el clímax de una primavera de hierro que ya había visto estallidos en Kraśnik y Nowa Huta apenas semanas antes. El gobierno del Primer Secretario del Partido Obrero Unificado Polaco (PZPR), Władysław Gomułka, llegó al poder en 1956 prometiendo una era de paz, pero documentos del Instituto de la Memoria Nacional (IPN) revelan que la \"vía polaca al socialismo\" era, en realidad, un retroceso autoritario disfrazado de reforma. La Casa Católica no era solo un edificio de ladrillos que el Estado quería nacionalizar bajo excusas administrativas; era un centro de gravedad social. Con sus salas de teatro y espacios de reunión, representaba el último pulmón de una ciudad que se negaba a ser asfixiada por la ideología oficial. Su defensa fue, en esencia, la primera gran batalla por el derecho a la ciudad y a la propiedad comunitaria en la Polonia de la posguerra.",
+          "content_pl": "Aby zrozumieć ten moment, należy umieścić go w realiach tamtego czasu: Wydarzenia w Zielonej Górze nie były odizolowanym incydentem, lecz punktem kulminacyjnym „żelaznej wiosny”, której wybuchy miały miejsce w Kraśniku i Nowej Hucie zaledwie kilka tygodni wcześniej. Rząd Pierwszego Sekretarza Polskiej Zjednoczonej Partii Robotniczej (PZPR), Władysława Gomułki, doszedł do władzy w 1956 roku, obiecując erę spokoju. Jednak dokumenty Instytutu Pamięci Narodowej (IPN) ujawniają, że „polska droga do socjalizmu” była w rzeczywistości autorytarnym regresem maskowanym jako reforma. Dom Katolicki nie był tylko murowanym budynkiem, który państwo chciało przejąć pod pretekstami administracyjnymi; był społecznym środkiem ciężkości. Ze swoimi salami teatralnymi i miejscami spotkań stanowił ostatnie płuco miasta, które nie pozwalało się udusić oficjalnej ideologii. Jego obrona była w istocie pierwszą wielką bitwą o prawo do miasta i własności wspólnotowej w powojennej Polsce.",
+          "content_de": "Um diesen Moment zu verstehen, muss man ihn in seinen realen Kontext einordnen: Die Ereignisse in Zielona Góra waren kein isolierter Vorfall, sondern der Höhepunkt eines „eisernen Frühlings“, der nur wenige Wochen zuvor bereits in Kraśnik und Nowa Huta zu Ausbrüchen geführt hatte. Die Regierung des Ersten Sekretärs der Polnischen Vereinigten Arbeiterpartei (PZPR), Władysław Gomułka, war 1956 mit dem Versprechen einer Ära des Friedens an die Macht gekommen. Dokumente des Instituts für Nationales Gedenken (IPN) enthüllen jedoch, dass der „polnische Weg zum Sozialismus“ in Wirklichkeit ein autoritärer Rückschritt im Gewand einer Reform war. Das Katholische Haus war nicht nur ein Backsteingebäude, das der Staat unter administrativen Vorwänden verstaatlichen wollte; es war ein gesellschaftlicher Schwerpunkt. Mit seinen Theatersälen und Versorgungsräumen repräsentierte es die letzte Lunge einer Stadt, die sich weigerte, von der offiziellen Ideologie erstickt zu werden. Seine Verteidigung war im Wesentlichen der erste große Kampf um das Recht auf Stadt und Gemeinschaftseigentum im Nachkriegspolen."
+        },
+        {
+          "title": "A Tactical Laboratory",
+          "title_es": "Un Laboratorio Táctico",
+          "title_pl": "Laboratorium taktyczne",
+          "title_de": "Ein taktisches Labor",
+          "image": "/images/stories/Casa_Catolica3.JPG",
+          "content": "On May 30, nearly 5,000 citizens rose up against the Party's new order. It all began with a group of women blocking the building's entrance. What followed was an escalation that the regime utilized as a tactical laboratory. The events at the Catholic House in Zielona Góra served as the graduation ceremony for the ZOMO (Zmotoryzowane Odwody Milicji Obywatelskiej), created in 1956, turning it into a unit for social control and an arm of urban occupation, showcasing its strength in a completely disproportionate deployment: 1,300 units of chemical agents (the first massive deployment of tear gas used to suffocate an urban center), 5,000 participants (an overwhelming figure considering the city's demographics), and intense Workers' resistance. Although the trigger was religious, of the 333 people arrested, the vast majority were workers from local factories, not just church leaders. Class solidarity was activated to defend a space of freedom.",
+          "content_es": "El 30 de mayo, cerca de 5.000 ciudadanos se alzaron contra el nuevo orden del Partido. Todo comenzó con un grupo de mujeres bloqueando la entrada del edificio. Lo que siguió después fue una escalada que el régimen utilizó como laboratorio táctico. El evento de la Casa Católica en Zielona Góra, sirvió para que el ZOMO (Zmotoryzowane Odwody Milicji Obywatelskiej), creado en 1956, se graduara como una unidad de control social y brazo de ocupación urbana, mostrando su fuerza en un despliegue totalmente desproporcionado: 1.300 unidades de medios químicos (fue el debut masivo del gas lacrimógeno para asfixiar un centro urbano), 5.000 participantes (una cifra abrumadora considerando la demografía), y una fuerte resistencia obrera. Aunque el detonante fue religioso, de los 333 arrestados, la gran mayoría eran obreros de las fábricas locales, no solo líderes eclesiásticos. La solidaridad de clase se activó para defender un espacio de libertad.",
+          "content_pl": "30 maja blisko 5000 obywateli wystąpiło przeciwko nowemu porządkowi Partii. Wszystko zaczęło się od grupy kobiet, które zablokowały wejście do budynku. To, co nastąpiło później, było eskalacją, którą reżim wykorzystał jako laboratorium taktyczne. Wydarzenia wokół Domu Katolickiego w Zielonej Górze posłużyły ZOMO (Zmotoryzowanym Odwodom Milicji Obywatelskiej), utworzonym w 1956 roku, jako chrzest bojowy w roli jednostki kontroli społecznej i ramienia okupacji miejskiej, demonstrując swoją siłę w całkowicie nieproporcjonalnym wymiarze: 1300 sztuk środków chemicznych (debiut gazu łzawiącego na masową skalę), 5000 uczestników (liczba oszałamiająca dla miasta) oraz ogromny opór robotniczy. Choć impulsem była kwestia religijna, wśród 333 aresztowanych ogromną większość stanowili robotnicy z lokalnych fabryk. Solidarność klasowa uruchomiła się, by bronić przestrzeni wolności.",
+          "content_de": "Am 30. Mai erhoben sich fast 5.000 Bürger gegen die neue Ordnung der Partei. Alles begann mit einer Gruppe von Frauen, die den Eingang des Gebäudes blockierten. Was folgte, war eine Eskalation, die das Regime als taktisches Labor nutzte. Die Ereignisse um das Katholische Haus in Zielona Góra dienten der 1956 gegründeten ZOMO (Zmotoryzowane Odwody Milicji Obywatelskiej) als Feuertaufe für ihre Rolle als Einheit zur gesellschaftlichen Kontrolle und Arm der städtischen Besatzung. Dabei demonstrierte sie ihre Macht in einem völlig unverhältnismäßigen Ausmaß: 1.300 Einheiten chemischer Kampfstoffe (der erste massive Einsatz von Tränengas), 5.000 Teilnehmer (eine überwältigende Zahl für die damalige Demografie) und Arbeiterwiderstand. Obwohl der Auslöser religiöser Natur war, war von den 333 Verhafteten die große Mehrheit Arbeiter aus den örtlichen Fabriken. Die Klassensolidarität formierte sich, um einen Raum der Freiheit zu verteidigen."
+        },
+        {
+          "title": "The First Dress Rehearsal",
+          "title_es": "El Primer Ensayo General",
+          "title_pl": "Pierwsza próba generalna",
+          "title_de": "Die erste Generalprobe",
+          "content": "To strip the event of its political weight, authorities labeled the protesters as chuligani (hooligans or vandals). This framing, produced by the Polish United Workers' Party (PZPR), was no accident. By criminalizing the protest as street vandalism, the State attempted to erase its legitimacy. Prison sentences of up to five years did not seek to punish public disorder, but rather to send a clear message: the 1956 truce was officially over. The silence imposed for decades was proof of the regime's success—and its fear. What happened at the Catholic House in Zielona Góra in 1960 was the first dress rehearsal for modern repression. There, the regime discovered it could informationally isolate a city and crush dissent before it spread to the rest of the country. Today, looking at the symbolic mural or the monument to Father Kazimierz Michalski, the question for the inhabitant of a modern Europe is not just about faith, but about the ownership of public space. To whom does the city belong? In 1960, the citizens of Zielona Góra decided it did not belong to the Party, and they paid the price for remembering it.",
+          "content_es": "Para despojar al evento de su peso político, las autoridades tildaron a los manifestantes de chuligani (hooligans o vándalos). Este enmarcado producido por el Partido Obrero Unificado Polaco (PZPR), no era casual. Al criminalizar la protesta como un acto de vandalismo callejero, el Estado intentaba borrar la legitimidad de la protesta. Las sentencias de hasta cinco años de prisión no buscaban castigar desórdenes públicos, sino enviar un mensaje claro: la tregua de 1956 había terminado oficialmente. El silencio que se impuso durante décadas fue la prueba del éxito —y del miedo— del régimen. Lo ocurrido en la Casa Católica de Zielona Góra en 1960, fue el primer ensayo general de la represión moderna. Allí, el régimen descubrió que podía aislar informativamente a una ciudad y aplastar la disidencia antes de que se contagiara al resto del país. Hoy, al observar el mural simbólico o el monument al padre Kazimierz Michalski, la pregunta para el habitante de una Europa moderna no es solo sobre la fe, sino sobre la propiedad del espacio público. ¿A quién pertenece la ciudad? En 1960, los ciudadanos de Zielona Góra decidieron que no pertenecía al Partido, y pagaron el precio por recordarlo.",
+          "content_pl": "Aby pozbawić to wydarzenie politycznego ciężaru, władze określiły manifestantów mianem „chuliganów”. Ta narracja narzucona przez PZPR nie była przypadkowa. Kryminalizując protest jako akt ulicznego wandalizmu, państwo próbowało odebrać mu legitymizację. Wyroki do pięciu lat więzienia nie miały na celu jedynie ukarania zakłócania porządku publicznego, ale były jasnym sygnałem: rozejm z 1956 roku oficjalnie dobiegł końca. Milczenie, które narzucono na dziesięciolecia, było dowodem sukcesu — i strachu — reżimu. To, co wydarzyło się w Domu Katolickim w Zielonej Górze w 1960 roku, było pierwszą próbą generalną nowoczesnej represji. Tam reżim odkrył, że może odciąć miasto informacyjnie i zmiażdżyć opór, zanim ten rozprzestrzeni się na resztę kraju. Dziś, patrząc na symboliczny mural czy pomnik księdza Kazimierza Michalskiego, pytanie dla mieszkańca współczesnej Europy nie dotyczy wyłącznie wiary, ale własności przestrzeni publicznej. Do kogo należy miasto? W 1960 roku mieszkańcy Zielonej Górze uznali, że nie należy ono do Partii, i zapłacili wysoką cenę za to, że o tym przypomnieli.",
+          "content_de": "Um dem Ereignis sein politisches Gewicht zu nehmen, brandmarkten die Behörden die Demonstranten als chuligani (Hooligans oder Vandalen). Diese von der Polnischen Vereinigten Arbeiterpartei (PZPR) konstruierte Darstellung war kein Zufall. Indem der Staat den Protest als Straßenvandalismus kriminalisierte, versuchte er, dessen Legitimität auszulöschen. Die Haftstrafen von bis zu fünf Jahren bezweckten nicht die Bestrafung öffentlicher Ruhestörung, sondern sollten eine klare Botschaft senden: Der Waffenstillstand von 1956 war offiziell vorbei. Das Schweigen, das über Jahrzehnte hinweg auferlegt wurde, war der Beweis für den Erfolg – und die Angst – des Regimes. Was sich 1960 am Katholischen Haus in Zielona Góra ereignete, war die erste Generalprobe der modernen Repression. Dort entdeckte das Regime, dass es eine Stadt informationstechnisch isolieren und den Dissens zerschlagen konnte, bevor er auf den Rest des Landes übergriff. Wenn man heute das symbolische Wandgemälde oder das Denkmal für Pater Kazimierz Michalski betrachtet, lautet die Frage für den Bewohner eines modernen Europas nicht nur jene nach dem Glauben, sondern nach dem Eigentum am öffentlichen Raum. Wem gehört die Stadt? 1960 entschieden die Bürger von Zielona Góra, dass sie nicht der Partei gehörte – und sie zahlten den Preis dafür, sich daran zu erinnern."
+        }
+      ],
+      "conclusion": "",
+      "conclusion_es": "",
+      "conclusion_pl": "",
+      "conclusion_de": "",
+      "audioFiles": {},
+      "relatedTourSlug": ""
+    },
+    {
+      "slug": "stefan-mikula-resilience",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "Stefan Mikuła, the boy who witnessed history and defied the regime",
+      "title_es": "Stefan Mikuła, el niño que presenció la historia y desafió al régimen",
+      "title_pl": "Stefan Mikuła, chłopiec, który był świadkiem historii i rzucił wyzwanie reżimowi",
+      "title_de": "Stefan Mikuła, der Junge, der Geschichte miterlebte und dem Regime trotzt",
+      "introduction": "Born in 1946 in a Zielona Góra in the midst of post-war reconstruction, Stefan Mikuła was a direct witness to the great transformation of the Recovered Territories. His childhood was marked by the arrival of settlers from the Eastern Borderlands, by the reconstruction of a city that had been German and was becoming Polish, and by the silent tension between the authorities and the Church. But it was on May 30, 1960, during the grand celebration of the 1000th anniversary of the Baptism of Poland, that Stefan—still a child—was caught up in events that would define him forever: the so-called Events of the Catholic House in Zielona Góra, a clash between the faithful and the militia that marked a before and after in the history of the city.",
+      "introduction_es": "Nacido en 1946 en una Zielona Góra en plena reconstrucción de posguerra, Stefan Mikuła fue testigo directo de la gran transformación de los Territorios Recuperados. Su infancia estuvo marcada por la llegada de colonos de los Kresy, por la reconstrucción de una ciudad que había sido alemana y se volvía polaca, y por la tensión silenciosa entre las autoridades y la Iglesia. Pero fue el 30 de mayo de 1960, durante la gran celebración del Milenio del Bautismo de Polonia, cuando Stefan —aún niño— se vio envuelto en los acontecimientos que lo marcarían para siempre: los llamados Sucesos de la Casa Católica en Zielona Góra, un choque entre los fieles y la milicia que marcó un antes y un después en la historia de la ciudad.",
+      "introduction_pl": "Urodzony w 1946 roku w odbudowującej się powojennej Zielonej Górze, Stefan Mikuła był bezpośrednim świadkiem wielkiej transformacji Ziem Odzyskanych. Jego dzieciństwo naznaczone było przybyciem osadników z Kresów Wschodnich, odbudową miasta, które było niemieckie i stawało się polskie, oraz cichym napięciem między władzami a Kościołem. Jednak to 30 maja 1960 roku, podczas wielkiej uroczystości Millennium Chrztu Polski, Stefan — jeszcze dziecko — został wciągnięty w wydarzenia, które naznaczyły go na zawsze: tak zwane Wydarzenia w Domu Katolickim w Zielonej Górze, starcie między wiernymi a milicją, które stanowiło przełom w historii miasta.",
+      "introduction_de": "Geboren 1946 im sich nach dem Krieg im Wiederaufbau befindlichen Zielona Góra, war Stefan Mikuła ein direkter Zeuge der großen Transformation der Wiedergewonnenen Gebiete. Seine Kindheit war geprägt von der Ankunft der Siedler aus den Ostgebieten, dem Wiederaufbau einer Stadt, die deutsch gewesen war und polnisch wurde, und der stillen Spannung zwischen den Behörden und der Kirche. Aber es war der 30. Mai 1960, während der großen Feierlichkeiten zum 1000. Jahrestag der Taufe Polens, als Stefan — noch ein Kind — in die Ereignisse verwickelt wurde, die ihn für immer prägen sollten: die sogenannten Ereignisse im Katholischen Haus in Zielona Góra, ein Zusammenstoß zwischen Gläubigen und Miliz, der einen Wendepunkt in der Geschichte der Stadt markierte.",
+      "image": "/images/stories/Stefan_Mikuła_articulo.JPG",
+      "sections": [
+        {
+          "title": "Testimony",
+          "title_es": "Testimonio",
+          "title_pl": "Świadectwo",
+          "title_de": "Zeugnis",
+          "content": "Despite the reprisals at school, the incessant surveillance during his adulthood, and the constant threat of the security services, Stefan Mikuła never stopped attending his church or manifesting his faith. His is a story of daily courage, of small acts of resistance that, added together, built a life of dignity under a regime that sought to crush the human spirit. His testimony reminds us that resistance is not only fought in the streets with banners, but also in the privacy of a home, in a whispered prayer, in the decision not to be afraid.",
+          "content_es": "A pesar de las represalias en la escuela, la incesante vigilancia durante su etapa adulta y la amenaza constante de los servicios de seguridad, Stefan Mikuła nunca dejó de acudir a su iglesia ni de manifestar su fe. La suya es una historia de valentía cotidiana, de pequeños actos de resistencia que, sumados, construyeron una vida de dignidad bajo un régimen que buscaba aplastar el espíritu humano. Su testimonio nos recuerda que la resistencia no solo se libra en las calles con pancartas, sino también en la intimidad de un hogar, en una oración susurrada, en la decisión de no tener miedo.",
+          "content_pl": "Pomimo represji w szkole, nieustannej inwigilacji w dorosłym życiu i ciągłego zagrożenia ze strony służb bezpieczeństwa, Stefan Mikuła nigdy nie przestał chodzić do kościoła ani manifestować swojej wiary. Jego historia to opowieść o codziennej odwadze, o małych aktach oporu, które razem zbudowały życie w godności pod rządami reżimu, który starał się zmiażdżyć ludzkiego ducha. Jego świadectwo przypomina nam, że opór to nie tylko walka na ulicach z transparentami, ale także intymność domu, szeptana modlitwa, decyzja, by się nie bać.",
+          "content_de": "Trotz der Repressalien in der Schule, der ständigen Überwachung im Erwachsenenalter und der ständigen Bedrohung durch die Sicherheitsdienste hörte Stefan Mikuła nie auf, seine Kirche zu besuchen oder seinen Glauben zu bekunden. Seine Geschichte ist eine Geschichte alltäglichen Mutes, kleiner Widerstandsakte, die zusammengenommen ein Leben in Würde unter einem Regime aufbauten, das den menschlichen Geist zu zermalmen suchte. Sein Zeugnis erinnert uns daran, dass Widerstand nicht nur auf den Straßen mit Transparenten ausgefochten wird, sondern auch in der Intimität eines Zuhauses, in einem geflüsterten Gebet, in der Entscheidung, keine Angst zu haben.",
+          "videos": {
+            "es": "https://www.youtube.com/embed/9gbDyQZw_mQ",
+            "en": "https://www.youtube.com/embed/GZPTXFOTUe0",
+            "pl": "https://www.youtube.com/embed/6CCkXsgrdyA",
+            "de": "https://www.youtube.com/embed/aXXV7_jkHDY"
+          }
+        }
+      ],
+      "conclusion": "Below, we invite you to listen to his full testimony. In this interview, Stefan Mikuła recounts in first person the events of May 30, 1960, what it meant to grow up in a Poland that sought to silence any dissident voice, and how he faced the repressive apparatus of the State with his head held high. An invaluable document of oral history that we have the duty to preserve and share.",
+      "conclusion_es": "A continuación, te invitamos a escuchar su testimonio íntegro. En esta entrevista, Stefan Mikuła relata en primera persona los sucesos del 30 de mayo de 1960, qué significó crecer en una Polonia que buscaba silenciar cualquier voz disidente, y cómo enfrentó con la frente en alto el aparato represivo del Estado. Un documento invaluable de historia oral que tenemos el deber de preservar y compartir.",
+      "conclusion_pl": "Poniżej zapraszamy do wysłuchania jego pełnego świadectwa. W tym wywiadzie Stefan Mikuła opowiada z pierwszej ręki o wydarzeniach z 30 maja 1960 roku, o tym, co znaczyło dorastać w Polsce, która starała się uciszyć każdy dysydencki głos, i jak stawił czoła represyjnemu aparatowi państwa z podniesioną głową. Bezcenny dokument historii mówionej, który mamy obowiązek zachować i dzielić się nim.",
+      "conclusion_de": "Im Folgenden laden wir Sie ein, sich sein vollständiges Zeugnis anzuhören. In diesem Interview erzählt Stefan Mikuła aus erster Hand von den Ereignissen des 30. Mai 1960, was es bedeutete, in einem Polen aufzuwachsen, das jede abweichende Stimme zum Schweigen bringen wollte, und wie er dem repressiven Staatsapparat mit erhobenem Haupt entgegentrat. Ein unschätzbares Dokument der mündlichen Geschichte, das wir zu bewahren und zu teilen verpflichtet sind.",
+      "audioFiles": {},
+      "relatedTourSlug": ""
+    },
+    {
+      "slug": "terror-disguised-in-civilian-clothes",
+      "city": "Zielona Góra",
+      "city_es": "Zielona Góra",
+      "city_pl": "Zielona Góra",
+      "city_de": "Grünberg",
+      "citySlug": "zielona-gora",
+      "type": "Voices of Resistance",
+      "title": "Terror Disguised in Civilian Clothes",
+      "title_es": "El terror disfrazado de civil",
+      "title_pl": "Terror w cywilnym przebraniu",
+      "title_de": "Der Terror in Zivil",
+      "introduction": "An intimate testimony from May 30, 1960. For Bronisława Raszkiewicz, state violence was not an abstraction, but a painful echo of her own past. Having survived the trauma of uprooting in 1946, when she crossed the country in cattle cars into the unknown, she believed she had found a definitive refuge to build her life. However, on Sunday, May 30, 1960, upon stepping off the bus on Kasprowicza Street in Zielona Góra, she came face to face with a new nightmare: thousands of citizens defending the Catholic House from the siege of the communist regime. This building, protected by Father Kazimierz Michalski, was the social and spiritual pillar of the community—a vital space that the authorities were determined to confiscate to silence faith and put an end to citizens' gatherings outside the Party's control.",
+      "introduction_es": "Un testimonio íntimo del 30 de mayo de 1960. Para Bronisława Raszkiewicz, la violencia del estado no era una abstracción, sino un eco doloroso de su propio pasado. Habiendo sobrevivido al trauma del desarraigo en 1946, cuando cruzó el país en vagones de animales hacia lo desconocido, creyó haber encontrado un refugio definitivo para construir su vida. Sin embargo, el domingo 30 de mayo de 1960, al bajar del autobús en la calle Kasprowicza en Zielona Góra, se topó de frente con una nueva pesadilla: miles de ciudadanos defendiendo la Casa Católica del asedio del régimen comunista. Este edificio, protegido por el padre Kazimierz Michalski, era el pilar social y espiritual de la comunidad, un espacio vital que las autoridades estaban decididas a confiscar para silenciar la fe y ponerle fin a reuniones de la ciudadanía, sin control del Partido.",
+      "introduction_pl": "Osobiste świadectwo z 30 maja 1960 roku. Dla Bronisławy Raszkiewicz przemoc ze strony państwa nie była abstrakcją, lecz bolesnym echem jej własnej przeszłości. Przetrwawszy traumę wykorzenienia w 1946 roku, kiedy to przemierzyła kraj w bydlęcych wagonach w nieznane, wierzyła, że znalazła ostateczne schronienie, by zbudować swoje nowe życie. Jednak w niedzielę, 30 maja 1960 roku, wysiadając z autobusu przy ulicy Kasprowicza w Zielonej Górze, stanęła twarzą w twarz z nowym koszmarem: tysiącami obywateli broniących Domu Katolickiego przed oblężeniem komunistycznego reżimu. Budynek ten, chroniony przez księdza Kazimierza Michalskiego, był społecznym i duchowym filarem wspólnoty – życiową przestrzenią, którą władze były zdeterminowane skonfiskować, by uciszyć wiarę i położyć kres zgromadzeniom obywateli wymykającym się spod kontroli Partii.",
+      "introduction_de": "Ein intimer Zeitzeugenbericht vom 30. Mai 1960. Für Bronisława Raszkiewicz war staatliche Gewalt keine Abstraktion, sondern ein schmerzhaftes Echo ihrer eigenen Vergangenheit. Nachdem sie 1946 das Trauma der Entwurzelung überlebt hatte, als sie in Viehwaggons ins Ungewisse quer durchs Land fuhr, glaubte sie, eine endgültige Zuflucht gefunden zu haben, um sich ihr Leben aufzubauen. Doch als sie am Sonntag, dem 30. Mai 1960, in der Kasprowicza-Straße in Zielona Góra aus dem Bus stieg, sah sie sich direkt mit einem neuen Albtraum konfrontiert: Tausende von Bürgern, die das Katholische Haus vor der Belagerung durch das kommunistische Regime verteidigten. Dieses von Pater Kazimierz Michalski geschützte Gebäude war die soziale und spirituelle Säule der Gemeinde – ein lebenswichtiger Raum, den die Behörden entschlossen konfiszieren wollten, um den Glauben zum Schweigen zu bringen und den Bürgerversammlungen ohne Kontrolle der Partei ein Ende zu setzen.",
+      "image": "/images/stories/terror.png",
+      "sections": [
+        {
+          "title": "Witnessing the events",
+          "title_es": "Testigo de los eventos",
+          "title_pl": "Świadek wydarzeń",
+          "title_de": "Zeuge der Ereignisse",
+          "content": "As an eyewitness to the Zielona Góra Events, Bronisława witnessed the excessive brutality of the ZOMO units, brought in from all over the region to crush the peaceful resistance. Amidst the chaos, suffocated by tear gas and surrounded by torn-up cobblestones and burning cars, the image that broke her the most was the internal betrayal: militiamen disguised in civilian clothes indiscriminately beating women, men, and children. For a woman who had rebuilt her life from the ashes of war, witnessing that scene on the streets of her city was the definitive proof that terror had not been left behind, but was now walking disguised through the streets of her new home.",
+          "content_es": "Como testigo ocular de los Sucesos de Zielona Góra, Bronisława presenció la brutalidad desmedida de las unidades ZOMO, traídas de toda la región para aplastar la resistencia pacífica. En medio del caos, asfixiada por los gases lacrimógenos y rodeada de adoquines arrancados y coches en llamas, la imagen que más la fracturó fue la traición interna: milicianos disfrazados de civil apaleando indiscriminadamente a mujeres, hombres y niños. Para una mujer que había reconstruido su vida desde las cenizas de la guerra, presenciar ese escenario en las calles de su ciudad, fue la prueba definitiva de que el terror no se había quedado atrás, sino que ahora caminaba disfrazado por las calles de su nuevo hogar.",
+          "content_pl": "Jako naoczny świadek Wydarzeń Zielonogórskich, Bronisława obserwowała nieuzasadnioną brutalność oddziałów ZOMO, sprowadzonych z całego regionu do stłumienia pokojowego oporu. Pośród chaosu, dławiąc się gazem łzawiącym, w otoczeniu wyrwanych z bruku kamieni i płonących samochodów, obrazem, który najbardziej ją złamał, była wewnętrzna zdrada: milicjanci przebrani po cywilnemu, na oślep bijący kobiety, mężczyzn i dzieci. Dla kobiety, która odbudowała swoje życie z popiołów wojny, bycie świadkiem tej sceny na ulicach swojego miasta było ostatecznym dowodem na to, że terror wcale nie pozostał w przeszłości, lecz teraz krążył w przebraniu po ulicach jej nowego domu.",
+          "content_de": "Als Zeitzeugin der Ereignisse von Zielona Góra erlebte Bronisława die maßlose Brutalität der ZOMO-Einheiten, die aus der gesamten Region zusammengezogen wurden, um den friedlichen Widerstand niederzuschlagen. Inmitten des Chaos, erstickt von Tränengas und umgeben von herausgerissenen Pflastersteinen und brennenden Autos, war das Bild, das sie am meisten erschütterte, der innere Verrat: als Zivilisten verkleidete Milizionäre, die wahllos auf Frauen, Männer und Kinder einschlugen. Für eine Frau, die ihr Leben aus der Asche des Krieges wieder aufgebaut hatte, war der Anblick dieser Szene auf den Straßen ihrer Stadt der endgültige Beweis dafür, dass der Terror nicht zurückgelassen worden war, sondern nun verkleidet durch die Straßen ihrer neuen Heimat ging.",
+          "videos": {
+            "en": "https://www.youtube.com/embed/yE8svahy96E",
+            "de": "https://www.youtube.com/embed/_spS_H6RcP0",
+            "pl": "https://www.youtube.com/embed/yywEbQ_mINg",
+            "es": "https://www.youtube.com/embed/PqW1u4YZ_UU?start=18"
+          }
+        }
+      ],
+      "conclusion": "",
+      "conclusion_es": "",
+      "conclusion_pl": "",
+      "conclusion_de": "",
+      "audioFiles": {},
       "relatedTourSlug": ""
     },
     {
@@ -547,111 +786,7 @@
         "spanish": "/audio/poznan/es.mp3",
         "german": "/audio/poznan/de.mp3"
       },
-      "relatedTourSlug": "poznan-voices-of-resistance"
-    },
-    {
-      "slug": "zielona-gora-voices-of-resistance",
-      "city": "Zielona Góra",
-      "city_es": "Zielona Góra",
-      "city_pl": "Zielona Góra",
-      "city_de": "Grünberg",
-      "citySlug": "zielona-gora",
-      "type": "Voices of Resistance",
-      "title": "Resistance in No Man's Land: Zielona Góra (1945–1989)",
-      "title_es": "Resistencia en Tierra de Nadie: Zielona Góra (1945–1989)",
-      "title_pl": "Opór na Ziemi Niczyjej: Zielona Góra (1945–1989)",
-      "title_de": "Widerstand im Niemandsland: Zielona Góra (1945–1989)",
-      "introduction": "Zielona Góra was neither Warsaw nor Kraków. In these “Recovered Territories,” resistance against communism took on a particular nuance, marked by the struggle of a society that first had to learn how to be a society. Through declassified documents and local chronicles, we reconstruct how this city—initially atomized and lacking traditional elites—forged its own rebellious identity in the face of totalitarianism.",
-      "introduction_es": "Zielona Góra no fue ni Varsovia ni Cracovia. En estos 'Territorios Recuperados', la resistencia tomó un matiz particular, marcado por la lucha de una sociedad que primero tuvo que aprender a ser una comunidad. Reconstruimos cómo esta ciudad —inicialmente atomizada y carente de élites tradicionales— forjó su propia identidad rebelde frente al totalitarismo.",
-      "introduction_pl": "Zielona Góra nie była ani Warszawą, ani Krakowem. Na Ziemiach Odzyskanych opór przeciwko komunizmowi nabrał szczególnego wymiaru, naznaczonego walką społeczeństwa, które najpierw musiało nauczyć się być wspólnotą. Odtwarzamy, jak to miasto — początkowo zatomizowane i pozbawione tradycyjnych elit — wykuło własną buntowniczą tożsamość w obliczu totalitaryzmu.",
-      "introduction_de": "Zielona Góra war weder Warschau noch Krakau. In diesen „wiedergewonnenen Gebieten“ nahm der Widerstand gegen den Kommunismus eine besondere Nuance an, geprägt vom Kampf einer Gesellschaft, die erst lernen musste, eine Gemeinschaft zu sein. Wir rekonstruieren, wie diese Stadt — anfänglich atomisiert und ohne traditionelle Eliten — ihre eigene rebellische Identität angesichts des Totalitarismus schmiedete.",
-      "image": "/images/stories/zielona_gora_statue.jpg",
-      "sections": [
-        {
-          "title": "A Society Under Construction: The Generational Clash",
-          "title_es": "Una Sociedad en Construcción: El Choque Generacional",
-          "title_pl": "Społeczeństwo w budowie: Zderzenie pokoleń",
-          "title_de": "Eine Gesellschaft im Aufbau: Der Generationenkonflikt",
-          "image": "/images/cities/zielona_gora_center.jpg",
-          "content": "The initial challenge was sociological. Zielona Góra (1945–1975) was an “atomized” society. However, the emergence of the “post-war generation” marked a turning point. Better educated and with institutional aspirations, this new generation began to urbanize the local mentality. The friction between this new civic consciousness and the “political correctness” imposed by the system created the breeding ground for dissent. The transformation into a “politically subjective community” was slow and painful, but inevitable.",
-          "content_es": "El desafío inicial fue sociológico. Zielona Góra (1945-1975) era una sociedad ‘atomizada’. Sin embargo, la aparición de la ‘generación de posguerra’ marcó un punto de inflexión. Mejor educada y con aspiraciones institucionales, esta nueva generación comenzó a urbanizar la mentalidad local. La fricción entre esta nueva conciencia cívica y la ‘corrección política’ impuesta por el sistema creó el caldo de cultivo para la disidencia.",
-          "content_pl": "Początkowe wyzwanie miało charakter socjologiczny. Zielona Góra (1945–1975) była społeczeństwem „zatomizowanym”. Przełomem stało się pojawienie „pokolenia powojennego”. Lepiej wykształcone i mające aspiracje instytucjonalne, pokolenie to zaczęło urbanizować lokalną mentalność. Tarcie między nową świadomością obywatelską a narzuconą „poprawnością polityczną” stworzyło grunt dla sprzeciwu.",
-          "content_de": "Die anfängliche Herausforderung war soziologischer Natur. Zielona Góra (1945–1975) war eine „atomisierte“ Gesellschaft. Die „Nachkriegsgeneration“ markierte jedoch einen Wendepunkt. Besser ausgebildet und mit institutionellen Ambitionen, begann diese neue Generation, die lokale Mentalität zu urbanisieren. Die Reibung zwischen diesem neuen bürgerlichen Bewusstsein und der vom System auferlegten „politischen Korrektheit“ schuf den Nährboden für Dissens."
-        },
-        {
-          "title": "1956: The Symbolic Recovery of Space",
-          "title_es": "1956: La Recuperación Simbólica del Espacio",
-          "title_pl": "1956: Symboliczne odzyskanie przestrzeni",
-          "title_de": "1956: Die symbolische Rückgewinnung des Raumes",
-          "image": "/images/stories/zielona_gora_1956.png",
-          "content": "The ‘thaw’ of October 1956 brought an attempt to reclaim the city’s identity. A notable example was the removal of Stalin’s name from the map. The editors of the ‘Gazeta’ launched a public call to rename Stalin Avenue. In just two days, the avenue was renamed Aleja Niepodległości (Independence Avenue). This administrative act was one of the first collective victories of society to impose its own historical narrative over Soviet propaganda.",
-          "content_es": "El ‘deshielo’ de octubre de 1956 trajo un intento de reclamar la identidad de la ciudad. Un ejemplo notable fue la eliminación del nombre de Stalin. Los editores de ‘Gazeta’ lanzaron un llamado público para renombrar la Avenida Stalin. En solo dos días, pasó a ser Aleja Niepodległości (Avenida de la Independencia). Este acto administrativo fue una de las primeras victorias colectivas para imponer una narrativa propia sobre la propaganda soviética.",
-          "content_pl": "Odwilż października 1956 r. przyniosła próbę odzyskania tożsamości miasta. Przykładem było usunięcie imienia Stalina z mapy. Redaktorzy „Gazety” ogłosili publiczne wezwanie do zmiany nazwy Alei Stalina. W ciągu zaledwie dwóch dni zmieniono ją na Aleję Niepodległości. Ten akt administracyjny był jednym z pierwszych zbiorowych zwycięstw w narzucaniu własnej narracji historycznej ponad radziecką propagandę.",
-          "content_de": "Das „Tauwetter“ vom Oktober 1956 brachte einen Versuch, die Identität der Stadt zurückzufordern. Ein bemerkenswertes Beispiel war die Entfernung von Stalins Namen. In nur zwei Tagen wurde die Stalinallee in Aleja Niepodległości (Unabhängigkeitsallee) umbenannt. Dieser Verwaltungsakt war einer der ersten kollektiven Siege, um eine eigene historische Erzählung gegen die sowjetische Propaganda durchzusetzen."
-        },
-        {
-          "title": "1960: The Bastion of Faith and Blackmail Tactics",
-          "title_es": "1960: El Bastión de la Fe y las Tácticas de Chantaje",
-          "title_pl": "1960: Bastion wiary i taktyka szantażu",
-          "title_de": "1960: Die Bastion des Glaubens und Erpressungstaktiken",
-          "image": "/images/stories/zielona_gora_town_hall_user.jpg",
-          "content": "The uprising of May 30, 1960, in defense of the Catholic House was the culmination of a war of attrition. Authorities attempted to neutralize the parish priest, Kazimierz Michalski, with blackmail: they promised the Church would recover the building if he reduced his “rebellious activity.” Michalski, a Dachau veteran, did not yield. The regime’s response was surgical: in addition to arrests, a “civil death” was applied through job dismissals and blacklists that forced entire families to leave the city.",
-          "content_es": "El levantamiento del 30 de mayo de 1960 en defensa de la Casa Católica fue la culminación de una guerra de desgaste. Las autoridades intentaron neutralizar al párroco Kazimierz Michalski con chantajes: prometieron que la Iglesia recuperaría el edificio si reducía su ‘actividad rebelde’. Michalski, veterano de Dachau, no cedió. La respuesta del régimen incluyó detenciones y ‘muerte civil’ mediante despidos laborales que forzaron al exilio a familias enteras.",
-          "content_pl": "Powstanie 30 maja 1960 r. w obronie Domu Katolickiego było kulminacją wojny na wyczerpanie. Władze próbowały zneutralizować proboszcza Kazimierza Michalskiego szantażem, obiecując zwrot budynku w zamian za ograniczenie „działalności buntowniczej”. Michalski, więzień Dachau, nie uległ. Reżim odpowiedział aresztowaniami i „śmiercią cywilną” — zwolnieniami z pracy, które zmusiły całe rodziny do opuszczenia miasta.",
-          "content_de": "Der Aufstand am 30. Mai 1960 zur Verteidigung des Katholischen Hauses war der Höhepunkt eines Zermürbungskrieges. Die Behörden versuchten, Pater Kazimierz Michalski mit Erpressung zu neutralisieren. Michalski, ein Dachau-Veteran, gab nicht nach. Die Reaktion des Regimes umfasste Verhaftungen und den „zivilen Tod“ durch Entlassungen, die ganze Familien zwangen, die Stadt zu verlassen."
-        },
-        {
-          "title": "The “Bibuła” and the Regional Information Network",
-          "title_es": "La “Bibuła” y la Red de Información Regional",
-          "title_pl": "„Bibuła” i regionalna sieć informacyjna",
-          "title_de": "Die „Bibuła“ und das regionale Informationsnetzwerk",
-          "content": "Editorial resistance was sophisticated. Between 1981 and 1989, the region sustained an underground press network (“drugi obieg”) that spanned more than 19 titles. The network extended to satellite towns: Świebodzin (Podziemie, 1982), Nowa Sól (Solidarność Lubuska, 1983–1984), and Sulechów (RMS). These shadows bulletins countered the Party’s information monopoly and maintained the cohesion of Solidarity structures during their illegality.",
-          "content_es": "La resistencia editorial fue sofisticada. Entre 1981 y 1989, la región mantuvo una red de prensa clandestina (‘drugi obieg’) de más de 19 títulos, extendiéndose a Świebodzin, Nowa Sól y Sulechów. Estos boletines en las sombras contrarrestaron el monopolio informativo del Partido y mantuvieron la cohesión de las estructuras de Solidaridad durante su ilegalidad.",
-          "content_pl": "Opór wydawniczy był zaawansowany. W latach 1981–1989 region utrzymywał sieć prasy podziemnej („drugi obieg”) obejmującą ponad 19 tytułów, m.in. w Świebodzinie, Nowej Soli i Sulechowie. Biuletyny te przełamywały monopol informacyjny Partii i utrzymywały spójność struktur Solidarności w okresie ich nielegalnego działania.",
-          "content_de": "Der editorische Widerstand war anspruchsvoll. Zwischen 1981 und 1989 unterhielt die Region ein Netzwerk von Untergrundpresse („drugi obieg“) mit über 19 Titeln, das bis nach Świebodzin, Nowa Sól und Sulechów reichte. Diese Schattenbulletins brachen das Informationsmonopol der Partei und hielten die Strukturen der Solidarność während ihrer Illegalität zusammen."
-        },
-        {
-          "title": "The Battle for Consciences: The Parallel Classroom",
-          "title_es": "La Batalla por las Conciencias: El Aula Paralela",
-          "title_pl": "Bitwa o sumienia: Równoległa klasa",
-          "title_de": "Der Kampf um die Gewissen: Das parallele Klassenzimmer",
-          "content": "The struggle in the 1980s became existential and moral. The Church and Catholic intellectuals created educational spaces to debate what the regime silenced. The figure of Father Bronisław Kotwica was key in transforming the mentality of the era. Clandestine conferences taught uncensored history and addressed “moral dilemmas” of life under communism, fostering a neighborly solidarity that the system attempted to erode.",
-          "content_es": "En los años 80, la lucha se volvió existencial. La Iglesia e intelectuales crearon espacios educativos para debatir lo que el régimen silenciaba. El Padre Bronisław Kotwica fue clave en esta transformación. Las conferencias clandestinas enseñaban historia sin censura y abordaban los dilemas morales de la vida bajo el comunismo, fomentando una solidaridad vecinal que el sistema intentaba erosionar.",
-          "content_pl": "Walka w latach 80. stała się egzystencjalna i moralna. Kościół i intelektualiści katoliccy tworzyli przestrzenie edukacyjne do debaty nad tym, co reżim przemilczał. Postać księdza Bronisława Kotwicy była kluczowa dla przemiany mentalności. Podziemne konferencje uczyły nieocenzurowanej historii i poruszały „dylematy moralne” życia w komunizmie.",
-          "content_de": "Der Kampf in den 1980er Jahren wurde existenziell und moralisch. Die Kirche und katholische Intellektuelle schufen Bildungsräume, um über das Schweigen des Regimes zu debattieren. Pater Bronisław Kotwica war eine Schlüsselfigur bei der mentalen Transformation. Geheime Konferenzen lehrten unzensierte Geschichte und behandelten die moralischen Dilemmata des Lebens im Kommunismus."
-        },
-        {
-          "title": "Repression: “Loyalty” as a Weapon",
-          "title_es": "Represión: La “Lealtad” como Arma",
-          "title_pl": "Represje: „Lojalność” jako broń",
-          "title_de": "Repression: „Loyalität“ als Waffe",
-          "content": "Martial Law (Dec 13, 1981) activated Operation “Jodła” (Fir). The SB had a pre-compiled list of 43 targets. Repression included physical punishment (internment in Głogów and Ostrów Wielkopolski) and psychological pressure through “loyalty declarations” (lojalki) to break morale. Some activists avoided internment by signing, while others, like Czesław Stasiak, chose total clandestinity until 1982.",
-          "content_es": "La Ley Marcial (13 de dic. 1981) activó la Operación ‘Jodła’. La represión tuvo dos caras: el castigo físico (internamiento en Głogów y Ostrów Wielkopolski) y la presión psicológica mediante ‘declaraciones de lealtad’ (lojalki) para quebrar la moral. Otros, como Czesław Stasiak, eligieron la clandestinidad total para evadir la captura.",
-          "content_pl": "Stan wojenny uruchomił operację „Jodła”. Represje miały dwie twarze: karę fizyczną (internowanie w Głogowie i Ostrowie Wielkopolskim) oraz presję psychologiczną poprzez „lojalki”. Niektórzy uniknęli internowania podpisując je, podczas gdy inni, jak Czesław Stasiak, wybrali całkowite podziemie, ukrywając się do marca 1982 r.",
-          "content_de": "Das Kriegsrecht aktivierte die Operation „Jodła“. Die Repression hatte zwei Gesichter: physische Bestrafung (Internierung in Głogów und Ostrów Wielkopolski) und psychischen Druck durch „Loyalitätserklärungen“ (Lojalki), um die Moral zu brechen. Andere, wie Czesław Stasiak, wählten die totale Illegalität, um der Festnahme zu entgehen."
-        },
-        {
-          "title": "Internal Disputes: The Birth of the Structure",
-          "title_es": "Disputas Internas: El Nacimiento de la Estructura",
-          "title_pl": "Spory wewnętrzne: Narodziny struktury",
-          "title_de": "Interne Streitigkeiten: Die Entstehung der Struktur",
-          "content": "The formation of organized resistance was not devoid of internal conflict. Current historical documents debate the details regarding the formation of the Inter-Enterprise Founding Committee (MKZ) in Zielona Góra in the summer of 1980. Disputes among workers and advisors demonstrate that solidarity was a process of constant negotiation, not a monolithic block from the start.",
-          "content_es": "La formación de la resistencia organizada no estuvo exenta de conflictos internos. Los documentos debaten los detalles de la formación del Comité Fundador Interempresarial (MKZ) en el verano de 1980. Las disputas entre trabajadores y asesores demuestran que la solidaridad fue un proceso de negociación constante, no un bloque monolítico desde el principio.",
-          "content_pl": "Tworzenie zorganizowanego oporu nie było wolne od konfliktów wewnętrznych. Dokumenty historyczne debatują nad szczegółami powstania Międzyzakładowego Komitetu Założycielskiego (MKZ) latem 1980 r. Spory między robotnikami a doradcami dowodzą, że solidarność była procesem ciągłych negocjacji, a nie monolitem.",
-          "content_de": "Die Bildung des organisierten Widerstands war nicht frei von internen Konflikten. Historische Dokumente debattieren über die Bildung des MKZ im Sommer 1980. Streitigkeiten zwischen Arbeitern und Beratern beweisen, dass Solidarität ein Prozess ständiger Verhandlungen war und kein monolithischer Block von Anfang an."
-        }
-      ],
-      "conclusion": "Zielona Góra teaches us that even in a land without ancient traditions, the need for freedom creates its own roots. Between the silence of the pioneers and the scream of their children, a rebellious city was born.",
-      "conclusion_es": "Zielona Góra nos enseña que incluso en una tierra sin tradiciones antiguas, la necesidad de libertad crea sus propias raíces. Entre el silencio de los pioneros y el grito de sus hijos, nació una ciudad rebelde.",
-      "conclusion_pl": "Zielona Góra uczy nas, że nawet na ziemi pozbawionej dawnych tradycji, potrzeba wolności zapuszcza własne korzenie. Między milczeniem pionierów a krzykiem ich dzieci narodziło się buntownicze miasto.",
-      "conclusion_de": "Zielona Góra lehrt uns, dass selbst in einem Land ohne alte Traditionen das Bedürfnis nach Freiheit seine eigenen Wurzeln schlägt. Zwischen dem Schweigen der Pioniere und dem Schrei ihrer Kinder wurde eine rebellische Stadt geboren.",
-      "audioFiles": {
-        "english": "/audio/zielona-gora/en.mp3",
-        "polish": "/audio/zielona-gora/pl.mp3",
-        "spanish": "/audio/zielona-gora/es.mp3",
-        "german": "/audio/zielona-gora/de.mp3"
-      },
-      "relatedTourSlug": "zielona-gora-voices-of-resistance"
+            "relatedTourSlug": "poznan-voices-of-resistance"
     }
   ]
 }
