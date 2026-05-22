@@ -42,7 +42,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     return obj[`${key}_${locale}`] || obj[key] || '';
   };
 
-  const latestStories = stories?.slice?.(0, 3) ?? [];
+  const latestStories = stories?.slice?.(0, 6) ?? [];
 
   return (
     <>
@@ -69,7 +69,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {tours?.slice?.(0, 6)?.map?.((tour, i) => (
+            {tours?.slice?.(0, 3)?.map?.((tour, i) => (
               <TourCard 
                 key={tour?.slug ?? i} 
                 tour={tour} 
