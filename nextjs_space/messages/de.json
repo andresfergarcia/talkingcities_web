@@ -21,7 +21,7 @@
     "title": "Geschichte Durch Menschliche Stimmen",
     "subtitle": "Wir geben dir keine Lehrbuchdaten. Wir geben dir menschliche Erfahrungen.",
     "immersiveAudio": "Immersives Audio",
-    "immersiveAudioDesc": "Geschichten erzählt von den Menschen, die sie erlebt haben, in 2 Sprachen.",
+    "immersiveAudioDesc": "Geschichten erzählt von den Menschen, die sie erlebt haben, in 4 Sprachen.",
     "gpsGuided": "GPS-geführte Touren",
     "gpsGuidedDesc": "Audio spielt automatisch beim Gehen. Geschichte entfaltet sich an jeder Ecke.",
     "socialImpact": "Soziale Wirkung",
@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Dein Besuch Erhält die Erinnerung",
-    "description": "Mit dem Kauf einer Tour wirst du zum Förderer dieses Projekts. Nach Deckung der Betriebskosten reinvestieren wir 10% der Nettogewinne in Lebensmittelkarten für die älteren Erzähler, die ihre Geschichten teilen. Ihre Erinnerungen erhalten die Kultur; dein Besuch erhält sie.",
+    "description": "Indem du ein Erlebnis kaufst, wirst du zum Mäzen dieses Projekts. Nach Deckung der Betriebskosten reinvestieren wir 10 % des Nettogewinns direkt in Stiftungen, die sich um ältere Menschen in derselben Stadt kümmern, in der die Geschichte erlebt wird. Das ist Kreislaufwirtschaft, angewandt auf die Erinnerung.",
     "statLabel": "% der Nettogewinne an Erzähler zurückgegeben"
   },
   "testimonials": {
@@ -53,10 +53,10 @@
   },
   "tours": {
     "pageTitle": "Selbstgeführte Audio-Touren",
-    "pageSubtitle": "Entdecke polnische Geschichte durch immersive GPS-geführte Wandertouren, verfügbar in 2 Sprachen.",
+    "pageSubtitle": "Entdecke die Narben, die die Identität jeder Stadt geprägt haben, durch immersiven, GPS-gesteuerten Journalismus.\nErkunde unsere Chroniken in „Stimmen des Widerstands“ und unsere Reportagen in „Gebäude mit Herz“.",
     "availableNow": "Verfügbar",
     "comingSoon": "Demnächst",
-    "allToursDeveloping": "Alle Touren befinden sich derzeit in der Entwicklung. Verfügbar in Polnisch und Englisch.",
+    "allToursDeveloping": "Alle Touren befinden sich derzeit in der Entwicklung: selbstgeführte journalistische Erlebnisse auf Polnisch, Englisch, Deutsch und Spanisch.",
     "duration": "Dauer",
     "distance": "Entfernung",
     "stops": "Stopps",
@@ -94,7 +94,7 @@
   },
   "stories": {
     "pageTitle": "Kostenlose Mündliche Überlieferungen",
-    "pageSubtitle": "Ein wachsendes Archiv von Stimmen, die Polens lebendige Erinnerung bewahren. Durchstöbere, höre zu und verbinde dich mit Geschichte — alles kostenlos.",
+    "pageSubtitle": "Ein wachsendes Archiv von Stimmen, die das lebendige Gedächtnis jeder Stadt bewahren. Entdecke, höre zu und verbinde dich mit der Geschichte — völlig kostenlos.",
     "readFullStory": "Ganze Geschichte Lesen",
     "noStories": "Weitere Geschichten Demnächst",
     "listenIn": "Anhören auf",

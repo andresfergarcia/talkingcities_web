@@ -200,7 +200,8 @@
         "german": "/audio/poland_2/de.mp3"
       },
       "relatedTourSlug": ""
-    },    {
+    },
+    {
       "slug": "zielona-gora-voices-of-resistance",
       "city": "Zielona Góra",
       "city_es": "Zielona Góra",
@@ -525,6 +526,70 @@
       "relatedTourSlug": ""
     },
     {
+      "slug": "poznan-voices-of-resistance",
+      "city": "Poznan",
+      "city_es": "Poznan",
+      "city_pl": "Poznań",
+      "city_de": "Posen",
+      "citySlug": "poznan",
+      "type": "Voices of Resistance",
+      "title": "The Silenced Scream That Awakened a Nation",
+      "title_es": "El Grito Silenciado que Despertó a una Nación",
+      "title_pl": "Przemilczany Krzyk, który Obudził Naród",
+      "title_de": "Der verstummte Schrei, der eine Nation weckte",
+      "introduction": "On the map of Polish dissent, Warsaw was the political brain and Kraków the spiritual heart. But Poznań was the nervous system that, after receiving the first electric shock in 1956, learned to resist with a unique blend of rage and pragmatism. In this city, historically marked by Prussian order and the ethos of “organic work,” the pavement of Mickiewicz Square holds not just the memory of a tragedy, but the history of how an entire society learned to organize in the shadows.",
+      "introduction_es": "En el mapa de la disidencia polaca, Varsovia era el cerebro político y Cracovia el corazón espiritual. Pero Poznań fue el sistema nervioso que, tras recibir el primer choque eléctrico en 1956, aprendió a resistir con una mezcla única de rabia y pragmatismo. En esta ciudad, marcada por el orden prusiano y el espíritu del 'trabajo orgánico', el pavimento de la Plaza Mickiewicz guarda la historia de cómo una sociedad aprendió a organizarse en las sombras.",
+      "introduction_pl": "Na mapie polskiego sprzeciwu Warszawa była mózgiem politycznym, a Kraków duchowym sercem. Lecz Poznań był układem nerwowym, który po otrzymaniu pierwszego wstrząsu elektrycznego w 1956 r., nauczył się stawiać opór dzięki wyjątkowej mieszance gniewu i pragmatyzmu. W tym mieście, naznaczonym pruskim porządkiem i etosem „pracy organicznej”, bruk placu Mickiewicza kryje historię tego, jak całe społeczeństwo nauczyło się organizować w cieniu.",
+      "introduction_de": "Auf der Landkarte des polnischen Dissens war Warschau das politische Gehirn und Krakau das geistige Herz. Doch Posen war das Nervensystem, das nach dem ersten elektrischen Schlag 1956 lernte, mit einer Mischung aus Wut und Pragmatismus Widerstand zu leisten. In dieser Stadt, geprägt von preußischer Ordnung und dem Ethos der „organischen Arbeit“, birgt das Pflaster des Mickiewicz-Platzes die Geschichte einer Gesellschaft, die lernte, sich im Verborgenen zu organisieren.",
+      "image": "/images/stories/poznan_town_hall.jpg",
+      "sections": [
+        {
+          "title": "June 1956: The First Crack in the Curtain",
+          "title_es": "Junio de 1956: La Primera Grieta en el Telón",
+          "title_pl": "Czerwiec 1956: Pierwsza rysa na kurtynie",
+          "title_de": "Juni 1956: Der erste Riss im Vorhang",
+          "image": "/images/stories/poznan_1956_mural.jpg",
+          "content": "On June 28, 1956, at six in the morning, Poznań’s proverbial discipline shattered when workers at the H. Cegielski factories (then renamed Stalin Works) stopped their machinery under the slogan “Bread and Freedom.” What began as a strike became a regional insurrection. The regime sent 400 tanks and 10,000 soldiers. Among the victims was 13-year-old Romek Strzałkowski, the immortal symbol of executed innocence. This event destroyed the myth that communism represented the working class.",
+          "content_es": "El 28 de junio de 1956, a las seis de la mañana, la disciplina de Poznań se rompió cuando los obreros de las fábricas H. Cegielski (entonces fábricas Stalin) detuvieron sus máquinas bajo el lema 'Pan y Libertad'. Lo que empezó como una huelga se convirtió en una insurrección regional. El régimen envió 400 tanques y 10,000 soldados. Entre las víctimas estaba Romek Strzałkowski, de 13 años, símbolo inmortal de la inocencia ejecutada. Este evento destruyó el mito de que el comunismo representaba a la clase obrera.",
+          "content_pl": "28 czerwca 1956 r. o szóstej rano poznańska dyscyplina pękła, gdy robotnicy zakładów H. Cegielskiego (wówczas im. Stalina) zatrzymali maszyny pod hasłem „Chleba i Wolności”. To, co zaczęło się jako strajk, stało się regionalnym powstaniem. Reżim wysłał 400 czołgów i 10 000 żołnierzy. Wśród ofiar był 13-letni Romek Strzałkowski, nieśmiertelny symbol rozstrzelanej niewinności. Wydarzenie to zburzyło mit, że komunizm reprezentuje klasę robotniczą.",
+          "content_de": "Am 28. Juni 1956 um sechs Uhr morgens zerbrach die Posener Disziplin, als die Arbeiter der H. Cegielski-Werke (damals Stalin-Werke) unter dem Motto „Brot und Freiheit“ ihre Maschinen anhielten. Was als Streik begann, wurde zu einem regionalen Aufstand. Das Regime schickte 400 Panzer und 10.000 Soldaten. Unter den Opfern war der 13-jährige Romek Strzałkowski, das unsterbliche Symbol hingerichteter Unschuld. Dieses Ereignis zerstörte den Mythos, dass der Kommunismus die Arbeiterklasse repräsentiere."
+        },
+        {
+          "title": "Aesthetics as a Political Nightmare",
+          "title_es": "La Estética como Pesadilla Política",
+          "title_pl": "Estetyka jako polityczny koszmar",
+          "title_de": "Ästhetik als politischer Albtraum",
+          "image": "/images/stories/poznan_goats.png",
+          "content": "The Theatre of the Eighth Day (Teatr Ósmego Dnia) emerged from the student counterculture to become the aesthetic nightmare of the secret police (SB). Under the direction of visionaries like Lech Raczak and Ewa Wójciak, the group took theater into the streets and churches as an act of public accusation. The surveillance was so obsessive that it became artistic material: they created the play 'Teczki' (The Files) using the actual reports that informers had written about them, proving that the truth always finds a crack through which to escape.",
+          "content_es": "El Teatro del Octavo Día (Teatr Ósmego Dnia) surgió de la contracultura estudiantil para convertirse en la pesadilla estética de la policía secreta (SB). Bajo la dirección de visionarios como Lech Raczak y Ewa Wójciak, el grupo llevó el teatro a las calles e iglesias como un acto de acusación pública. La vigilancia era tan obsesiva que se convirtió en material artístico: crearon la obra 'Teczki' (Los Expedientes) usando los informes reales que los informantes escribieron sobre ellos, demostrando que la verdad siempre encuentra una grieta por donde escapar.",
+          "content_pl": "Teatr Ósmego Dnia wyłonił się ze studenckiej kontrkultury, stając się estetycznym koszmarem SB. Pod kierunkiem wizjonerów takich jak Lech Raczak i Ewa Wójciak, grupa wyprowadziła teatr na ulice i do kościołów jako akt publicznego oskarżenia. Inwigilacja była tak obsesyjna, że stała się materiałem artystycznym: stworzyli spektakl „Teczki” wykorzystując autentyczne raporty informatorów na ich temat, udowadniając, że prawda zawsze znajdzie szczelinę, by uciec.",
+          "content_de": "Das Theater des Achten Tages (Teatr Ósmego Dnia) wurde zum ästhetischen Albtraum der Geheimpolizei (SB). Unter der Leitung von Visionären wie Lech Raczak und Ewa Wójciak brachte die Gruppe das Theater als Akt öffentlicher Anklage auf Straßen und in Kirchen. Die Überwachung war so obsessiv, dass sie zu künstlerischem Material wurde: Sie schufen das Stück „Teczki“ (Die Akten) auf der Grundlage der tatsächlichen Berichte von Informanten über sie und bewiesen, dass die Wahrheit immer einen Riss findet, durch den sie entkommen kann."
+        },
+        {
+          "title": "The Dominican Bastion and Father Honoriusz",
+          "title_es": "El Bastión Dominico y el Padre Honoriusz",
+          "title_pl": "Dominikański bastion i ojciec Honoriusz",
+          "title_de": "Die Dominikanerbastion und Pater Honoriusz",
+          "image": "/images/stories/poznan_fara.jpg",
+          "content": "The Dominican monastery functioned as a static 'Flying University,' with Father Honoriusz Kowalczyk as a central figure. Lectures addressed the censored history of Poland not found in schools. Father Honoriusz paid the highest price: his death in 1983, under circumstances still debated, was seen by the city as a political assassination. During martial law, the church was a logistical center from which aid was distributed to the families of internees.",
+          "content_es": "El monasterio dominico funcionó como una 'Universidad Volante' estática, con el Padre Honoriusz Kowalczyk como figura central. Se impartían conferencias sobre la historia censurada de Polonia que no se encontraba en las escuelas. El Padre Honoriusz pagó el precio más alto: su muerte en 1983, en circunstancias aún debatidas, fue vista como un asesinato político. Durante la ley marcial, la iglesia fue un centro logístico para ayudar a las familias de los internos.",
+          "content_pl": "Klasztor dominikanów funkcjonował jako stacjonarny „Latający Uniwersytet”, którego centralną postacią był ojciec Honoriusz Kowalczyk. Wykłady dotyczyły cenzurowanej historii Polski, której nie było w szkołach. Ojciec Honoriusz zapłacił najwyższą cenę: jego śmierć w 1983 r., w okolicznościach do dziś debatowanych, została uznana za mord polityczny. W stanie wojennym kościół był centrum logistycznym pomocy rodzinom internowanych.",
+          "content_de": "Das Dominikanerkloster fungierte als „Fliegende Universität“ mit Pater Honoriusz Kowalczyk als zentraler Figur. Vorträge behandelten die zensierte Geschichte Polens, die in Schulen nicht vorkam. Pater Honoriusz zahlte den höchsten Preis: Sein Tod 1983, dessen Umstände bis heute umstritten sind, wurde als politisches Attentat angesehen. Während des Kriegsrechts war die Kirche ein logistisches Zentrum für die Hilfe an Familien von Internierten."
+        }
+      ],
+      "conclusion": "Poznań teaches us that resistance does not need to be loud to be unbreakable. It was here, between order and fury, that the silenced scream of workers ended up awakening the conscience of an entire nation.",
+      "conclusion_es": "Poznań nos enseña que la resistencia no necesita ser ruidosa para ser inquebrantable. Fue aquí, entre el orden y la furia, donde el grito silenciado de los obreros terminó despertando la conciencia de toda una nación.",
+      "conclusion_pl": "Poznań uczy nas, że opór nie musi być głośny, by był niezłomny. To właśnie tutaj, między porządkiem a furią, przemilczany krzyk robotników ostatecznie obudził sumienie całego narodu.",
+      "conclusion_de": "Posen lehrt uns, dass Widerstand nicht laut sein muss, um unbezwingbar zu sein. Hier, zwischen Ordnung und Wut, weckte der verstummte Schrei der Arbeiter schließlich das Gewissen einer ganzen Nation.",
+      "audioFiles": {
+        "english": "/audio/poznan/en.mp3",
+        "polish": "/audio/poznan/pl.mp3",
+        "spanish": "/audio/poznan/es.mp3",
+        "german": "/audio/poznan/de.mp3"
+      },
+      "relatedTourSlug": "poznan-voices-of-resistance"
+    },
+    {
       "slug": "warsaw-voices-of-resistance",
       "city": "Warsaw",
       "city_es": "Varsovia",
@@ -723,70 +788,6 @@
         "german": "/audio/wroclaw/de.mp3"
       },
       "relatedTourSlug": "wroclaw-voices-of-resistance"
-    },
-    {
-      "slug": "poznan-voices-of-resistance",
-      "city": "Poznan",
-      "city_es": "Poznan",
-      "city_pl": "Poznań",
-      "city_de": "Posen",
-      "citySlug": "poznan",
-      "type": "Voices of Resistance",
-      "title": "The Silenced Scream That Awakened a Nation",
-      "title_es": "El Grito Silenciado que Despertó a una Nación",
-      "title_pl": "Przemilczany Krzyk, który Obudził Naród",
-      "title_de": "Der verstummte Schrei, der eine Nation weckte",
-      "introduction": "On the map of Polish dissent, Warsaw was the political brain and Kraków the spiritual heart. But Poznań was the nervous system that, after receiving the first electric shock in 1956, learned to resist with a unique blend of rage and pragmatism. In this city, historically marked by Prussian order and the ethos of “organic work,” the pavement of Mickiewicz Square holds not just the memory of a tragedy, but the history of how an entire society learned to organize in the shadows.",
-      "introduction_es": "En el mapa de la disidencia polaca, Varsovia era el cerebro político y Cracovia el corazón espiritual. Pero Poznań fue el sistema nervioso que, tras recibir el primer choque eléctrico en 1956, aprendió a resistir con una mezcla única de rabia y pragmatismo. En esta ciudad, marcada por el orden prusiano y el espíritu del 'trabajo orgánico', el pavimento de la Plaza Mickiewicz guarda la historia de cómo una sociedad aprendió a organizarse en las sombras.",
-      "introduction_pl": "Na mapie polskiego sprzeciwu Warszawa była mózgiem politycznym, a Kraków duchowym sercem. Lecz Poznań był układem nerwowym, który po otrzymaniu pierwszego wstrząsu elektrycznego w 1956 r., nauczył się stawiać opór dzięki wyjątkowej mieszance gniewu i pragmatyzmu. W tym mieście, naznaczonym pruskim porządkiem i etosem „pracy organicznej”, bruk placu Mickiewicza kryje historię tego, jak całe społeczeństwo nauczyło się organizować w cieniu.",
-      "introduction_de": "Auf der Landkarte des polnischen Dissens war Warschau das politische Gehirn und Krakau das geistige Herz. Doch Posen war das Nervensystem, das nach dem ersten elektrischen Schlag 1956 lernte, mit einer Mischung aus Wut und Pragmatismus Widerstand zu leisten. In dieser Stadt, geprägt von preußischer Ordnung und dem Ethos der „organischen Arbeit“, birgt das Pflaster des Mickiewicz-Platzes die Geschichte einer Gesellschaft, die lernte, sich im Verborgenen zu organisieren.",
-      "image": "/images/stories/poznan_town_hall.jpg",
-      "sections": [
-        {
-          "title": "June 1956: The First Crack in the Curtain",
-          "title_es": "Junio de 1956: La Primera Grieta en el Telón",
-          "title_pl": "Czerwiec 1956: Pierwsza rysa na kurtynie",
-          "title_de": "Juni 1956: Der erste Riss im Vorhang",
-          "image": "/images/stories/poznan_1956_mural.jpg",
-          "content": "On June 28, 1956, at six in the morning, Poznań’s proverbial discipline shattered when workers at the H. Cegielski factories (then renamed Stalin Works) stopped their machinery under the slogan “Bread and Freedom.” What began as a strike became a regional insurrection. The regime sent 400 tanks and 10,000 soldiers. Among the victims was 13-year-old Romek Strzałkowski, the immortal symbol of executed innocence. This event destroyed the myth that communism represented the working class.",
-          "content_es": "El 28 de junio de 1956, a las seis de la mañana, la disciplina de Poznań se rompió cuando los obreros de las fábricas H. Cegielski (entonces fábricas Stalin) detuvieron sus máquinas bajo el lema 'Pan y Libertad'. Lo que empezó como una huelga se convirtió en una insurrección regional. El régimen envió 400 tanques y 10,000 soldados. Entre las víctimas estaba Romek Strzałkowski, de 13 años, símbolo inmortal de la inocencia ejecutada. Este evento destruyó el mito de que el comunismo representaba a la clase obrera.",
-          "content_pl": "28 czerwca 1956 r. o szóstej rano poznańska dyscyplina pękła, gdy robotnicy zakładów H. Cegielskiego (wówczas im. Stalina) zatrzymali maszyny pod hasłem „Chleba i Wolności”. To, co zaczęło się jako strajk, stało się regionalnym powstaniem. Reżim wysłał 400 czołgów i 10 000 żołnierzy. Wśród ofiar był 13-letni Romek Strzałkowski, nieśmiertelny symbol rozstrzelanej niewinności. Wydarzenie to zburzyło mit, że komunizm reprezentuje klasę robotniczą.",
-          "content_de": "Am 28. Juni 1956 um sechs Uhr morgens zerbrach die Posener Disziplin, als die Arbeiter der H. Cegielski-Werke (damals Stalin-Werke) unter dem Motto „Brot und Freiheit“ ihre Maschinen anhielten. Was als Streik begann, wurde zu einem regionalen Aufstand. Das Regime schickte 400 Panzer und 10.000 Soldaten. Unter den Opfern war der 13-jährige Romek Strzałkowski, das unsterbliche Symbol hingerichteter Unschuld. Dieses Ereignis zerstörte den Mythos, dass der Kommunismus die Arbeiterklasse repräsentiere."
-        },
-        {
-          "title": "Aesthetics as a Political Nightmare",
-          "title_es": "La Estética como Pesadilla Política",
-          "title_pl": "Estetyka jako polityczny koszmar",
-          "title_de": "Ästhetik als politischer Albtraum",
-          "image": "/images/stories/poznan_goats.png",
-          "content": "The Theatre of the Eighth Day (Teatr Ósmego Dnia) emerged from the student counterculture to become the aesthetic nightmare of the secret police (SB). Under the direction of visionaries like Lech Raczak and Ewa Wójciak, the group took theater into the streets and churches as an act of public accusation. The surveillance was so obsessive that it became artistic material: they created the play 'Teczki' (The Files) using the actual reports that informers had written about them, proving that the truth always finds a crack through which to escape.",
-          "content_es": "El Teatro del Octavo Día (Teatr Ósmego Dnia) surgió de la contracultura estudiantil para convertirse en la pesadilla estética de la policía secreta (SB). Bajo la dirección de visionarios como Lech Raczak y Ewa Wójciak, el grupo llevó el teatro a las calles e iglesias como un acto de acusación pública. La vigilancia era tan obsesiva que se convirtió en material artístico: crearon la obra 'Teczki' (Los Expedientes) usando los informes reales que los informantes escribieron sobre ellos, demostrando que la verdad siempre encuentra una grieta por donde escapar.",
-          "content_pl": "Teatr Ósmego Dnia wyłonił się ze studenckiej kontrkultury, stając się estetycznym koszmarem SB. Pod kierunkiem wizjonerów takich jak Lech Raczak i Ewa Wójciak, grupa wyprowadziła teatr na ulice i do kościołów jako akt publicznego oskarżenia. Inwigilacja była tak obsesyjna, że stała się materiałem artystycznym: stworzyli spektakl „Teczki” wykorzystując autentyczne raporty informatorów na ich temat, udowadniając, że prawda zawsze znajdzie szczelinę, by uciec.",
-          "content_de": "Das Theater des Achten Tages (Teatr Ósmego Dnia) wurde zum ästhetischen Albtraum der Geheimpolizei (SB). Unter der Leitung von Visionären wie Lech Raczak und Ewa Wójciak brachte die Gruppe das Theater als Akt öffentlicher Anklage auf Straßen und in Kirchen. Die Überwachung war so obsessiv, dass sie zu künstlerischem Material wurde: Sie schufen das Stück „Teczki“ (Die Akten) auf der Grundlage der tatsächlichen Berichte von Informanten über sie und bewiesen, dass die Wahrheit immer einen Riss findet, durch den sie entkommen kann."
-        },
-        {
-          "title": "The Dominican Bastion and Father Honoriusz",
-          "title_es": "El Bastión Dominico y el Padre Honoriusz",
-          "title_pl": "Dominikański bastion i ojciec Honoriusz",
-          "title_de": "Die Dominikanerbastion und Pater Honoriusz",
-          "image": "/images/stories/poznan_fara.jpg",
-          "content": "The Dominican monastery functioned as a static 'Flying University,' with Father Honoriusz Kowalczyk as a central figure. Lectures addressed the censored history of Poland not found in schools. Father Honoriusz paid the highest price: his death in 1983, under circumstances still debated, was seen by the city as a political assassination. During martial law, the church was a logistical center from which aid was distributed to the families of internees.",
-          "content_es": "El monasterio dominico funcionó como una 'Universidad Volante' estática, con el Padre Honoriusz Kowalczyk como figura central. Se impartían conferencias sobre la historia censurada de Polonia que no se encontraba en las escuelas. El Padre Honoriusz pagó el precio más alto: su muerte en 1983, en circunstancias aún debatidas, fue vista como un asesinato político. Durante la ley marcial, la iglesia fue un centro logístico para ayudar a las familias de los internos.",
-          "content_pl": "Klasztor dominikanów funkcjonował jako stacjonarny „Latający Uniwersytet”, którego centralną postacią był ojciec Honoriusz Kowalczyk. Wykłady dotyczyły cenzurowanej historii Polski, której nie było w szkołach. Ojciec Honoriusz zapłacił najwyższą cenę: jego śmierć w 1983 r., w okolicznościach do dziś debatowanych, została uznana za mord polityczny. W stanie wojennym kościół był centrum logistycznym pomocy rodzinom internowanych.",
-          "content_de": "Das Dominikanerkloster fungierte als „Fliegende Universität“ mit Pater Honoriusz Kowalczyk als zentraler Figur. Vorträge behandelten die zensierte Geschichte Polens, die in Schulen nicht vorkam. Pater Honoriusz zahlte den höchsten Preis: Sein Tod 1983, dessen Umstände bis heute umstritten sind, wurde als politisches Attentat angesehen. Während des Kriegsrechts war die Kirche ein logistisches Zentrum für die Hilfe an Familien von Internierten."
-        }
-      ],
-      "conclusion": "Poznań teaches us that resistance does not need to be loud to be unbreakable. It was here, between order and fury, that the silenced scream of workers ended up awakening the conscience of an entire nation.",
-      "conclusion_es": "Poznań nos enseña que la resistencia no necesita ser ruidosa para ser inquebrantable. Fue aquí, entre el orden y la furia, donde el grito silenciado de los obreros terminó despertando la conciencia de toda una nación.",
-      "conclusion_pl": "Poznań uczy nas, że opór nie musi być głośny, by był niezłomny. To właśnie tutaj, między porządkiem a furią, przemilczany krzyk robotników ostatecznie obudził sumienie całego narodu.",
-      "conclusion_de": "Posen lehrt uns, dass Widerstand nicht laut sein muss, um unbezwingbar zu sein. Hier, zwischen Ordnung und Wut, weckte der verstummte Schrei der Arbeiter schließlich das Gewissen einer ganzen Nation.",
-      "audioFiles": {
-        "english": "/audio/poznan/en.mp3",
-        "polish": "/audio/poznan/pl.mp3",
-        "spanish": "/audio/poznan/es.mp3",
-        "german": "/audio/poznan/de.mp3"
-      },
-            "relatedTourSlug": "poznan-voices-of-resistance"
     }
   ]
 }

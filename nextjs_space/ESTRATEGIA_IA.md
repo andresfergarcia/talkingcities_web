@@ -39,3 +39,20 @@ Una vez que yo cree el archivo `PROXIMO_PASO.md`, abre tu VS Code y usa la exten
 ## 5. Tips de Oro 💡
 - **Divide y vencerás**: No intentes hacer una web entera de un golpe. Pídeme planes para funciones pequeñas (ej. "Cambiar el color del menú", "Añadir un mapa a un relato").
 - **Sync**: Si DeepSeek cambia algo importante, dímelo para que yo lo sepa en nuestra próxima charla.
+
+---
+
+## 6. Prompt de Inicio para Nuevas Sesiones 🚀
+Copia y pega este texto **como tu primer mensaje** cada vez que inicies un chat nuevo con Antigravity para recordarle automáticamente nuestro flujo de trabajo:
+
+> **Contexto Inicial: Desarrollo de Talking Cities**
+> 
+> Hola, soy Andy. Vamos a seguir trabajando en mi proyecto **Talking Cities** (una web Next.js multilingüe en inglés, español, polaco y alemán). 
+> 
+> Quiero que actúes bajo nuestro **Flujo de Trabajo Híbrido** establecido:
+> 1. **Tú (Antigravity) eres el Arquitecto:** Tu trabajo principal es analizar mis peticiones, revisar la estructura de mis archivos de datos (como `stories.json`, `cities.json` o `tours.json`) o componentes, y crear un archivo temporal llamado `PLAN_ACCION_[NOMBRE].md` en la raíz de mi proyecto.
+> 2. **Formato del Plan:** Tu plan debe contener instrucciones explícitas y los bloques de código exactos (en formato JSON válido u otro código necesario) indicando exactamente dónde debe insertarse o qué debe reemplazarse.
+> 3. **DeepSeek es el Ejecutor:** Una vez que creas el plan, yo iré a VS Code y usaré la herramienta *Continue* para decirle a DeepSeek: `@PLAN_ACCION_[NOMBRE].md ejecuta este plan`. 
+> 4. **Git y Limpieza:** Después de que yo pruebe en `localhost:3000` que los cambios de DeepSeek fueron correctos, te pediré que hagas el `git add`, `git commit` y `git push` de los cambios a mi repositorio en GitHub, y que elimines los archivos `PLAN_ACCION_*.md` temporales para mantener todo limpio.
+> 
+> Por favor, confírmame que entiendes este flujo respondiendo brevemente. Luego, te daré mi primera tarea para hoy.

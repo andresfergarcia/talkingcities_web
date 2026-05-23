@@ -13,7 +13,8 @@
   "hero": {
     "title": "La ciudad está hablando.",
     "titleHighlight": "Solo tienes que escuchar.",
-    "subtitle": "Descubre las historias ocultas de las ciudades polacas, a través de las voces de quienes las construyeron.",
+
+    "subtitle": "Descubre las historias ocultas de las ciudades, a través de las voces de testigos y de quienes las construyeron.",
     "exploreTours": "Explorar Tours",
     "freeStories": "Escuchar Historias Gratis"
   },
@@ -21,7 +22,7 @@
     "title": "Historia a Través de Voces Humanas",
     "subtitle": "No te damos fechas de libro. Te damos experiencias humanas.",
     "immersiveAudio": "Audio Inmersivo",
-    "immersiveAudioDesc": "Historias narradas por quienes las vivieron, en 2 idiomas.",
+    "immersiveAudioDesc": "Historias narradas por quienes las vivieron, en 4 idiomas.",
     "gpsGuided": "Tours con GPS",
     "gpsGuidedDesc": "El audio se reproduce automáticamente mientras caminas. La historia se despliega en cada esquina.",
     "socialImpact": "Impacto Social",
@@ -44,7 +45,7 @@
   },
   "commitment": {
     "title": "Tu Visita Sostiene la Memoria",
-    "description": "Al comprar un tour, te conviertes en mecenas de este proyecto. Después de cubrir los costos operativos, reinvertimos el 10% de las ganancias netas para financiar tarjetas de supermercado para los narradores ancianos que comparten sus historias. Sus memorias sostienen la cultura; tu visita los sostiene a ellos.",
+    "description": "Al comprar una experiencia, te conviertes en mecenas de este proyecto. Después de cubrir los costos operativos, reinvertimos el 10% de las ganancias netas directamente en las fundaciones que cuidan a los adultos mayores en la misma ciudad donde se consume el relato. Es economía circular aplicada a la memoria.",
     "statLabel": "% de ganancias netas devueltas a narradores"
   },
   "testimonials": {
@@ -53,10 +54,10 @@
   },
   "tours": {
     "pageTitle": "Tours de Audio Autoguiados",
-    "pageSubtitle": "Descubre la historia polaca a través de tours inmersivos guiados por GPS, disponibles en 2 idiomas.",
+    "pageSubtitle": "Descubre las cicatrices que forjaron la identidad de cada ciudad a través de un periodismo inmersivo guiado por GPS.\nExplora nuestras crónicas en \"Voces de la Resistencia\" y reportajes en \"Edificios con Corazón\".",
     "availableNow": "Disponibles",
     "comingSoon": "Próximamente",
-    "allToursDeveloping": "Todos los tours están actualmente en desarrollo. Disponibles en polaco e inglés.",
+    "allToursDeveloping": "Todos los tours están actualmente en desarrollo: experiencias periodísticas autoguiadas en polaco, inglés, alemán y español.",
     "duration": "Duración",
     "distance": "Distancia",
     "stops": "Paradas",
@@ -94,7 +95,7 @@
   },
   "stories": {
     "pageTitle": "Historias Orales Gratuitas",
-    "pageSubtitle": "Un archivo creciente de voces que preservan la memoria viva de Polonia. Explora, escucha y conéctate con la historia — todo sin costo.",
+    "pageSubtitle": "Un archivo creciente de voces que preservan la memoria viva de cada ciudad. Explora, escucha y conéctate con la historia — todo sin costo.",
     "readFullStory": "Leer Historia Completa",
     "noStories": "Más Historias Próximamente",
     "listenIn": "Escuchar en",

@@ -49,7 +49,7 @@ export default async function StoriesPage({ params }: { params: Promise<{ locale
 
   // Group stories by city
   const storiesByCity: Record<string, typeof stories> = {};
-  const cityOrder = ['Poland', 'Warsaw', 'Krakow', 'Wroclaw', 'Poznan', 'Zielona Góra'];
+  const cityOrder = ['Poland', 'Zielona Góra', 'Poznan', 'Warsaw', 'Krakow', 'Wroclaw'];
   
   stories?.forEach?.((story) => {
     const city = story?.city ?? 'Other';

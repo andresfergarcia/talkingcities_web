@@ -44,7 +44,7 @@
   },
   "commitment": {
     "title": "Twoja Wizyta Podtrzymuje Pamięć",
-    "description": "Kupując wycieczkę, stajesz się mecenasem tego projektu. Po pokryciu kosztów operacyjnych, reinwestujemy 10% zysków netto na karty spożywcze dla starszych narratorów, którzy dzielą się swoimi historiami. Ich wspomnienia podtrzymują kulturę; twoja wizyta podtrzymuje ich.",
+    "description": "Kupując to doświadczenie, stajesz się mecenasem tego projektu. Po pokryciu kosztów operacyjnych reinwestujemy 10% zysków netto bezpośrednio w fundacje opiekujące się osobami starszymi w tym samym mieście, w którym doświadcza się tej opowieści. To gospodarka o obiegu zamkniętym w służbie pamięci.",
     "statLabel": "% zysków netto zwracanych narratorom"
   },
   "testimonials": {
@@ -56,7 +56,7 @@
     "pageSubtitle": "Odkryj polską historię poprzez immersyjne wycieczki piesze z GPS, dostępne w 2 językach.",
     "availableNow": "Dostępne",
     "comingSoon": "Wkrótce",
-    "allToursDeveloping": "Wszystkie wycieczki są obecnie w przygotowaniu. Dostępne w języku polskim i angielskim.",
+    "allToursDeveloping": "Wszystkie trasy są obecnie w fazie rozwoju: to samodzielne, dziennikarskie doświadczenia w języku polskim, angielskim, niemieckim i hiszpańskim.",
     "duration": "Czas trwania",
     "distance": "Dystans",
     "stops": "Przystanki",
@@ -94,7 +94,7 @@
   },
   "stories": {
     "pageTitle": "Darmowe Historie Mówione",
-    "pageSubtitle": "Rosnące archiwum głosów zachowujących żywą pamięć Polski. Przeglądaj, słuchaj i łącz się z historią — wszystko za darmo.",
+    "pageSubtitle": "Rosnące archiwum głosów, które zachowują żywą pamięć o każdym mieście. Odkrywaj, słuchaj i łącz się z historią — wszystko bezpłatnie.",
     "readFullStory": "Czytaj Całą Historię",
     "noStories": "Więcej Historii Wkrótce",
     "listenIn": "Słuchaj w",
