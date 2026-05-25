@@ -38,6 +38,17 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
     return section.videos[locale] || section.videos['en'] || null;
   };
 
+  // Split text by double newlines into separate <p> elements
+  const renderParagraphs = (text: string, className: string = '') => {
+    if (!text) return null;
+    const paragraphs = text.split('\n\n').filter(p => p.trim());
+    return paragraphs.map((p, i) => (
+      <p key={i} className={`${className} mb-4 last:mb-0`}>
+        {p}
+      </p>
+    ));
+  };
+
   return (
     <article>
       {/* Hero */}
@@ -85,9 +96,7 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
           transition={{ delay: 0.1 }}
           className="mb-12"
         >
-          <p className="text-lg text-text leading-relaxed font-heading italic text-text-light">
-            {l(safeStory, 'introduction')}
-          </p>
+          {renderParagraphs(l(safeStory, 'introduction'), "text-lg text-text leading-relaxed font-heading italic text-text-light text-justify")}
         </motion.div>
 
         {/* Sections */}
@@ -130,9 +139,7 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
             <h2 className="font-heading text-2xl font-bold text-text mb-4">
               {l(section, 'title')}
             </h2>
-            <p className="text-text-light leading-relaxed text-base">
-              {l(section, 'content')}
-            </p>
+            {renderParagraphs(l(section, 'content'), "text-text-light leading-relaxed text-base text-justify")}
           </motion.section>
           );
         })}
@@ -145,9 +152,7 @@ export default function StoryDetailClient({ story, relatedTour, locale }: StoryD
             viewport={{ once: true }}
             className="mb-12 p-6 bg-bg-alt rounded-xl border-l-4 border-primary"
           >
-            <p className="text-text leading-relaxed font-heading italic">
-              {l(safeStory, 'conclusion')}
-            </p>
+            {renderParagraphs(l(safeStory, 'conclusion'), "text-text leading-relaxed font-heading italic text-justify")}
           </motion.div>
         )}
 
