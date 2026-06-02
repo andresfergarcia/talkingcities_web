@@ -12,9 +12,26 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const story = getStoryBySlug(params?.slug ?? '');
+  
+  const title = story?.title ?? 'Story';
+  const description = story?.introduction?.slice?.(0, 160) ?? '';
+  const image = story?.image ?? '/og-image.png';
+
   return {
-    title: story?.title ?? 'Story',
-    description: story?.introduction?.slice?.(0, 160) ?? '',
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [image],
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
+    }
   };
 }
 
