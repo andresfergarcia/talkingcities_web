@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   const title = story?.title ?? 'Story';
   const description = story?.introduction?.slice?.(0, 160) ?? '';
-  const imageUrl = story?.image ? `${baseUrl}${story.image}` : `${baseUrl}/og-image.png`;
+  const imageUrl = story?.image ? `${baseUrl}${encodeURI(story.image)}` : `${baseUrl}/og-image.png`;
 
   return {
     title,
