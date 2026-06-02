@@ -12,10 +12,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const story = getStoryBySlug(params?.slug ?? '');
+  const baseUrl = process.env.NEXTAUTH_URL || 'https://talkingcities.eu';
   
   const title = story?.title ?? 'Story';
   const description = story?.introduction?.slice?.(0, 160) ?? '';
-  const image = story?.image ?? '/og-image.png';
+  const imageUrl = story?.image ? `${baseUrl}${story.image}` : `${baseUrl}/og-image.png`;
 
   return {
     title,
@@ -23,15 +24,23 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     openGraph: {
       title,
       description,
-      images: [image],
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       type: 'article',
+      url: `${baseUrl}/stories/${params?.slug ?? ''}`,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [image],
-    }
+      images: [imageUrl],
+    },
   };
 }
 
