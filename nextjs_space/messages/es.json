@@ -16,7 +16,7 @@
 
     "subtitle": "Descubre las historias ocultas de las ciudades, a través de las voces de testigos y de quienes las construyeron.",
     "exploreTours": "Explorar Tours",
-    "freeStories": "Escuchar Historias Gratis"
+    "freeStories": "Escuchar Historias"
   },
   "valueProposition": {
     "title": "Historia a Través de Voces Humanas",
@@ -31,8 +31,8 @@
   "howItWorks": {
     "title": "Dos Formas de Experimentar la Historia",
     "fromAnywhere": "Desde Cualquier Lugar",
-    "fromAnywhereDesc": "Explora nuestro archivo gratuito de historias orales. Preservando la memoria, accesible para todos.",
-    "exploreFreeStories": "Explorar Historias Gratis",
+    "fromAnywhereDesc": "Explora nuestro archivo de historias orales. Preservando la memoria, accesible para todos.",
+    "exploreFreeStories": "Explorar Historias",
     "onTheStreets": "En las Calles",
     "onTheStreetsDesc": "Toma nuestros tours autoguiados con GPS. Las historias se reproducen automáticamente mientras caminas junto a los protagonistas invisibles de la ciudad.",
     "viewTours": "Ver Tours"
@@ -73,14 +73,14 @@
     "audioPreview": "Vista Previa de Audio",
     "audioPreviewHeader": "Escuchar una Vista Previa",
     "audioPreviewDesc": "Vista Previa de Audio - Historia Completa",
-    "freeStory": "Cote Especial: Relato Gratuito",
-    "freeStoryDesc": "Lee la historia oral completa de esta ciudad — totalmente gratis.",
+    "freeStory": "Cote Especial: Relato",
+    "freeStoryDesc": "Lee la historia oral completa de esta ciudad.",
     "readStory": "Leer el Relato",
     "perPerson": "por persona",
     "opensInVoiceMap": "Se abre en VoiceMap",
     "poweredBy": "Nuestros tours utilizan la tecnología GPS de VoiceMap",
     "comingSoonDesc": "Este tour está actualmente en desarrollo.",
-    "relatedStory": "Historia Gratuita Relacionada",
+    "relatedStory": "Historia Relacionada",
     "howToStart": "Cómo Comenzar Tu Tour",
     "step1Title": "Descarga VoiceMap",
     "step1Desc": "Obtén la aplicación gratuita desde Apple Store o Google Play.",
@@ -94,8 +94,8 @@
     "downloadAppDesc": "Nuestros tours funcionan en VoiceMap, la plataforma líder de tours de audio guiados por GPS. Descarga la aplicación gratuita para comenzar."
   },
   "stories": {
-    "pageTitle": "Historias Orales Gratuitas",
-    "pageSubtitle": "Un archivo creciente de voces que preservan la memoria viva de cada ciudad. Explora, escucha y conéctate con la historia — todo sin costo.",
+    "pageTitle": "Historias Orales",
+    "pageSubtitle": "Un archivo creciente de voces que preservan la memoria viva de cada ciudad. Explora, escucha y conéctate con la historia.",
     "readFullStory": "Leer Historia Completa",
     "noStories": "Más Historias Próximamente",
     "listenIn": "Escuchar en",

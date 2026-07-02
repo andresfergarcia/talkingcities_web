@@ -15,7 +15,7 @@
     "titleHighlight": "Du musst nur zuhören.",
     "subtitle": "Entdecke die verborgenen Geschichten polnischer Städte, durch die Stimmen derer, die sie erbaut haben.",
     "exploreTours": "Touren Entdecken",
-    "freeStories": "Kostenlose Geschichten Hören"
+    "freeStories": "Geschichten Hören"
   },
   "valueProposition": {
     "title": "Geschichte Durch Menschliche Stimmen",
@@ -30,8 +30,8 @@
   "howItWorks": {
     "title": "Zwei Wege, Geschichte zu Erleben",
     "fromAnywhere": "Von Überall",
-    "fromAnywhereDesc": "Durchstöbere unser kostenloses Archiv mündlicher Überlieferungen. Erinnerungen bewahren, für alle zugänglich.",
-    "exploreFreeStories": "Kostenlose Geschichten Entdecken",
+    "fromAnywhereDesc": "Durchstöbere unser Archiv mündlicher Überlieferungen. Erinnerungen bewahren, für alle zugänglich.",
+    "exploreFreeStories": "Geschichten Entdecken",
     "onTheStreets": "Auf den Straßen",
     "onTheStreetsDesc": "Nimm an unseren selbstgeführten GPS-Touren teil. Geschichten spielen automatisch, während du neben den unsichtbaren Protagonisten der Stadt gehst.",
     "viewTours": "Touren Ansehen"
@@ -72,14 +72,14 @@
     "audioPreview": "Audio-Vorschau",
     "audioPreviewHeader": "Hörprobe anhören",
     "audioPreviewDesc": "Audio-Vorschau - Vollständige Geschichte",
-    "freeStory": "Kostenlose Geschichte verfügbar",
-    "freeStoryDesc": "Lesen Sie den vollständigen mündlichen Geschichtsbericht dieser Stadt — völlig kostenlos.",
+    "freeStory": "Geschichte verfügbar",
+    "freeStoryDesc": "Lesen Sie den vollständigen mündlichen Geschichtsbericht dieser Stadt.",
     "readStory": "Geschichte lesen",
     "perPerson": "pro Person",
     "opensInVoiceMap": "Öffnet in VoiceMap",
     "poweredBy": "Unsere Touren werden durch die VoiceMap GPS-Technologie unterstützt",
     "comingSoonDesc": "Diese Tour befindet sich derzeit in der Entwicklung.",
-    "relatedStory": "Zugehörige kostenlose Geschichte",
+    "relatedStory": "Zugehörige Geschichte",
     "howToStart": "So Startest Du Deine Tour",
     "step1Title": "VoiceMap Herunterladen",
     "step1Desc": "Hole dir die kostenlose App im Apple Store oder Google Play Store.",
@@ -93,8 +93,8 @@
     "downloadAppDesc": "Unsere Touren laufen auf VoiceMap, der führenden Plattform für GPS-geführte Audiotouren. Lade die kostenlose App herunter, um zu starten."
   },
   "stories": {
-    "pageTitle": "Kostenlose Mündliche Überlieferungen",
-    "pageSubtitle": "Ein wachsendes Archiv von Stimmen, die das lebendige Gedächtnis jeder Stadt bewahren. Entdecke, höre zu und verbinde dich mit der Geschichte — völlig kostenlos.",
+    "pageTitle": "Mündliche Überlieferungen",
+    "pageSubtitle": "Ein wachsendes Archiv von Stimmen, die das lebendige Gedächtnis jeder Stadt bewahren. Entdecke, höre zu und verbinde dich mit der Geschichte.",
     "readFullStory": "Ganze Geschichte Lesen",
     "noStories": "Weitere Geschichten Demnächst",
     "listenIn": "Anhören auf",

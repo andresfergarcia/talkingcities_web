@@ -15,7 +15,7 @@
     "titleHighlight": "Wystarczy słuchać.",
     "subtitle": "Odkryj ukryte historie polskich miast, opowiedziane głosami tych, którzy je budowali.",
     "exploreTours": "Odkryj Wycieczki",
-    "freeStories": "Posłuchaj Darmowych Historii"
+    "freeStories": "Posłuchaj Historii"
   },
   "valueProposition": {
     "title": "Historia Głosami Ludzi",
@@ -30,8 +30,8 @@
   "howItWorks": {
     "title": "Dwa Sposoby na Doświadczenie Historii",
     "fromAnywhere": "Z Dowolnego Miejsca",
-    "fromAnywhereDesc": "Przeglądaj nasze darmowe archiwum historii mówionej. Zachowując pamięć, dostępną dla wszystkich.",
-    "exploreFreeStories": "Odkryj Darmowe Historie",
+    "fromAnywhereDesc": "Przeglądaj nasze archiwum historii mówionej. Zachowując pamięć, dostępną dla wszystkich.",
+    "exploreFreeStories": "Odkryj Historie",
     "onTheStreets": "Na Ulicach",
     "onTheStreetsDesc": "Skorzystaj z naszych samodzielnych wycieczek z GPS. Historie odtwarzają się automatycznie podczas spaceru obok niewidzialnych bohaterów miasta.",
     "viewTours": "Zobacz Wycieczki"
@@ -72,14 +72,14 @@
     "audioPreview": "Przegląd Audio",
     "audioPreviewHeader": "Posłuchaj Zapowiedzi",
     "audioPreviewDesc": "Przegląd Audio - Pełna Historia",
-    "freeStory": "Darmowa Opowieść Dostępna",
-    "freeStoryDesc": "Przeczytaj pełną wersję historii mówionej tego miasta — całkowicie za darmo.",
+    "freeStory": "Opowieść Dostępna",
+    "freeStoryDesc": "Przeczytaj pełną wersję historii mówionej tego miasta.",
     "readStory": "Przeczytaj Opowieść",
     "perPerson": "za osobę",
     "opensInVoiceMap": "Otwiera się w VoiceMap",
     "poweredBy": "Nasze wycieczki korzystają z technologii GPS VoiceMap",
     "comingSoonDesc": "Ta wycieczka jest obecnie w przygotowaniu.",
-    "relatedStory": "Powiązana Darmowa Historia",
+    "relatedStory": "Powiązana Historia",
     "howToStart": "Jak Rozpocząć Wycieczkę",
     "step1Title": "Pobierz VoiceMap",
     "step1Desc": "Pobierz darmową aplikację z Apple Store lub Google Play.",
@@ -93,8 +93,8 @@
     "downloadAppDesc": "Nasze wycieczki działają w aplikacji VoiceMap, wiodącej platformie audioprzewodników GPS. Pobierz darmową aplikację, aby zacząć."
   },
   "stories": {
-    "pageTitle": "Darmowe Historie Mówione",
-    "pageSubtitle": "Rosnące archiwum głosów, które zachowują żywą pamięć o każdym mieście. Odkrywaj, słuchaj i łącz się z historią — wszystko bezpłatnie.",
+    "pageTitle": "Historie Mówione",
+    "pageSubtitle": "Rosnące archiwum głosów, które zachowują żywą pamięć o każdym mieście. Odkrywaj, słuchaj i łącz się z historią.",
     "readFullStory": "Czytaj Całą Historię",
     "noStories": "Więcej Historii Wkrótce",
     "listenIn": "Słuchaj w",

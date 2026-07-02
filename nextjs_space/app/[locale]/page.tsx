@@ -56,60 +56,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         locale={locale}
       />
 
-      <ValueProposition locale={locale} />
-
-      <section className="py-20 bg-bg">
-        <div className="max-w-content mx-auto px-4 sm:px-6">
-          <div className="text-center mb-12">
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
-              {t('tours.availableNow')} <span className="text-red-600">{t('tours.comingSoon')}</span>
-            </h2>
-            <p className="text-text-light text-lg max-w-2xl mx-auto">
-              {t('tours.pageSubtitle')}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {tours?.slice?.(0, 3)?.map?.((tour, i) => (
-              <TourCard 
-                key={tour?.slug ?? i} 
-                tour={tour} 
-                index={i} 
-                locale={locale} 
-                dict={(messages.tours || {}) as Record<string, string>}
-              />
-            )) ?? []}
-          </div>
-          <div className="text-center mt-10">
-            <Link
-              href="/tours"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg"
-            >
-              {t('common.viewAll')} <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <HowItWorks locale={locale} />
-
-      <section className="py-20 bg-white">
-        <div className="max-w-content mx-auto px-4 sm:px-6">
-          <div className="text-center mb-12">
-            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
-              {t('cities.title')}
-            </h2>
-            <p className="text-text-light text-lg max-w-2xl mx-auto">
-              {t('cities.subtitle')}
-            </p>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-            {cities?.filter(c => c?.available)?.map?.((city, i) => (
-              <CityCard key={city?.slug ?? i} city={city} index={i} locale={locale} />
-            )) ?? []}
-          </div>
-        </div>
-      </section>
-
       {(latestStories?.length ?? 0) > 0 && (
         <section className="py-20 bg-bg">
           <div className="max-w-content mx-auto px-4 sm:px-6">
@@ -171,10 +117,67 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </section>
       )}
 
-      <Testimonials testimonials={testimonials ?? []} locale={locale} />
+      <section className="py-20 bg-white">
+        <div className="max-w-content mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
+              {t('cities.title')}
+            </h2>
+            <p className="text-text-light text-lg max-w-2xl mx-auto">
+              {t('cities.subtitle')}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            {cities?.filter(c => c?.available)?.map?.((city, i) => (
+              <CityCard key={city?.slug ?? i} city={city} index={i} locale={locale} />
+            )) ?? []}
+          </div>
+        </div>
+      </section>
+
+      <ValueProposition locale={locale} />
 
       <Commitment locale={locale} />
 
+      <section className="py-20 bg-bg">
+        <div className="max-w-content mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-3">
+              {t('tours.availableNow')} <span className="text-red-600">{t('tours.comingSoon')}</span>
+            </h2>
+            <p className="text-text-light text-lg max-w-2xl mx-auto">
+              {t('tours.pageSubtitle')}
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {tours?.slice?.(0, 3)?.map?.((tour, i) => (
+              <TourCard 
+                key={tour?.slug ?? i} 
+                tour={tour} 
+                index={i} 
+                locale={locale} 
+                dict={(messages.tours || {}) as Record<string, string>}
+              />
+            )) ?? []}
+          </div>
+          <div className="text-center mt-10">
+            <Link
+              href="/tours"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg"
+            >
+              {t('common.viewAll')} <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <HowItWorks locale={locale} />
+
+      <Testimonials testimonials={testimonials ?? []} locale={locale} />
+
+
+
+      {/* 
       <section className="py-20 bg-bg-alt">
         <div className="max-w-content mx-auto px-4 sm:px-6 text-center">
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-text mb-4">
@@ -199,6 +202,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
         </div>
       </section>
+      */}
     </>
   );
 }

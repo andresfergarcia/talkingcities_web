@@ -15,7 +15,7 @@
     "titleHighlight": "You just have to listen.",
     "subtitle": "Discover the hidden stories of the cities through the voices of witnesses and those who built them.",
     "exploreTours": "Explore Our Tours",
-    "freeStories": "Listen Free Stories"
+    "freeStories": "Listen to Stories"
   },
   "valueProposition": {
     "title": "History Through Human Voices",
@@ -30,8 +30,8 @@
   "howItWorks": {
     "title": "Two Ways to Experience History",
     "fromAnywhere": "From Anywhere",
-    "fromAnywhereDesc": "Browse our free archive of oral histories. Preserving memory, accessible to all.",
-    "exploreFreeStories": "Explore Free Stories",
+    "fromAnywhereDesc": "Browse our archive of oral histories. Preserving memory, accessible to all.",
+    "exploreFreeStories": "Explore Stories",
     "onTheStreets": "On the Streets",
     "onTheStreetsDesc": "Take our GPS self-guided tours. Stories play automatically as you walk alongside the city's invisible protagonists.",
     "viewTours": "View Tours"
@@ -72,14 +72,14 @@
     "audioPreview": "Audio Preview",
     "audioPreviewHeader": "Listen to a Preview",
     "audioPreviewDesc": "Audio Preview - Full Article",
-    "freeStory": "Free Story Available",
-    "freeStoryDesc": "Read the complete oral history article for this city — completely free.",
+    "freeStory": "Story Available",
+    "freeStoryDesc": "Read the complete oral history article for this city.",
     "readStory": "Read the Story",
     "perPerson": "per person",
     "opensInVoiceMap": "Opens in VoiceMap",
     "poweredBy": "Our tours are powered by VoiceMap GPS technology",
     "comingSoonDesc": "This tour is currently in development.",
-    "relatedStory": "Related Free Story",
+    "relatedStory": "Related Story",
     "howToStart": "How to Start Your Tour",
     "step1Title": "Download VoiceMap",
     "step1Desc": "Get the free app from Apple Store or Google Play.",
@@ -93,8 +93,8 @@
     "downloadAppDesc": "Our tours run on VoiceMap, the leading GPS-guided audio tour platform. Download the free app to get started."
   },
   "stories": {
-    "pageTitle": "Free Oral Histories",
-    "pageSubtitle": "A growing archive of voices preserving the living memory of each city. Explore, listen, and connect with history — all at no cost.",
+    "pageTitle": "Oral Histories",
+    "pageSubtitle": "A growing archive of voices preserving the living memory of each city. Explore, listen, and connect with history.",
     "readFullStory": "Read Full Story",
     "noStories": "More Stories Coming Soon",
     "listenIn": "Listen in",
