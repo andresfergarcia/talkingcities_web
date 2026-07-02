@@ -57,13 +57,13 @@ export default function Footer({ contactEmail = "info@talkingcities.eu", locale 
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/tours" className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2">
-                  <MapPin className="w-3.5 h-3.5" /> {tNav("tours")}
+                <Link href="/stories" className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2">
+                  <BookOpen className="w-3.5 h-3.5" /> {tNav("stories")}
                 </Link>
               </li>
               <li>
-                <Link href="/stories" className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2">
-                  <BookOpen className="w-3.5 h-3.5" /> {tNav("stories")}
+                <Link href="/tours" className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2">
+                  <MapPin className="w-3.5 h-3.5" /> {tNav("tours")}
                 </Link>
               </li>
             </ul>

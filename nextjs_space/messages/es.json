@@ -4,11 +4,11 @@
     "description": "Tours de audio inmersivos que dan vida a la historia polaca a través de las voces de quienes la vivieron."
   },
   "nav": {
-    "tours": "Tours",
+    "tours": "In Situ",
     "stories": "Historias",
     "about": "Nosotros",
     "contact": "Contacto",
-    "buyTour": "Comprar Tour"
+    "buyTour": "Periodismo In Situ"
   },
   "hero": {
     "title": "La ciudad está hablando.",
@@ -53,7 +53,7 @@
     "subtitle": "Experiencias reales de nuestros visitantes"
   },
   "tours": {
-    "pageTitle": "Tours de Audio Autoguiados",
+    "pageTitle": "Periodismo In Situ",
     "pageSubtitle": "Descubre las cicatrices que forjaron la identidad de cada ciudad a través de un periodismo inmersivo guiado por GPS.\nExplora nuestras crónicas en \"Voces de la Resistencia\" y reportajes en \"Edificios con Corazón\".",
     "availableNow": "Disponibles",
     "comingSoon": "Próximamente",
@@ -63,7 +63,7 @@
     "stops": "Paradas",
     "languages": "Idiomas",
     "price": "Precio",
-    "buyTour": "Comprar Tour",
+    "buyTour": "Periodismo In Situ",
     "viewOnVoiceMap": "Ver en VoiceMap",
     "highlights": "Aspectos Destacados",
     "whatIncludes": "Qué Incluye",

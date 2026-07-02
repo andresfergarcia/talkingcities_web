@@ -4,11 +4,11 @@
     "description": "Immersive Audio-Touren, die polnische Geschichte durch die Stimmen derer zum Leben erwecken, die sie erlebt haben."
   },
   "nav": {
-    "tours": "Touren",
+    "tours": "In Situ",
     "stories": "Geschichten",
     "about": "Über uns",
     "contact": "Kontakt",
-    "buyTour": "Tour Kaufen"
+    "buyTour": "In-situ-Journalismus"
   },
   "hero": {
     "title": "Die Stadt spricht.",
@@ -52,7 +52,7 @@
     "subtitle": "Echte Erfahrungen unserer Besucher"
   },
   "tours": {
-    "pageTitle": "Selbstgeführte Audio-Touren",
+    "pageTitle": "In-situ-Journalismus",
     "pageSubtitle": "Entdecke die Narben, die die Identität jeder Stadt geprägt haben, durch immersiven, GPS-gesteuerten Journalismus.\nErkunde unsere Chroniken in „Stimmen des Widerstands“ und unsere Reportagen in „Gebäude mit Herz“.",
     "availableNow": "Verfügbar",
     "comingSoon": "Demnächst",
@@ -62,7 +62,7 @@
     "stops": "Stopps",
     "languages": "Sprachen",
     "price": "Preis",
-    "buyTour": "Tour Kaufen",
+    "buyTour": "In-situ-Journalismus",
     "viewOnVoiceMap": "Auf VoiceMap Ansehen",
     "highlights": "Highlights",
     "whatIncludes": "Was Enthalten Ist",

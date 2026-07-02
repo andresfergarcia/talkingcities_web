@@ -4,11 +4,11 @@
     "description": "Immersive audio tours that bring Polish history to life through the voices of those who lived it."
   },
   "nav": {
-    "tours": "Tours",
+    "tours": "In Situ",
     "stories": "Stories",
     "about": "About",
     "contact": "Contact",
-    "buyTour": "Buy a Tour"
+    "buyTour": "In-situ Journalism"
   },
   "hero": {
     "title": "The city is speaking.",
@@ -52,7 +52,7 @@
     "subtitle": "Real experiences from our visitors"
   },
   "tours": {
-    "pageTitle": "Self-Guided Audio Tours",
+    "pageTitle": "In-situ Journalism",
     "pageSubtitle": "Discover the scars that forged the identity of each city through immersive GPS-guided journalism.\nExplore our chronicles in \"Voices of the Resistance\" and reports in \"Buildings with Heart\".",
     "availableNow": "Available",
     "comingSoon": "Coming Soon",
@@ -62,7 +62,7 @@
     "stops": "Stops",
     "languages": "Languages",
     "price": "Price",
-    "buyTour": "Buy Tour",
+    "buyTour": "In-situ Journalism",
     "viewOnVoiceMap": "View on VoiceMap",
     "highlights": "Highlights",
     "whatIncludes": "What's Included",

@@ -4,11 +4,11 @@
     "description": "Immersyjne audioprzewodniki, które ożywiają polską historię głosami tych, którzy ją przeżyli."
   },
   "nav": {
-    "tours": "Wycieczki",
+    "tours": "In Situ",
     "stories": "Historie",
     "about": "O nas",
     "contact": "Kontakt",
-    "buyTour": "Kup Wycieczkę"
+    "buyTour": "Dziennikarstwo In Situ"
   },
   "hero": {
     "title": "Miasto mówi.",
@@ -52,7 +52,7 @@
     "subtitle": "Prawdziwe doświadczenia naszych gości"
   },
   "tours": {
-    "pageTitle": "Samodzielne Audioprzewodniki",
+    "pageTitle": "Dziennikarstwo In Situ",
     "pageSubtitle": "Odkryj polską historię poprzez immersyjne wycieczki piesze z GPS, dostępne w 2 językach.",
     "availableNow": "Dostępne",
     "comingSoon": "Wkrótce",
@@ -62,7 +62,7 @@
     "stops": "Przystanki",
     "languages": "Języki",
     "price": "Cena",
-    "buyTour": "Kup Wycieczkę",
+    "buyTour": "Dziennikarstwo In Situ",
     "viewOnVoiceMap": "Zobacz na VoiceMap",
     "highlights": "Wyróżniki",
     "whatIncludes": "Co Zawiera",

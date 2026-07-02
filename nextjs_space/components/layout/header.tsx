@@ -28,8 +28,8 @@ export default function Header({ locale }: HeaderProps) {
   const [logoError, setLogoError] = useState(false);
 
   const navLinks = [
-    { href: "/tours", labelKey: "tours", icon: navIcons.tours },
     { href: "/stories", labelKey: "stories", icon: navIcons.stories },
+    { href: "/tours", labelKey: "tours", icon: navIcons.tours },
     { href: "/about", labelKey: "about", icon: navIcons.about },
     { href: "/contact", labelKey: "contact", icon: navIcons.contact },
   ];
