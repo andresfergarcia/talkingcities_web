@@ -27,42 +27,50 @@ function getLocale(request: NextRequest): string {
 }
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  
-  // Check if pathname already has a locale
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-  
-  if (pathnameHasLocale) {
-    // Extract locale and set cookie
-    const locale = pathname.split('/')[1];
-    const response = NextResponse.next();
+  try {
+    const { pathname } = request.nextUrl;
+    
+    // Check if pathname already has a locale
+    const pathnameHasLocale = locales.some(
+      (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    );
+    
+    if (pathnameHasLocale) {
+      // Extract locale and set cookie
+      const locale = pathname.split('/')[1];
+      const response = NextResponse.next();
+      response.cookies.set('NEXT_LOCALE', locale, { path: '/', sameSite: 'lax' });
+      return response;
+    }
+    
+    // Skip API routes and static files
+    if (
+      pathname.startsWith('/api') ||
+      pathname.startsWith('/_next') ||
+      pathname.startsWith('/_vercel') ||
+      pathname.includes('.') // Static files
+    ) {
+      return NextResponse.next();
+    }
+    
+    // Redirect to locale-prefixed path
+    const locale = getLocale(request);
+    
+    // Ensure request.url is a valid base URL for the new URL object
+    const baseUrl = request.url || 'http://localhost:3000';
+    const newUrl = new URL(`/${locale}${pathname}`, baseUrl);
+    
+    const response = NextResponse.redirect(newUrl);
     response.cookies.set('NEXT_LOCALE', locale, { path: '/', sameSite: 'lax' });
     return response;
-  }
-  
-  // Skip API routes and static files
-  if (
-    pathname.startsWith('/api') ||
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/_vercel') ||
-    pathname.includes('.') // Static files
-  ) {
+  } catch (error) {
+    console.error('Middleware execution error:', error);
     return NextResponse.next();
   }
-  
-  // Redirect to locale-prefixed path
-  const locale = getLocale(request);
-  const newUrl = new URL(`/${locale}${pathname}`, request.url);
-  const response = NextResponse.redirect(newUrl);
-  response.cookies.set('NEXT_LOCALE', locale, { path: '/', sameSite: 'lax' });
-  return response;
 }
 
 export const config = {
   matcher: [
     '/((?!api|_next/static|_next/image|favicon.ico|images).*)',
   ],
-  runtime: 'nodejs',
 };
