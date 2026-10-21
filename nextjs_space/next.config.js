@@ -15,6 +15,27 @@ const nextConfig = {
   images: { 
     unoptimized: true 
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        has: [
+          {
+            type: 'cookie',
+            key: 'NEXT_LOCALE',
+            value: '(?<locale>en|pl|de|es)',
+          },
+        ],
+        destination: '/:locale',
+        permanent: false,
+      },
+      {
+        source: '/',
+        destination: '/es',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
