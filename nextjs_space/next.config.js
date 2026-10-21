@@ -4,7 +4,6 @@ const path = require('path');
 const nextConfig = {
   // 1. ELIMINAMOS 'output: export' para que Vercel pueda usar el servidor vivo
   
-  distDir: '.next',
   eslint: {
     ignoreDuringBuilds: true,
   },
